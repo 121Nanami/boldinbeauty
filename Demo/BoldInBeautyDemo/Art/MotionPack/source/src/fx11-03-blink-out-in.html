@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "11", "n": 3, "title": "Blink out / in", "slug": "blink-out-in", "who": null, "label": "NEEDS ART", "note": "Dissolves out, flashes back in"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx11-03-blink-out-in", "title": "Blink out / in", "dur": 3.0, "layers": [{"fx": "blink", "at": "en", "n": 3, "gap": 0.35, "area": 240, "rows": 20, "col": "#F7F4FA", "col2": "#64E8FF"}, {"fx": "shards", "at": "en", "up": true, "n": 30, "w": 100, "h": 220, "D": 0.8, "col": "#F7F4FA", "col2": "#64E8FF"}], "enemy": true, "cas": false, "note": "Dissolves out, flashes back in", "label": "NEEDS ART", "who": "SHARED", "slot": "Blink, Scatter, archer escape", "hit": 0.35, "sfx": "zap", "n": 3, "sheet": "11"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

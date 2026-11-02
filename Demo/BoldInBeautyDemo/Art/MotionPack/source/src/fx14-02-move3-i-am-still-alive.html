@@ -1,0 +1,9 @@
+<!--META {"dur": 4.2, "alpha": true, "kind": "fx", "sheet": "14", "n": 2, "title": "Move 3: I AM STILL ALIVE", "slug": "move3-i-am-still-alive", "who": "narr", "label": "SOURCE", "note": "Electric barrier deflects moves; >50% plays the mimicked effect"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-02-move3-i-am-still-alive", "title": "Move 3: I AM STILL ALIVE", "dur": 4.2, "layers": [{"fx": "dome", "at": "cas", "rx": 210, "ry": 230, "col": "#7657FF", "hits": [0.8, 1.4, 2.0, 2.6], "t1": 3.4}, {"fx": "chain", "at": "cas", "pts": [[-150, 0], [-120, -140], [0, -230], [120, -140], [150, 0]], "col": "#FF8A2B", "t0": 0.0}, {"fx": "blast", "at": "cas", "oy": -150, "t0": 3.3, "r": 420, "col": "#E5252A", "col2": "#FF8A2B", "rings": 2}], "enemy": true, "cas": true, "note": "Electric barrier deflects moves; >50% plays the mimicked effect", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Move 3", "hit": 0.8, "sfx": "zap", "n": 2, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

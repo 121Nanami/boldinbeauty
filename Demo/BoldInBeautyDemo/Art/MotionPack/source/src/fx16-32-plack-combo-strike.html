@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "16", "n": 32, "title": "Plack M1: Combo Strike", "slug": "plack-combo-strike", "who": "plack", "label": "PROPOSED", "note": "Three hits; burning finisher"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-32-plack-combo-strike", "title": "Plack M1: Combo Strike", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 3, "len": 360, "w": 64, "fan": 0.22, "col": "#FF3D8D", "col2": "#F7F4FA", "fin": true}, {"fx": "burst", "at": "en", "t0": 0.5, "n": 30, "cols": ["#FF3D8D", "#F7F4FA"], "spd": 340, "a0": -3.1, "a1": 0, "g": -100, "shape": "sq", "size": 7, "life": 0.9}, {"fx": "status", "at": "en", "t0": 0.6, "kind": "burn", "col": "#FF3D8D", "col2": "#F7F4FA", "shell": false}], "enemy": true, "cas": true, "note": "Three hits; burning finisher", "label": "PROPOSED", "who": "Plack", "slot": "M1", "hit": 0.15, "sfx": "hit", "n": 32, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

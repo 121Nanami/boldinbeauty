@@ -1,0 +1,9 @@
+<!--META {"dur": 4.8, "alpha": true, "kind": "fx", "sheet": "18", "n": 24, "title": "Timekeeper Special: Temporal Echo", "slug": "timek-temporal-echo", "who": "timek", "label": "PROPOSED", "note": "6 s recording state, then a damage replay"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-24-timek-temporal-echo", "title": "Timekeeper Special: Temporal Echo", "dur": 4.8, "layers": [{"fx": "aura", "at": "cas", "col": "#64E8FF", "col2": "#F7F4FA", "r": 90, "h": 260, "t1": 2.8, "al": 0.5}, {"fx": "clock", "at": "cas", "h": 350, "r": 70, "rewind": true, "spd": -3, "col": "#F7F4FA", "col2": "#64E8FF", "t0": 2.8}, {"fx": "strike", "at": "mid", "t0": 0.2, "n": 2, "col": "#7657FF", "col2": "#F7F4FA", "len": 420}, {"fx": "strike", "at": "mid", "t0": 3.2, "n": 2, "col": "#64E8FF", "col2": "#F7F4FA", "len": 420, "al": 0.5}, {"fx": "blast", "at": "en", "t0": 3.6, "r": 300, "col": "#64E8FF", "col2": "#F7F4FA", "rings": 2, "al": 0.7}], "enemy": true, "cas": true, "note": "6 s recording state, then a damage replay", "label": "PROPOSED", "who": "Timekeeper", "slot": "Special", "hit": 0.2, "sfx": "chime", "n": 24, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

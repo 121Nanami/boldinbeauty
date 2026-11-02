@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "10", "n": 21, "title": "Fear", "slug": "fear", "who": null, "label": "DERIVED", "note": "Shaking outline + waves + eye"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx10-21-fear", "title": "Fear", "dur": 3.0, "layers": [{"fx": "status", "at": "en", "kind": "fear", "sc": 1.6, "col": "#FF3D8D"}], "enemy": false, "cas": false, "note": "Shaking outline + waves + eye", "label": "DERIVED", "who": "SHARED", "slot": "Jester", "hit": 0.2, "sfx": "soft", "n": 21, "sheet": "10"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

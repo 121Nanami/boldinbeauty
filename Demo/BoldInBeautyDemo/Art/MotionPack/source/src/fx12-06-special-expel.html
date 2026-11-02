@@ -1,0 +1,9 @@
+<!--META {"dur": 8.2, "alpha": true, "kind": "fx", "sheet": "12", "n": 6, "title": "Special: Expel (hold)", "slug": "special-expel", "who": "luna", "label": "SOURCE", "note": "White hole grows while held: 4 explosion sizes"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx12-06-special-expel", "title": "Special: Expel (hold)", "dur": 8.2, "layers": [{"fx": "hole", "at": "cas", "oy": -260, "kind": "white", "s": 40, "t0": 0.0, "t1": 0.9500000000000001, "grow": 1.2000000000000002, "fo": 0.1}, {"fx": "blast", "at": "mid", "t0": 0.9, "r": 170, "col": "#F7F4FA", "col2": "#FFD23F", "rings": 2, "flat": false}, {"fx": "hole", "at": "cas", "oy": -260, "kind": "white", "s": 70, "t0": 1.0, "t1": 2.55, "grow": 0.5, "fo": 0.1}, {"fx": "blast", "at": "mid", "t0": 2.5, "r": 320, "col": "#F7F4FA", "col2": "#FFD23F", "rings": 3, "flat": false}, {"fx": "hole", "at": "cas", "oy": -260, "kind": "white", "s": 100, "t0": 2.8, "t1": 5.15, "grow": 0.5, "fo": 0.1}, {"fx": "blast", "at": "mid", "t0": 5.1, "r": 520, "col": "#F7F4FA", "col2": "#FFD23F", "rings": 4, "flat": false}, {"fx": "hole", "at": "cas", "oy": -260, "kind": "white", "s": 130, "t0": 5.4, "t1": 7.550000000000001, "grow": 0.5, "fo": 0.1}, {"fx": "blast", "at": "mid", "t0": 7.5, "r": 880, "col": "#F7F4FA", "col2": "#FFD23F", "rings": 5, "flat": true}], "enemy": true, "cas": true, "note": "White hole grows while held: 4 explosion sizes", "label": "SOURCE", "who": "Luna", "slot": "Special", "hit": 0.9, "sfx": "boom", "n": 6, "sheet": "12"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

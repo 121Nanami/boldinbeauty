@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "17", "n": 8, "title": "Gambler Move 1: Dice Roll", "slug": "gambler-dice-roll", "who": "gambler", "label": "PROPOSED", "note": "d6 face shown; high roll = huge blast + heal"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-08-gambler-dice-roll", "title": "Gambler Move 1: Dice Roll", "dur": 3.4, "layers": [{"fx": "dice", "at": "mid", "final": 6, "rcol": "#FF3D8D"}, {"fx": "blast", "at": "en", "t0": 1.5, "r": 520, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 3, "flat": true}, {"fx": "burst", "at": "cas", "t0": 1.5, "n": 24, "cols": ["#64E8FF", "#F7F4FA"], "spd": 200, "a0": -2.6, "a1": -0.5, "g": -300, "shape": "dot", "size": 8, "life": 1.2}, {"fx": "flash", "at": "mid", "t0": 1.5, "D": 0.15, "a": 0.4, "col": "#FF3D8D"}], "enemy": true, "cas": false, "note": "d6 face shown; high roll = huge blast + heal", "label": "PROPOSED", "who": "Gambler", "slot": "Move 1", "hit": 1.5, "sfx": "boom", "n": 8, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

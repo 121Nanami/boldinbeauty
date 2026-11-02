@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "16", "n": 2, "title": "Fujita Move 1: Quick Slash", "slug": "fujita-quick-slash", "who": "fujita", "label": "PROPOSED", "note": "Dash-through trail; cut-open burst on bleeding enemies"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-02-fujita-quick-slash", "title": "Fujita Move 1: Quick Slash", "dur": 3.2, "layers": [{"fx": "dash", "at": "mid", "dist": 700, "col": "#64E8FF", "col2": "#F7F4FA", "trail": 500, "dd": 0.2}, {"fx": "strike", "at": "en", "t0": 0.25, "n": 1, "col": "#FF3D8D", "col2": "#F7F4FA", "len": 520, "fin": true}, {"fx": "status", "at": "en", "t0": 0.5, "kind": "bleed", "col": "#FF3D8D", "shell": false}], "enemy": true, "cas": true, "note": "Dash-through trail; cut-open burst on bleeding enemies", "label": "PROPOSED", "who": "Fujita", "slot": "Move 1", "hit": 0.25, "sfx": "hit", "n": 2, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

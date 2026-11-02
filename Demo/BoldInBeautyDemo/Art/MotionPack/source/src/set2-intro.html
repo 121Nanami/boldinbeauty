@@ -1,0 +1,16 @@
+<!--META {"dur":6,"kind":"slate"} -->
+<div id="L" class="fill"></div>
+<script>
+(function () {
+  var L = document.getElementById("L"); UI.bg(L, 50, 50);
+  var rg = IG.ring(L, 90, 24, C.rose, { left: "822px", top: "150px" });
+  IG.drawRing(tl, rg, 0.2, 0.8, 0, 1);
+  tl.fromTo(rg.svg, { rotation: -180, scale: 0.4 }, { rotation: 0, scale: 1, duration: 0.8, ease: "expo.out" }, 0.2);
+  var t = IG.el("div", "title", L, "<span class='bib-skew'>BOLDINBEAUTY</span>", { position: "absolute", left: "0", width: "1920px", textAlign: "center", top: "400px", fontSize: "160px", color: C.rose, textShadow: "10px 9px 0 #7657FF" });
+  var s = IG.el("div", "voice", L, "MOTION PACK // SET 2", { position: "absolute", left: "0", width: "1920px", textAlign: "center", top: "590px", fontSize: "120px", color: C.wh });
+  var c = IG.el("div", "mono", L, "MISSING SCREENS // SHARED COMBAT VFX // STATUS EFFECTS // ANGELS // 20 OPERATORS", { position: "absolute", left: "0", width: "1920px", textAlign: "center", top: "770px", fontSize: "28px", color: C.cy });
+  var d = IG.el("div", "mono", L, "SOURCE = OWNER-DESCRIBED // DERIVED = FROM ABILITY TEXT // PROPOSED = ASSISTANT KIT // PLACEHOLDER PALETTES UNTIL THE OWNER DECIDES", { position: "absolute", left: "0", width: "1920px", textAlign: "center", top: "830px", fontSize: "22px", color: "rgba(247,244,250,.65)" });
+  IG.slam(tl, t, 0.7, { x: 0, s: 1.8 }); IG.slam(tl, s, 1.2, { x: 0 }); IG.scramble(tl, c, "MISSING SCREENS // SHARED COMBAT VFX // STATUS EFFECTS // ANGELS // 20 OPERATORS", 1.6, 0.8, 4); IG.rise(tl, d, 2.4);
+  tl.to(L, { opacity: 0, duration: 0.3 }, 5.7);
+})();
+</script>

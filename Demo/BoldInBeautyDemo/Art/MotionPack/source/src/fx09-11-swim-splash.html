@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 11, "title": "Swim splash + ripples", "slug": "swim-splash", "who": null, "label": "NEEDS ART", "note": "Splash, ripples and bubbles"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-11-swim-splash", "title": "Swim splash + ripples", "dur": 3.0, "layers": [{"fx": "burst", "at": "cas", "n": 30, "shape": "dot", "col": "#64E8FF", "cols": ["#64E8FF", "#F7F4FA"], "spd": 420, "a0": -2.7, "a1": -0.45, "g": 900, "size": 9, "life": 1.0}, {"fx": "ring", "at": "cas", "n": 3, "r0": 10, "r1": 260, "col": "#64E8FF", "flat": true, "w": 7}, {"fx": "zone", "at": "cas", "rx": 240, "kind": "bubbles", "col": "#64E8FF", "col2": "#F7F4FA", "t0": 0.3}], "enemy": true, "cas": true, "note": "Splash, ripples and bubbles", "label": "NEEDS ART", "who": "SHARED", "slot": "Water", "hit": 0.1, "sfx": "soft", "n": 11, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

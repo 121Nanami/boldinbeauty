@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "16", "n": 19, "title": "Shiraishi Always: Shield + Heat", "slug": "shira-shield-bubble", "who": "shira", "label": "PROPOSED", "note": "Regenerating shield bubble that flares when hit"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-19-shira-shield-bubble", "title": "Shiraishi Always: Shield + Heat", "dur": 3.0, "layers": [{"fx": "dome", "at": "cas", "rx": 150, "ry": 190, "col": "#F7F4FA", "hits": [1.0, 2.0], "pulse": true}, {"fx": "burst", "at": "cas", "t0": 1.0, "n": 16, "col": "#F7F4FA", "cols": ["#F7F4FA", "#FF3D8D"], "spd": 240, "y": -150}, {"fx": "burst", "at": "cas", "t0": 2.0, "n": 16, "col": "#F7F4FA", "cols": ["#F7F4FA", "#FF3D8D"], "spd": 240, "y": -150, "seed": 8}], "enemy": false, "cas": true, "note": "Regenerating shield bubble that flares when hit", "label": "PROPOSED", "who": "Shiraishi", "slot": "Always", "hit": 1.0, "sfx": "chime", "n": 19, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 4.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 24, "title": "Shiraishi Special: Phoenix Guard", "slug": "shira-phoenix-guard", "who": "shira", "label": "PROPOSED", "note": "8 s armed; shield-break explosion and half refill"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-24-shira-phoenix-guard", "title": "Shiraishi Special: Phoenix Guard", "dur": 4.4, "layers": [{"fx": "dome", "at": "cas", "rx": 170, "ry": 210, "col": "#F7F4FA", "t1": 2.4}, {"fx": "aura", "at": "cas", "col": "#FF3D8D", "col2": "#F7F4FA", "r": 110, "h": 290, "t1": 2.4}, {"fx": "blast", "at": "cas", "oy": -150, "t0": 2.4, "r": 480, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 3}, {"fx": "dome", "at": "cas", "rx": 170, "ry": 210, "col": "#F7F4FA", "t0": 2.9, "al": 0.6}], "enemy": true, "cas": true, "note": "8 s armed; shield-break explosion and half refill", "label": "PROPOSED", "who": "Shiraishi", "slot": "Special", "hit": 2.4, "sfx": "boom", "n": 24, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

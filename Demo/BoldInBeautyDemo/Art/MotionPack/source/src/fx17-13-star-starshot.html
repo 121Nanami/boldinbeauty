@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "17", "n": 13, "title": "Stargazer M1: Starshot", "slug": "star-starshot", "who": "star", "label": "PROPOSED", "note": "Starlight bolt, range 1800"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-13-star-starshot", "title": "Stargazer M1: Starshot", "dur": 3.0, "layers": [{"fx": "volley", "at": "cas", "oy": -150, "n": 1, "kind": "star", "col": "#64E8FF", "col2": "#F7F4FA", "size": 16, "dist": 900, "sp": 2200, "ir": 110}, {"fx": "burst", "at": "cas", "oy": -150, "n": 12, "col": "#64E8FF", "cols": ["#64E8FF", "#F7F4FA"], "spd": 200, "a0": -0.5, "a1": 0.5}], "enemy": true, "cas": true, "note": "Starlight bolt, range 1800", "label": "PROPOSED", "who": "Stargazer", "slot": "M1", "hit": 0.4, "sfx": "hit", "n": 13, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

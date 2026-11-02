@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 6, "title": "Switch-in drop", "slug": "switch-in-drop", "who": null, "label": "NEEDS ART", "note": "Operator drops in on a column of light"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-06-switch-in-drop", "title": "Switch-in drop", "dur": 3.0, "layers": [{"fx": "column", "at": "cas", "col": "#64E8FF", "col2": "#F7F4FA", "w": 220, "h": 760, "hold": 0.5}, {"fx": "ring", "at": "cas", "t0": 0.45, "r1": 320, "col": "#64E8FF", "flat": true, "w": 14}, {"fx": "burst", "at": "cas", "t0": 0.45, "n": 24, "col": "#F7F4FA", "cols": ["#F7F4FA", "#64E8FF"], "a0": 3.3, "a1": 6.1, "spd": 360, "g": 300}], "enemy": true, "cas": true, "note": "Operator drops in on a column of light", "label": "NEEDS ART", "who": "SHARED", "slot": "Tab", "hit": 0.45, "sfx": "hit", "n": 6, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

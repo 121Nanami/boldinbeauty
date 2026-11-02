@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "17", "n": 19, "title": "Weather M1: Gust Bolt (5 fronts)", "slug": "weather-gust-bolt", "who": "weather", "label": "PROPOSED", "note": "Bolt in five front variants: rain, snow, wind, storm, heat"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-19-weather-gust-bolt", "title": "Weather M1: Gust Bolt (5 fronts)", "dur": 3.6, "layers": [{"fx": "volley", "at": "cas", "oy": -150, "t0": 0.0, "n": 1, "kind": "ice", "col": "#64E8FF", "col2": "#F7F4FA", "size": 14, "dist": 620, "sp": 1700, "ir": 80}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 0.62, "n": 1, "kind": "star", "col": "#F7F4FA", "col2": "#F7F4FA", "size": 14, "dist": 620, "sp": 1700, "ir": 80}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 1.24, "n": 1, "kind": "tracer", "col": "#F7F4FA", "col2": "#F7F4FA", "size": 14, "dist": 620, "sp": 1700, "ir": 80}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 1.8599999999999999, "n": 1, "kind": "bolt", "col": "#7657FF", "col2": "#F7F4FA", "size": 14, "dist": 620, "sp": 1700, "ir": 80}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 2.48, "n": 1, "kind": "ember", "col": "#FF3D8D", "col2": "#F7F4FA", "size": 14, "dist": 620, "sp": 1700, "ir": 80}], "enemy": true, "cas": true, "note": "Bolt in five front variants: rain, snow, wind, storm, heat", "label": "PROPOSED", "who": "Weather", "slot": "M1", "hit": 0.3, "sfx": "hit", "n": 19, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

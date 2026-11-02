@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "15", "n": 4, "title": "Alchemist Special: Ring leader", "slug": "alch-special-ring-leader", "who": "alch", "label": "DERIVED", "note": "Illusion on infected enemies; they attack each other"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-04-alch-special-ring-leader", "title": "Alchemist Special: Ring leader", "dur": 3.6, "layers": [{"fx": "status", "at": "en", "ox": -170, "kind": "illusion", "col": "#64E8FF", "col2": "#F7F4FA"}, {"fx": "status", "at": "en", "ox": 170, "kind": "illusion", "col": "#64E8FF", "col2": "#F7F4FA"}, {"fx": "chain", "at": "en", "t0": 1.0, "pts": [[-170, -150], [-60, -200], [60, -110], [170, -150]], "col": "#FF3D8D"}, {"fx": "blast", "at": "en", "ox": 170, "oy": -150, "t0": 1.1, "r": 200, "col": "#FF3D8D", "rings": 1}], "enemy": true, "cas": false, "note": "Illusion on infected enemies; they attack each other", "label": "DERIVED", "who": "Alchemist", "slot": "Special", "hit": 1.0, "sfx": "hit", "n": 4, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

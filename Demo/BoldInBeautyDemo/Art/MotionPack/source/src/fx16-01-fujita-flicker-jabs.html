@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "16", "n": 1, "title": "Fujita M1: Flicker Jabs", "slug": "fujita-flicker-jabs", "who": "fujita", "label": "PROPOSED", "note": "Four rapid nicks, small bleed per hit"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-01-fujita-flicker-jabs", "title": "Fujita M1: Flicker Jabs", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 4, "gap": 0.1, "len": 300, "w": 38, "ang": -6, "fan": 0.3, "col": "#64E8FF", "col2": "#F7F4FA"}, {"fx": "burst", "at": "en", "oy": -150, "t0": 0.15, "n": 14, "col": "#FF3D8D", "spd": 200, "shape": "dot", "g": 700, "size": 6}, {"fx": "burst", "at": "en", "oy": -150, "t0": 0.4, "n": 14, "col": "#FF3D8D", "spd": 200, "shape": "dot", "g": 700, "size": 6, "seed": 5}], "enemy": true, "cas": true, "note": "Four rapid nicks, small bleed per hit", "label": "PROPOSED", "who": "Fujita", "slot": "M1", "hit": 0.15, "sfx": "hit", "n": 1, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

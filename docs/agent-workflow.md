@@ -1,0 +1,13 @@
+# Agent reports and lead coordination
+
+SHARED procedure · 2026-09-30 · Owner instruction; actual device checks remain local.
+
+Start each task by reading `BoldInBeauty_MAIN` sections 0, 11, 12 and relevant topics, `sync/README.md`, the matching device profile and current handoff state. Establish one accountable lead, task scope, owned paths, actual model/tools and acceptance checks. Preserve other agents' work and the owner's creative authority.
+
+Route project questions, conflicting evidence, cross-agent dependencies, scope changes and owner-only decisions to the accountable lead through supported AI messaging. Include the question, evidence, affected files and proposed technical resolution. Continue independent authorized work while a dependent decision is pending. The lead resolves routine project matters; only owner-only decisions or essential blockers reach the owner. Without messaging, write a uniquely named report and return its path; a file alone does not prove the lead read it.
+
+Agents can autonomously save verified skill notes, findings, warnings, issues, progress and proposed MAIN updates in their owned reports. Copy [the report template](../reports/templates/agent-report.md) to `reports/<topic>/<YYYY-MM-DD>-<agent>-<task>.md`; create a topic folder only for a real artifact. Use a task suffix to prevent same-day collisions. Keep each result factual, concise and backed by source paths, checks and hashes. Templates and proposals are not evidence of completed work.
+
+During concurrent work, the accountable lead is the single MAIN writer. Return the report path, exact proposed addition and evidence to that lead. If the root has a current writer reservation, queue the proposal and preserve its ownership. When no concurrent writer exists and the task authorizes independent MAIN integration, reread current MAIN and handoff state, reserve/acknowledge the writer per `sync/README.md`, record the before hash, make the bounded update, verify contents and after hash, save the handoff and release the reservation. Unavailable counterpart acknowledgement stays OPEN; a local reservation is not a cross-device lock or proof of remote reconciliation. This independent path also applies to filing agents; preserve newer decisions and existing uncertainty labels. Filing reports do not establish canon automatically. Never record secrets.
+
+Before closing, report completed work, actual checks, unresolved items, shared/device classification, before/after hashes and transfer state. Record actual provider/model use separately from recommendations. Subscription allowances remain separate; routing work between supported accounts does not merge quotas or imply API credit.

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "13", "n": 8, "title": "Passive: Condemned", "slug": "passive-condemned", "who": "judge", "label": "DERIVED", "note": "Kill effect on an enemy that hit her 10 times"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx13-08-passive-condemned", "title": "Passive: Condemned", "dur": 3.0, "layers": [{"fx": "mark", "at": "en", "glyph": "cross", "h": 340, "col": "#E5252A", "s": 36, "t1": 1.2}, {"fx": "pulsehex", "at": "en", "h": 150, "r": 320, "col": "#E5252A", "n": 3, "t0": 1.1}, {"fx": "shards", "at": "en", "t0": 1.2, "up": true, "n": 50, "w": 150, "h": 300, "col": "#E5252A", "col2": "#F7F4FA"}, {"fx": "flash", "at": "mid", "t0": 1.2, "D": 0.12, "a": 0.4, "col": "#E5252A"}], "enemy": true, "cas": false, "note": "Kill effect on an enemy that hit her 10 times", "label": "DERIVED", "who": "Judge", "slot": "Passive", "hit": 1.2, "sfx": "boom", "n": 8, "sheet": "13"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

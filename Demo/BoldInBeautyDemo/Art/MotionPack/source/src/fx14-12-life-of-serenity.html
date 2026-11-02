@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "14", "n": 12, "title": "A life of serenity", "slug": "life-of-serenity", "who": "narr", "label": "SOURCE", "note": "Takes a pill; calm light blooms"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-12-life-of-serenity", "title": "A life of serenity", "dur": 3.6, "layers": [{"fx": "mark", "at": "cas", "glyph": "pill", "h": 270, "col": "#F7F4FA", "s": 46, "t1": 1.4}, {"fx": "aura", "at": "cas", "t0": 1.3, "col": "#FFB6D9", "col2": "#F7F4FA", "r": 110, "h": 300}, {"fx": "pulsehex", "at": "cas", "t0": 1.4, "r": 340, "col": "#FFB6D9", "n": 3}], "enemy": false, "cas": true, "note": "Takes a pill; calm light blooms", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Alt", "hit": 1.3, "sfx": "chime", "n": 12, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,457 @@
+{
+ "record_kind": "actual change manifest",
+ "task": "Gameplay Ability System layer, 20 operator kits, docs and MAIN update",
+ "date": "2026-10-04",
+ "device": "Linux cloud container (neither replica)",
+ "project_root_reference": "repository 121Nanami/BoldInBeauty-Project, branch claude/exciting-johnson-jy21xk (based on claude/great-newton-wp7hgt)",
+ "base_manifest": null,
+ "base_commit": "283c35c (origin/claude/great-newton-wp7hgt)",
+ "cross_device_freshness": "OPEN",
+ "counterpart_handoff": "Mac session session-redacted: compile + PIE report on d06b94d (no source edits needed)",
+ "files": [
+  {
+   "path": "BoldInBeauty_MAIN",
+   "scope": "shared knowledge/docs",
+   "action": "modified",
+   "before_sha256": "16bcb1b1d867a9d97d8e4cf7a32aa2ef4e2aff9377bd4db57564f5f354254e80",
+   "after_sha256": "e0f79ecfaaffa32cc8248e042bdc7a0082494268c5bdd87d499f7aed6667eb1e"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/BoldInBeautyDemo.uproject",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "4787408cacde903bf1a975774f00c1bdc66e0c29cb8c4a65bc9df36d5383cfaf",
+   "after_sha256": "8830df5abe5f36cabb57fc407fd47878719edfc7580e40a176d17782331c06db"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Config/DefaultGame.ini",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "7434304b70f9b8570177036b09d5b67cfe21f0f712eed4ba570edcc5ed7bc4bf",
+   "after_sha256": "705a61eaef3b84808621e97802e3bcb0adf7793826e21a650eb757dedd9143cf"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Config/DefaultGameplayTags.ini",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "2597d2724eb429d13d94f319d897a78312d806f9d32d12ba48f91aaed8a50d1f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/README.md",
+   "scope": "shared knowledge/docs",
+   "action": "modified",
+   "before_sha256": "22c46c75a760fde86b86670e28f322d55cf2fb45b28efc98a6c50d30ba1924fe",
+   "after_sha256": "9e02c4fccab22d8bfcb82be7123be11b5961cfe76374e1d54d9ed7b9e48ecc66"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBAbilitySystemComponent.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "4c698b1c30eefe80004b934a10414ec9c1aebebb772b2663c83316b240018ede"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBAbilitySystemComponent.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "110bffb88ccb026e003ff210e16419ae9f730658005b8862adb15c4a74e96fa0"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBAttributeSet.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "3889a70f5b5b7bd3394eba7d895d9b97e68c552fee8579cecd95a2cd12f99d5f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBAttributeSet.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "73d4bd28210e9f06627d1c35b01f41770cd43217c489eccf6577dfca3c5aa368"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBGameplayAbility.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "fa307433d56cba66ea33d056e46ae5951014395a0a4415b9c5695ab7cb1200f6"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBGameplayAbility.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "e42f87fc61fb758abc445a3ac558a76481ab709e313daeb6e0b9507435e47044"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBGameplayEffects.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "9bb0869ab19a0cb9b64c562625d060f6a8af663f6913f352998e49d2df573c29"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBGameplayEffects.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "c550d0fb2584193423935c6c2f1e7feb4a8d447eecf2d0633c3ad837a3f1e4ef"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBGameplayTags.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "3b053b8d7f0a54019584cce666c6ae6f93da73caa2298a2c57a2a76dc5f6c452"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGAS/BIBGameplayTags.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "75553d78c89b98a13c7c49bd111d407a40ffa66bb1a514ca0abcd7d3600a5027"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "ba64b6401d9ef9ec3b3c2314f04f38fd60b190e711e8048334e533dd4feb3b4b",
+   "after_sha256": "8dce6d5dda7f1149ac80c74254c0c876e7fcc4807b499af70acf3bd9f0119e10"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "ac1d46bb6bd649c2d05b84bc75fb010ea1ddf0f4195fd8e1a4553f0557f91e64",
+   "after_sha256": "3ab91bca09897a63deb88ad10c0e8dfd1a6955fecbc634463a3bf393c3fc5556"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameInstance.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "756c5414c1b6431500f2246235ba98cdbb8d2c031e615b743e2c79f368fc1bdb",
+   "after_sha256": "43b356d47c843924f13186295ac24c1c0417239201c2161ec82fc927c48f722a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitJudge.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "f149d2f169d6ebfd10ca48c6f8f2b7e54b79de383adae36abd8c221752733896",
+   "after_sha256": "66198e2d0446f7b2382d8d19ef6de82de2360c307ce9f7cdb515bf03143831d1"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitLuna.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "bda83bc1fb1503b2d128e25dd640d4de4ce76ef27ee300e1e3198eb145765342",
+   "after_sha256": "8f0ad5b27bcab8d792c3603178c5250980a7c70a24138bd99d269f078d061005"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitNarrator.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "c278c18bc2bc9e3abf9c754958024be4a728e7f826d113d4df87aea4a7dc93bb",
+   "after_sha256": "fc90e5488da3c87215a2b5d287cca8c4618a8adaeeafa48180c1c08fa2618fa2"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitWorld.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "3b8de31e77718a6b58121d6f0fb18d25631c3d3f5d43186d2f24be211a500e3d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitWorld.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "229987297875b533a7d43aaf55333ee1584ad0c793beb7d1fe7d5fd3abd22bb2"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "2032add34e362fb9ea458fa171e9ad8061c08356e4c3646d1249feb5c595c660",
+   "after_sha256": "aefadbdaf4051c7ebdf31e7bf031044a06920513e9aadcb7aaf9731769d373e9"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "b9b145f2fc3d67f11f3c97d53d6098a7e7fb61f1c3ab31d97b0d00dfef10c417",
+   "after_sha256": "fa354ce5ee5ff4af38f3aeafe08df57a2a94e8da6df01796a49fcfe196ef0e52"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "3405c63811fe2468391b466e8f147b19ebcf55bf7cf8e78be20a5177904ca62d",
+   "after_sha256": "90b35dd5016cd489c81906eb483b457639c17cf0dffa211c46b4a5c57dcf9234"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "42a4b4cd37d6e7a5bc9245d17b47e87d62d210913614c7229071cd81cb6250f9",
+   "after_sha256": "aa786e27d8531258cd2c2f2a86bcfd24f5d7384862802bdb68eee20403684ab5"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerData.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "33a63209e4ddf89f8027db42666c2bf59d9d1306b6a7077dbd83eefe493c3c17"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerGAS.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "63722a9f2eec9313f31463f99c2046e2d0fb072e8c3ed52ec7e80c9bd9695a97"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBConfig.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "f65817839e1f032f8b3f8467017cbff8e66bf870080958e3b33fa73e359fc800",
+   "after_sha256": "8728c23ede8d1f914cda8f0f676be19a9edbd9f0760a028b0bb5446b3216d76f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "b17de9b241c16f10ca844c8bdae5a3125c76a3ddf4d7d4951395ef4111b9e9dd",
+   "after_sha256": "d081c049ebe0be43dbe9fce8f9980304f160438dcefe9e6969741f1f5a9c19a5"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "952a5e83f755dfc1ce4e25661c159d1a25c35977742c783709a893f1a375ccf8",
+   "after_sha256": "ec0622f8a13013e3fc6e7574fb8ff82e1c853866123b7aad9de481b7592c4dda"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitBuild.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "a2fd5b57bd3f23794b4599be41f8b6bae789d06c130e79cfae2191e3c55d1039"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitCombat.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "5a1a2bda05fe8ba22e39b344f3efde1fcf94dda2ccc4e9da52e42e60c5fcd980"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "6589d758123060c94cf838b22a9dffdd1230ad82e494bfde23c06d003bf9e0dc"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData1.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "113f970f1c5965ea6063ba3fa3c532bd2a8633c60a2277437bf0667442f1a5eb"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData2.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "96accd100f3f4f28515ebe0fc1730ad63b2a8e4dd0aabd6d6e559b6a75bb4c2a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData3.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "e7090655ee13ff6703b562ebf4436be0b757e922bfcffb595a7d28d2584d4082"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitHooks.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "4bf5cee643e357b88cc9b7d000276b6732876c07ca47381ced68c33485beb35b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitRegistry.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "2eb24a3ca3ba5368cf1dce1e52b616b9497af713c3b96a4fa90d4252add2d47d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitRuntime.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "b1205d574b6848aae6d1468cf70aead542dee06810df49a827c9e0a1d5081738"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitRuntime.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "b74afd316fd3b9e12593c5c51c15575bac85997c9ca6e36abe7d4e1de89ee7f0"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitStatus.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "54ce6d66211103043654b7085e621d98c2ea6ce569fc15eba9fe0ae52075e8a0"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitStatus.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "27e5361bd18371d7525f3e86f0ba95e0e3bde0b0bcbe1aebdee10b6cafa3de4f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitSteps.cpp",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "e47ec995e5509d2f43b4681dd6fd0e3b077e8c2d4dc7e878a3a0f37cf0a5c695"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitTypes.h",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "3c497eb5e6385599c67719a8b934ed46352c0c2d839045324a144e92b0ff0a07"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BoldInBeautyDemo.Build.cs",
+   "scope": "shared (Unreal source/config); macOS compile verified 2026-10-04, Windows OPEN",
+   "action": "modified",
+   "before_sha256": "d00968d86dda0ee80ec8a2a039734fc1f565cdf88b9c52f53a4391ba093383a5",
+   "after_sha256": "de79902487d5fccaf0c9f1bca92b2d6632bccbf8984cf289cc58ed7a993d8b5d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/dump_kits.cpp",
+   "scope": "shared (tests/tools)",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "7977bf0e61841baf107df22321afdf55b7a9006140ce9e537379fe27dfdfc8e8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/dump_tags.cpp",
+   "scope": "shared (tests/tools)",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "b69f13100c7fe56771635ef567f07626513a39c66e1a0725268e4b98b0642047"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/kit_balance.cpp",
+   "scope": "shared (tests/tools)",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "b093ee88914775f1c5c59365a2d0dffa5af5e9d1fe8518db00fb04208b991ae5"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/kit_fake_world.h",
+   "scope": "shared (tests/tools)",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "1c4cbb20c8562df1aea05efcbeb01949e50e8589eebf3aa4e1d2dc7ab56f3f3d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/kit_tests.cpp",
+   "scope": "shared (tests/tools)",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "ef9313d364787afa943ee613ce2faeeafcb31bc4bdf27e2bf6564cf9cadc9cd4"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/run_core_tests.sh",
+   "scope": "shared (tests/tools)",
+   "action": "modified",
+   "before_sha256": "45f8133d6d990334f4ad5fbae00687d366cb5e319b7e7cc9ed7ef46fab34308f",
+   "after_sha256": "d057297349f375324a97d1d0a21c068facffd8daf84df573a2f536607dfa71a2"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_kit_docs.py",
+   "scope": "shared (tests/tools)",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "081958fa03ee55b77bf5cafb96aaa980e7e57e2443e61c3b4ea40390b3ce4011"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_tags.py",
+   "scope": "shared (tests/tools)",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "68ae43266aed98f982bfe74b858ab45372420405b6fb607feeb48635509a0029"
+  },
+  {
+   "path": "HANDOFF.md",
+   "scope": "shared knowledge/docs",
+   "action": "modified",
+   "before_sha256": "a0dfa41fb8d7baa19fe32194f9bcffe95fbfd659e292db9fe3f58c17814fa324",
+   "after_sha256": "b5b369b60f26e0430b770b26a1013749bf1152938c517a67709add03ef38fd46"
+  },
+  {
+   "path": "docs/gas-architecture.md",
+   "scope": "shared knowledge/docs",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "1e6b485b8ea1192933eeca8ae4e1f76f2c7117878f45f8c863283f0a8565bc5b"
+  },
+  {
+   "path": "docs/operator-kits.md",
+   "scope": "shared knowledge/docs",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "0da512e176fc2b3dca275fcf5fb13137c0e7207cd9d719a551ee85e56a09fe88"
+  },
+  {
+   "path": "reports/demo/2026-10-04-gas-and-operator-kits.md",
+   "scope": "shared knowledge/docs",
+   "action": "created",
+   "before_sha256": null,
+   "after_sha256": "9b2ef892ac35dd5aa854ab3d5e40474f16a98c0b4a0db16cdf2664dfcd8b6039"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.cpp",
+   "scope": "shared source/tooling (macOS-verified by the Mac worker)",
+   "action": "modified",
+   "before_sha256": "2c91b57054a5d55574c086a6096f405ebd5110e823b0de0dfe765507caa4d9f3",
+   "after_sha256": "2244f8d376b90fe71fe4869f9f2040610112cbbd077ee20eca88cb8b35673b92"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.h",
+   "scope": "shared source/tooling (macOS-verified by the Mac worker)",
+   "action": "modified",
+   "before_sha256": "65ba7bbd12ceeb56e154d05cc2895f908e769c697027d433619e15e1de542113",
+   "after_sha256": "1c1ea4f4dc3eec87792d5370c66d30c86cd779d943c81e819ab1d90a45d26e05"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_kits.py",
+   "scope": "shared source/tooling (macOS-verified by the Mac worker)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "e8a3f63e5a01c56c0e472c957b6f91e9a8232ae29c19880e464c8309fa04997b"
+  }
+ ],
+ "transfer_status": "committed and pushed to the feature branch only (no PR, no merge to main)",
+ "counterpart_applied": false,
+ "counterpart_verified": "Mac: compile of 919400f and 8480860 (0 errors, 0 warnings); Tools/verify_kits.py full sweep PASS 126 ok, 0 flagged; Job 3 subset PASS 36 ok, 0 flagged; BIB.Buff tags verified (macfix b23f65e, only verify_kits.py changed)",
+ "unresolved_items": [
+  "Windows build/run OPEN",
+  "Owner decisions still open: infection goo first tick, soil puddle roll, Adapt passives and M1, Adapt stat-drift bounds (placeholder 0.5-2.5; at the floor the Ultimate does about 1,050 per shot), numbers of the 14 PROPOSED kits (answered 2026-10-04: 3-star Ultimates, Arita takeover, Adapt owns Why do i bother, Ring leader Special, Transmutation 40 s)",
+  "Notion per-operator inline databases not linked (connector rejects the title property)",
+  "Counterpart acknowledgement not received"
+ ],
+ "post_compile_changes": "2026-10-04: owner answers applied after the Mac compile of d06b94d: Adapt Ultimate is Why do i bother; Alchemist single Ultimate; AdaptUltimate hook, AdaptOverclock state and Alchemist alt ultimate removed; tags regenerated (534) | 2026-10-04 balance pass: Stargazer and Weather numbers scaled down (BIBKitData3.cpp, BIBCore.cpp roster, kit_tests.cpp), not yet compiled on the Mac (data-only change)"
+}

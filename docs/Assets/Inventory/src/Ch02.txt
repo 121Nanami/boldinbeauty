@@ -1,0 +1,109 @@
+# Ch02 The Ruins. Sources: Chapters/Ch02.md, Scripts/Ch02.md (primary); Scripts/Ch02_TheRuins.md ([alt], older)
+ENV|The Ruins (surface above the arc)|Location / region|Ep1|H|Ruined school, police and fire station, hospital, stadium under dust light and fog|Dust-light day;Fog;Overcast bruise-coloured sky [alt]
+ENV|Hatch pad (16 hatches)|Location / pad|Ep1|H|Concrete pad with sixteen round numbered hatches in four rows [alt: grid]|Hatch 7 stuck;Hatch 9 [alt];All sealed;Opened hatch
+ENV|School interior|Location / interior|Ep2|H|Corridors, classrooms, noticeboards, staff room, half the roof gone [alt]|Dust light;Roofless classrooms [alt]
+ENV|School yard|Location / exterior|Ep3|S|Yard where the peddler trades; school gate [alt]|Day;Empty (stinger, peddler gone) [alt]
+ENV|Police and fire station|Location / building|Ep4|H|Locked evidence room, garage, working fire truck|Dry;Partly flooded [alt]
+ENV|Evidence room|Location / interior|Ep4|S|Locked drawers, steel door [alt: four-digit code]|Locked;Open
+ENV|Hospital ward three|Location / interior|Ep5|H|Rows of beds each with a same-handwriting name card, cat on a gurney|Dark ambush;Lit corridor [alt]
+ENV|Broken stadium / gym|Location / arena|Ep7|H|Stands that move; boss arena with climbable terraces|Dormant;Waking;Boss phase 2 rising;Stands at rest after boss
+ENV|Stadium approach tunnel|Location / tunnel|Ep6|S|Cracked concrete tunnel, dead floodlights [alt]|Dim
+ENV|Flooded crater with toppled tower|Location / traversal|Chapter beats|S|Walk or swim across via the toppled tower|Water level;Tower crossing
+ENV|Station garage|Location / interior|Ep4|S|Fire truck garage, hold-out [alt: ranged angels]|Standard
+ENV|School roof (stinger)|Location / rooftop|Ep8|S|Last location where Luna plays the recorder|Dusk
+ARC|Round steel hatch|Architecture / structural|Cold open|H|Bolted shut from below; number 7 / sixteen in a grid|Stuck;Open;Hinge removed
+ARC|Hatch hinge|Architecture / hardware|Ep1|S|Sold, bought back; a good hinge|Attached;Unscrewed;Hinge pin
+ARC|Classroom doors and desks|Architecture / interior|Ep2|S|Desks still in rows, notes inside|Rows;Toppled
+ARC|Noticeboard|Architecture / interior|Ep2|S|Curling paper, dated June 2002|Posted;Curling
+ARC|Hospital beds|Architecture / interior|Ep5|H|Each with a name card in the same hand, no bodies|Name card;Empty;Gurney
+ARC|Stadium terraces|Architecture / structure|Ep7|H|Climbable terraces that become shoulders|Static;Shifting;Risen
+ARC|Station service lift (Ark)|Architecture / structure|Ep1|B|Ark service lift lets out onto the pad [alt]|Standard
+PRP|Field recorder|Prop / hero|Ep4|H|Dead operator's recorder; last entry plays back "they were counting us"|Charged;Static;Replay with rows photograph;Cut casing / missing chip [alt]
+PRP|Face-down playing card|Prop / hero|Ep2|H|Under a fridge magnet in the staff room; Luna pockets it; blank with a J [alt]|Face down;Turned over [alt]
+PRP|Fridge magnet|Prop|Ep2|B|Holds the card in the staff room|Standard
+PRP|Staff room fridge|Prop / set dressing|Ep2|B|Fridge with the magnet|Standard
+PRP|Lost-and-found box|Prop / quest|Ep2|S|Kuu's optional quest|Closed;Open
+PRP|Green lunch box with bear drawing|Prop / quest|Ep2|S|Item 14 on lost property list|Closed;Held by Kuu
+PRP|Mitten / library card / wrapped sandwich [alt]|Prop / quest|Ep2|B|Contents of the lost-and-found box [alt]|Standard
+PRP|Name card ("Cat. Fed twice daily. Do not remove.")|Prop / document|Ep5|S|Card worn by the cat; archive doc|Standard
+PRP|Matron's key|Prop / key|Ep5|S|Hidden pickup in the ward|Standard
+PRP|Recorder transcript day nine|Prop / document|Archive|S|Full text of the recording|Standard
+PRP|Noticeboard text 5 June 2002|Prop / document|Archive|S|Sports Day postponed, red kite note|Standard
+VEH|Fire truck|Vehicle|Ep6|H|Working fire truck that still starts; Kuu drives it to the stadium (stolen, he apologises later); light-shooter on the ladder|Parked;Driving through collapsed road;Ladder mounted
+PRP|Fire truck keys|Prop / key|Ep4|B|Evidence room puzzle|Standard
+PRP|Hinge (Luna's)|Prop|Ep1|H|Sold to the peddler, offered back at double|Attached;Sold;Returned
+PRP|Ration chits|Prop / currency|Ep3|B|Three ration chits [alt: forty credits]|Three chits;Six chits
+PRP|Peddler's pushcart and huge backpack|Prop|Ep3|S|Metal junk, pots and scrap [alt]|Loaded;Gone (stinger) [alt]
+PRP|Clipboard (Plack)|Prop|Ep1|B|Job sheet [alt]|Standard
+PRP|Spanner|Prop|Ep1|B|Luna unscrews the hinge pin [alt]|Standard
+PRP|Emergency drill sheet 2002|Prop / document|Ep2|B|Evacuation routes never lead to the Ark [alt]|Standard
+PRP|Evacuation order 14-C clipboard|Prop / document|Ep5|S|All patients to Sublevel 9 [alt]|Standard
+PRP|Operator helmet (Hasegawa)|Prop|Ep4|B|Beside the recorder [alt]|Standard
+PRP|Hose rack|Prop / set dressing|Ep4|B|Cat watches from it [alt]|Standard
+PRP|Whiteboard code|Prop / puzzle|Ep4|B|Four-digit code in the break room [alt]|Standard
+PRP|Evidence drawers|Prop / puzzle|Ep4|S|Locked drawers puzzle|Locked;Open
+PRP|White grass (does not move in wind) [alt]|Prop / flora-like|Ep7|S|Pitch overgrown with white grass|Static
+PRP|Yellow lunch-box pickup marker|UI-world marker|Ep2|B|YELLOW pickup|Idle
+FLO|White grass|Flora / grass|Ep7|S|Overgrown stadium pitch grass that doesn't move [alt]|Static;?Trampled~after boss fight on the pitch
+FLO|Weeds through concrete|Flora / plant|Chapter beats|B|Overgrowth of the ruined surface|?Dry;?Overgrown~text only says ruined surface and overgrown pitch
+FAU|Cat|Fauna / animal|Ep5|H|On a gurney / hose rack wearing a name card; vanishes behind shelf|On gurney;On hose rack [alt];Wearing name card
+CHR|Scrap Peddler|One-off NPC|Ep3|H|Roaming peddler selling Luna's hinge back at double price; names the stadium|Standard;With cart [alt];Smile that has seen better ordinances [alt]
+CHR|Operator Hasegawa|Dead operator [alt]|Ep1|S|Dead operator whose recorder is retrieved [alt]|Voice only
+CHR|Luna|Operator|Cold open|H|Selling hinges, plays the recorder|Surface outfit;Glove off
+CHR|Plack|Operator|Ep2|H|Reads every noticeboard, checks classrooms|Surface outfit;Satchel and ledger [alt]
+CHR|Kuu|Operator|Ep2|H|Hunts the lost-and-found; drives the fire truck|Surface outfit;Driving
+CHR|Dispatch (voice)|Voice character|Ep1|S|Job 5120|Voice only
+CRE|Basic angel|Enemy / angel|Ep1|H|Standing on rooftops facing the same direction, then west|Rooftop still;West-facing rows;Attacking
+CRE|Ranged angel|Enemy / angel|Ep2|S|School and garage|Standard
+CRE|Assassin angel|Enemy / angel|Ep5|S|Ambush in the ward|Standard;Bedside standing [alt]
+CRE|Brute with banner|Enemy / mini-boss|Ep7|S|The Crowd's left flank|Banner
+CRE|Heavy angel|Enemy / mini-boss|Ep7|S|Stadium bowl|Standard
+CRE|The Crowd|Boss|Ep8|H|Fused angels rising out of the stands; shoulder arms, weak points at field centre|Phase 1 shoulder arms;Phase 2 stands rise;Phase 3 drop and charge [alt];Falls slowly [alt]
+CRE|Angel rows facing west|Enemy / scenery|Ep4|H|Surface angels placed in rows facing west, not attacking unless approached|Rows;Seated in stadium [alt];Standing wave [alt]
+VFX|Dust light|VFX / atmosphere|Ep1|H|Floating dust and ash that drifts|Day;Dusk
+VFX|Halo of the Crowd|VFX|Ep8|S|Halo the size of a lamp post spins over its head [alt]|Spinning
+VFX|Angels merging|VFX|Ep7|S|Limbs fold into limbs, halos link [alt]|Merging
+VFX|Black hole / white hole (boss)|VFX / ability|Ep8|S|Pull adds, shove boss [alt]|Standard
+VFX|Weak point glow|VFX|Ep8|S|Glowing weak points on shoulders [alt]|Standard
+WTH|Fog and ash|Weather|Ep1|H|Fog, dust, ash drift|Light;Heavy
+WTH|Overcast bruise-coloured sky|Weather|Ep1|S|Sky of the surface [alt]|Standard
+LGT|Surface dust-light|Lighting|Ep1|H|Dusty flat light|Day;Dusk
+LGT|Dead floodlights|Lighting|Ep6|B|Dead overhead [alt]|Off
+AUD|Wind and drifting dust|Audio / ambience|Ep1|H|Surface wind|Standard
+AUD|Recorder voice|Audio / voice|Ep4|H|Thin, young recorded voice; faint clock ticking in the back (stinger)|Day nine;Entry nineteen / twenty [alt];Entry twenty-one [alt];Clock tick
+AUD|Hatch clang|Audio / sfx|Cold open|S|Hatch kick and wrench|Standard
+AUD|Fire truck engine|Audio / sfx|Ep6|S|Starts|Idle;Driving
+AUD|Cat meow|Audio / sfx|Ep5|B|?Standard~implied by the cat in the ward|Standard
+AUD|Long soft hum|Audio / sfx|Ep4|B|Distant hum after recording [alt]|Standard
+UI|Hatch order puzzle|UI|Chapter beats|S|Hatches open only in numeric order; room numbers from the school|Standard
+UI|Haggle mini-game|UI|Ep3|S|Luna's nonsense reduces the price 5% each time [alt]|Standard
+UI|Scan action prompt|UI|Ep6|B|Examine recorder casing [alt]|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+CRE|Fused angel (Crowd component)|Enemy|Tripo #45|B|Mass of angels in the stands [inferred: Tripo list #45; not named in the chapter text]|
+CRE|Angel in formation (facing west)|Enemy|Tripo #46|B|Rows on rooftops [inferred: Tripo list #46; not named in the chapter text]|
+PRP|Green lunch box with a bear|Prop|Tripo #38|B|Item 14 [inferred: Tripo list #38; likely the same asset as PRP-0048 Green lunch box with bear drawing; kept as its own entry so no Tripo row is dropped]|
+VEH|Police car (wreck)|Vehicle|Tripo #51|B|Station [inferred: Tripo list #51; not named in the chapter text]|
+VEH|Ambulance (wreck)|Vehicle|Tripo #52|B|Hospital [inferred: Tripo list #52; not named in the chapter text]|
+ARC|Surface hatch (numbered)|Set piece / modular kit|Tripo #28|B|Sixteen round steel hatches [inferred: Tripo list #28; not named in the chapter text]|
+ARC|School building (ruin)|Set piece / modular kit|Tripo #29|B|Outer World school [inferred: Tripo list #29; not named in the chapter text]|
+ARC|Classroom set|Set piece / modular kit|Tripo #30|B|Desks and noticeboard [inferred: Tripo list #30; not named in the chapter text]|
+ARC|Schoolyard fence and gate|Set piece / modular kit|Tripo #31|B|Where the peddler stands [inferred: Tripo list #31; not named in the chapter text]|
+ARC|Hospital ward set|Set piece / modular kit|Tripo #33|B|Beds with name cards [inferred: Tripo list #33; not named in the chapter text]|
+ARC|Stadium bowl (broken)|Set piece / modular kit|Tripo #34|B|The Crowd's arena [inferred: Tripo list #34; not named in the chapter text]|
+ARC|Toppled radio tower|Set piece / modular kit|Tripo #35|B|Crosses the flooded crater [inferred: Tripo list #35; likely the same asset as ARC-0079 Radio tower (toppled); kept as its own entry so no Tripo row is dropped]|
+ARC|Flooded crater|Set piece / modular kit|Tripo #36|B|Swim or walk the tower [inferred: Tripo list #36; likely the same asset as ENV-0022 Flooded crater with toppled tower; kept as its own entry so no Tripo row is dropped]|
+ARC|Broken wall segment (Ruins)|Set piece / modular kit|Tripo #740|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #740; not named in the chapter text]|
+ARC|Rubble mound (teal jump-up) (Ruins)|Set piece / modular kit|Tripo #741|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #741; not named in the chapter text]|
+ARC|Collapsed stair (Ruins)|Set piece / modular kit|Tripo #742|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #742; not named in the chapter text]|
+ARC|School desk set (Ruins)|Set piece / modular kit|Tripo #743|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #743; not named in the chapter text]|
+ARC|Chalkboard (Ruins)|Set piece / modular kit|Tripo #744|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #744; not named in the chapter text]|
+ARC|Hospital bed (Ruins)|Set piece / modular kit|Tripo #745|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #745; not named in the chapter text]|
+ARC|Gurney (Ruins)|Set piece / modular kit|Tripo #746|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #746; not named in the chapter text]|
+ARC|Stadium seat block (Ruins)|Set piece / modular kit|Tripo #747|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #747; not named in the chapter text]|
+ARC|Cracked road tile (Ruins)|Set piece / modular kit|Tripo #748|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #748; not named in the chapter text]|
+ARC|Dead tree (Ruins)|Set piece / modular kit|Tripo #749|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #749; not named in the chapter text]|
+ARC|Burnt car chassis (Ruins)|Set piece / modular kit|Tripo #750|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #750; not named in the chapter text]|
+ARC|Barricade of sandbags (Ruins)|Set piece / modular kit|Tripo #751|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #751; not named in the chapter text]|
+ARC|Shattered window frame (Ruins)|Set piece / modular kit|Tripo #752|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #752; not named in the chapter text]|
+ARC|Fire-station pole (Ruins)|Set piece / modular kit|Tripo #753|B|Modular dressing piece for Ch 2 Ruins [inferred: Tripo list #753; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

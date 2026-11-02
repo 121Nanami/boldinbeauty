@@ -1,0 +1,9 @@
+<!--META {"dur": 4.8, "alpha": true, "kind": "fx", "sheet": "12", "n": 3, "title": "Move 1: Blackhole", "slug": "move1-blackhole", "who": "luna", "label": "SOURCE", "note": "0.5 s windup, orbits 3 s, shoots out, mini supernova"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx12-03-move1-blackhole", "title": "Move 1: Blackhole", "dur": 4.8, "layers": [{"fx": "orbit", "at": "cas", "t0": 0.5, "t1": 3.0, "n": 1, "kind": "black", "r": 120, "col": "#4B2C9E", "col2": "#FFD23F", "s": 34, "dy": -150, "sp": 3.6, "pull": true}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 3.0, "n": 1, "kind": "ember", "col": "#4B2C9E", "col2": "#FFD23F", "size": 34, "dist": 680, "sp": 1300, "ir": 140}, {"fx": "blast", "at": "en", "t0": 3.55, "r": 420, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 3}, {"fx": "flash", "at": "mid", "t0": 3.55, "D": 0.2, "a": 0.5, "col": "#FFD23F"}], "enemy": true, "cas": true, "note": "0.5 s windup, orbits 3 s, shoots out, mini supernova", "label": "SOURCE", "who": "Luna", "slot": "Move 1", "hit": 3.55, "sfx": "boom", "n": 3, "sheet": "12"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

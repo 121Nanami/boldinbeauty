@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "17", "n": 15, "title": "Stargazer Move 2: Constellation", "slug": "star-constellation", "who": "star", "label": "PROPOSED", "note": "Three orbiting stars firing at enemies for 10 s"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-15-star-constellation", "title": "Stargazer Move 2: Constellation", "dur": 3.6, "layers": [{"fx": "orbit", "at": "cas", "n": 3, "r": 140, "dy": -250, "kind": "glow", "col": "#64E8FF", "col2": "#F7F4FA", "s": 14, "flat": 0.35, "sp": 2.0}, {"fx": "volley", "at": "cas", "oy": -250, "ox": -100, "t0": 1.0, "n": 1, "kind": "tracer", "col": "#64E8FF", "col2": "#F7F4FA", "dist": 680, "sp": 3000, "conv": 0.2, "ir": 70}, {"fx": "volley", "at": "cas", "oy": -250, "ox": 60, "t0": 1.6, "n": 1, "kind": "tracer", "col": "#64E8FF", "col2": "#F7F4FA", "dist": 680, "sp": 3000, "conv": 0.2, "ir": 70}, {"fx": "volley", "at": "cas", "oy": -250, "ox": -20, "t0": 2.2, "n": 1, "kind": "tracer", "col": "#64E8FF", "col2": "#F7F4FA", "dist": 680, "sp": 3000, "conv": 0.2, "ir": 70}], "enemy": true, "cas": true, "note": "Three orbiting stars firing at enemies for 10 s", "label": "PROPOSED", "who": "Stargazer", "slot": "Move 2", "hit": 1.0, "sfx": "zap", "n": 15, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

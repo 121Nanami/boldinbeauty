@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "15", "n": 9, "title": "Arita Special: Natures Curse", "slug": "arita-special-natures-curse", "who": "arita", "label": "DERIVED", "note": "Toggle on herself; soul-link tether drains each attacker"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-09-arita-special-natures-curse", "title": "Arita Special: Natures Curse", "dur": 3.4, "layers": [{"fx": "aura", "at": "cas", "col": "#FF3D8D", "col2": "#F7F4FA", "r": 90, "h": 260}, {"fx": "status", "at": "en", "kind": "link", "col": "#FF3D8D", "t0": 0.8, "shell": false}, {"fx": "burst", "at": "en", "oy": -150, "t0": 1.2, "n": 10, "col": "#FF3D8D", "cols": ["#FF3D8D", "#F7F4FA"], "spd": 120, "shape": "dot", "g": -100, "size": 6, "life": 1.2}], "enemy": true, "cas": true, "note": "Toggle on herself; soul-link tether drains each attacker", "label": "DERIVED", "who": "Arita", "slot": "Special (toggle)", "hit": 0.3, "sfx": "chime", "n": 9, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

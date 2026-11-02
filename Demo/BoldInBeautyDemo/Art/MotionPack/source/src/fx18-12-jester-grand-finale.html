@@ -1,0 +1,9 @@
+<!--META {"dur": 7.6, "alpha": true, "kind": "fx", "sheet": "18", "n": 12, "title": "Jester Ultimate: Grand Finale", "slug": "jester-grand-finale", "who": "jester", "label": "PROPOSED", "note": "All five acts in a row, then a curtain call"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-12-jester-grand-finale", "title": "Jester Ultimate: Grand Finale", "dur": 7.6, "layers": [{"fx": "strike", "at": "mid", "t0": 0.1, "n": 2, "col": "#FF3D8D", "col2": "#F7F4FA", "len": 460}, {"fx": "burst", "at": "cas", "oy": -150, "t0": 0.9, "n": 30, "cols": ["#FF3D8D", "#64E8FF", "#7657FF", "#F7F4FA"], "spd": 360, "shape": "sq", "size": 8}, {"fx": "dash", "at": "mid", "t0": 1.8, "dist": 420, "col": "#64E8FF", "col2": "#F7F4FA", "dd": 0.15, "trail": 260}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 2.7, "n": 3, "gap": 0.08, "kind": "needle", "col": "#7657FF", "dist": 660, "spread": 160, "ir": 60}, {"fx": "dome", "at": "cas", "t0": 3.5, "t1": 4.5, "rx": 170, "ry": 200, "col": "#64E8FF", "hits": [0.3]}, {"fx": "slabs", "at": "mid", "t0": 4.6, "n": 4, "col": "#FF3D8D", "col2": "#7657FF", "hold": 1.6}, {"fx": "blast", "at": "mid", "t0": 5.8, "r": 1000, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "flash", "at": "mid", "t0": 5.8, "D": 0.3, "a": 0.8}], "enemy": true, "cas": true, "note": "All five acts in a row, then a curtain call", "label": "PROPOSED", "who": "Jester", "slot": "Ultimate", "hit": 0.1, "sfx": "boom", "n": 12, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

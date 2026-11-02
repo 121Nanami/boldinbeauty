@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "17", "n": 3, "title": "Blood Move 2: Clot Chains", "slug": "blood-clot-chains", "who": "blood", "label": "PROPOSED", "note": "Chains pull everything to one spot; root"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-03-blood-clot-chains", "title": "Blood Move 2: Clot Chains", "dur": 3.4, "layers": [{"fx": "chains", "at": "mid", "n": 6, "r": 560, "col": "#FF3D8D", "ty": -120, "pull": 0.6}, {"fx": "status", "at": "mid", "t0": 1.0, "kind": "root", "col": "#FF3D8D", "col2": "#F7F4FA", "shell": false}], "enemy": true, "cas": false, "note": "Chains pull everything to one spot; root", "label": "PROPOSED", "who": "Blood", "slot": "Move 2", "hit": 0.6, "sfx": "hit", "n": 3, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

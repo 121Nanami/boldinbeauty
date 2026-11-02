@@ -1,0 +1,9 @@
+<!--META {"dur": 7.2, "alpha": true, "kind": "fx", "sheet": "17", "n": 18, "title": "Stargazer Ultimate: Cosmic Collapse", "slug": "star-cosmic-collapse", "who": "star", "label": "PROPOSED", "note": "12 meteors over 4.4 s, then a collapse"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-18-star-cosmic-collapse", "title": "Stargazer Ultimate: Cosmic Collapse", "dur": 7.2, "layers": [{"fx": "meteors", "at": "mid", "n": 12, "gap": 0.37, "col": "#F7F4FA", "col2": "#64E8FF", "area": 800, "ir": 240}, {"fx": "hole", "at": "mid", "t0": 4.6, "oy": -200, "kind": "white", "s": 90, "t1": 5.6}, {"fx": "suck", "at": "mid", "t0": 4.6, "r": 900, "col": "#7657FF", "col2": "#F7F4FA", "core": true, "t1": 5.6}, {"fx": "blast", "at": "mid", "t0": 5.6, "r": 1000, "col": "#7657FF", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "flash", "at": "mid", "t0": 5.6, "D": 0.3, "a": 0.8}], "enemy": true, "cas": true, "note": "12 meteors over 4.4 s, then a collapse", "label": "PROPOSED", "who": "Stargazer", "slot": "Ultimate", "hit": 0.5, "sfx": "boom", "n": 18, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

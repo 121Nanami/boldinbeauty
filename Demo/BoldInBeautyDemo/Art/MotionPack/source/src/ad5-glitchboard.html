@@ -1,0 +1,123 @@
+<!--META {"dur":20,"kind":"ad","music":"broken","title":"In-game ad 05: broken black board, violent glitch (loops)"} -->
+<style>
+  #frame { position: absolute; inset: 0; background: #090B12; }
+  #ghost { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; opacity: .1; }
+</style>
+<div id="frame"></div>
+<div class="abs" style="left:0;top:0;opacity:0.01;font-size:24px;color:#090B12"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span class="mono">A</span><span style="font-family:Impact">A</span></div>
+<canvas id="scr"></canvas>
+<canvas id="ovl"></canvas>
+<script>
+(function () {
+  /* The whole board is drawn per frame on one canvas from deterministic noise.
+     Behaviour is driven by an "intensity" curve: idle dead-black with burn-in and dead pixels, then violent bursts. */
+  var x = IG.canvas("scr"), o = IG.canvas("ovl"), Hh = IG.hash;
+  // offscreen source panels the board flashes between (fragments of other ads it used to show)
+  function panel(draw) { var c = document.createElement("canvas"); c.width = 1920; c.height = 1080; var g = c.getContext("2d"); draw(g); return c; }
+  function bigText(g, txt, col, size, y, x0, sk) {
+    g.save(); g.translate(x0 || 960, y); if (sk) g.transform(1, 0, -0.14, 1, 0, 0);
+    g.font = size + "px 'League Gothic'"; g.textAlign = "center"; g.fillStyle = col; g.fillText(txt, 0, 0); g.restore();
+  }
+  ["200px 'League Gothic'", "200px 'Archivo Black'", "700 60px 'JetBrains Mono'", "200px Impact"].forEach(function (f) { try { document.fonts.load(f); } catch (e) {} });
+  var P = null, Pok = false;
+  function buildP() { P = [
+    panel(function (g) { g.fillStyle = "#090B12"; g.fillRect(0, 0, 1920, 1080); g.fillStyle = "#FF3D8D"; g.save(); g.translate(960, 560); g.rotate(-0.21); g.fillRect(-1400, -170, 2800, 340); g.restore(); bigText(g, "OBEY THE PLAN.", "#F7F4FA", 300, 420, 960, 1); bigText(g, "TRUST THE OPERATORS", "#090B12", 210, 650, 960, 1); }),
+    panel(function (g) { var gr = g.createRadialGradient(960, 480, 10, 960, 480, 900); gr.addColorStop(0, "#3a2a7a"); gr.addColorStop(1, "#090B12"); g.fillStyle = gr; g.fillRect(0, 0, 1920, 1080);
+      g.font = "190px 'Archivo Black'"; g.textAlign = "center"; g.fillStyle = "#F7F4FA"; g.fillText("ASCEND™", 960, 560); bigText(g, "$25,000 / MONTH", "#FF3D8D", 170, 760); }),
+    panel(function (g) { g.fillStyle = "#151925"; g.fillRect(0, 0, 1920, 1080); g.strokeStyle = "rgba(100,232,255,.2)"; for (var i = 0; i < 1920; i += 60) { g.beginPath(); g.moveTo(i, 0); g.lineTo(i, 1080); g.stroke(); }
+      bigText(g, "YOUR BRAND.", "#F7F4FA", 260, 440, 700, 1); bigText(g, "ON THE FRONT LINE.", "#FF3D8D", 260, 700, 860, 1); }),
+    panel(function (g) { var cols = ["#FF3D8D", "#7657FF", "#64E8FF"]; for (var i = 0; i < 40; i++) { g.fillStyle = cols[i % 3]; g.save(); g.translate(0, 0); g.rotate(-0.5); g.fillRect(-600 + i * 90, -400, 90, 3000); g.restore(); }
+      g.font = "220px Impact"; g.textAlign = "center"; g.lineWidth = 10; g.strokeStyle = "#090B12"; g.strokeText("MEGA DEALS!!!", 960, 620); g.fillStyle = "#F7F4FA"; g.fillText("MEGA DEALS!!!", 960, 620); }),
+    panel(function (g) { var bars = ["#F7F4FA", "#64E8FF", "#7657FF", "#FF3D8D", "#151925", "#64E8FF", "#F7F4FA"]; for (var i = 0; i < 7; i++) { g.fillStyle = bars[i]; g.fillRect(i * 1920 / 7, 0, 1920 / 7 + 1, 760); }
+      for (var j = 0; j < 7; j++) { g.fillStyle = bars[6 - j]; g.fillRect(j * 1920 / 7, 760, 1920 / 7 + 1, 90); } g.fillStyle = "#090B12"; g.fillRect(0, 850, 1920, 230);
+      g.font = "700 64px 'JetBrains Mono'"; g.textAlign = "center"; g.fillStyle = "#F7F4FA"; g.fillText("NO SIGNAL", 960, 990); })
+  ]; }
+  // intensity keyframes (seconds -> 0..1). Loops cleanly: 0 at both ends.
+  var K = [[0, 0.05], [1.2, 0.05], [1.4, 0.9], [2.0, 0.3], [2.6, 1], [3.1, 0.2], [4.6, 0.08], [5.0, 0.6], [5.6, 1], [6.4, 0.9], [6.8, 0.0], [8.2, 0.0], [8.5, 1], [9.4, 0.7], [10.0, 0.95],
+    [10.6, 0.1], [12.0, 0.15], [12.3, 1], [13.6, 1], [14.2, 0.4], [14.8, 0.9], [15.4, 0.05], [17.2, 0.05], [17.5, 0.85], [18.1, 1], [18.9, 0.3], [19.4, 0.05], [20, 0.05]];
+  function inten(t) { for (var i = 1; i < K.length; i++) if (t <= K[i][0]) { var a = K[i - 1], b = K[i], u = (t - a[0]) / (b[0] - a[0]); return a[1] + (b[1] - a[1]) * u; } return 0.05; }
+  // blackout windows (board dies completely)
+  function dead(t) { return (t > 6.8 && t < 8.2) || (t > 15.5 && t < 15.9); }
+  function draw(t) {
+    if (!Pok) { Pok = document.fonts.status === "loaded"; buildP(); }
+    var f = Math.floor(t * 30), I = inten(t), W = 1920, H = 1080;
+    x.setTransform(2, 0, 0, 2, 0, 0); x.globalAlpha = 1; x.globalCompositeOperation = "source-over";
+    x.fillStyle = "#090B12"; x.fillRect(0, 0, W, H);
+    if (dead(t)) {
+      // dead board: faint burn-in ring + error line blinking
+      x.strokeStyle = "rgba(255,61,141,.06)"; x.lineWidth = 30; x.beginPath(); x.arc(960, 520, 160, 0, 6.283); x.stroke();
+      if (f % 20 < 10) { x.font = "700 30px 'JetBrains Mono'"; x.fillStyle = "rgba(255,61,141,.75)"; x.textAlign = "left"; x.fillText("ERR 0x3D8D // PANEL FAULT // RETRYING", 70, 1010); }
+    } else {
+      // pick the panel this frame shows (switches faster when intense)
+      var rate = I > 0.6 ? 2 : I > 0.25 ? 6 : 30;
+      var pi = Math.floor(Hh(Math.floor(f / rate), 77) * P.length);
+      var vis = I < 0.12 ? 0.08 + 0.05 * Hh(f, 3) : 0.35 + 0.65 * I;
+      x.globalAlpha = vis;
+      // vertical roll
+      var roll = I > 0.5 && Hh(Math.floor(f / 4), 5) > 0.6 ? (f * 37) % H : 0;
+      x.drawImage(P[pi], 0, 0, 1920, 1080, 0, roll, W, H); if (roll) x.drawImage(P[pi], 0, 0, 1920, 1080, 0, roll - H, W, H);
+      x.globalAlpha = 1;
+      // horizontal tear slices: copy bands of the canvas with x offsets (stronger with intensity)
+      var nS = Math.floor(2 + I * 26);
+      for (var i = 0; i < nS; i++) {
+        var y = Hh(i, f * 3 + 1) * H, h = 6 + Hh(i, f * 3 + 2) * (20 + 140 * I), dx = (Hh(i, f * 3 + 3) - 0.5) * 2 * (20 + 520 * I);
+        x.drawImage(x.cv, 0, y * 2, W * 2, h * 2, dx, y, W, h);
+      }
+      // RGB channel ghosts
+      if (I > 0.3) {
+        x.globalCompositeOperation = "lighter"; x.globalAlpha = 0.35 * I;
+        var sh = 6 + 40 * I * Hh(f, 9);
+        x.drawImage(P[(pi + 1) % P.length], sh, 0, W, H); x.globalAlpha = 0.25 * I; x.drawImage(P[(pi + 2) % P.length], -sh * 1.5, 4, W, H);
+        x.globalCompositeOperation = "source-over"; x.globalAlpha = 1;
+      }
+      // macroblock corruption
+      var nB = Math.floor(I * 34);
+      for (var b = 0; b < nB; b++) {
+        var bx = Math.floor(Hh(b, f + 11) * 30) * 64, by = Math.floor(Hh(b, f + 12) * 17) * 64, r = Hh(b, f + 13);
+        x.fillStyle = r > 0.85 ? "#FF3D8D" : r > 0.75 ? "#64E8FF" : r > 0.65 ? "#7657FF" : r > 0.58 ? "#F7F4FA" : "#090B12";
+        x.globalAlpha = 0.5 + 0.5 * Hh(b, f + 14); x.fillRect(bx, by, 64 * (1 + Math.floor(r * 4)), 64); x.globalAlpha = 1;
+      }
+      // pixel-sort streaks
+      for (var s = 0; s < Math.floor(I * 40); s++) {
+        var sx = Hh(s, f + 21) * W, sy = Hh(s, f + 22) * H, sl = 80 + 600 * Hh(s, f + 23);
+        x.fillStyle = Hh(s, f + 24) > 0.5 ? "rgba(247,244,250,.55)" : "rgba(255,61,141,.55)"; x.fillRect(sx, sy, 3, sl);
+      }
+      // full-frame flash/invert on peaks
+      if (I > 0.85 && Hh(f, 31) > 0.7) { x.globalCompositeOperation = "difference"; x.fillStyle = "#F7F4FA"; x.fillRect(0, 0, W, H); x.globalCompositeOperation = "source-over"; }
+      // error text bursts
+      if (I > 0.4 && Hh(Math.floor(f / 3), 41) > 0.5) {
+        var msgs = ["SIGNAL LOST", "ERR 0x3D8D", "PANEL FAULT", "DATA CORRUPT", "NO CARRIER", "天使", "R̷E̷B̷O̷O̷T̷", "MEMORY 0x0000FF3D"];
+        x.font = "700 " + Math.floor(30 + 50 * Hh(f, 42)) + "px 'JetBrains Mono'"; x.textAlign = "left";
+        x.fillStyle = Hh(f, 43) > 0.5 ? "#FF3D8D" : "#64E8FF";
+        x.fillText(msgs[Math.floor(Hh(f, 44) * msgs.length)], Hh(f, 45) * 1400, 100 + Hh(f, 46) * 900);
+      }
+    }
+    // always: dead pixel clusters, a stuck column, scanlines
+    x.globalAlpha = 1;
+    for (var d = 0; d < 26; d++) { x.fillStyle = d % 3 ? "#F7F4FA" : d % 2 ? "#FF3D8D" : "#64E8FF"; x.fillRect(Hh(d, 501) * W, Hh(d, 502) * H, 3 + 4 * Hh(d, 503), 3); }
+    x.fillStyle = "rgba(255,61,141,.5)"; x.fillRect(1311, 0, 2, H);
+    x.fillStyle = "rgba(100,232,255,.25)"; x.fillRect(402, 0, 1, H);
+    // crack: drawn on overlay (static)
+  }
+  IG.clock(tl, DUR, draw);
+  // overlay: cracked glass, bezel, scanlines and a violent shake on peaks
+  o.strokeStyle = "rgba(247,244,250,.55)"; o.lineWidth = 2;
+  function crack(cx, cy, n, len, seed) {
+    for (var i = 0; i < n; i++) {
+      var a = Hh(i, seed) * 6.283, px = cx, py = cy; o.beginPath(); o.moveTo(px, py);
+      for (var k = 0; k < 7; k++) { a += (Hh(i * 7 + k, seed + 1) - 0.5) * 0.7; var l = len * (0.4 + Hh(i * 7 + k, seed + 2)) / 4; px += Math.cos(a) * l; py += Math.sin(a) * l; o.lineTo(px, py); }
+      o.stroke();
+    }
+    o.beginPath(); for (var r = 0; r < 3; r++) { o.moveTo(cx + 20 + r * 26, cy); o.arc(cx, cy, 20 + r * 26, 0, 6.283); } o.stroke();
+  }
+  crack(1480, 300, 14, 700, 7); crack(380, 820, 9, 420, 19);
+  o.fillStyle = "rgba(247,244,250,.04)"; for (var y = 0; y < 1080; y += 4) o.fillRect(0, y, 1920, 1);
+  o.strokeStyle = "#151925"; o.lineWidth = 28; o.strokeRect(14, 14, 1892, 1052);
+  o.strokeStyle = "rgba(100,232,255,.25)"; o.lineWidth = 2; o.strokeRect(30, 30, 1860, 1020);
+  IG.clock(tl, DUR, function (t) {
+    var I = inten(t), f = Math.floor(t * 30);
+    var k = I > 0.5 ? (I - 0.5) * 2 * 26 : 0;
+    gsap.set(["#scr"], { x: (Hh(f, 61) - 0.5) * 2 * k, y: (Hh(f, 62) - 0.5) * 2 * k * 0.6, skewX: I > 0.9 && Hh(f, 63) > 0.7 ? (Hh(f, 64) - 0.5) * 16 : 0 });
+  });
+})();
+</script>

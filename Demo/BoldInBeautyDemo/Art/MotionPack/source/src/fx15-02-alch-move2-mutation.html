@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "15", "n": 2, "title": "Alchemist Move 2: Mutation", "slug": "alch-move2-mutation", "who": "alch", "label": "DERIVED", "note": "Syringe: uninfected explode, infected mutate"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-02-alch-move2-mutation", "title": "Alchemist Move 2: Mutation", "dur": 3.2, "layers": [{"fx": "volley", "at": "cas", "oy": -150, "n": 1, "kind": "needle", "col": "#64E8FF", "dist": 640, "sp": 1800, "conv": 0}, {"fx": "blast", "at": "en", "ox": -110, "t0": 1.2, "r": 260, "col": "#7657FF", "col2": "#FF3D8D", "rings": 2}, {"fx": "status", "at": "en", "ox": 120, "t0": 0.5, "kind": "mutate", "col": "#FF3D8D", "col2": "#F7F4FA"}], "enemy": true, "cas": true, "note": "Syringe: uninfected explode, infected mutate", "label": "DERIVED", "who": "Alchemist", "slot": "Move 2", "hit": 0.45, "sfx": "hit", "n": 2, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

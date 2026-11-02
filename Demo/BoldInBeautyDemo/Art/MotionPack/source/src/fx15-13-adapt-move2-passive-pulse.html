@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "15", "n": 13, "title": "Adapt Move 2: Adaption Passives", "slug": "adapt-move2-passive-pulse", "who": "adapt", "label": "DERIVED", "note": "Every 30 s: a copy pulse, or a 25% heal"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-13-adapt-move2-passive-pulse", "title": "Adapt Move 2: Adaption Passives", "dur": 3.0, "layers": [{"fx": "pulsehex", "at": "cas", "h": 150, "r": 380, "col": "#64E8FF", "n": 3}, {"fx": "burst", "at": "cas", "t0": 1.0, "n": 26, "cols": ["#64E8FF", "#F7F4FA"], "spd": 180, "a0": -2.6, "a1": -0.5, "g": -200, "shape": "dot", "size": 8, "life": 1.2, "y": 0}, {"fx": "aura", "at": "cas", "t0": 1.0, "col": "#F7F4FA", "col2": "#64E8FF", "r": 100, "h": 260, "t1": 2.4, "al": 0.5}], "enemy": true, "cas": true, "note": "Every 30 s: a copy pulse, or a 25% heal", "label": "DERIVED", "who": "Adapt", "slot": "Move 2", "hit": 0.1, "sfx": "chime", "n": 13, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

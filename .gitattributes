@@ -1,0 +1,7 @@
+# Public snapshot. Included images, audio and Unreal assets are stored directly.
+# The development repository tracks those binaries with Git LFS.
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf

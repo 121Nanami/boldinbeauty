@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "14", "n": 11, "title": "Suppression", "slug": "suppression", "who": "narr", "label": "SOURCE", "note": "Giant blue explosion on parry"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-11-suppression", "title": "Suppression", "dur": 3.0, "layers": [{"fx": "blast", "at": "mid", "r": 760, "col": "#3D7BFF", "col2": "#F7F4FA", "rings": 4, "flat": false, "rays": 24}, {"fx": "flash", "at": "mid", "D": 0.2, "a": 0.7, "col": "#3D7BFF"}, {"fx": "speed", "at": "mid", "D": 0.6, "col": "#3D7BFF"}], "enemy": true, "cas": true, "note": "Giant blue explosion on parry", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Alt (parry)", "hit": 0.05, "sfx": "boom", "n": 11, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

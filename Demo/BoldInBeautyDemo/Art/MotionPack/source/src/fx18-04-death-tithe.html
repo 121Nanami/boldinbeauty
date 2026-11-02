@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "18", "n": 4, "title": "Death Move 3: Tithe", "slug": "death-tithe", "who": "death", "label": "PROPOSED", "note": "Soul spend; marked enemies within range dragged in"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-04-death-tithe", "title": "Death Move 3: Tithe", "dur": 3.6, "layers": [{"fx": "pips", "at": "cas", "n": 3, "h": 320, "col": "#FF3D8D"}, {"fx": "chains", "at": "mid", "n": 5, "r": 720, "col": "#7657FF", "ty": -100, "pull": 0.6, "t0": 0.6}, {"fx": "status", "at": "mid", "t0": 1.4, "kind": "doom", "col": "#FF3D8D", "shell": false}], "enemy": true, "cas": true, "note": "Soul spend; marked enemies within range dragged in", "label": "PROPOSED", "who": "Death", "slot": "Move 3", "hit": 0.6, "sfx": "hit", "n": 4, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

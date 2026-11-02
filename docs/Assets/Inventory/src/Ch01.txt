@@ -1,0 +1,130 @@
+# Ch01 Neo Tokyo. Sources: Chapters/Ch01.md, Scripts/Ch01.md (primary); Scripts/Ch01_NeoTokyo.md (older alternate, [alt]) 
+ENV|Neo Tokyo (city, 2009)|Location / city|Cold open|H|Rain-soaked city seen from above, signs in three languages, rain for 31 days|Night rain;Dawn thin (stinger);Fog (ep7 plaza);?Dry/clear version~weather bulletin calls the rain a schedule so a dry state is the contrast
+ENV|Rooftop above the Tanabe Arcade|Location / rooftop|Ep1|H|Where Luna sleeps on the water tank; fire escape down to the street|Night rain;Evening (ep6 water tank scene);Dawn (stinger)
+ENV|Back-street, Tanabe Arcade|Location / street|Ep2|S|Combat tutorial street|Rain;Wet
+ENV|Arcade interior, prize counter|Location / interior|Ep3|S|Where the claw machine summons Kuu; shutter opened by a key|Shutter closed;Shutter open
+ENV|Loading dock behind the arcade|Location / dock|Ep4|S|Where the humming crate sits|Rain;Crate open
+ENV|Rooftops of the Tanabe district|Location / rooftops|Ep5|H|Climb tutorial, fire escapes, hanging sign as bridge|Rain;Dusk
+ENV|Market roof (stealth segment)|Location / rooftop|Ep6|S|Stealth across a market roof; noodle seller hints the drop|Evening
+ENV|Sponsor kiosk plaza (drop point)|Location / plaza|Ep7|H|Dense fog plaza, kiosk, choir on the roofs|Fog;Choir present;After boss (crater)
+ENV|Neon Choir boss plaza|Location / arena|Ep8|H|Plaza boss arena ringed by neon-haloed singers|Phase 1 ring;Phase 2 conductor dive;Cleared
+ENV|Neo Tokyo skyline vista|Location / backdrop|Cold open|B|Tower tops, signs, billboards seen on the cold open camera move|Night rain;Dawn
+ARC|Tanabe Arcade|Architecture / building|Ep1|H|Arcade whose roof, back street, shutter and interior are used|Exterior;Interior;Shutter variants
+ARC|Fire escape|Architecture / structural|Ep1|S|Climbed down to the street in the tutorial|Wet;Rusted;?Broken section~climb tutorial implies gaps
+ARC|Rooftop ledges and gaps|Architecture / traversal kit|Ep5|S|Roof-to-roof jumps, ledges|Wet gravel;Rain
+ARC|Hanging sign bridge|Architecture / traversal|Ep5|S|A hanging sign used as a bridge|Intact
+ARC|Rope-and-hook segment|Architecture / traversal|Ep5|S|Climb tutorial rope and hook|Rope;Hook point
+ARC|Arcade shutter|Architecture / door|Ep2|S|Opened by the key dropped by the last angel|Closed;Open
+ARC|Loading dock|Architecture / structure|Ep4|S|Behind the arcade|Standard
+ARC|Water tank (Luna's)|Architecture / rooftop|Ep1|H|Luna's sleeping spot, black umbrella|Day;Night;Dawn with sandwich
+ARC|Rooftop vents and cover|Architecture / cover|Ep5|B|Cover on rooftop for ranged-angel fights [alt]|Standard
+ARC|Neon billboard stage|Architecture / boss set|Ep8|S|Decommissioned billboard stage with neon tubes [alt]|Intact;Collapsed
+PRP|Black umbrella|Prop|Cold open|H|Over Luna's face on the tank|Open;Slung over shoulder;Wet
+PRP|Pager (dispatch voice terminal)|Prop|Ep1|H|Goes off against Luna's ribs; job 4471|Buzzing;Cracked display [alt]
+PRP|Job card 4471|Prop / document|Archive|S|"Guard one crate. Do not open. Pay: lunch. Sender: [redacted]. Client mark: wing."|Standard
+PRP|Sponsor kiosk receipt|Prop / document|Archive|B|"Item: umbrella (1). Price: yes."|Standard
+PRP|Neo Tokyo weather bulletin|Prop / document|Archive|B|"Rain for the next 31 days..."|Standard
+PRP|Vending machine that is also a shrine|Prop / set dressing|Cold open|S|Passed on the way down the tower|Lit;Rain-wet
+PRP|Smiling-woman umbrella-bottle billboard|Prop / signage|Cold open|S|Billboard of a woman holding an umbrella-shaped bottle|Lit;Neon
+PRP|Neon signs (three languages)|Prop / signage|Cold open|S|Signs in three languages|Neon on;Flicker-free off state;Rain-blurred
+PRP|Claw machine|Prop / arcade|Ep3|H|Light pours out of it; Kuu falls out|Idle;Summoning light;After summon
+PRP|Prize counter|Prop / set dressing|Ep3|B|Arcade counter|Standard
+PRP|Shop (BLUE marker)|Prop / shop|Ep3|S|Short shop after the arcade fight|Open
+PRP|Crate with sponsor wing stencil|Prop / hero|Ep4|H|Humming crate, knocks from inside, small wing mark|Closed humming;Opened;Empty
+PRP|Crowbar|Prop / tool|Ep4|S|Luna pries the lid with it|Standard
+PRP|Ring on a chain|Prop / jewellery|Ep4|S|Around Plack's neck|On chain
+PRP|Bowline rope|Prop / tool|Ep5|S|Kuu's knot lesson, rope he carries|Coiled;Tied bowline
+PRP|Pipe (Luna hangs from)|Prop / structural|Ep5|B|Luna hangs off a pipe above a forty-metre drop|Wet
+PRP|YELLOW archive pickup marker|UI-world marker|Archive|S|Yellow pickup for documents|Idle
+PRP|PURPLE dialogue scene marker|UI-world marker|Ep4|B|Non-combat dialogue scene marker|Idle
+PRP|BLUE shop / NPC marker|UI-world marker|Ep3|B|Marks shops and the noodle seller|Idle
+PRP|Cold sandwich in wax paper|Prop / hero|Stinger|H|The pay, with a note inside the wrapper|Wrapped;Note inside;Eaten
+PRP|Note "Ask who is paying for the rain"|Prop / document|Stinger|H|Tidy handwriting note in the wrapper|Standard
+PRP|Sponsor kiosk|Prop / machine|Ep7|H|Sponsor-owned kiosk at the drop point; relay to the angels [alt: shows a face, FREE LUNCH WITH SIGN-UP]|Idle;Lit mascot screen [alt];Crater (after boss)
+PRP|Sponsor kiosk screen mascot|Prop / UI-in-world|Ep7|B|Smiling generic sponsor mascot [alt]|Lit
+PRP|Brute banner|Prop / flag|Ep7|B|Sponsor banner carried by the Brute mini-boss|Standard
+PRP|Dropped key (YELLOW)|Prop / key|Ep2|S|Last angel drops a key that opens the shutter|Standard
+PRP|Rain puddle that reflects the wrong sky|Prop / set dressing|Ep2|B|Puddle in the underpass [alt]|Standard
+PRP|Vending machines (underpass)|Prop / set dressing|Ep2|B|Machines humming; drops a can of cold coffee [alt]|Humming;Dispensed can
+PRP|Cargo pallets under tarps|Prop / set dressing|Ep3|B|Pile at the underpass dead end [alt]|Tarped;Hand dent
+PRP|Summoning console|Prop / machine|Ep3|S|Government-stamped console, "Reinforcement request: one slot" [alt]|Idle;Active
+PRP|Paradise Noodles broken sign|Prop / signage|Ep1|B|Broken sign that used to say PARADISE NOODLES [alt]|Broken
+PRP|Satchel (Plack's)|Prop / bag|Ep4|S|Courier satchel at Plack's hip, carries ledgers [alt]|Standard
+PRP|Delivery ledgers|Prop / document|Ep6|S|Dates, routes, who signed for what [alt]|Bundle
+PRP|Protein bar|Prop|Ep6|B|Plack eats one [alt]|Wrapped;Folded wrapper
+PRP|Laundry lines and antennas|Prop / set dressing|Ep5|B|Rooftop clutter [alt]|Wet
+PRP|Ramen stall (shuttered)|Prop / stall|Ep6|B|On a lower roof [alt]|Shuttered
+PRP|Street lamps (sequence flicker)|Prop / lighting|Ep1|B|Lamps flicker once in sequence [alt]|Normal;Sequence flicker
+PRP|Delivery drone paper bag|Prop|Stinger|B|Drone drops a bag with sandwich [alt]|Standard
+CHR|Luna|Operator|Cold open|H|Granted automatically in the tutorial|Standard outfit + black umbrella;Two coats [alt]
+CHR|Kuu|Operator|Ep3|H|Summoned from the tutorial claw machine; apologises first|Standard outfit;Wet;Holding umbrella [alt]
+CHR|Plack|Operator|Ep4|H|Unregistered courier found in the crate; bites Luna's glove; joins after boss|Courier jacket;Satchel;Joins squad
+CHR|Dispatch (voice)|Voice character|Ep1|S|Pager voice, job 4471|Voice only
+CHR|Commander (voice)|Voice character|Ep2|S|Player; never seen, never speaks on screen|Radio only
+NPC|Noodle seller|NPC / BLUE|Ep6|S|Hints the drop's location|Standard
+NPC|Neo Tokyo pigeons|NPC / ambient|Ep5|B|Three pettable pigeons; reward: Kuu bark variants [alt]|Idle;Pet
+CRE|Basic angel|Enemy / angel|Ep1|H|Pale, faceless, ring of light halo; first lights on a neon sign and doesn't move|Basic;Ranged archer (bow of light) [alt];On water tower;Faceless wave variant
+CRE|Heavy angel (mini-boss)|Enemy / mini-boss|Ep2|H|First mini-boss on the street, introduced as a trial|Street trial;Ep7 mini-boss [alt]
+CRE|Brute with sponsor banner|Enemy / mini-boss|Ep7|S|Brute mini-boss at the plaza|Standard
+CRE|Angel archer|Enemy / ranged|Ep5|S|Mixed angels incl. ranged on distant water tower [alt]|Standard
+CRE|Angel choir (ring)|Enemy / group|Ep7|H|Choir rises on roofs haloed in neon singing one soft note|Ring;Closing ring [alt]
+CRE|The Neon Choir|Boss|Ep8|H|Boss: ring of neon-haloed singing angels, conductor dives in phase 2; [alt] a fused column of singing faces with four lanes|Phase 1 choir ring;Phase 2 conductor dive;[alt] fused column;[alt] four-lane split;Collapse to pale dust
+CRE|Conductor angel|Boss component|Ep8|S|The one that isn't singing; dives in phase 2|Phase 2 dive
+VFX|Black hole pull|VFX / ability|Ep2|H|Luna's black hole drags in, white hole pushes out|Pull;Push;Cutscene flourish first time
+VFX|White hole push|VFX / ability|Ep2|H|Paired with black hole|Standard
+VFX|Rain (heavy)|VFX / weather|Cold open|H|Rain on a million windows|Heavy;Fog mix;Thin dawn
+VFX|Neon halo ring|VFX|Ep1|S|Angel halo of light, neon-haloed on choir|Standard;Choir
+VFX|Hymn sound wave rings|VFX / boss|Ep8|S|Sound waves to dodge in phase 1 [alt]|Ring
+VFX|Summon light|VFX|Ep3|S|Light pours out of the claw machine|Standard
+VFX|Crate hum glow|VFX|Ep4|B|Warm hum from the crate|?Subtle glow~text says warm and humming; visual not stated
+WTH|Rain (31 days)|Weather|Cold open|H|Constant rain|Heavy;Light;Thin at dawn
+WTH|Dense fog|Weather|Ep7|S|Dense fog at plaza|Standard
+LGT|Neon night lighting|Lighting|Cold open|H|Neon, rain, wet reflections|Night;Dawn thin
+LGT|Rooftop evening|Lighting|Ep6|S|Evening on Luna's water tank|Evening
+LGT|Kiosk glow|Lighting|Ep7|B|Screen light of the kiosk|On
+AUD|Rain ambience|Audio / ambience|Cold open|H|Rain on windows|Heavy;Underpass echo
+AUD|Pager buzz|Audio / sfx|Ep1|S|Tinny buzzing|Standard
+AUD|Choir single soft note|Audio / music|Ep7|H|Sustained sung note|Soft;Sustained boss note [alt]
+AUD|Siren far-off|Audio / ambience|Ep6|B|A far-off siren|Standard
+AUD|Crate knocks (three, a pause, a fourth)|Audio / sfx|Ep4|S|Knocks from inside|Standard
+AUD|Claw machine jingle|Audio / sfx|Ep3|B|Machine summoning|?Standard~implied by summon scene
+AUD|Neo Tokyo chapter theme|Audio / music|Cold open|H|Chapter music|?Day/rain mix~chapter needs rain and boss variants
+UI|Tutorial prompts|UI|Ep2|S|Attack, ability 1, dodge, target switch prompts|Movement;Combat;Summon;Squad
+UI|Summon screen|UI|Ep3|S|Tutorial summon prompt (guaranteed Kuu)|Standard
+UI|Squad choice screen (3 portraits) [alt]|UI|Ep4|B|Squad choice with three portraits|Standard
+UI|Dialogue choice (Hand her over / Protect her) [alt]|UI|Ep6|B|Branch choice|Two options
+UI|Chapter clear card|UI|Ep8|S|Chapter clear after boss|Standard
+UI|Boss health bar (Neon Choir)|UI|Ep8|S|Boss phases|Phase 1;Phase 2
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+CHR|Luna - standard outfit|Costume / outfit variant|Tripo #1|B|Central operator, 4-star mage; flowing silks, orbiting black and white holes [inferred: Tripo list #1; not named in the chapter text]|
+CHR|Plack - standard outfit|Costume / outfit variant|Tripo #2|B|Luna's wife; unregistered courier found in the crate [inferred: Tripo list #2; not named in the chapter text]|
+CHR|Kuu - standard outfit|Costume / outfit variant|Tripo #3|B|Luna's blood brother; apologetic, afraid of heights [inferred: Tripo list #3; not named in the chapter text]|
+NPC|Dispatch pager voice terminal|NPC|Tripo #9|B|Where job 4471 comes from [inferred: Tripo list #9; not named in the chapter text]|
+PRP|Luna's black hole orb|Weapon|Tripo #4|B|Signature motif that orbits her [inferred: Tripo list #4; not named in the chapter text]|
+PRP|Luna's white hole orb|Weapon|Tripo #5|B|Signature motif that orbits her [inferred: Tripo list #5; not named in the chapter text]|
+PRP|Luna's signature focus|Weapon|Tripo #6|B|Adds a dotted surgical line along her neck [inferred: Tripo list #6; not named in the chapter text]|
+PRP|Plack's courier blade|Weapon|Tripo #7|B|Plack's practical weapon [inferred: Tripo list #7; not named in the chapter text]|
+PRP|Kuu's hook and rope|Weapon|Tripo #8|B|Kuu's tool weapon [inferred: Tripo list #8; likely the same asset as PRP-0507 Rope and hook; kept as its own entry so no Tripo row is dropped]|
+PRP|Sponsored lunch crate|Prop|Tripo #18|B|Plack's crate [inferred: Tripo list #18; not named in the chapter text]|
+PRP|Cold sandwich with note|Prop|Tripo #20|B|The pay [inferred: Tripo list #20; not named in the chapter text]|
+PRP|Weather bulletin poster|Prop|Tripo #23|B|"Rain is a schedule" [inferred: Tripo list #23; not named in the chapter text]|
+PRP|Vending machine shrine|Prop|Tripo #24|B|Neo Tokyo flavour [inferred: Tripo list #24; likely the same asset as PRP-0284 Vending machine (witness); kept as its own entry so no Tripo row is dropped]|
+PRP|Neon street sign set|Prop|Tripo #25|B|Set of street signs [inferred: Tripo list #25; not named in the chapter text]|
+VEH|Delivery scooter|Vehicle|Tripo #26|B|Street dressing [inferred: Tripo list #26; not named in the chapter text]|
+ARC|Tanabe Arcade facade|Set piece / modular kit|Tripo #13|B|Rooftop and street frontage of the arcade [inferred: Tripo list #13; likely the same asset as ARC-0001 Tanabe Arcade; kept as its own entry so no Tripo row is dropped]|
+ARC|Neon blade sign (Neo Tokyo)|Set piece / modular kit|Tripo #726|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #726; not named in the chapter text]|
+ARC|Fire-escape stair module (Neo Tokyo)|Set piece / modular kit|Tripo #727|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #727; likely the same asset as ARC-0002 Fire escape; kept as its own entry so no Tripo row is dropped]|
+ARC|Fire-escape landing (Neo Tokyo)|Set piece / modular kit|Tripo #728|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #728; likely the same asset as ARC-0002 Fire escape; kept as its own entry so no Tripo row is dropped]|
+ARC|Rooftop AC unit (Neo Tokyo)|Set piece / modular kit|Tripo #729|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #729; not named in the chapter text]|
+ARC|Street bin cluster (Neo Tokyo)|Set piece / modular kit|Tripo #730|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #730; not named in the chapter text]|
+ARC|Pavement bike rack (Neo Tokyo)|Set piece / modular kit|Tripo #731|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #731; not named in the chapter text]|
+ARC|Awning with shutters (Neo Tokyo)|Set piece / modular kit|Tripo #732|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #732; not named in the chapter text]|
+ARC|Noodle stall (Neo Tokyo)|Set piece / modular kit|Tripo #733|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #733; not named in the chapter text]|
+ARC|Power pole with wires (Neo Tokyo)|Set piece / modular kit|Tripo #734|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #734; not named in the chapter text]|
+ARC|Manhole cover (Neo Tokyo)|Set piece / modular kit|Tripo #735|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #735; not named in the chapter text]|
+ARC|Bus-stop shelter (Neo Tokyo)|Set piece / modular kit|Tripo #736|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #736; not named in the chapter text]|
+ARC|Rooftop antenna cluster (Neo Tokyo)|Set piece / modular kit|Tripo #737|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #737; not named in the chapter text]|
+ARC|Alley dumpster (Neo Tokyo)|Set piece / modular kit|Tripo #738|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #738; not named in the chapter text]|
+ARC|Wet road tile (Neo Tokyo)|Set piece / modular kit|Tripo #739|B|Modular dressing piece for Ch 1 Neo Tokyo [inferred: Tripo list #739; not named in the chapter text]|
+PRP|Wing mark (small)|Insignia|Tripo #27|B|Sponsor stencil [inferred: Tripo list #27; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "14", "n": 1, "title": "Move 1: Explosion", "slug": "move1-explosion", "who": "narr", "label": "SOURCE", "note": "Medium electric explosion off the body"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-01-move1-explosion", "title": "Move 1: Explosion", "dur": 3.0, "layers": [{"fx": "blast", "at": "cas", "oy": -150, "r": 380, "col": "#FF8A2B", "col2": "#E5252A", "rings": 3}, {"fx": "chain", "at": "cas", "pts": [[0, -150], [180, -230], [330, -140], [470, -230]], "col": "#7657FF", "t0": 0.1}, {"fx": "burst", "at": "cas", "oy": -150, "n": 30, "cols": ["#7657FF", "#FF8A2B", "#E5252A"], "spd": 480}, {"fx": "flash", "at": "mid", "D": 0.1, "a": 0.5, "col": "#FF8A2B"}], "enemy": true, "cas": true, "note": "Medium electric explosion off the body", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Move 1", "hit": 0.05, "sfx": "boom", "n": 1, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

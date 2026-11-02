@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "17", "n": 22, "title": "Weather Move 3: Thunderstorm", "slug": "weather-thunderstorm", "who": "weather", "label": "PROPOSED", "note": "Six lightning strikes over 3 s"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-22-weather-thunderstorm", "title": "Weather Move 3: Thunderstorm", "dur": 3.6, "layers": [{"fx": "rain", "at": "mid", "cloud": true, "n": 60, "area": 900, "h": 520, "col": "#7657FF", "col2": "#64E8FF"}, {"fx": "bolt", "at": "mid", "t0": 0.3, "n": 6, "gap": 0.5, "area": 900, "col": "#F7F4FA", "w": 16, "seed": 4}], "enemy": true, "cas": false, "note": "Six lightning strikes over 3 s", "label": "PROPOSED", "who": "Weather", "slot": "Move 3", "hit": 0.3, "sfx": "zap", "n": 22, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

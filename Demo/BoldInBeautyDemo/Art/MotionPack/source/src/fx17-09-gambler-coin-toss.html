@@ -1,0 +1,9 @@
+<!--META {"dur": 5.0, "alpha": true, "kind": "fx", "sheet": "17", "n": 9, "title": "Gambler Move 2: Coin Toss", "slug": "gambler-coin-toss", "who": "gambler", "label": "PROPOSED", "note": "Heads buff vs tails debuff state"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-09-gambler-coin-toss", "title": "Gambler Move 2: Coin Toss", "dur": 5.0, "layers": [{"fx": "coin", "at": "mid", "heads": true, "col": "#FF3D8D"}, {"fx": "aura", "at": "cas", "t0": 1.4, "t1": 2.5, "col": "#64E8FF", "col2": "#F7F4FA", "r": 100, "h": 260}, {"fx": "coin", "at": "mid", "t0": 2.6, "heads": false, "col": "#9A98A6"}, {"fx": "status", "at": "cas", "t0": 3.9, "kind": "weaken", "col": "#FF3D8D", "shell": false}], "enemy": false, "cas": true, "note": "Heads buff vs tails debuff state", "label": "PROPOSED", "who": "Gambler", "slot": "Move 2", "hit": 1.4, "sfx": "chime", "n": 9, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

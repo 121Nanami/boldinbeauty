@@ -1,0 +1,50 @@
+<!--META {"dur":29.6,"kind":"showcase"} -->
+<style>
+  #hud { position: absolute; inset: 0; pointer-events: none; }
+  #lbl { position: absolute; left: 380px; top: 40px; font-size: 22px; color: #F7F4FA; }
+  #spd { position: absolute; left: 380px; top: 72px; font-size: 22px; color: #FF3D8D; font-weight: 700; }
+  #big { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+</style>
+<div id="pages" class="fill"></div>
+<div id="layers" class="fill"></div>
+<div id="intro" class="fill"></div>
+<div id="hud"><div id="lbl" class="mono"></div><div id="spd" class="mono"></div></div>
+<script>
+(function () {
+  var pages = document.getElementById("pages"), layers = document.getElementById("layers");
+  // intro card
+  var intro = document.getElementById("intro");
+  UI.bg(intro, 50, 50);
+  var k = IG.el("div", "mono", intro, "BOLDINBEAUTY // UI SYSTEM", { position: "absolute", left: "160px", top: "380px", fontSize: "30px", color: C.cy });
+  var t1 = IG.el("div", "voice", intro, "<span class='bib-skew'>PAGE</span>", { position: "absolute", left: "150px", top: "430px", fontSize: "230px", color: C.wh });
+  var t2 = IG.el("div", "voice", intro, "<span class='bib-skew'>TRANSITIONS</span>", { position: "absolute", left: "150px", top: "630px", fontSize: "230px", color: C.rose, textShadow: "8px 7px 0 #7657FF" });
+  var s = IG.el("div", "mono", intro, "5 VARIANTS // SIMPLE TO FULL BB // EACH SHOWN AT 1X THEN 0.5X", { position: "absolute", left: "160px", top: "870px", fontSize: "26px", color: C.wh });
+  IG.rise(tl, k, 0.1); IG.slam(tl, t1, 0.2); IG.slam(tl, t2, 0.4); IG.rise(tl, s, 0.7);
+  tl.to(intro, { opacity: 0, duration: 0.2 }, 2.3);
+  // pages
+  var A = UI.page(pages, "lobby"), B = UI.page(pages, "summon");
+  tl.set(B, { autoAlpha: 0 }, 0);
+  var lbl = document.getElementById("lbl"), spd = document.getElementById("spd");
+  var t = 2.5, LK = [], SK = [];
+  for (var n = 1; n <= 5; n++) {
+    (function (n) {
+      var d = TR.DUR[n], m = TR.MID[n];
+      var txt = "TRANSITION 0" + n + " // " + TR.NAME[n] + " // " + d.toFixed(2) + " S";
+      LK.push([t, txt]); SK.push([t, "1X"]);
+      // normal speed
+      var L1 = IG.el("div", "", layers, null, { position: "absolute", inset: 0 });
+      var s1 = IG.sub(); TR["t" + n](s1, L1, 0); tl.add(s1, t + 0.5);
+      tl.set(A, { autoAlpha: 0 }, t + 0.5 + m); tl.set(B, { autoAlpha: 1 }, t + 0.5 + m);
+      // half speed, back to the lobby
+      var t2 = t + 0.5 + d + 0.7;
+      SK.push([t2 - 0.2, "0.5X"]);
+      var L2 = IG.el("div", "", layers, null, { position: "absolute", inset: 0 });
+      var s2 = IG.sub(); TR["t" + n](s2, L2, 0); s2.timeScale(0.5); tl.add(s2, t2);
+      tl.set(B, { autoAlpha: 0 }, t2 + m * 2); tl.set(A, { autoAlpha: 1 }, t2 + m * 2);
+      t = t2 + d * 2 + 0.5;
+    })(n);
+  }
+  IG.textAt(tl, lbl, LK, DUR); IG.textAt(tl, spd, SK, DUR);
+  window.__showEnd = t;
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 4.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 25, "title": "Shiraishi Ultimate: Inferno Soul", "slug": "shira-inferno-soul", "who": "shira", "label": "PROPOSED", "note": "8 s burning aura, shield, full Heat"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-25-shira-inferno-soul", "title": "Shiraishi Ultimate: Inferno Soul", "dur": 4.4, "layers": [{"fx": "column", "at": "cas", "col": "#FF3D8D", "col2": "#F7F4FA", "w": 260, "h": 700, "hold": 0.5}, {"fx": "aura", "at": "cas", "t0": 0.5, "col": "#FF3D8D", "col2": "#F7F4FA", "r": 190, "h": 420}, {"fx": "zone", "at": "cas", "t0": 0.5, "rx": 480, "ry": 140, "col": "#FF3D8D", "col2": "#F7F4FA", "kind": "embers"}, {"fx": "dome", "at": "cas", "t0": 0.8, "rx": 200, "ry": 240, "col": "#7657FF"}], "enemy": false, "cas": true, "note": "8 s burning aura, shield, full Heat", "label": "PROPOSED", "who": "Shiraishi", "slot": "Ultimate", "hit": 0.5, "sfx": "boom", "n": 25, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

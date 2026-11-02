@@ -1,0 +1,408 @@
+{
+  "record_kind": "MACOS-LOCAL metadata inventory",
+  "observed_date": "2026-09-30",
+  "project_root_reference": "sync/devices/macos.json",
+  "content_read": false,
+  "symlinks_followed": false,
+  "exclusions": [
+    ".agents",
+    ".aws",
+    ".claude",
+    ".codex",
+    ".cursor",
+    ".git",
+    ".kimi-code",
+    ".mcp",
+    ".venv",
+    "Binaries",
+    "DerivedDataCache",
+    "Intermediate",
+    "RiderLink",
+    "Saved",
+    "UE_5.8",
+    "__pycache__",
+    "node_modules",
+    "thirdparty",
+    "vendor",
+    "venv",
+    "xcuserdata"
+  ],
+  "credential_connection_files": "omitted; not read",
+  "directories": [
+    {
+      "path": ".",
+      "directories": [
+        "Files",
+        "Research",
+        "Unreal Projects",
+        "agents",
+        "docs",
+        "reports",
+        "research_notes",
+        "scripts",
+        "sync"
+      ],
+      "excluded_directory_entries": [
+        ".agents",
+        ".claude",
+        ".codex",
+        ".cursor",
+        ".kimi-code",
+        ".mcp",
+        ".venv-deepseek-mlx",
+        ".venv-vllm",
+        ".venv-whisper",
+        ".vllm-src",
+        "UE_5.8"
+      ],
+      "files": [
+        "AGENTS.md",
+        "BoldInBeauty_MAIN",
+        "CLAUDE.md",
+        "HUMAN_AI_USE.md",
+        "Judge.md",
+        "Luna.md",
+        "Narrator:Diamon.md",
+        "README.md",
+        "Start here.md"
+      ]
+    },
+    {
+      "path": "Files",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "path": "Research",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects",
+      "directories": [
+        "BoldInBeauty"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty",
+      "directories": [
+        "Build",
+        "Config",
+        "Content",
+        "Plugins",
+        "Source"
+      ],
+      "excluded_directory_entries": [
+        ".git",
+        ".idea",
+        "Binaries",
+        "BoldInBeauty (Mac).xcworkspace",
+        "DerivedDataCache",
+        "Intermediate",
+        "Saved"
+      ],
+      "files": [
+        "BoldInBeauty.uproject"
+      ]
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Build",
+      "directories": [
+        "Mac"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Build/Mac",
+      "directories": [
+        "Resources"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Build/Mac/Resources",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "Info.Template.plist",
+        "Sandbox.NoNet.entitlements",
+        "Sandbox.Server.entitlements"
+      ]
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Config",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "DefaultEditor.ini",
+        "DefaultEngine.ini",
+        "DefaultGame.ini",
+        "DefaultInput.ini"
+      ]
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Content",
+      "directories": [
+        "Collections",
+        "Developers"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Content/Collections",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Content/Developers",
+      "directories": [
+        "local-user"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Content/Developers/local-user",
+      "directories": [
+        "Collections"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Content/Developers/local-user/Collections",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Plugins",
+      "directories": [
+        "Developer"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Plugins/Developer",
+      "directories": [],
+      "excluded_directory_entries": [
+        "RiderLink"
+      ],
+      "files": []
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Source",
+      "directories": [
+        "BoldInBeauty"
+      ],
+      "excluded_directory_entries": [],
+      "files": [
+        "BoldInBeauty.Target.cs",
+        "BoldInBeautyEditor.Target.cs"
+      ]
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Source/BoldInBeauty",
+      "directories": [
+        "Private",
+        "Public"
+      ],
+      "excluded_directory_entries": [],
+      "files": [
+        "BoldInBeauty.Build.cs",
+        "BoldInBeauty.cpp",
+        "BoldInBeauty.h"
+      ]
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Source/BoldInBeauty/Private",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "BB_Test.cpp"
+      ]
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/Source/BoldInBeauty/Public",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "BB_Test.h"
+      ]
+    },
+    {
+      "path": "agents",
+      "directories": [
+        "integration-automation-agent"
+      ],
+      "excluded_directory_entries": [],
+      "files": [
+        "3d-asset-agent.md",
+        "README.md",
+        "animation-vfx-agent.md",
+        "asset-pipeline-agent.md",
+        "audio-agent.md",
+        "blueprint-agent.md",
+        "build-packaging-agent.md",
+        "cinematic-video-agent.md",
+        "combat-agent.md",
+        "concept-art-agent.md",
+        "equipment-agent.md",
+        "execution-drafting-agent.md",
+        "filing-agent.md",
+        "gameplay-implementation-agent.md",
+        "integration-automation-agent.md",
+        "knowledge-maintenance-agent.md",
+        "lead-agent.md",
+        "level-onboarding-agent.md",
+        "localization-agent.md",
+        "lore-continuity-agent.md",
+        "marketing-agent.md",
+        "office-artifact-agent.md",
+        "operator-profile-agent.md",
+        "performance-debugging-agent.md",
+        "persistence-networking-agent.md",
+        "production-planning-agent.md",
+        "progression-economy-agent.md",
+        "qa-playtest-agent.md",
+        "release-incident-agent.md",
+        "rendering-agent.md",
+        "research-agent.md",
+        "routine-agent.md",
+        "security-compliance-agent.md",
+        "spreadsheet-budget-agent.md",
+        "summoning-agent.md",
+        "synthesise-agent.md",
+        "ui-accessibility-agent.md",
+        "unreal-architecture-agent.md",
+        "visual-brief-agent.md"
+      ]
+    },
+    {
+      "path": "agents/integration-automation-agent",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "skills.md"
+      ]
+    },
+    {
+      "path": "docs",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "agent-workflow.md",
+        "research-filing.md"
+      ]
+    },
+    {
+      "path": "reports",
+      "directories": [
+        "filing",
+        "templates"
+      ],
+      "excluded_directory_entries": [],
+      "files": [
+        "Boldinbeauty marketing plan.md",
+        "README.md",
+        "integration-setup.md"
+      ]
+    },
+    {
+      "path": "reports/filing",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "MAIN-integration-manifest-2026-09-30.json",
+        "MAIN-update-proposal.md",
+        "README.md",
+        "change-manifest-2026-09-30.json"
+      ]
+    },
+    {
+      "path": "reports/templates",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "agent-report.md"
+      ]
+    },
+    {
+      "path": "research_notes",
+      "directories": [
+        "Boldinbeauty marketing plan"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "research_notes/Boldinbeauty marketing plan",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "platform_discovery.md",
+        "project_positioning.md"
+      ]
+    },
+    {
+      "path": "scripts",
+      "directories": [
+        "agents",
+        "integrations"
+      ],
+      "excluded_directory_entries": [],
+      "files": []
+    },
+    {
+      "path": "scripts/agents",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "sync-agents.py"
+      ]
+    },
+    {
+      "path": "scripts/integrations",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "disable-dead-mcp.py",
+        "register-native-clients.py",
+        "repair-rider.py",
+        "setup-clients.py"
+      ]
+    },
+    {
+      "path": "sync",
+      "directories": [
+        "devices"
+      ],
+      "excluded_directory_entries": [],
+      "files": [
+        "README.md",
+        "change-manifest.example.json",
+        "handoff-state.json"
+      ]
+    },
+    {
+      "path": "sync/devices",
+      "directories": [],
+      "excluded_directory_entries": [],
+      "files": [
+        "macos.json",
+        "windows.json"
+      ]
+    }
+  ]
+}

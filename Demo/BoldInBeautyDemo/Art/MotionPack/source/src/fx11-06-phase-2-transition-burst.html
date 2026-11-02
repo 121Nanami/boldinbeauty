@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "11", "n": 6, "title": "Boss phase-2 burst", "slug": "phase-2-transition-burst", "who": null, "label": "NEEDS ART", "note": "Chapter boss changes phase"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx11-06-phase-2-transition-burst", "title": "Boss phase-2 burst", "dur": 3.0, "layers": [{"fx": "column", "at": "en", "col": "#FF3D8D", "col2": "#F7F4FA", "w": 300, "h": 900, "hold": 1.2}, {"fx": "blast", "at": "en", "t0": 0.4, "r": 640, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "speed", "at": "en", "t0": 0.4, "D": 0.7, "col": "#FF3D8D"}, {"fx": "flash", "at": "mid", "t0": 0.4, "D": 0.2, "a": 0.6}, {"fx": "shards", "at": "en", "t0": 0.4, "n": 50, "w": 240, "h": 360, "col": "#F7F4FA", "col2": "#FF3D8D", "D": 1.4}], "enemy": true, "cas": false, "note": "Chapter boss changes phase", "label": "NEEDS ART", "who": "SHARED", "slot": "Boss phase 2", "hit": 0.4, "sfx": "boom", "n": 6, "sheet": "11"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "17", "n": 4, "title": "Blood Move 3: Hemorrhage", "slug": "blood-hemorrhage", "who": "blood", "label": "PROPOSED", "note": "Self-sacrifice flash, then every bleed detonates"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-04-blood-hemorrhage", "title": "Blood Move 3: Hemorrhage", "dur": 3.2, "layers": [{"fx": "flash", "at": "mid", "D": 0.2, "a": 0.5, "col": "#FF3D8D"}, {"fx": "burst", "at": "cas", "oy": -150, "n": 24, "col": "#FF3D8D", "cols": ["#FF3D8D", "#F7F4FA"], "spd": 300, "shape": "dot", "g": 800, "size": 8}, {"fx": "blast", "at": "en", "ox": -220, "oy": -180, "t0": 0.9, "r": 220, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 2}, {"fx": "blast", "at": "en", "ox": 0, "oy": -180, "t0": 1.02, "r": 220, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 2}, {"fx": "blast", "at": "en", "ox": 220, "oy": -180, "t0": 1.1400000000000001, "r": 220, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 2}], "enemy": true, "cas": true, "note": "Self-sacrifice flash, then every bleed detonates", "label": "PROPOSED", "who": "Blood", "slot": "Move 3", "hit": 0.9, "sfx": "boom", "n": 4, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

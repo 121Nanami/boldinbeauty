@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "16", "n": 16, "title": "Myrcia Move 3: Charge", "slug": "myrcia-charge", "who": "myrcia", "label": "PROPOSED", "note": "Rush riding a wave"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-16-myrcia-charge", "title": "Myrcia Move 3: Charge", "dur": 3.2, "layers": [{"fx": "zone", "at": "cas", "rx": 300, "ry": 90, "col": "#64E8FF", "col2": "#F7F4FA", "kind": "bubbles", "t1": 1.0}, {"fx": "dash", "at": "mid", "dist": 900, "col": "#64E8FF", "col2": "#F7F4FA", "trail": 700, "dd": 0.4, "dust": true}, {"fx": "blast", "at": "en", "t0": 0.45, "r": 360, "col": "#64E8FF", "col2": "#F7F4FA", "rings": 3, "flat": true}], "enemy": true, "cas": true, "note": "Rush riding a wave", "label": "PROPOSED", "who": "Myrcia", "slot": "Move 3", "hit": 0.45, "sfx": "boom", "n": 16, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

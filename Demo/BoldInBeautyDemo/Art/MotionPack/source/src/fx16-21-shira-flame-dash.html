@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "16", "n": 21, "title": "Shiraishi Move 1: Flame Dash", "slug": "shira-flame-dash", "who": "shira", "label": "PROPOSED", "note": "Dash leaving a fire trail"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-21-shira-flame-dash", "title": "Shiraishi Move 1: Flame Dash", "dur": 3.2, "layers": [{"fx": "dash", "at": "mid", "dist": 520, "col": "#FF3D8D", "col2": "#F7F4FA", "trail": 420, "dd": 0.25}, {"fx": "zone", "at": "mid", "rx": 300, "ry": 80, "col": "#FF3D8D", "col2": "#F7F4FA", "kind": "embers", "t0": 0.25, "grow": 0.2}], "enemy": true, "cas": true, "note": "Dash leaving a fire trail", "label": "PROPOSED", "who": "Shiraishi", "slot": "Move 1", "hit": 0.25, "sfx": "hit", "n": 21, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

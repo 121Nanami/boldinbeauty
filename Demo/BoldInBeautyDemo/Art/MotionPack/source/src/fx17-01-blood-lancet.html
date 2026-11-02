@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "17", "n": 1, "title": "Blood M1: Lancet", "slug": "blood-lancet", "who": "blood", "label": "PROPOSED", "note": "Three cuts opening bleeds"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-01-blood-lancet", "title": "Blood M1: Lancet", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 3, "len": 340, "w": 44, "fan": 0.3, "col": "#FF3D8D", "col2": "#F7F4FA"}, {"fx": "status", "at": "en", "t0": 0.5, "kind": "bleed", "col": "#FF3D8D", "shell": false, "pips": 3}], "enemy": true, "cas": true, "note": "Three cuts opening bleeds", "label": "PROPOSED", "who": "Blood", "slot": "M1", "hit": 0.15, "sfx": "hit", "n": 1, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 5.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 25, "title": "Timekeeper Ultimate: Zero Hour", "slug": "timek-zero-hour", "who": "timek", "label": "PROPOSED", "note": "6 s stopped time (bosses slowed), then a x2 damage release"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-25-timek-zero-hour", "title": "Timekeeper Ultimate: Zero Hour", "dur": 5.0, "layers": [{"fx": "flash", "at": "mid", "D": 0.3, "a": 0.6, "col": "#F7F4FA"}, {"fx": "status", "at": "en", "t0": 0.1, "t1": 3.2, "kind": "tfreeze", "col": "#64E8FF", "shell": true}, {"fx": "clock", "at": "mid", "t0": 0.1, "t1": 3.2, "h": 520, "r": 140, "spd": 0, "col": "#F7F4FA", "col2": "#64E8FF"}, {"fx": "pulsehex", "at": "mid", "t0": 0.1, "r": 900, "col": "#64E8FF", "n": 3}, {"fx": "blast", "at": "mid", "t0": 3.2, "r": 950, "col": "#7657FF", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "flash", "at": "mid", "t0": 3.2, "D": 0.3, "a": 0.8}, {"fx": "shards", "at": "en", "t0": 3.2, "n": 60, "w": 220, "h": 340, "col": "#64E8FF", "col2": "#F7F4FA", "D": 1.4}], "enemy": true, "cas": true, "note": "6 s stopped time (bosses slowed), then a x2 damage release", "label": "PROPOSED", "who": "Timekeeper", "slot": "Ultimate", "hit": 3.2, "sfx": "boom", "n": 25, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 21, "title": "Timekeeper Move 1: Rewind Step", "slug": "timek-rewind-step", "who": "timek", "label": "PROPOSED", "note": "Rewind slip; 0.5 s untouchable"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-21-timek-rewind-step", "title": "Timekeeper Move 1: Rewind Step", "dur": 3.0, "layers": [{"fx": "clock", "at": "cas", "h": 300, "r": 80, "rewind": true, "spd": -4, "col": "#F7F4FA", "col2": "#64E8FF", "t1": 1.6}, {"fx": "dash", "at": "mid", "dist": 700, "dir": -1, "col": "#64E8FF", "col2": "#F7F4FA", "dd": 0.2, "trail": 420}, {"fx": "dome", "at": "cas", "t0": 0.3, "t1": 1.0, "rx": 120, "ry": 170, "col": "#F7F4FA"}], "enemy": true, "cas": true, "note": "Rewind slip; 0.5 s untouchable", "label": "PROPOSED", "who": "Timekeeper", "slot": "Move 1", "hit": 0.2, "sfx": "soft", "n": 21, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

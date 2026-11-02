@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "15", "n": 14, "title": "Adapt Move 3: Adaption stats", "slug": "adapt-move3-stat-drift", "who": "adapt", "label": "DERIVED", "note": "Speed / damage / health drift indicators (5% per second)"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-14-adapt-move3-stat-drift", "title": "Adapt Move 3: Adaption stats", "dur": 3.0, "layers": [{"fx": "mark", "at": "cas", "ox": -110, "glyph": "up", "h": 270, "col": "#64E8FF", "s": 24}, {"fx": "mark", "at": "cas", "ox": 0, "glyph": "up", "h": 270, "col": "#FF3D8D", "s": 24}, {"fx": "mark", "at": "cas", "ox": 110, "glyph": "down", "h": 270, "col": "#F7F4FA", "s": 24}, {"fx": "glitchbar", "at": "cas", "oy": -260, "col": "#64E8FF", "col2": "#FF3D8D", "n": 4, "w": 300, "h": 60, "t0": 1.2, "t1": 1.6}], "enemy": false, "cas": true, "note": "Speed / damage / health drift indicators (5% per second)", "label": "DERIVED", "who": "Adapt", "slot": "Move 3", "hit": 0.2, "sfx": "soft", "n": 14, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

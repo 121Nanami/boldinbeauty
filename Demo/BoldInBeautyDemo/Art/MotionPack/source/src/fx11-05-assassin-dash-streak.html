@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "11", "n": 5, "title": "Assassin dash streak", "slug": "assassin-dash-streak", "who": null, "label": "NEEDS ART", "note": "Fast thin streak across the screen"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx11-05-assassin-dash-streak", "title": "Assassin dash streak", "dur": 3.0, "layers": [{"fx": "dash", "at": "en", "dist": 1000, "dir": -1, "col": "#F7F4FA", "col2": "#64E8FF", "trail": 700, "dd": 0.2, "h": 70}, {"fx": "blast", "at": "cas", "t0": 0.2, "r": 200, "col": "#F7F4FA", "col2": "#64E8FF", "rings": 1}], "enemy": true, "cas": true, "note": "Fast thin streak across the screen", "label": "NEEDS ART", "who": "SHARED", "slot": "Assassin", "hit": 0.2, "sfx": "zap", "n": 5, "sheet": "11"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

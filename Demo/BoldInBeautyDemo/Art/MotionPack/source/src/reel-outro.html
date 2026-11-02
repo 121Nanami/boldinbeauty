@@ -1,0 +1,12 @@
+<!--META {"dur":6,"kind":"slate"} -->
+<div id="L" class="fill"></div>
+<script>
+(function () {
+  var L = document.getElementById("L"); UI.bg(L, 50, 60);
+  var t = IG.el("div", "title", L, "<span class='bib-skew'>BOLDINBEAUTY</span>", { position: "absolute", left: "0", width: "1920px", textAlign: "center", top: "380px", fontSize: "150px", color: C.rose, textShadow: "9px 8px 0 #7657FF" });
+  var s = IG.el("div", "mono", L, "AN ORIGINAL 3D ANIME GACHA GAME // DEMO // VERY EARLY IN DEVELOPMENT", { position: "absolute", left: "0", width: "1920px", textAlign: "center", top: "580px", fontSize: "28px", color: C.wh });
+  var c = IG.el("div", "mono", L, "ALL PIECES ARE ORIGINAL MOTION GRAPHICS // TRANSPARENT 4K MASTERS IN bb-Showreel/UI_Pack_4K", { position: "absolute", left: "0", width: "1920px", textAlign: "center", top: "640px", fontSize: "24px", color: C.cy });
+  IG.slam(tl, t, 0.2, { x: 0, s: 1.6 }); IG.rise(tl, s, 0.7); IG.rise(tl, c, 1.0);
+  tl.to(L, { opacity: 0, duration: 1.0 }, 5.0);
+})();
+</script>

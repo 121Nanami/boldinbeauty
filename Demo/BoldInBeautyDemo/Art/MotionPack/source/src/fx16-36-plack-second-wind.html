@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "16", "n": 36, "title": "Plack Special: Second Wind", "slug": "plack-second-wind", "who": "plack", "label": "PROPOSED", "note": "Heal burst + 5 s speed glow"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-36-plack-second-wind", "title": "Plack Special: Second Wind", "dur": 3.6, "layers": [{"fx": "burst", "at": "cas", "n": 40, "cols": ["#64E8FF", "#F7F4FA"], "spd": 220, "a0": -2.7, "a1": -0.45, "g": -300, "shape": "dot", "size": 8, "life": 1.4}, {"fx": "aura", "at": "cas", "t0": 0.6, "col": "#64E8FF", "col2": "#F7F4FA", "r": 100, "h": 260, "t1": 3.2, "al": 0.6}, {"fx": "dash", "at": "mid", "t0": 1.4, "dist": 360, "col": "#64E8FF", "col2": "#F7F4FA", "dd": 0.15, "trail": 200}], "enemy": false, "cas": true, "note": "Heal burst + 5 s speed glow", "label": "PROPOSED", "who": "Plack", "slot": "Special", "hit": 0.1, "sfx": "chime", "n": 36, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

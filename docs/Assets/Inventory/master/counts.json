@@ -1,0 +1,92 @@
+{
+ "ARC": {
+  "assets": 842,
+  "variations": 281,
+  "line_items": 1123,
+  "inferred": 665
+ },
+ "AUD": {
+  "assets": 129,
+  "variations": 147,
+  "line_items": 276,
+  "inferred": 2
+ },
+ "CHR": {
+  "assets": 175,
+  "variations": 444,
+  "line_items": 619,
+  "inferred": 11
+ },
+ "CRE": {
+  "assets": 194,
+  "variations": 166,
+  "line_items": 360,
+  "inferred": 89
+ },
+ "DOC": {
+  "assets": 1,
+  "variations": 1,
+  "line_items": 2,
+  "inferred": 0
+ },
+ "ENV": {
+  "assets": 310,
+  "variations": 657,
+  "line_items": 967,
+  "inferred": 2
+ },
+ "FAU": {
+  "assets": 6,
+  "variations": 10,
+  "line_items": 16,
+  "inferred": 1
+ },
+ "FLO": {
+  "assets": 20,
+  "variations": 29,
+  "line_items": 49,
+  "inferred": 4
+ },
+ "LGT": {
+  "assets": 54,
+  "variations": 76,
+  "line_items": 130,
+  "inferred": 0
+ },
+ "NPC": {
+  "assets": 30,
+  "variations": 3,
+  "line_items": 33,
+  "inferred": 28
+ },
+ "PRP": {
+  "assets": 642,
+  "variations": 755,
+  "line_items": 1397,
+  "inferred": 133
+ },
+ "UI": {
+  "assets": 107,
+  "variations": 111,
+  "line_items": 218,
+  "inferred": 0
+ },
+ "VEH": {
+  "assets": 13,
+  "variations": 11,
+  "line_items": 24,
+  "inferred": 10
+ },
+ "VFX": {
+  "assets": 130,
+  "variations": 155,
+  "line_items": 285,
+  "inferred": 1
+ },
+ "WTH": {
+  "assets": 20,
+  "variations": 39,
+  "line_items": 59,
+  "inferred": 0
+ }
+}

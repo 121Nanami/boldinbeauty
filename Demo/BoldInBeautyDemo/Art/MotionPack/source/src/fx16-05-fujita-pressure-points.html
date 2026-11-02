@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "16", "n": 5, "title": "Fujita Special: Pressure Points", "slug": "fujita-pressure-points", "who": "fujita", "label": "PROPOSED", "note": "Marks everything in range; bleed-burst finish"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-05-fujita-pressure-points", "title": "Fujita Special: Pressure Points", "dur": 3.6, "layers": [{"fx": "mark", "at": "en", "ox": -200, "glyph": "crosshair", "h": 330, "col": "#FF3D8D", "s": 28, "pips": 1}, {"fx": "mark", "at": "en", "ox": 0, "glyph": "crosshair", "h": 330, "col": "#FF3D8D", "s": 28, "t0": 0.15, "pips": 2}, {"fx": "mark", "at": "en", "ox": 200, "glyph": "crosshair", "h": 330, "col": "#FF3D8D", "s": 28, "t0": 0.3, "pips": 3}, {"fx": "blast", "at": "en", "ox": -200, "oy": -200, "t0": 2.3, "r": 200, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 2}, {"fx": "blast", "at": "en", "ox": 0, "oy": -200, "t0": 2.3, "r": 200, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 2}, {"fx": "blast", "at": "en", "ox": 200, "oy": -200, "t0": 2.3, "r": 200, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 2}], "enemy": true, "cas": true, "note": "Marks everything in range; bleed-burst finish", "label": "PROPOSED", "who": "Fujita", "slot": "Special", "hit": 2.3, "sfx": "boom", "n": 5, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

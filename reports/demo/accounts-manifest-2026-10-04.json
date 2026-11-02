@@ -1,0 +1,520 @@
+{
+ "record_kind": "actual change manifest",
+ "task": "Accounts, saving, tutorial, 3-day banner rotation, account server, docs and MAIN update",
+ "date": "2026-10-04",
+ "device": "Linux cloud container (neither replica)",
+ "project_root_reference": "repository 121Nanami/BoldInBeauty-Project, branch claude/festive-thompson-6e11vf (based on claude/exciting-johnson-jy21xk)",
+ "base_manifest": null,
+ "base_commit": "37b0f9b (origin/claude/exciting-johnson-jy21xk)",
+ "cross_device_freshness": "OPEN",
+ "counterpart_handoff": "Mac session session-redacted: Job 4 (branch claude/festive-thompson-6e11vf-mac, commit ce1fbc6, script-only fixes + 2 screenshots, merged) and Job 5 (final code 837c105, no changes)",
+ "head_at_writing": "3175086e5fae30a6595195e01004a1a6bbf4444d (+ uncommitted 2026-10-05 setup-script changes at the time of hashing)",
+ "files": [
+  {
+   "path": "BoldInBeauty_MAIN",
+   "scope": "shared knowledge/docs",
+   "action": "modified",
+   "before_sha256": "e0f79ecfaaffa32cc8248e042bdc7a0082494268c5bdd87d499f7aed6667eb1e",
+   "after_sha256": "38ad2e4e233c5489b5a3198e31ea4e7104095cd415dab9a13e3decb5dda19230"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Config/DefaultGame.ini",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "705a61eaef3b84808621e97802e3bcb0adf7793826e21a650eb757dedd9143cf",
+   "after_sha256": "46dcfd5bcf59ca63b211f174a14200d3bcceecf12380b6dee9b71ba5b2e9818a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/README.md",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "9e02c4fccab22d8bfcb82be7123be11b5961cfe76374e1d54d9ed7b9e48ecc66",
+   "after_sha256": "0251fc44e7931156faf51b98ff00be326f86b260a522cab5d648297d49bfa0d2"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/.dockerignore",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "58b98573b6d13e272b78dd246cc5e4d6e5827ed7440267e42536ff146f41be39"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/.env.example",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "32b37760dbe35060dbb7e1058ffce61011695d15d4a2ea4fb037ecfa7b30efab"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/.gitignore",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "55599b1bc9a896a1c2ca96c208a854b038c73baa1dff4a24917e2d38bd653d07"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/Dockerfile",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "1afbc182c91e2aa43d581b0f330d7fc56699eb1779d25e13e26900ed96d958aa"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/README.md",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "9d56d67d977710bec50248b8e47bcb46fb2b073375f3a5b82e8cb9d2cf7482ab"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/package-lock.json",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "e7464563e4e73650451d402d97d569586f71342bbf536a5e6f909dc42ded9647"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/package.json",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "1a9408210707015f6b0d206f0129a4ae350ce65326b3cdc7f7717a67d07c137d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/scripts/lib/atlas.mjs",
+   "scope": "shared (server setup, 2026-10-05); Linux-verified, owner run on real Atlas/Gmail pending",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "be4fb774902d7bfe654935ebcf3e77c86d4320068d0d793a5f0230e741c29d8b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/scripts/lib/setup-core.mjs",
+   "scope": "shared (server setup, 2026-10-05); Linux-verified, owner run on real Atlas/Gmail pending",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "b49d311406c7e0d886e51d7753224dd4e2f7e27fe4b79707d6d47a33b2ca5d5f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/scripts/setup.mjs",
+   "scope": "shared (server setup, 2026-10-05); Linux-verified, owner run on real Atlas/Gmail pending",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "ee4164fdb0408b18f53ce1ddc8e13627d41a5936ca4cbaf649c4a51c1d42ec22"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/config.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "77e96dced135fefd90c3ff98986a357d77270483200beb8cd5585212f5a7d5ff"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/http.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "9b153efed9dd70b99cd17a8aaa3fdf6c1271bf0d8f8930252cf6763e76bedd0b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/index.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "43f2da9d36aee05a35ea54d8fa9695d63559dea0195429eba0c9766fddc64184"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/mailer.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "9f4b1fcba7a8df1b98e1214d2f6b7c2609d714125137feb5ad52eadb67d2bbfa"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/service.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "fd6baf17b62f5520c9dd338305d52bcc19a6d89ac5785f2091f001390af52435"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/store/errors.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "715f37d26a3fad5d21ae76004a1378bd952bca3f5c4a985663fa2ce908092c70"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/store/memory.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "ee409cbd949e85437c0cd29aa22551ac839cd18443f1d263af6635b8dc86f35f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/store/mongo.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "cf887730e6eef9e1936f2364eeb78dd1a491129483f9e040a2b4e38303a094ea"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/src/util.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "e1dcb7bfe7f532e8c7fbf35d861a8a096422b8c2ff14c7d3272ba08f6278f91a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/test/config.test.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "3d9822b096031a11cacc51537a67abefdfa117fa03f533082e86037bc4fdec09"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/test/helpers.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "6c3da034d795057c4242ab7f31ca9892f434752af63496ebd844501ffbda19d6"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/test/http.test.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "57384bff77e5157ceeb11eedcf07d2abe75802cb690d07a0703c0b0c907b2e53"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/test/service.test.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "02b05f9ef96777ebbfbf7d7d93ca93cac5c4d9becf30304b78e36391d56a7bc8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/test/setup.test.js",
+   "scope": "shared (server setup, 2026-10-05); Linux-verified, owner run on real Atlas/Gmail pending",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "2ec3698a4ed791068e0689008e5bf04094c4a9b9de1cff49c7451fb9f9d1fd1a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/test/smtp.test.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "b44b27ed98f42e1266b458834897c62b1fc6863e33a72f214e235c72f443007c"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Server/test/store.test.js",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "c7c036d9dbc199e8206df09cf97612865e81fef4f2596857bc1ff2646947888b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBAccount.cpp",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "3a0e467b43e849c95147300c80ab9a171713f53e05fdb8f832630803d576d09a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBAccount.h",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "ac21695c145ad3b683a2ab51b80b816095c0bd60af32da10ac2aa967427b3d91"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.cpp",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "2244f8d376b90fe71fe4869f9f2040610112cbbd077ee20eca88cb8b35673b92",
+   "after_sha256": "aef8d35c3c77a6ea68e0f055c6beb72452a428c8d2ed92dc06f7cc0500efaec8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameInstance.cpp",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "43b356d47c843924f13186295ac24c1c0417239201c2161ec82fc927c48f722a",
+   "after_sha256": "32cecbdc6492c914fd8b624aba53b2e61bf40a53ba8daac7a5d444d692f34f62"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameInstance.h",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "1a04640b0fb4e87e4aa749701babcb160f4565f0f13bccf4e5262118abf8af63",
+   "after_sha256": "69df2dc48b7e3a88a4e815f54b5e3b5af10b4545936ba82199278739c541bb7b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameMode.cpp",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "1fe6d609e3096f1951b124b2de85a52a100be1d9995d8e8b5f99652d636c0ebe",
+   "after_sha256": "a9f6a2ea9ec6b248698f6356aeb92d68020e5d508b3ddcc79c31e61bd2e35ab0"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBHubWidget.cpp",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "032b0730a4fd3b9081007355cced53ac5ce214da35761ca3d7a53a8ac772e315",
+   "after_sha256": "e5170bf9617e24d3fae6380863ae3470387f11ceaa45eed6b6f3c369516fc2d8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.cpp",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "90b35dd5016cd489c81906eb483b457639c17cf0dffa211c46b4a5c57dcf9234",
+   "after_sha256": "562e4ff11453284e30bcc4cdd3b483ac6c4405e0774bcefcf48bf53940c4d70d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.h",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "aa786e27d8531258cd2c2f2a86bcfd24f5d7384862802bdb68eee20403684ab5",
+   "after_sha256": "393976f10fc9486bcebc150a4a8f2e89684b8166005589926eb7d88aa71c0f77"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBConfig.h",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "8728c23ede8d1f914cda8f0f676be19a9edbd9f0760a028b0bb5446b3216d76f",
+   "after_sha256": "70200379dd0487f8679205d96f65f6f5ad10f165528089cb63653189175aac34"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "d081c049ebe0be43dbe9fce8f9980304f160438dcefe9e6969741f1f5a9c19a5",
+   "after_sha256": "829d35312d6ab5aba5d714cbc49eba858a0025a027815abee59ab5674d9d9000"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.h",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "ec0622f8a13013e3fc6e7574fb8ff82e1c853866123b7aad9de481b7592c4dda",
+   "after_sha256": "554824b1e8dba74add83032009e9e78ac8fc39dffa7f148f51512da2919c1597"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBJson.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "9703653362f65a1d2a70fd006b0d2f85564d3e21f4406db53f36af9fe3a2e95c"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBJson.h",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "26308698a2a28921d7fe8bea37323f93227a68d34c99b3d5817bc414e12205e7"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMetaOps.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "45daca44d117fc2a2f7f2bd5ed1844ea866e516014d805e49ff69d10121cd6eb",
+   "after_sha256": "c63ff87b572f18d2c1db950d40b2d6e10fe6cf313b3bf1243c29e4e2360daec5"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "af735cb0bd8977f8d23770844f5663de51ce88fd117173689e7ffa0d7fdda238",
+   "after_sha256": "33c9dc3c562b26fc2f5bedf27d91f3746e4f45ced3ee1d3ffefa6e999db98a98"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.h",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "d89c23ee0ea8d6809dc288782876978de21f4b637ef01cc564fd4d27ea2e6c02",
+   "after_sha256": "ca0a94ee4063402129ee4c8814187fd672a3585e709d5f4a1bc910acba05a1a9"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBSave.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "7f2dbb57296f2c7e437f137f41db67933519407bbac86d5ddda61d60cb6fa79a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBSave.h",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "c02b50a626a49a4adaa20b623655df5e47965afb4aacfb418cc36eafe9c32a9c"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBTutorial.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "e34a08451795282e6fd09cf168842cf5262ad436ab690f83f2e7e294222a239b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBTutorial.h",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "949335b2051e099fe5d83432608a4c2231e2becf556576cc692f383747abbf1c"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBUI/BIBUI.cpp",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "693da88fa78cf84180b22811ac4777973d68e940fa79d18af2a2970529c3de11",
+   "after_sha256": "ad01419b5868ebd929904140aa498dc429389503eb1e3e2824d4212ccfb630a7"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BoldInBeautyDemo.Build.cs",
+   "scope": "shared (Unreal source/config); macOS compile + PIE verified 2026-10-04 at 837c105 (final Unreal code), Windows OPEN",
+   "action": "modified",
+   "before_sha256": "de79902487d5fccaf0c9f1bca92b2d6632bccbf8984cf289cc58ed7a993d8b5d",
+   "after_sha256": "c5bbd6a29c6fec231360cb0127f16bd13f748ba4e68b8f7c78c2ef42525e4dfb"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/account_tests.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "29f1ecbf9f64cb8e703d85beca55a802c48ab3b78e713e6c588fe31f8b9716ae"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/core_tests.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "ea0e74cd69922b1db414d9f5b83606eab51f2f3aaff4440a82e1dc21dc229a84",
+   "after_sha256": "4d8b3464a7d14d46c5978b61907c04dbd654a31169169ca12c432eac9564341c"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/run_core_tests.sh",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "d057297349f375324a97d1d0a21c068facffd8daf84df573a2f536607dfa71a2",
+   "after_sha256": "71e8d23cd30b11da0904acc060c1539b65d608ef90b92c15172ec2f2b244e566"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/save_fuzz.cpp",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "23216a9f88ae92c296bf2808575cbb5f00d4333945bb61534087a86cbe5e2d43"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_accounts.py",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "505fc7b9c3d0046929b219924d665e1a712ba12569b0f60790648d9cde361f91"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_flow.py",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "cc1ab923036c9d84afd52728d07d9262fbf5670ea5a55205dc4562f82ce94709",
+   "after_sha256": "bc2d465fccacd168c7348d49f551fb01eab529be3b881af8496248002ba8f19e"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_game.py",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "9fcf9b6e4f87e3b5a63cf84a8d7a36990f2278a707bbe478811d20e011b0f5c3",
+   "after_sha256": "f5ca895a47ef9dcd3d8626279799f060636fa03d705d3c3389d2bb2360007844"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_hub.py",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "f0186658981e554bf2d828d3de50323c4918d653e382d8bd2065d6a162de092e",
+   "after_sha256": "b324b6bf3345614806f357a0f621c8ea376e84cb13e9b8286b8414d1d1555d19"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_kits.py",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "e8a3f63e5a01c56c0e472c957b6f91e9a8232ae29c19880e464c8309fa04997b",
+   "after_sha256": "367ad21f44500c0ec2381233692e308b6fce5d842798fafa7c1079bfef65a621"
+  },
+  {
+   "path": "HANDOFF.md",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "b5b369b60f26e0430b770b26a1013749bf1152938c517a67709add03ef38fd46",
+   "after_sha256": "572aadf0172fa124b7185b23074c838d65bbde56b403dba9ae47d126f7c925a5"
+  },
+  {
+   "path": "docs/accounts-and-saving.md",
+   "scope": "shared (rules / docs / server)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "6246a5318a858784467e1617b8476b26c989cfa68485d309c9dbd260d9bdd2f5"
+  },
+  {
+   "path": "docs/gas-architecture.md",
+   "scope": "shared (rules / docs / server)",
+   "action": "modified",
+   "before_sha256": "1e6b485b8ea1192933eeca8ae4e1f76f2c7117878f45f8c863283f0a8565bc5b",
+   "after_sha256": "cbf087d897bc9aa467d767ce07efed696284850182dd1e6c7a2d35a4240a196d"
+  },
+  {
+   "path": "reports/demo/screenshots/2026-10-04_accounts_signin.png",
+   "scope": "shared; screenshot stored in Git LFS (hash = LFS object id = sha256 of the image), produced on the Mac",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "01b55e7f1f26b61a306d9138445ab00b67b04be4ba8eb2f7137d45c17cc9158d"
+  },
+  {
+   "path": "reports/demo/screenshots/2026-10-04_accounts_tutorial_step1.png",
+   "scope": "shared; screenshot stored in Git LFS (hash = LFS object id = sha256 of the image), produced on the Mac",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "7813c7e69f212b8fdbab76cc49187dffeb3140a75880e8efaff13c078ad425df"
+  }
+ ],
+ "unresolved_items": [
+  "The guided setup has not been run against the owner's real Atlas account and Google mailbox (needs the owner's login-code approval and App password)",
+  "Windows replica and cross-device freshness OPEN; counterpart acknowledgement not received",
+  "Rotation pools, squad rule, Plack twice, demo tools, starting wallet: owner decisions (docs/accounts-and-saving.md)"
+ ],
+ "code_verified_on_mac_at": "837c1059770bb0a25ba7446ba7223ba360470a05 (Job 5: build 0 errors / 0 warnings, verify_hub -BIBDev 53/53, verify_accounts 34 OK / 0 FAIL, server npm test 65/65); later commits change only reports, MAIN and HANDOFF",
+ "step_2026_10_05_live_run": {
+  "task": "Record the live run of the account server on the owner's Mac; handoff with best next step",
+  "date": "2026-10-05",
+  "device": "Linux cloud container (neither replica); Mac evidence via helper session session-redacted (read-only, metadata only)",
+  "base_commit": "fc6ed58ad0c0291c3fc760d9041619fa7c0b9578",
+  "cross_device_freshness": "OPEN (Mac checked once on 2026-10-05; Windows not checked)",
+  "scope": "shared knowledge/docs; the Mac observations are MACOS-LOCAL SNAPSHOT",
+  "files": [
+   {
+    "path": "BoldInBeauty_MAIN",
+    "scope": "shared knowledge/docs",
+    "action": "modified",
+    "before_sha256": "38ad2e4e233c5489b5a3198e31ea4e7104095cd415dab9a13e3decb5dda19230",
+    "after_sha256": "2dc3adf10484c28893e777fa97c7264fc05db469225387a21d0f7f742fa02f0c"
+   },
+   {
+    "path": "HANDOFF.md",
+    "scope": "shared knowledge/docs",
+    "action": "modified",
+    "before_sha256": "572aadf0172fa124b7185b23074c838d65bbde56b403dba9ae47d126f7c925a5",
+    "after_sha256": "8d9cbcc394e401b5f5ee3cfb40892261ef0f72c6d1851d68d03544671491d6c3"
+   },
+   {
+    "path": "reports/demo/2026-10-04-accounts-saves-tutorial.md",
+    "scope": "shared knowledge/docs",
+    "action": "modified",
+    "before_sha256": "f7d281a4f1172fd9cc6476837482343e60f8b6849ce95cc00faf420a48dc7bdd",
+    "after_sha256": "7b7ef771ea99e298694aa1eb86ce68fe74e8a3a2d06f66cfd8530df0fa6792c3"
+   }
+  ],
+  "not_verified": [
+   "Atlas connectivity",
+   "mailbox login and e-mail delivery",
+   "admin sign-up and user id",
+   "mode of the env file target",
+   "Windows"
+  ]
+ }
+}

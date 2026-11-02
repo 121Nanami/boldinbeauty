@@ -1,0 +1,359 @@
+<!--META {"dur":120,"kind":"trailer","music":"trailer","title":"BoldInBeauty download trailer (2:00 loop, 128 BPM, 64 bars)"} -->
+<style>
+  .sc { position: absolute; inset: 0; overflow: hidden; }
+  .stk { position: absolute; font-family: "League Gothic", sans-serif; text-transform: uppercase; white-space: nowrap; line-height: .9; padding: 10px 28px 4px; border: 6px solid #090B12; box-shadow: 10px 10px 0 #090B12; }
+  .stk.r { background: #FF3D8D; color: #F7F4FA; } .stk.w { background: #F7F4FA; color: #090B12; } .stk.c { background: #64E8FF; color: #090B12; } .stk.v { background: #7657FF; color: #F7F4FA; } .stk.k { background: #090B12; color: #F7F4FA; border-color: #F7F4FA; box-shadow: 10px 10px 0 #FF3D8D; }
+  .big { position: absolute; font-family: "League Gothic", sans-serif; text-transform: uppercase; white-space: nowrap; line-height: .88; }
+  .outl { color: transparent; -webkit-text-stroke: 3px #F7F4FA; }
+  .pan { position: absolute; inset: 0; overflow: hidden; }
+  .ht { position: absolute; inset: 0; background-image: radial-gradient(circle, rgba(9,11,18,.55) 34%, transparent 37%); background-size: 16px 16px; }
+  .chrome { position: absolute; font-family: "JetBrains Mono", monospace; font-size: 22px; letter-spacing: .1em; text-transform: uppercase; color: #F7F4FA; white-space: nowrap; }
+</style>
+<div id="world" class="fill">
+  <canvas id="cv"></canvas>
+  <div id="scenes" class="fill"></div>
+</div>
+<div id="ink" class="fill" style="pointer-events:none"></div>
+<canvas id="fx"></canvas>
+<div class="chrome" style="left:36px;top:26px;opacity:.7">BOLDINBEAUTY // DOWNLOAD FEED</div>
+<div class="chrome" id="tcode" style="right:36px;top:26px;color:#64E8FF">BAR 00</div>
+<div class="chrome" style="left:36px;bottom:24px;font-weight:700;opacity:.75">CONCEPT TRAILER · IN DEVELOPMENT · NOT FINAL GAMEPLAY</div>
+<div id="flash" class="fill" style="background:#F7F4FA;opacity:0"></div>
+<script>
+(function () {
+  var BPM = 128, BEAT = 60 / BPM, BAR = BEAT * 4;
+  function b(bar, beat) { return bar * BAR + (beat || 0) * BEAT; }
+  var S = document.getElementById("scenes"), el = IG.el;
+  function scene(b0, b1, bg) { var d = el("div", "sc", S, null, { background: bg || "transparent" }); IG.span(tl, d, b(b0), b1 == null ? null : b(b1)); return d; }
+  function A(p, css) { return el("div", "", p, null, Object.assign({ position: "absolute" }, css)); }
+  function T(p, cls, html, css) { return el("div", cls, p, html, Object.assign({ position: "absolute" }, css)); }
+  function stk(p, txt, kind, x, y, fs, rot) { var s = T(p, "stk " + kind, txt, { left: x + "px", top: y + "px", fontSize: fs + "px" }); gsap.set(s, { rotation: rot || 0 }); return s; }
+  function stickOn(s, t, rot) { tl.fromTo(s, { scale: 2.2, opacity: 0, rotation: (rot || 0) - 14 }, { scale: 1, opacity: 1, rotation: rot || 0, duration: 0.16, ease: "back.out(2.6)" }, t); }
+  function flash(t, a) { tl.set("#flash", { opacity: a || 0.9 }, t); tl.set("#flash", { opacity: 0 }, t + 2 / 30); }
+  function slash(p, t, col, top) { var s = A(p, { left: "-300px", top: (top || 470) + "px", width: "2520px", height: "150px", background: col || C.rose, transform: "rotate(-12deg)" }); tl.fromTo(s, { xPercent: -100 }, { xPercent: 100, duration: 0.3, ease: "power3.inOut" }, t); return s; }
+
+  /* ---------- shared canvas: one painter that switches "worlds" by time ---------- */
+  var x = IG.canvas("cv"), H = IG.hash;
+  var PHI = 1.618;
+  var IV = [[0, 1, PHI], [0, -1, PHI], [0, 1, -PHI], [0, -1, -PHI], [1, PHI, 0], [-1, PHI, 0], [1, -PHI, 0], [-1, -PHI, 0], [PHI, 0, 1], [-PHI, 0, 1], [PHI, 0, -1], [-PHI, 0, -1]];
+  var IE = []; for (var i = 0; i < 12; i++) for (var j = i + 1; j < 12; j++) { var dx = IV[i][0] - IV[j][0], dy = IV[i][1] - IV[j][1], dz = IV[i][2] - IV[j][2]; if (Math.abs(dx * dx + dy * dy + dz * dz - 4) < 0.01) IE.push([i, j]); }
+  function ico(cx, cy, s, ax, ay, col, lw, a) {
+    var P = IV.map(function (v) { var X = v[0], Y = v[1], Z = v[2], c = Math.cos(ay), sn = Math.sin(ay); var X2 = X * c - Z * sn, Z2 = X * sn + Z * c; c = Math.cos(ax); sn = Math.sin(ax); var Y2 = Y * c - Z2 * sn, Z3 = Y * sn + Z2 * c; var k = 4 / (6 + Z3); return [cx + X2 * s * k, cy + Y2 * s * k]; });
+    x.strokeStyle = col; x.lineWidth = lw; x.globalAlpha = a == null ? 1 : a; x.beginPath();
+    IE.forEach(function (e) { x.moveTo(P[e[0]][0], P[e[0]][1]); x.lineTo(P[e[1]][0], P[e[1]][1]); }); x.stroke();
+    x.fillStyle = col; P.forEach(function (p) { x.fillRect(p[0] - 3, p[1] - 3, 6, 6); }); x.globalAlpha = 1;
+  }
+  function halo(cx, cy, r, rot, col, a) {
+    x.save(); x.translate(cx, cy); x.rotate(rot); x.globalAlpha = a; x.strokeStyle = col; x.lineWidth = 3; x.beginPath(); x.arc(0, 0, r, 0, 6.283); x.stroke();
+    for (var k = 0; k < 48; k++) { var an = k * 6.283 / 48, l = k % 4 ? 8 : 22; x.beginPath(); x.moveTo(Math.cos(an) * r, Math.sin(an) * r); x.lineTo(Math.cos(an) * (r + l), Math.sin(an) * (r + l)); x.stroke(); }
+    x.restore(); x.globalAlpha = 1;
+  }
+  function city(t, hor, glow) {
+    // three parallax layers of towers with lit windows + signs
+    for (var layer = 0; layer < 3; layer++) {
+      var sp = [14, 30, 60][layer], baseY = hor + layer * 40, n = [26, 20, 14][layer], wid = [70, 110, 170][layer];
+      var shade = ["#121624", "#151925", "#0d1019"][layer];
+      for (var k = 0; k < n; k++) {
+        var w = wid * (0.7 + 0.6 * H(k, 11 + layer)), h = (200 + 520 * H(k, 21 + layer)) * (1 - layer * 0.15);
+        var px = ((k * (1920 / n * 1.3) - t * sp) % (2200) + 2200) % 2200 - 140;
+        x.fillStyle = shade; x.fillRect(px, baseY - h, w, h + 400);
+        x.strokeStyle = layer === 2 ? "rgba(100,232,255,.25)" : "rgba(118,87,255,.25)"; x.lineWidth = 1; x.strokeRect(px, baseY - h, w, h + 400);
+        for (var r = 0; r < h / 22; r++) for (var c = 0; c < w / 18 - 1; c++) {
+          var hv = H(k * 977 + r * 31 + c, 40 + layer);
+          if (hv > 0.78) { x.fillStyle = hv > 0.97 ? "rgba(255,61,141,.85)" : hv > 0.93 ? "rgba(100,232,255,.6)" : "rgba(247,244,250," + (0.12 + 0.25 * glow).toFixed(2) + ")"; x.fillRect(px + 6 + c * 18, baseY - h + 10 + r * 22, 8, 10); }
+        }
+        if (H(k, 60 + layer) > 0.7 && layer > 0) { x.fillStyle = H(k, 61) > 0.5 ? C.rose : C.vio; x.globalAlpha = 0.6 + 0.4 * Math.sin(t * 6 + k); x.fillRect(px + w * 0.2, baseY - h * 0.6, 14, h * 0.35); x.globalAlpha = 1; }
+      }
+    }
+    var g = x.createLinearGradient(0, hor - 300, 0, 1080); g.addColorStop(0, "rgba(9,11,18,0)"); g.addColorStop(1, "rgba(118,87,255," + (0.25 * glow).toFixed(2) + ")"); x.fillStyle = g; x.fillRect(0, hor - 300, 1920, 1380 - hor);
+  }
+  function arc(t, k) {
+    // concentric underground city: ellipse strata with ember windows
+    for (var r = 0; r < 14; r++) {
+      var rx = 120 + r * 70 + ((t * 40) % 70) * 0, ry = rx * 0.32, cy = 640 - r * 6;
+      x.strokeStyle = r % 3 === 0 ? "rgba(255,61,141," + (0.55 * k).toFixed(2) + ")" : "rgba(118,87,255," + (0.35 * k).toFixed(2) + ")"; x.lineWidth = r % 3 === 0 ? 3 : 1.5;
+      x.beginPath(); x.ellipse(960, cy, rx, ry, 0, 0, 6.283); x.stroke();
+      for (var w = 0; w < 18 + r * 3; w++) { var an = w * 6.283 / (18 + r * 3) + t * (0.05 + r * 0.01) * (r % 2 ? 1 : -1), hv = H(r * 131 + w, 7);
+        if (hv > 0.55) { x.fillStyle = hv > 0.9 ? "rgba(255,61,141," + (0.9 * k).toFixed(2) + ")" : "rgba(247,244,250," + (0.35 * k).toFixed(2) + ")"; x.fillRect(960 + Math.cos(an) * rx - 3, cy + Math.sin(an) * ry - 2, 6, 4); } }
+    }
+  }
+  function grid3d(t, col, k) {
+    x.strokeStyle = col; x.globalAlpha = k; x.lineWidth = 1.5;
+    for (var i = -12; i <= 12; i++) { x.beginPath(); x.moveTo(960 + i * 40, 560); x.lineTo(960 + i * 400, 1080); x.stroke(); }
+    for (var j = 0; j < 14; j++) { var z = ((j + (t * 2) % 1) / 14), y = 560 + Math.pow(z, 2.2) * 520; x.beginPath(); x.moveTo(0, y); x.lineTo(1920, y); x.stroke(); }
+    x.globalAlpha = 1;
+  }
+  function paint(t) {
+    x.clearRect(0, 0, 1920, 1080);
+    x.fillStyle = "#090B12"; x.fillRect(0, 0, 1920, 1080);
+    var bar = t / BAR, beatPh = (t % BEAT) / BEAT, pulse = Math.pow(1 - beatPh, 3);
+    if (bar < 4) { // boot: grid + scanning
+      grid3d(t, "rgba(100,232,255,.5)", IG.inv(0.5, 2.5, bar) * 0.6);
+    } else if (bar < 8) { // neo tokyo
+      var g = x.createRadialGradient(1300, 300, 10, 1300, 300, 900); g.addColorStop(0, "rgba(118,87,255,.35)"); g.addColorStop(1, "rgba(9,11,18,0)"); x.fillStyle = g; x.fillRect(0, 0, 1920, 1080);
+      city(t, 900, 0.6 + 0.4 * pulse); IG.rain(x, t, { n: 160, seed: 3 });
+    } else if (bar < 12) { // angels descend over the city
+      city(t, 1000, 0.3); x.fillStyle = "rgba(9,11,18,.45)"; x.fillRect(0, 0, 1920, 1080);
+      var dk = IG.inv(8, 9, bar), yy = IG.lerp(-300, 380, IG.ocub(dk));
+      for (var q = 0; q < 6; q++) { x.fillStyle = "rgba(247,244,250," + (0.05 + 0.04 * pulse).toFixed(3) + ")"; x.fillRect(900 - q * 30, 0, 120 + q * 60, 1080); }
+      halo(960, yy, 260 + 20 * pulse, t * 0.4, C.cy, 0.8); halo(960, yy, 330, -t * 0.25, C.wh, 0.4);
+      ico(960, yy, 230, t * 0.7, t * 0.9, C.wh, 3); ico(960, yy, 120, -t, t * 1.3, C.cy, 2, 0.8);
+      ico(420, yy + 160, 90, t, -t * 0.8, C.cy, 2, 0.7 * IG.inv(9, 10, bar)); ico(1500, yy + 120, 110, -t * 0.9, t, C.cy, 2, 0.7 * IG.inv(9.5, 10.5, bar));
+    } else if (bar < 16) { // pure light / mathematics: tiling + equations
+      for (var i2 = 0; i2 < 9; i2++) halo(960, 540, 120 + i2 * 90, t * (0.2 + i2 * 0.05) * (i2 % 2 ? 1 : -1), i2 % 3 ? C.cy : C.wh, 0.15 + 0.5 * (i2 === Math.floor(t * 4) % 9 ? 1 : 0.3));
+      ico(960, 540, 300 + 30 * pulse, t * 1.2, t * 0.8, C.wh, 4);
+      x.font = "700 26px 'JetBrains Mono'"; x.fillStyle = "rgba(100,232,255,.5)";
+      for (var e = 0; e < 18; e++) x.fillText(["φ=1.618", "∑∞", "π", "e^iπ+1=0", "∇", "√5", "∫", "Δ"][e % 8], 100 + H(e, 3) * 1700, 100 + H(e, 4) * 900 + (t * 30 * (H(e, 5) - 0.5)));
+    } else if (bar < 20) { // the arc
+      arc(t, IG.inv(16, 17, bar)); IG.rain(x, t, { n: 60, seed: 9, a: 0.5 });
+    } else if (bar < 28) { // operators: speed tunnel
+      x.fillStyle = "#151925"; x.fillRect(0, 0, 1920, 1080);
+      for (var rr = 0; rr < 16; rr++) { var z = ((rr / 16) + t * 0.6) % 1, s = Math.pow(z, 2.4) * 1800; x.strokeStyle = rr % 4 === 0 ? "rgba(255,61,141," + (z * 0.9).toFixed(2) + ")" : "rgba(118,87,255," + (z * 0.6).toFixed(2) + ")"; x.lineWidth = 2 + z * 6;
+        x.beginPath(); for (var hx = 0; hx < 7; hx++) { var an2 = hx * Math.PI / 3 + Math.PI / 6; if (hx === 0) x.moveTo(960 + Math.cos(an2) * s, 540 + Math.sin(an2) * s); else x.lineTo(960 + Math.cos(an2) * s, 540 + Math.sin(an2) * s); } x.stroke(); }
+      if (bar > 24) IG.speed(x, t, { col: "rgba(247,244,250,.35)", n: 60, r0: 300 });
+    } else if (bar < 36) { // commander: red war room grid + beat pulse
+      x.fillStyle = "rgba(255,61,141," + (0.06 + 0.1 * pulse).toFixed(3) + ")"; x.fillRect(0, 0, 1920, 1080);
+      grid3d(t * 2, "rgba(255,61,141,.6)", 0.7);
+      IG.speed(x, t, { col: "rgba(247,244,250," + (0.15 + 0.3 * pulse).toFixed(2) + ")", n: 50, r0: 420 });
+    } else if (bar < 44) { // summon: rays in rarity colour by bar
+      var rc = [C.cy, C.vio, C.rose, C.wh][Math.min(3, Math.floor((bar - 36) / 2))];
+      x.save(); x.translate(960, 500); x.rotate(t * 0.3);
+      for (var ray = 0; ray < 28; ray++) { x.rotate(6.283 / 28); x.fillStyle = rc; x.globalAlpha = 0.12 + 0.12 * pulse; x.beginPath(); x.moveTo(0, 0); x.lineTo(1500, -50); x.lineTo(1500, 50); x.closePath(); x.fill(); }
+      x.restore(); x.globalAlpha = 1;
+    } else if (bar < 52) { // systems montage: tower / grid
+      grid3d(t * 3, "rgba(100,232,255,.45)", 0.6);
+      for (var fl = 0; fl < 30; fl++) { var fy = 1080 - ((fl * 70 + t * 260) % 2100); x.strokeStyle = "rgba(118,87,255,.5)"; x.lineWidth = 2; x.strokeRect(1460, fy, 300, 56); }
+    } else if (bar < 58) { // government: propaganda rays
+      x.save(); x.translate(960, 540); x.rotate(t * 0.1);
+      for (var pr = 0; pr < 24; pr++) { x.rotate(6.283 / 24); x.fillStyle = pr % 2 ? "rgba(255,61,141,.2)" : "rgba(118,87,255,.12)"; x.beginPath(); x.moveTo(0, 0); x.lineTo(1500, -120); x.lineTo(1500, 120); x.closePath(); x.fill(); }
+      x.restore();
+    } else { // title
+      var g2 = x.createRadialGradient(960, 520, 10, 960, 520, 1000); g2.addColorStop(0, "rgba(118,87,255,.3)"); g2.addColorStop(1, "rgba(9,11,18,0)"); x.fillStyle = g2; x.fillRect(0, 0, 1920, 1080);
+      city(t, 1150, 0.4); x.fillStyle = "rgba(9,11,18,.5)"; x.fillRect(0, 0, 1920, 1080); IG.rain(x, t, { n: 120, seed: 4, a: 0.8 });
+    }
+  }
+  IG.clock(tl, DUR, paint);
+
+  /* ---------- overlay fx: grain, scanlines, beat-reactive chroma ---------- */
+  var fx = IG.canvas("fx");
+  IG.clock(tl, DUR, function (t) {
+    fx.clearRect(0, 0, 1920, 1080); IG.grain(fx, t, 0.05, 2);
+    fx.fillStyle = "rgba(100,232,255,.025)"; for (var y = 0; y < 1080; y += 4) fx.fillRect(0, y, 1920, 1);
+    var v = fx.createRadialGradient(960, 540, 600, 960, 540, 1150); v.addColorStop(0, "rgba(9,11,18,0)"); v.addColorStop(1, "rgba(9,11,18,.75)"); fx.fillStyle = v; fx.fillRect(0, 0, 1920, 1080);
+  });
+  IG.clock(tl, DUR, function (t) { var n = Math.floor(t / BAR); document.getElementById("tcode").textContent = "BAR " + (n < 10 ? "0" : "") + n + " // " + (Math.floor(t / BEAT) % 4 + 1) + "/4"; });
+
+  /* ---------- SCENE 0: boot / download (bars 0-4) ---------- */
+  var s0 = scene(0, 4);
+  var dl = T(s0, "mono", "", { left: "0", width: "1920px", textAlign: "center", top: "380px", fontSize: "30px", color: C.cy });
+  IG.scramble(tl, dl, "DOWNLOADING // NEO TOKYO // PLEASE STAND BY", 0.3, 1.2, 3);
+  var trk = A(s0, { left: "560px", top: "450px", width: "800px", height: "8px", background: "rgba(100,232,255,.2)" });
+  var trf = A(trk, { left: "0", top: "0", height: "8px", width: "0px", background: C.rose, boxShadow: "0 0 18px " + C.rose });
+  tl.fromTo(trf, { width: 0 }, { width: 800, duration: b(3, 2) - 0.6, ease: "power1.in" }, 0.6);
+  var rg0 = IG.ring(s0, 70, 12, C.rose, { left: "866px", top: "540px" });
+  IG.drawRing(tl, rg0, 0.8, b(3) - 0.8, 0, 1);
+  tl.fromTo(rg0.svg, { rotation: 0 }, { rotation: 720, duration: b(4), ease: "power2.in" }, 0);
+  var bootLines = ["> MOUNT ARC_FEED", "> SYNC OPERATOR REGISTRY", "> DECODE ANGEL SIGNAL ...", "> COMMANDER FOUND"];
+  bootLines.forEach(function (l, i) { var e = T(s0, "mono", "", { left: "100px", top: (760 + i * 40) + "px", fontSize: "24px", color: i === 3 ? C.rose : "rgba(247,244,250,.7)" }); IG.typeOn(tl, e, l, b(1 + i * 0.6), 0.5, true); });
+  tl.to(s0, { scale: 1.8, opacity: 0, duration: 0.3, ease: "power3.in" }, b(3, 3) - 0.1);
+  flash(b(4), 0.95);
+
+  /* ---------- SCENE 1: NEO TOKYO (bars 4-8): comic panel splits ---------- */
+  var s1 = scene(4, 8);
+  var p1 = A(s1, { left: "0", top: "0", width: "1920px", height: "1080px", clipPath: "polygon(0 0, 58% 0, 44% 100%, 0 100%)" });
+  A(p1, { inset: "0", background: "rgba(255,61,141,.92)" }); el("div", "ht", p1);
+  T(p1, "big", "<span class='bib-skew'>TOKYO,<br>JAPAN</span>", { left: "90px", top: "200px", fontSize: "300px", color: C.bk });
+  var p1s = A(s1, { left: "0", top: "0", width: "1920px", height: "1080px" });
+  var yr = stk(p1s, "2009", "k", 1180, 160, 260, 6);
+  var nt = T(p1s, "big", "<span class='bib-skew'>NEO TOKYO</span>", { left: "900px", top: "560px", fontSize: "330px", color: C.wh, textShadow: "12px 10px 0 #7657FF" });
+  var jp1 = T(p1s, "jp", "ネオ東京", { left: "1020px", top: "880px", fontSize: "90px", color: C.cy, letterSpacing: ".3em" });
+  tl.fromTo(p1, { xPercent: -100 }, { xPercent: 0, duration: 0.35, ease: "expo.out" }, b(4));
+  stickOn(yr, b(5), 6); IG.shake(tl, s1, b(5), 0.3, 12, 3);
+  tl.to(p1, { xPercent: -100, duration: 0.35, ease: "expo.in" }, b(6) - 0.3);
+  IG.slam(tl, nt, b(6), { x: 300, s: 1.4, d: 0.25 }); IG.scramble(tl, jp1, "ネオ東京", b(6, 2), 0.4, 4);
+  tl.to(nt, { x: -80, duration: b(2), ease: "none" }, b(6, 1));
+  flash(b(8));
+
+  /* ---------- SCENE 2: 2002 / THE ANGELS DESCENDED (bars 8-12) ---------- */
+  var s2 = scene(8, 12);
+  var y02 = T(s2, "big", "2002", { left: "120px", top: "120px", fontSize: "240px", color: "transparent", WebkitTextStroke: "3px #F7F4FA" });
+  var ad1 = stk(s2, "THE ANGELS", "w", 140, 690, 150, -4);
+  var ad2 = stk(s2, "DESCENDED.", "r", 640, 820, 150, 3);
+  var jp2 = T(s2, "jp", "天使", { left: "1440px", top: "620px", fontSize: "300px", color: "transparent", WebkitTextStroke: "3px rgba(100,232,255,.6)" });
+  IG.slam(tl, y02, b(8), { x: -200 });
+  stickOn(ad1, b(10), -4); stickOn(ad2, b(10, 2), 3); IG.shake(tl, s2, b(10, 2), 0.35, 14, 5);
+  tl.fromTo(jp2, { opacity: 0, y: 80 }, { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" }, b(9));
+  flash(b(12));
+
+  /* ---------- SCENE 3: PURE LIGHT. PURE MATHEMATICS. (bars 12-16) ---------- */
+  var s3 = scene(12, 16);
+  var pl = T(s3, "big", "<span class='bib-skew'>PURE LIGHT.</span>", { left: "0", width: "1920px", textAlign: "center", top: "120px", fontSize: "200px", color: C.wh });
+  var pm = T(s3, "big", "<span class='bib-skew'>PURE MATHEMATICS.</span>", { left: "0", width: "1920px", textAlign: "center", top: "780px", fontSize: "200px", color: C.cy });
+  var pf = stk(s3, "PERFECT.", "w", 720, 420, 220, -6);
+  var dk = A(s3, { left: "-200px", top: "380px", width: "2320px", height: "320px", background: C.rose, transform: "rotate(-12deg)" });
+  var dt = T(dk, "big", "DESIGNED TO KILL EVERYTHING.", { left: "0", width: "2320px", textAlign: "center", top: "40px", fontSize: "230px", color: C.bk });
+  IG.span(tl, pf, b(14), b(15)); IG.span(tl, dk, b(15), null);
+  IG.slam(tl, pl, b(12), { x: 0, s: 1.5, d: 0.2 }); IG.slam(tl, pm, b(13), { x: 0, s: 1.5, d: 0.2 });
+  stickOn(pf, b(14), -6); IG.shake(tl, s3, b(14), 0.3, 16, 7);
+  tl.fromTo(dk, { scaleX: 0 }, { scaleX: 1, duration: 0.25, ease: "expo.out" }, b(15));
+  IG.slam(tl, dt, b(15), { x: 400, s: 1.2, d: 0.25 });
+  tl.to([pl, pm], { opacity: 0.25, duration: 0.2 }, b(15));
+  IG.glitch(tl, s3, b(15, 3), 0.25, 50, 21);
+  flash(b(16));
+
+  /* ---------- SCENE 4: EVERYONE OUTSIDE DIED / THE ARC (bars 16-20) ---------- */
+  var s4 = scene(16, 20);
+  var eo = T(s4, "big", "EVERYONE OUTSIDE DIED.", { left: "0", width: "1920px", textAlign: "center", top: "150px", fontSize: "150px", color: "rgba(247,244,250,.85)" });
+  var hs = T(s4, "mono", "HUMANITY SURVIVES UNDERGROUND", { left: "0", width: "1920px", textAlign: "center", top: "330px", fontSize: "34px", color: C.cy });
+  var ta = stk(s4, "THE ARC", "r", 740, 760, 200, -3);
+  tl.fromTo(eo, { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" }, b(16));
+  IG.scramble(tl, hs, "HUMANITY SURVIVES UNDERGROUND", b(17), 0.8, 8);
+  stickOn(ta, b(18), -3); IG.shake(tl, s4, b(18), 0.3, 12, 9);
+  tl.to(ta, { scale: 1.06, duration: b(1.8), ease: "none" }, b(18, 1));
+  flash(b(20));
+
+  /* ---------- SCENE 5: OPERATORS (bars 20-28): sticker stack ---------- */
+  var s5 = scene(20, 28);
+  var hc = T(s5, "big", "<span class='bib-skew'>HUMANITY CREATED</span>", { left: "100px", top: "90px", fontSize: "150px", color: C.wh });
+  var op = T(s5, "title", "<span class='bib-skew'>OPERATORS</span>", { left: "90px", top: "230px", fontSize: "250px", color: C.rose, textShadow: "12px 10px 0 #7657FF" });
+  var jp5 = T(s5, "jp", "オペレーター", { left: "1200px", top: "130px", fontSize: "60px", color: C.cy, letterSpacing: ".2em" });
+  var pc1 = stk(s5, "50% HUMAN", "w", 90, 540, 160, -5), pc2 = stk(s5, "49% ROBOT", "c", 720, 620, 160, 4), pc3 = stk(s5, "1% ANGEL", "v", 1340, 540, 160, -3);
+  var au = stk(s5, "AUTONOMOUS", "k", 300, 830, 130, 3), se = stk(s5, "SENTIENT", "r", 1060, 840, 150, -4);
+  IG.slam(tl, hc, b(20), { x: -300 }); IG.slam(tl, op, b(21), { x: 0, s: 1.6, d: 0.22 }); IG.shake(tl, s5, b(21), 0.35, 16, 11);
+  IG.scramble(tl, jp5, "オペレーター", b(21, 2), 0.4, 6);
+  stickOn(pc1, b(22)); stickOn(pc2, b(22, 2), 4); stickOn(pc3, b(23), -3);
+  stickOn(au, b(25), 3); stickOn(se, b(25, 2), -4); IG.shake(tl, s5, b(25, 2), 0.3, 12, 12);
+  tl.to(s5, { scale: 1.12, duration: b(2), ease: "power2.in" }, b(26));
+  tl.to([pc1, pc2, pc3, au, se], { y: -1400, rotation: "+=30", duration: 0.5, ease: "power3.in", stagger: 0.05 }, b(27, 2));
+  flash(b(28), 1);
+
+  /* ---------- SCENE 6: YOU ARE THE COMMANDER (bars 28-36): DROP ---------- */
+  var s6 = scene(28, 36);
+  var yac = A(s6, { inset: "0" });
+  var y1 = T(yac, "big", "<span class='bib-skew'>YOU ARE</span>", { left: "0", width: "1920px", textAlign: "center", top: "120px", fontSize: "220px", color: C.wh });
+  var y2 = T(yac, "title", "<span class='bib-skew'>THE COMMANDER</span>", { left: "0", width: "1920px", textAlign: "center", top: "380px", fontSize: "150px", color: C.rose, textShadow: "12px 10px 0 #7657FF" });
+  var y3 = T(yac, "jp", "司令官", { left: "0", width: "1920px", textAlign: "center", top: "620px", fontSize: "130px", color: "transparent", WebkitTextStroke: "3px #64E8FF", letterSpacing: ".4em" });
+  IG.span(tl, yac, b(28), b(30));
+  IG.slam(tl, y1, b(28), { x: 0, s: 2, d: 0.2 }); IG.slam(tl, y2, b(28, 2), { x: 0, s: 2, d: 0.2 }); IG.shake(tl, s6, b(28, 2), 0.4, 20, 13);
+  IG.scramble(tl, y3, "司令官", b(29), 0.4, 3);
+  // panels: 3 OPERATORS / 1 IN THE FIGHT / SWITCH
+  var pn = A(s6, { inset: "0" }); IG.span(tl, pn, b(30), b(32));
+  var pa = A(pn, { inset: "0", clipPath: "polygon(0 0, 40% 0, 30% 100%, 0 100%)", background: C.rose }); el("div", "ht", pa);
+  var pb = A(pn, { inset: "0", clipPath: "polygon(40.5% 0, 72% 0, 62% 100%, 30.5% 100%)", background: C.st });
+  var pcc = A(pn, { inset: "0", clipPath: "polygon(72.5% 0, 100% 0, 100% 100%, 62.5% 100%)", background: C.wh });
+  T(pa, "big", "3<br>OPERATORS", { left: "80px", top: "250px", fontSize: "190px", color: C.bk });
+  T(pb, "big", "1 IN<br>THE<br>FIGHT", { left: "820px", top: "200px", fontSize: "190px", color: C.wh });
+  T(pcc, "big", "<span class='bib-skew'>SWITCH</span>", { left: "1380px", top: "420px", fontSize: "180px", color: C.rose });
+  [pa, pb, pcc].forEach(function (p, i) { tl.fromTo(p, { yPercent: i % 2 ? 100 : -100 }, { yPercent: 0, duration: 0.25, ease: "expo.out" }, b(30, i * 1.33)); });
+  IG.shake(tl, pn, b(31, 2), 0.3, 18, 14);
+  // moves: 5 slots land on beats
+  var mv = A(s6, { inset: "0" }); IG.span(tl, mv, b(32), b(34));
+  ["MOVE 1", "MOVE 2", "MOVE 3", "SPECIAL", "ULTIMATE"].forEach(function (m, i) {
+    var col = i < 3 ? "c" : i === 3 ? "v" : "r";
+    var s = stk(mv, m, col, 110 + i * 350, 400 + (i % 2) * 120, i === 4 ? 130 : 110, (i % 2 ? 4 : -4));
+    stickOn(s, b(32, i * 0.75 + (i === 4 ? 0.5 : 0)), i % 2 ? 4 : -4);
+  });
+  var mt = T(mv, "mono", "EVERY OPERATOR // 3 MOVES // 1 SPECIAL // 1 ULTIMATE", { left: "0", width: "1920px", textAlign: "center", top: "800px", fontSize: "32px", color: C.wh });
+  IG.rise(tl, mt, b(33, 1)); IG.shake(tl, mv, b(33, 3), 0.4, 20, 15);
+  // block parry dodge: 3 hits
+  var bp = A(s6, { inset: "0" }); IG.span(tl, bp, b(34), b(36));
+  ["BLOCK", "PARRY", "DODGE"].forEach(function (w, i) {
+    var e = T(bp, "big", "<span class='bib-skew'>" + w + "</span>", { left: "0", width: "1920px", textAlign: "center", top: "300px", fontSize: "420px", color: [C.cy, C.rose, C.vio][i] === C.rose ? C.wh : C.wh, textShadow: "14px 12px 0 " + [C.cy, C.rose, C.vio][i] });
+    IG.span(tl, e, b(34, i * 1.33), i < 2 ? b(34, (i + 1) * 1.33) : null);
+    IG.slam(tl, e, b(34, i * 1.33), { x: i === 2 ? 400 : 0, s: 1.8, d: 0.16 });
+    flash(b(34, i * 1.33), 0.5);
+  });
+  slash(bp, b(35, 2), C.rose, 460);
+  flash(b(36), 1);
+
+  /* ---------- SCENE 7: SUMMON (bars 36-44) ---------- */
+  var s7 = scene(36, 44);
+  var sm = T(s7, "title", "<span class='bib-skew'>SUMMON</span>", { left: "0", width: "1920px", textAlign: "center", top: "70px", fontSize: "170px", color: C.wh, textShadow: "9px 8px 0 #FF3D8D" });
+  var rc = T(s7, "mono", "RECRUIT // STANDARD // FEATURED // DAILY", { left: "0", width: "1920px", textAlign: "center", top: "260px", fontSize: "30px", color: C.cy });
+  IG.slam(tl, sm, b(36), { x: 0, s: 1.6 }); IG.scramble(tl, rc, "RECRUIT // STANDARD // FEATURED // DAILY", b(36, 2), 0.6, 5);
+  var RR = [["RARE", 3, C.cy, "c"], ["EPIC", 4, C.vio, "v"], ["LEGENDARY", 5, C.rose, "r"], ["SECRET", 6, C.wh, "w"]];
+  RR.forEach(function (r, i) {
+    var g = A(s7, { inset: "0" }); IG.span(tl, g, b(37 + i * 1.5), i < 3 ? b(37 + (i + 1) * 1.5) : b(43));
+    var cr = UIP.crystal(g, 220, r[2], { left: "850px", top: "330px" });
+    var st = UIP.stars(g, r[1], 80, i === 3 ? C.rose : r[2], { left: (960 - r[1] * 84 / 2) + "px", top: "650px" });
+    var nm = stk(g, r[0], r[3], 0, 760, 150, i % 2 ? 3 : -3); nm.style.left = (960 - (r[0].length * 33 + 56)) + "px";
+    tl.fromTo(cr, { y: 400, scale: 0.3, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.3, ease: "expo.out" }, b(37 + i * 1.5));
+    st.arr.forEach(function (s, k) { tl.fromTo(s, { scale: 0, rotation: -90 }, { scale: 1, rotation: 0, duration: 0.18, ease: "back.out(3)" }, b(37 + i * 1.5, 1 + k * 0.25)); });
+    stickOn(nm, b(37 + i * 1.5, 2.5), i % 2 ? 3 : -3);
+    flash(b(37 + i * 1.5), 0.4 + i * 0.15);
+    if (i === 3) { IG.glitch(tl, cr, b(42, 0.5), 0.3, 40, 31); IG.shake(tl, g, b(42, 2), 0.5, 22, 16); }
+  });
+  var ro = A(s7, { inset: "0" }); IG.span(tl, ro, b(43), b(44));
+  var r20 = T(ro, "title", "20", { left: "560px", top: "330px", fontSize: "420px", color: C.rose, textShadow: "16px 14px 0 #7657FF" });
+  var r20b = T(ro, "big", "OPERATORS", { left: "1060px", top: "450px", fontSize: "200px", color: C.wh });
+  IG.slam(tl, r20, b(43), { x: -300, s: 1.6, d: 0.2 }); IG.slam(tl, r20b, b(43, 1), { x: 300, s: 1.4, d: 0.2 });
+  tl.to([sm, rc], { opacity: 0, duration: 0.1 }, b(43));
+  flash(b(44), 1);
+
+  /* ---------- SCENE 8: SYSTEMS MONTAGE (bars 44-52): half-bar cards ---------- */
+  var s8 = scene(44, 52);
+  var cards = [
+    ["13 CHAPTERS", "CHAPTER // STAGE // SECTION", "r"], ["MINI-BOSS", "EVERY LEVEL. BOSSES END CHAPTERS.", "k"],
+    ["THE ARK", "ENDLESS TOWER // NEVER RESETS", "v"], ["ARENA", "BRONZE // SILVER // GOLD // DIAMOND // PLATINUM // CHAMPIONS", "w"],
+    ["OUTER WORLD", "BUILDINGS PRODUCE GOLD, BYTES, ANGEL HEARTS", "c"], ["ARCADE", "NIGHT SHIFT // BOSS RUSH // RHYTHM", "r"],
+    ["GANGS", "SEASON PASS // QUESTS // FRIENDS", "k"], ["SIGNATURE WEAPONS", "HELMET // CHEST PLATE // LEGGINGS // WEAPON", "v"],
+    ["NIGHT SHIFT", "ARCADE", "w"], ["BOSS RUSH", "ARCADE", "r"], ["RHYTHM", "ARCADE", "c"], ["SEASON PASS", "50 TIERS", "k"],
+    ["SUB-STORIES", "REVOLUTION TAB", "v"], ["SUMMON", "STANDARD // FEATURED // DAILY", "r"], ["THE ARK", "NEVER RESETS", "w"], ["COMMANDER", "司令官", "r"]
+  ];
+  cards.forEach(function (c, i) {
+    var g = A(s8, { inset: "0" }), t0 = b(44 + i * 0.5), t1 = b(44 + (i + 1) * 0.5);
+    IG.span(tl, g, t0, i < cards.length - 1 ? t1 : null);
+    var big = stk(g, c[0], c[2], 0, 360, i < 8 ? 210 : 260, (i % 2 ? 3 : -3));
+    big.style.left = Math.max(60, 960 - c[0].length * (i < 8 ? 46 : 57)) + "px";
+    var sub = T(g, "mono", c[1], { left: "0", width: "1920px", textAlign: "center", top: "720px", fontSize: "30px", color: C.wh });
+    stickOn(big, t0, i % 2 ? 3 : -3);
+    if (i < 8) IG.rise(tl, sub, t0 + 0.12); else gsap.set(sub, { opacity: 0 });
+    if (i % 2 === 0) IG.shake(tl, g, t0, 0.2, 10, i);
+  });
+  flash(b(52), 1);
+
+  /* ---------- SCENE 9: GOVERNMENT / FINAL STATEMENT (bars 52-58) ---------- */
+  var s9 = scene(52, 58);
+  var gp = T(s9, "big", "<span class='bib-skew'>THE GOVERNMENT PROFITS.</span>", { left: "0", width: "1920px", textAlign: "center", top: "300px", fontSize: "230px", color: C.wh });
+  var sp9 = T(s9, "title", "SPONSORED", { left: "1100px", top: "560px", fontSize: "110px", color: C.rose, border: "10px solid #FF3D8D", padding: "4px 26px", background: "rgba(9,11,18,.85)" });
+  gsap.set(sp9, { rotation: -12 });
+  IG.span(tl, gp, b(52), b(55)); IG.span(tl, sp9, b(53), b(55));
+  IG.slam(tl, gp, b(52), { x: 0, s: 1.5, d: 0.22 });
+  tl.fromTo(sp9, { opacity: 0, scale: 3, rotation: -12 }, { opacity: 1, scale: 1, rotation: -12, duration: 0.18, ease: "power4.in" }, b(53));
+  IG.shake(tl, s9, b(53) + 0.18, 0.35, 18, 17);
+  var q1 = T(s9, "big", "HUMANITY SURVIVES IN THE ARC.", { left: "0", width: "1920px", textAlign: "center", top: "300px", fontSize: "150px", color: C.wh });
+  var q2 = T(s9, "big", "<span class='bib-skew'>ITS OPERATORS FIGHT</span>", { left: "0", width: "1920px", textAlign: "center", top: "470px", fontSize: "190px", color: C.rose, textShadow: "9px 8px 0 #7657FF" });
+  var q3 = T(s9, "big", "<span class='bib-skew'>WHAT ENDED THE WORLD.</span>", { left: "0", width: "1920px", textAlign: "center", top: "660px", fontSize: "190px", color: C.wh });
+  IG.span(tl, q1, b(55), null); IG.span(tl, q2, b(56), null); IG.span(tl, q3, b(57), null);
+  IG.rise(tl, q1, b(55), 0.4); IG.slam(tl, q2, b(56), { x: -300 }); IG.slam(tl, q3, b(57), { x: 300 });
+  IG.shake(tl, s9, b(57), 0.4, 20, 18);
+  flash(b(58), 1);
+
+  /* ---------- SCENE 10: TITLE (bars 58-64), ends on the boot state for a clean loop ---------- */
+  var s10 = scene(58, null);
+  var tw = A(s10, { left: "0", top: "330px", width: "1920px", height: "300px" });
+  var title = T(tw, "title", "<span class='bib-skew'>B<span id='tO' style='color:transparent;text-shadow:none'>O</span>LDINBEAUTY</span>", { left: "0", width: "1920px", textAlign: "center", top: "50px", fontSize: "190px", color: C.rose, textShadow: "12px 10px 0 #7657FF" });
+  var rgT = IG.ring(s10, 60, 18, C.rose, { left: "0px", top: "0px" });
+  var tag = T(s10, "mono", "AN ORIGINAL 3D ANIME GACHA GAME", { left: "0", width: "1920px", textAlign: "center", top: "650px", fontSize: "36px", color: C.wh, letterSpacing: ".3em" });
+  var st10 = T(s10, "mono", "CONCEPT TRAILER // IN DEVELOPMENT // BUILT IN UNREAL ENGINE 5", { left: "0", width: "1920px", textAlign: "center", top: "730px", fontSize: "26px", color: C.cy });
+  var jp10 = T(s10, "jp", "ネオ東京 // 天使 // 司令官 // オペレーター", { left: "0", width: "1920px", textAlign: "center", top: "230px", fontSize: "34px", color: C.vio, letterSpacing: ".4em" });
+  IG.slam(tl, title, b(58), { x: 0, s: 2.4, d: 0.24 }); IG.shake(tl, tw, b(58) + 0.24, 0.45, 24, 19);
+  IG.drawRing(tl, rgT, b(58, 1), 0.6, 0, 1);
+  tl.fromTo(rgT.svg, { scale: 3, rotation: -180, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.5, ease: "expo.out" }, b(58, 1));
+  IG.scramble(tl, tag, "AN ORIGINAL 3D ANIME GACHA GAME", b(59), 1.0, 7);
+  IG.rise(tl, st10, b(60)); IG.scramble(tl, jp10, "ネオ東京 // 天使 // 司令官 // オペレーター", b(60, 2), 0.8, 2);
+  tl.to([tw, rgT.svg], { scale: 1.05, duration: b(4), ease: "none" }, b(59));
+  // the ring sits in the O slot, then collapses into the boot ring position for a clean loop
+  var tO = document.getElementById("tO"), RS = 60 + 36;
+  IG.clock(tl, DUR, function (t) {
+    if (t < b(58)) return;
+    var oR = tO.getBoundingClientRect(), tR = title.getBoundingClientRect(), sc = tR.width / title.offsetWidth;
+    var ox = (oR.left + oR.width / 2 - tR.left) / sc, oy = 330 + 50 + (oR.top + oR.height * 0.5 - tR.top) / sc;
+    var k = IG.ocub(IG.inv(b(63, 1), b(63, 1) + 0.6, t)), cx = IG.lerp(ox, 960, k), cy = IG.lerp(oy, 634, k);
+    rgT.svg.style.left = (cx - RS) + "px"; rgT.svg.style.top = (cy - RS) + "px";
+  });
+  tl.to([tw, tag, st10, jp10], { opacity: 0, duration: 0.4, ease: "power2.in" }, b(63, 1));
+  tl.to(rgT.svg, { scale: 1.25, duration: 0.6, ease: "expo.inOut" }, b(63, 1));
+  tl.to(rgT.svg, { opacity: 0, duration: 0.25 }, b(63, 3.4));
+})();
+</script>

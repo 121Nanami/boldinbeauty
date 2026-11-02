@@ -1,0 +1,25 @@
+{
+  "name": "boldinbeauty-accounts",
+  "version": "1.0.0",
+  "description": "Account service for the Boldinbeauty demo: e-mail code sign-up and login, owner/admin flag, cloud save.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "ALLOW_MEMORY_STORE=1 MAIL_PROVIDER=console node src/index.js",
+    "start:env": "node --env-file=.env src/index.js",
+    "setup": "node scripts/setup.mjs",
+    "test": "node --test --test-concurrency=1 \"test/*.test.js\""
+  },
+  "dependencies": {
+    "mongodb": "^7.7.0",
+    "nodemailer": "^10.0.14"
+  },
+  "devDependencies": {
+    "mailparser": "^3.9.34",
+    "smtp-server": "^3.19.17"
+  }
+}

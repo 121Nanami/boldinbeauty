@@ -1,0 +1,9 @@
+<!--META {"dur": 5.0, "alpha": true, "kind": "fx", "sheet": "17", "n": 6, "title": "Blood Ultimate: Crimson Sea", "slug": "blood-crimson-sea", "who": "blood", "label": "PROPOSED", "note": "10 s flood; closing tide burst"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-06-blood-crimson-sea", "title": "Blood Ultimate: Crimson Sea", "dur": 5.0, "layers": [{"fx": "zone", "at": "mid", "rx": 860, "ry": 260, "col": "#FF3D8D", "col2": "#7657FF", "kind": "bubbles", "grow": 0.8, "t1": 3.8}, {"fx": "blast", "at": "mid", "t0": 3.7, "r": 960, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "flash", "at": "mid", "t0": 3.7, "D": 0.2, "a": 0.6, "col": "#FF3D8D"}], "enemy": true, "cas": false, "note": "10 s flood; closing tide burst", "label": "PROPOSED", "who": "Blood", "slot": "Ultimate", "hit": 3.7, "sfx": "boom", "n": 6, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

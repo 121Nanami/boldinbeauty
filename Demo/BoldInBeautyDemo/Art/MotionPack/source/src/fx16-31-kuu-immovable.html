@@ -1,0 +1,9 @@
+<!--META {"dur": 5.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 31, "title": "Kuu Ultimate: Immovable", "slug": "kuu-immovable", "who": "kuu", "label": "PROPOSED", "note": "8 s immovable, draw-in, then a stored-damage blast"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-31-kuu-immovable", "title": "Kuu Ultimate: Immovable", "dur": 5.4, "layers": [{"fx": "dome", "at": "cas", "rx": 230, "ry": 260, "col": "#F7F4FA", "hits": [1.0, 1.5, 2.1, 2.7], "t1": 4.2}, {"fx": "suck", "at": "cas", "oy": -100, "r": 700, "col": "#7657FF", "col2": "#F7F4FA", "core": true, "t0": 0.4, "t1": 4.2}, {"fx": "blast", "at": "cas", "t0": 4.2, "r": 900, "col": "#7657FF", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "flash", "at": "mid", "t0": 4.2, "D": 0.2, "a": 0.7}], "enemy": true, "cas": true, "note": "8 s immovable, draw-in, then a stored-damage blast", "label": "PROPOSED", "who": "Kuu", "slot": "Ultimate", "hit": 4.2, "sfx": "boom", "n": 31, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

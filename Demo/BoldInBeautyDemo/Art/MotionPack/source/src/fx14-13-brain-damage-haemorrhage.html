@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "14", "n": 13, "title": "Brain-damage / Haemorrhage", "slug": "brain-damage-haemorrhage", "who": "narr", "label": "SOURCE", "note": "Smashes own head; harder and faster for Haemorrhage"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-13-brain-damage-haemorrhage", "title": "Brain-damage / Haemorrhage", "dur": 3.6, "layers": [{"fx": "blast", "at": "cas", "oy": -300, "r": 170, "col": "#E5252A", "col2": "#F7F4FA", "rings": 1}, {"fx": "glitchbar", "at": "cas", "oy": -300, "col": "#E5252A", "col2": "#F7F4FA", "n": 6, "w": 220, "h": 120, "t0": 0.1, "t1": 0.7}, {"fx": "blast", "at": "cas", "oy": -300, "t0": 1.9, "r": 300, "col": "#E5252A", "col2": "#FF8A2B", "rings": 3}, {"fx": "glitchbar", "at": "cas", "oy": -300, "col": "#E5252A", "col2": "#F7F4FA", "n": 10, "w": 300, "h": 160, "t0": 2.0, "t1": 2.7}, {"fx": "flash", "at": "mid", "t0": 1.9, "D": 0.15, "a": 0.6, "col": "#E5252A"}, {"fx": "speed", "at": "cas", "t0": 1.9, "D": 0.4, "col": "#E5252A"}], "enemy": false, "cas": true, "note": "Smashes own head; harder and faster for Haemorrhage", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Alt", "hit": 0.1, "sfx": "boom", "n": 13, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

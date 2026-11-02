@@ -1,0 +1,9 @@
+<!--META {"dur": 4.6, "alpha": true, "kind": "fx", "sheet": "15", "n": 8, "title": "Arita Move 3: Spring time (hold)", "slug": "arita-move3-spring-time", "who": "arita", "label": "DERIVED", "note": "Area grows while held; release: thorns, poison and pheromone flowers"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-08-arita-move3-spring-time", "title": "Arita Move 3: Spring time (hold)", "dur": 4.6, "layers": [{"fx": "zone", "at": "mid", "rx": 300, "ry": 90, "col": "#FF3D8D", "col2": "#F7F4FA", "kind": "up", "grow": 1.8, "t1": 2.3}, {"fx": "flower", "at": "mid", "ox": -300, "h": 130, "r": 150, "col": "#FF3D8D", "col2": "#F7F4FA", "t0": 2.3, "n": 7}, {"fx": "flower", "at": "mid", "ox": 0, "h": 130, "r": 150, "col": "#64E8FF", "col2": "#F7F4FA", "t0": 2.42, "n": 7}, {"fx": "flower", "at": "mid", "ox": 300, "h": 130, "r": 150, "col": "#F7F4FA", "col2": "#F7F4FA", "t0": 2.54, "n": 7}, {"fx": "volley", "at": "mid", "oy": -20, "ox": -60, "n": 12, "gap": 0.03, "kind": "needle", "col": "#FF3D8D", "dist": 420, "spread": 500, "conv": 1.0, "t0": 2.3, "sp": 1400}], "enemy": true, "cas": false, "note": "Area grows while held; release: thorns, poison and pheromone flowers", "label": "DERIVED", "who": "Arita", "slot": "Move 3", "hit": 2.3, "sfx": "hit", "n": 8, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

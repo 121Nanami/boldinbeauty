@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 10, "title": "Climb grip dust", "slug": "climb-grip-dust", "who": null, "label": "NEEDS ART", "note": "Grip puffs on each reach"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-10-climb-grip-dust", "title": "Climb grip dust", "dur": 3.0, "layers": [{"fx": "burst", "at": "cas", "oy": -170, "ox": 40, "n": 16, "shape": "dot", "col": "#9A98A6", "cols": ["#F7F4FA", "#9A98A6"], "spd": 160, "a0": 0.2, "a1": 2.9, "g": 500, "size": 15, "life": 0.7}, {"fx": "burst", "at": "cas", "oy": -170, "ox": 40, "t0": 0.9, "n": 10, "shape": "dot", "col": "#9A98A6", "spd": 100, "a0": 0.2, "a1": 2.9, "g": 500, "size": 9, "life": 0.6, "seed": 6}, {"fx": "burst", "at": "cas", "oy": -210, "ox": 40, "t0": 1.8, "n": 10, "shape": "dot", "col": "#9A98A6", "spd": 100, "a0": 0.2, "a1": 2.9, "g": 500, "size": 9, "life": 0.6, "seed": 9}], "enemy": true, "cas": true, "note": "Grip puffs on each reach", "label": "NEEDS ART", "who": "SHARED", "slot": "Wall climbing", "hit": 0.1, "sfx": "soft", "n": 10, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

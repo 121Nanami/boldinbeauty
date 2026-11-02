@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "13", "n": 6, "title": "Special: Retribution", "slug": "special-retribution", "who": "judge", "label": "DERIVED", "note": "Gavel raised, then a circle of pure Justice"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx13-06-special-retribution", "title": "Special: Retribution", "dur": 3.2, "layers": [{"fx": "mark", "at": "cas", "glyph": "gavel", "h": 300, "col": "#F7F4FA", "s": 50, "t1": 1.1}, {"fx": "aura", "at": "cas", "col": "#FFD23F", "col2": "#F7F4FA", "r": 60, "h": 240, "t1": 1.1}, {"fx": "blast", "at": "cas", "t0": 1.1, "r": 420, "col": "#F7F4FA", "col2": "#FFD23F", "rings": 3, "flat": true}, {"fx": "flash", "at": "mid", "t0": 1.1, "D": 0.15, "a": 0.6}, {"fx": "shards", "at": "en", "t0": 1.3, "up": true, "n": 40, "w": 140, "h": 280, "col": "#E5252A", "col2": "#F7F4FA", "D": 1.2}], "enemy": true, "cas": true, "note": "Gavel raised, then a circle of pure Justice", "label": "DERIVED", "who": "Judge", "slot": "Special", "hit": 1.1, "sfx": "boom", "n": 6, "sheet": "13"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

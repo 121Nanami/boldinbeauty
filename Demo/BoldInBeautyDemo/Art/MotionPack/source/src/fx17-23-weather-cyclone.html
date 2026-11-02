@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "17", "n": 23, "title": "Weather Special: Cyclone", "slug": "weather-cyclone", "who": "weather", "label": "PROPOSED", "note": "Tornado around her for 5 s, pull-in"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-23-weather-cyclone", "title": "Weather Special: Cyclone", "dur": 3.4, "layers": [{"fx": "tornado", "at": "cas", "col": "#64E8FF", "col2": "#F7F4FA", "r": 150, "h": 520, "pull": true}], "enemy": false, "cas": true, "note": "Tornado around her for 5 s, pull-in", "label": "PROPOSED", "who": "Weather", "slot": "Special", "hit": 0.2, "sfx": "soft", "n": 23, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

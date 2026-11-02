@@ -1,0 +1,93 @@
+# Ch06 The Moon Kingdom. Sources: Chapters/Ch06.md, Scripts/Ch06.md (primary); Scripts/Ch06_MoonKingdom.md ([alt])
+ENV|The Moon Kingdom (second arc)|Location / cavern city|Cold open|H|A second arc built like the first: gates, markets, houses, square, lake; cavern the size of a city; no living thing; flora on every roof|Dim Moon light;Under-water darkness;Moon flicker yellow;After boss
+ENV|Gate plaza|Location / plaza|Ep1|H|Gate with POPULATION 0 sign [alt: WELCOME TO THE KINGDOM OF THE MOON]|Sign 0;Sign "pending" (stinger);Wind chime [alt]
+ENV|Residential row (supper houses)|Location / terraces|Ep2|H|Houses with laid tables, vines; door frames overgrown|Table laid;Candle stub;Moss glow [alt]
+ENV|The market|Location / market|Ep3|H|Stalls with coins on every counter, vine shortcuts [alt: canvas awnings, TAKE WHAT YOU NEED]|Stocked;Coins warm;Stalls with signs [alt]
+ENV|Cemetery wall|Location / wall|Ep4|H|Long wall of crypts / niches, every door open and empty, opened from inside|Open crypts;Plaques;Ribbons lifting [alt];Lantern relight puzzle
+ENV|Lake with lily-pad stones|Location / lake|Ep5|H|Black lake, lily-pad stepping stones to the island, fireflies [alt]|Stable pads;Sinking pads [alt];Swim option
+ENV|The last house (three names)|Location / house|Ep6|H|Door-frame with three names; shrine [alt]; bowl with steam [alt]|Locked;Open;Steam bowl [alt]
+ENV|Island under the Moon|Location / island|Ep7|H|Gardener's flower beds and pale tree; boss arena|Beds;Weeding;Boss phases;Unravelled
+ENV|Terraces (vine climb)|Location / terraces|Chapter beats|S|Climb vines|Standard
+ENV|The Moon cavern|Location / cave|Cold open|H|Cavern ceiling holding the Moon|Dim
+ARC|Gate with sign POPULATION|Architecture / gate|Cold open|S|Hand-painted zero|0;pending
+ARC|Houses with green roofs|Architecture / building|Cold open|H|Roofs of green flora|Standard
+ARC|Market stalls|Architecture / market|Ep3|S|Stalls with canvas awnings [alt]|Standard
+ARC|Crypts / niches with plaques and vases|Architecture / tomb|Ep4|H|Each with a name carved on the door; plaque and vase|Open;Empty
+ARC|Door-frame carving|Architecture / marker|Ep6|H|Three names Luna Plack Kuu in different hands, twenty-three entries [alt]|Standard
+ARC|Lily-pad stones|Architecture / traversal|Ep5|S|Stepping stones|Stable;Sinking
+ARC|Lanterns (three to relight)|Architecture / puzzle|Ep4|S|Relight in order to reveal the island path|Unlit;Lit
+ARC|Pale tree (island summit) [alt]|Architecture / flora|Ep7|S|Garden terraces around a pale tree|Standard
+PRP|The Moon|Prop / light source|Cold open|H|Vast dim Moon inside the cavern, casting deep darkness|Dim;Pulse;Flicker yellow;Dimmed by half [alt];Falling [alt]
+PRP|Laid table (four plates)|Prop / set dressing|Ep2|S|Four plates, candle stub; chairs pushed back|Dust soup [alt];Candle burnt
+PRP|Coins on counters|Prop / set dressing|Ep3|S|Not one missing; warm|Pile;Warm coin
+PRP|Moss-oil lantern tag "Moon-oil, mild" [alt]|Prop|Ep3|B|Lantern tag [alt]|Standard
+PRP|Hand-lettered stall sign [alt]|Prop / signage|Ep3|B|"TAKE WHAT YOU NEED. LEAVE WHAT YOU CAN."|Standard
+PRP|Survey drone log|Prop / document|Archive|S|"Entry 3. Population: 0. Beds laid: 412,000..."|Standard
+PRP|Note on supper table|Prop / document|Archive|S|"Back in a moment."|Standard
+PRP|Door-frame carving (archive document)|Prop / document|Archive|S|Three names|Standard
+PRP|Letters (YELLOW chain)|Prop / document|Ep2|S|A pickup chain of letters|Standard
+PRP|Calendar with days crossed out [alt]|Prop / document|Ep2|B|Household items lore [alt]|Standard
+PRP|Child's drawing of the Moon [alt]|Prop|Ep2|B|Smiling Moon [alt]|Standard
+PRP|Letter "to the next ones" [alt]|Prop / document|Ep2|B|Household letter [alt]|Standard
+PRP|Child's bed and music box [alt]|Prop / set dressing|Ep2|B|Sheets turned down, music box on the sill [alt]|Standard
+PRP|Lantern (Kuu carries) [alt]|Prop / tool|Ep1|S|Low-light mechanic [alt]|Lit;Unlit
+PRP|Ribbon on vase "Come back" [alt]|Prop / document|Ep4|S|Tag on withered flowers [alt]|Standard
+PRP|Gardener's trowel and basket|Prop / tool|Ep7|S|Trowel; basket of weeds [alt]|Standard
+PRP|Moon Blossom [alt]|Prop / reward|Ep8|S|Last petals; a single white glowing blossom [alt]|Standard
+PRP|Key found on the lake|Prop / key|Ep6|B|Opens locked door|Standard
+PRP|Picnic (Kuu and Plack)|Prop / set dressing|Chapter beats|B|Picnic in a ruined house, BLUE|Standard
+PRP|Moss (Luna sells)|Prop / goods|Chapter beats|B|Luna sells moss|Standard
+FLO|Flora covering every roof|Flora / vines and moss|Cold open|H|Flora covers every roof and street|Green roof;Vines through door-frame;Dry moss under thumb [alt];Overgrown streets
+FLO|Flowers through the door-frame|Flora / flowers|Ep1|S|Flowers grown through the door-frame and out the other side|Standard
+FLO|Moon-lit moss glow|Flora / moss|Ep2|S|Moss glows faintly [alt]|Standard
+FLO|Rose (Gardener's face)|Flora / flower|Ep7|S|Rose where the face should be|Standard
+FLO|Flower beds on island|Flora / beds|Ep7|H|Flowers regrow as plucked|Beds;Grow around squad
+FLO|Lily pads|Flora / water|Ep5|S|Stepping stones|Standard
+FLO|White blossoms (small)|Flora / flowers|Ep7|S|Row of small white blossoms [alt]|Standard
+FAU|Fireflies [alt]|Fauna / insect|Ep5|B|Drift above the lake [alt]|Standard
+CHR|The Gardener|Boss / flora-grown guardian|Ep7|H|Figure of vines and blossoms; rose where face should be; voice of rustling|Weeding;Trowel phase;Beds grow phase;Unravelling [alt]
+CHR|Luna|Operator|Ep1|H|Argues with the Moon|Standard
+CHR|Plack|Operator|Ep2|H|Reads names on doors|Ledger
+CHR|Kuu|Operator|Ep1|H|Apologises to flowers|Holding lantern [alt]
+CHR|Commander (voice)|Voice character|Ep1|B|Don't bring anything back [alt]|Voice only
+CRE|Flora creatures|Enemy / flora|Ep1|H|First flora enemies in the dark|Standard
+CRE|Moss Sentinel|Enemy / flora|Ep3|S|Emerge from stalls [alt]|Standard
+CRE|Vine Walker|Enemy / mini-boss|Ep5|S|Mini-boss on the lake [alt: also a stall enemy]|Standard
+CRE|Gardener's hands|Enemy / mini-boss|Ep7|S|Stay out of the flower beds; timing puzzle|Standard
+VFX|Moon pulse and flicker|VFX|Cold open|H|Pulses faintly; flickers cube-yellow for one second|Pulse;Yellow flicker
+VFX|Spiral of vines [alt]|VFX|Ep8|S|Whole island's vines rise|Standard
+VFX|Blossom drift [alt]|VFX|Ep7|B|Blossoms fall from the pale tree|Standard
+VFX|Wind lifting ribbons [alt]|VFX|Ep4|B|All at once along the wall|Standard
+VFX|Black hole holding the Moon [alt]|VFX / ability|Ep8|S|Luna draws the Moon's weight|Standard
+WTH|Underwater darkness|Weather / atmosphere|Cold open|H|Moon casts a dark that feels underwater|Standard
+LGT|Moon light|Lighting|Cold open|H|Only light source; very low light readability|Dim;Half dimmed;Pulsing
+LGT|Moss glow light|Lighting|Ep2|B|Faint glow [alt]|Standard
+LGT|Lantern light|Lighting|Ep1|S|Kuu's lantern, lit lanterns|Standard
+AUD|Drip and low strings|Audio / ambience|Cold open|H|Drip then low strings [alt]|Standard
+AUD|Wind chime|Audio / sfx|Ep1|S|One chime high [alt]|Standard
+AUD|Rustling voice (Gardener)|Audio / voice|Ep7|S|Voice made of leaves|Standard
+AUD|Music box [alt]|Audio / sfx|Ep2|B|On the sill|Standard
+UI|Low-light mechanic indicator [alt]|UI|Ep1|B|Lantern use|Standard
+UI|Lantern order puzzle|UI|Ep4|B|Relight in order|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+PRP|Supper table with four plates|Prop|Tripo #112|B|Back in a moment [inferred: Tripo list #112; not named in the chapter text]|
+PRP|Moon lantern|Prop|Tripo #113|B|Relight puzzle [inferred: Tripo list #113; likely the same asset as PRP-0116 The Moon; kept as its own entry so no Tripo row is dropped]|
+PRP|Survey drone wreck|Prop|Tripo #114|B|Never returned [inferred: Tripo list #114; not named in the chapter text]|
+PRP|Flower bed|Prop|Tripo #115|B|Weeded [inferred: Tripo list #115; not named in the chapter text]|
+ARC|Vine-roofed house|Set piece / modular kit|Tripo #104|B|Plates laid [inferred: Tripo list #104; not named in the chapter text]|
+ARC|Lake and lily pads|Set piece / modular kit|Tripo #107|B|Argue with the Moon [inferred: Tripo list #107; likely the same asset as FLO-0008 Lily pads; kept as its own entry so no Tripo row is dropped]|
+ARC|Vine wall (Moon Kingdom)|Set piece / modular kit|Tripo #796|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #796; not named in the chapter text]|
+ARC|Flower-bed module (Moon Kingdom)|Set piece / modular kit|Tripo #797|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #797; not named in the chapter text]|
+ARC|Moss-covered roof (Moon Kingdom)|Set piece / modular kit|Tripo #798|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #798; not named in the chapter text]|
+ARC|Overgrown market stall (Moon Kingdom)|Set piece / modular kit|Tripo #799|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #799; not named in the chapter text]|
+ARC|Vine-wrapped lamp post (Moon Kingdom)|Set piece / modular kit|Tripo #800|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #800; not named in the chapter text]|
+ARC|Tomb door (open) (Moon Kingdom)|Set piece / modular kit|Tripo #801|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #801; not named in the chapter text]|
+ARC|Lily pad cluster (Moon Kingdom)|Set piece / modular kit|Tripo #802|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #802; not named in the chapter text]|
+ARC|Fern clump (Moon Kingdom)|Set piece / modular kit|Tripo #803|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #803; not named in the chapter text]|
+ARC|Root arch (Moon Kingdom)|Set piece / modular kit|Tripo #804|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #804; not named in the chapter text]|
+ARC|Flowering tree (Moon Kingdom)|Set piece / modular kit|Tripo #805|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #805; not named in the chapter text]|
+ARC|Creeper curtain (Moon Kingdom)|Set piece / modular kit|Tripo #806|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #806; not named in the chapter text]|
+ARC|Mossy stair (Moon Kingdom)|Set piece / modular kit|Tripo #807|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #807; not named in the chapter text]|
+ARC|Glow-moth lantern (Moon Kingdom)|Set piece / modular kit|Tripo #808|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #808; likely the same asset as VFX-0094 Lantern glow; kept as its own entry so no Tripo row is dropped]|
+ARC|Stone bench (Moon Kingdom)|Set piece / modular kit|Tripo #809|B|Modular dressing piece for Ch 6 Moon Kingdom [inferred: Tripo list #809; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

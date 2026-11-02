@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "16", "n": 10, "title": "Ishii Move 3: Storm Chain", "slug": "ishii-storm-chain", "who": "ishii", "label": "PROPOSED", "note": "Lightning arcs across up to 8 enemies"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-10-ishii-storm-chain", "title": "Ishii Move 3: Storm Chain", "dur": 3.2, "layers": [{"fx": "chain", "at": "mid", "gap": 0.1, "pts": [[-300, -100], [-130, -190], [40, -90], [200, -190], [360, -100], [520, -190], [660, -110], [790, -170]], "col": "#64E8FF"}, {"fx": "chain", "at": "mid", "t0": 0.9, "gap": 0.1, "pts": [[-300, -100], [-130, -190], [40, -90], [200, -190], [360, -100], [520, -190]], "col": "#7657FF"}], "enemy": true, "cas": true, "note": "Lightning arcs across up to 8 enemies", "label": "PROPOSED", "who": "Ishii", "slot": "Move 3", "hit": 0.1, "sfx": "zap", "n": 10, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

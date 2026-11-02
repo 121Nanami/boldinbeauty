@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "10", "n": 6, "title": "Poison", "slug": "poison", "who": null, "label": "DERIVED", "note": "Bubbles + toxic drip"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx10-06-poison", "title": "Poison", "dur": 3.0, "layers": [{"fx": "status", "at": "en", "kind": "poison", "sc": 1.6, "col": "#7657FF", "col2": "#64E8FF", "pips": 2}], "enemy": false, "cas": false, "note": "Bubbles + toxic drip", "label": "DERIVED", "who": "SHARED", "slot": "Fujita", "hit": 0.2, "sfx": "soft", "n": 6, "sheet": "10"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "13", "n": 3, "title": "Move 1: Paperwork", "slug": "move1-paperwork", "who": "judge", "label": "DERIVED", "note": "Gain 3 restraining orders; an order flips an attacker Guilty"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx13-03-move1-paperwork", "title": "Move 1: Paperwork", "dur": 3.0, "layers": [{"fx": "pips", "at": "cas", "n": 3, "h": 320, "col": "#FFD23F"}, {"fx": "flash", "at": "mid", "t0": 2.0, "D": 0.2, "a": 0.4, "col": "#FFD23F"}, {"fx": "mark", "at": "en", "glyph": "cross", "h": 340, "col": "#E5252A", "t0": 2.0, "t1": 3.2, "s": 32}], "enemy": true, "cas": true, "note": "Gain 3 restraining orders; an order flips an attacker Guilty", "label": "DERIVED", "who": "Judge", "slot": "Move 1", "hit": 2.0, "sfx": "chime", "n": 3, "sheet": "13"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 4.8, "alpha": true, "kind": "fx", "sheet": "18", "n": 11, "title": "Jester Special: Encore", "slug": "jester-encore", "who": "jester", "label": "PROPOSED", "note": "Replay flash for the last three moves"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-11-jester-encore", "title": "Jester Special: Encore", "dur": 4.8, "layers": [{"fx": "strike", "at": "mid", "t0": 0.1, "n": 1, "col": "#FF3D8D", "col2": "#F7F4FA", "len": 460}, {"fx": "blast", "at": "mid", "t0": 0.8, "r": 300, "col": "#7657FF", "col2": "#F7F4FA", "rings": 2}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 1.4, "n": 1, "kind": "tracer", "col": "#64E8FF", "col2": "#F7F4FA", "dist": 800, "sp": 3000, "ir": 60}, {"fx": "clock", "at": "cas", "t0": 2.2, "t1": 3.4, "h": 330, "r": 70, "rewind": true, "spd": -3, "col": "#F7F4FA", "col2": "#7657FF"}, {"fx": "flash", "at": "mid", "t0": 2.4, "D": 0.1, "a": 0.3, "col": "#7657FF"}, {"fx": "strike", "at": "mid", "t0": 2.6, "n": 1, "col": "#FF3D8D", "col2": "#F7F4FA", "len": 460, "al": 0.55}, {"fx": "blast", "at": "mid", "t0": 3.0, "r": 300, "col": "#7657FF", "col2": "#F7F4FA", "rings": 2, "al": 0.55}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 3.4, "n": 1, "kind": "tracer", "col": "#64E8FF", "col2": "#F7F4FA", "dist": 800, "sp": 3000, "ir": 60, "al": 0.55}], "enemy": true, "cas": true, "note": "Replay flash for the last three moves", "label": "PROPOSED", "who": "Jester", "slot": "Special", "hit": 0.1, "sfx": "hit", "n": 11, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

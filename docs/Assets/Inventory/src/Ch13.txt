@@ -1,0 +1,94 @@
+# Ch13 A Secretive Soul. Sources: Chapters/Ch13.md, Scripts/Ch13.md (primary); Scripts/Ch13_SecretiveSoul.md ([alt])
+ENV|The monolith's village|Location / village|Cold open|H|Small Japanese-looking countryside village in steady low-to-medium rain; paddies, tiled roofs, drying rice racks|Steady rain;Dusk lanterns [alt];Dawn stair [alt];Rain returns after voice
+ENV|Cart-track and torii|Location / entrance|Ep1|H|Red wet torii, cart-track, first bridge|Rain;Wet
+ENV|Village street|Location / street|Ep2|H|Wooden houses, tile roofs, drying rice on racks, plain-coat villagers|Day;Dusk emptying
+ENV|Communal house [alt]|Location / interior|Ep2|S|Tatami floors, low table, pot of tea, twelve villagers|Standard
+ENV|The paddies|Location / fields|Ep3|H|Shallow water rice fields; planting minigame; boss arena; shining like glass [alt]|Rain-circled;Dusk;Boss slick footing
+ENV|Village at dusk (kneeling ground)|Location / square|Ep4|H|Villagers kneel in rows facing the valley middle|Lanterns lit;Kneeling
+ENV|Monolith plaza|Location / plaza|Ep5|H|Trigger circle fifty metres wide, rain vanishes inside; short wet grass|Rain striking;Rain stops;Glyph glow
+ENV|Shrine and long stone stair|Location / shrine|Ep7|H|Shrine at the top of a long stone stair; the Shepherd waits at the top [alt]|Dawn;Open-hand glyph on wall [alt]
+ENV|Valley (cart road out)|Location / road|Stinger|S|Road out of the valley in the dark|Dark;Rain
+ARC|Torii|Architecture / gate|Cold open|H|Red, wet torii|Standard
+ARC|Grey-tiled roofs and wooden houses|Architecture / building|Cold open|H|Village roofs|Standard
+ARC|Wooden bridges|Architecture / bridge|Ep1|S|Kuu fixes a bridge|Broken;Repaired
+ARC|Rice drying racks|Architecture / set dressing|Ep2|S|Drying rice|Standard
+ARC|Stone stair|Architecture / structure|Ep7|S|Long stone stair to shrine|Standard
+ARC|Shrine|Architecture / shrine|Cold open|H|Shrine at the top|Standard
+ARC|The monolith|Architecture / monument|Ep4|H|Fifty metres tall, pure black matte slab with red glyphs; too straight to be a hill|Dusk silhouette;Glyphs flare;Glyphs fade [alt];Warm to touch [alt];After voice
+ARC|Lanterns along eaves [alt]|Architecture / lighting|Ep4|B|Lit one by one|Standard
+PRP|Monolith glyphs (red)|Prop / hero|Ep4|H|Red hieroglyphics, not letters, move when looked at; instructions in something we don't have|Glowing;Brightening;Fading [alt];Copied page
+PRP|Cube in Luna's pocket|Prop / hero|Ep7|H|Luna's pocketed cube, exposed to the squad; goes quiet when Shepherd falls|Warm;Quiet
+PRP|The glowing cube|Prop / hero|Ep7|S|Pocketed cube from Ch5|In pocket;Pulsing near weak point
+PRP|Villager's prayer card|Prop / document|Archive|S|"They were purity." in a child's hand|Standard
+PRP|Rice-planting almanac|Prop / document|Archive|S|"Plant in rain. Do not look at the middle of the valley."|Standard
+PRP|Page of glyphs (Plack's copy)|Prop / document|Archive|S|Unreadable|Standard
+PRP|Rice seedlings|Prop / reward|Ep3|S|Bundle of seedlings; planting rows|Bundle;Strangled [alt]
+PRP|Rubber boots (Luna)|Prop / costume piece|Ep3|B|Luna in rubber boots|Standard
+PRP|Farmer's hat [alt]|Prop / accessory|Ep3|B|Plack gains it|Standard
+PRP|Shepherd's staff|Prop / weapon|Ep7|H|Staff; tip glows red; splits into a bow [alt]|Plain;Red tip;Dropped on steps [alt];Bow [alt]
+PRP|Glyph sash (Shepherd)|Prop / costume|Ep7|S|Red glyph sash|Standard;Lifts [boss phase 2]
+PRP|Fruit bag|Prop|Cold open|B|Bag of fruit from Ch12|Standard
+PRP|Straw hat and patched coat (villager) [alt]|Prop / costume|Ep1|B|Villager at far end of bridge|Standard
+PRP|Tea pot and cups [alt]|Prop|Ep2|B|Elder pours tea|Standard
+PRP|Firewood / tools quests [alt]|Prop / quest|Ep2|B|Help with paddies, repair bridge, collect firewood|Standard
+PRP|Kuu's umbrella|Prop|Ep8|S|Hangs open from his elbow [alt]|Open
+PRP|Duck (Corporal)|Prop|Ep6|B|Kuu holds his duck against his chest [alt]|Standard
+FLO|Rice paddies / rice plants|Flora / crop|Ep3|H|Rows planted in rain; seedlings, three stalks not four [alt]|Seedling;Planted rows;Strangled;Grown
+FLO|Short wet grass|Flora / grass|Ep5|S|Valley floor field|Standard
+FLO|Wet roadside weeds [alt]|Flora|Cold open|B|Cart-track edge|?Standard~implied by countryside rain
+CHR|The Shepherd|Boss|Ep7|H|Tall guardian in a robe with red glyph sash and staff, plain face, soft-spoken, immovable|Robe;Staff sweeps;Glyph-circles [alt];Bow phase [alt];Bows to Luna [alt]
+CHR|Villagers (deserter operators)|NPC / group|Ep2|H|Polite, watchful, plain coats; faded operator stripes [alt]; six BLUE villagers|Plain coats;Kneeling;Kneelers rise (Brute-type) [mini-boss]
+CHR|Old man (planting teacher)|NPC|Ep3|S|Very small, very patient old man|Standard
+CHR|Elder (grey-bearded) [alt]|NPC|Ep2|S|Pours tea|Standard
+CHR|Old woman (planting) [alt]|NPC|Ep3|S|Demonstrates technique|Standard
+CHR|Villager woman in front of a child|NPC|Ep2|S|"You're government."|Standard
+CHR|Child (village)|NPC|Ep2|B|Woman steps in front of a child|Standard
+CHR|Luna|Operator|Ep1|H|Married and damp; rubber boots; bluffing|Standard
+CHR|Plack|Operator|Ep1|H|Helps with the paddies|Farmer's hat [alt]
+CHR|Kuu|Operator|Ep3|H|Fixes a bridge; plants neatly|Standard
+CHR|Commander (voice)|Voice character|Ep1|B|No record of this settlement [alt]|Voice only
+CHR|The angel god (voice)|Voice character|Ep6|H|Monolith voice, verbatim: "They wree purity, Impure sin, Thats all."|Voice once
+CRE|Shepherd's acolytes|Enemy / mini-boss|Ep7|S|Kneelers that rise, Brute-type villagers|Standard
+VFX|Rain on paddy water circles|VFX / water|Cold open|H|Hundred small circles|Standard
+VFX|Glyph glow and pulse|VFX|Ep5|S|Glyphs brighten; pulse with heartbeat [alt]|Dim;Bright;Pulse
+VFX|Rain stops inside trigger circle|VFX|Ep5|S|Rain vanishes striking circle|Standard
+VFX|Staff glyph circles [alt]|VFX|Ep8|S|Ground glyph circles|Standard
+VFX|Glyph arrows [alt]|VFX|Ep8|S|Long-range|Standard
+WTH|Steady rain|Weather|Cold open|H|Consistent low to medium rain|Low;Medium;Stops entirely at voice [alt];Returns
+LGT|Grey rain light|Lighting|Cold open|H|Soft grey|Dusk;Dawn
+LGT|Monolith red glyph light|Lighting|Ep5|S|Glow on wet grass|Standard
+AUD|Gentle folk-like score [alt]|Audio / music|Cold open|S|First calm place since Paradise|Standard
+AUD|The voice (angel god)|Audio / voice|Ep6|H|Very quiet, very near, as if mouthed inside the skull; plays exactly once|Standard
+AUD|Hum from the vent [alt]|Audio / sfx|Ep4|S|The low note from the data centre rises from the valley|Standard
+AUD|Villager chant ("purity") [alt]|Audio / voice|Ep4|S|Long slow single word chant|Standard
+AUD|Bell (single) [alt]|Audio / sfx|Ep4|B|One bell|Standard
+AUD|Rain on paddy water|Audio / ambience|Cold open|H|Rain on paddy water|Standard
+UI|Rice planting minigame|UI|Ep3|S|Plant rows|Standard
+UI|Voice subtitle (owner spelling)|UI|Ep6|H|Subtitle uses exact spelling "They wree purity, Impure sin, Thats all"|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+NPC|Villager|NPC|Tripo #230|B|Deserter operator [inferred: Tripo list #230; not named in the chapter text]|
+NPC|Old planting man|NPC|Tripo #231|B|Teaches rice [inferred: Tripo list #231; likely the same asset as CHR-0046 Old man (planting teacher); kept as its own entry so no Tripo row is dropped]|
+NPC|Villager woman with child|NPC|Tripo #232|B|Steps in front [inferred: Tripo list #232; likely the same asset as CHR-0049 Villager woman in front of a child; kept as its own entry so no Tripo row is dropped]|
+PRP|Drying rice rack|Prop|Tripo #226|B|Dressing [inferred: Tripo list #226; not named in the chapter text]|
+PRP|Prayer card|Prop|Tripo #227|B|They were purity [inferred: Tripo list #227; likely the same asset as PRP-0231 Villager's prayer card; kept as its own entry so no Tripo row is dropped]|
+PRP|Glyph page|Prop|Tripo #228|B|Plack's copy [inferred: Tripo list #228; not named in the chapter text]|
+PRP|Kneeling mat|Prop|Tripo #229|B|Evening kneel [inferred: Tripo list #229; not named in the chapter text]|
+ARC|Torii gate|Set piece / modular kit|Tripo #218|B|Village entrance [inferred: Tripo list #218; not named in the chapter text]|
+ARC|River and wooden bridge|Set piece / modular kit|Tripo #221|B|Crossing [inferred: Tripo list #221; likely the same asset as ENV-0307 The river bridge; kept as its own entry so no Tripo row is dropped]|
+ARC|Shrine and 50-step stair|Set piece / modular kit|Tripo #222|B|At the top [inferred: Tripo list #222; likely the same asset as ARC-0175 Shrine stair; kept as its own entry so no Tripo row is dropped]|
+ARC|Village house module (Secretive Soul)|Set piece / modular kit|Tripo #894|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #894; not named in the chapter text]|
+ARC|Tile roof (Secretive Soul)|Set piece / modular kit|Tripo #895|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #895; not named in the chapter text]|
+ARC|Wooden fence (Secretive Soul)|Set piece / modular kit|Tripo #896|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #896; not named in the chapter text]|
+ARC|Stone lantern (Secretive Soul)|Set piece / modular kit|Tripo #897|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #897; not named in the chapter text]|
+ARC|Rice-drying rack (Secretive Soul)|Set piece / modular kit|Tripo #898|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #898; not named in the chapter text]|
+ARC|Stepping stone (Secretive Soul)|Set piece / modular kit|Tripo #899|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #899; not named in the chapter text]|
+ARC|Bamboo grove (Secretive Soul)|Set piece / modular kit|Tripo #900|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #900; not named in the chapter text]|
+ARC|Irrigation gate (Secretive Soul)|Set piece / modular kit|Tripo #901|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #901; not named in the chapter text]|
+ARC|Scarecrow (Secretive Soul)|Set piece / modular kit|Tripo #902|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #902; not named in the chapter text]|
+ARC|Farm gate (Secretive Soul)|Set piece / modular kit|Tripo #903|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #903; not named in the chapter text]|
+ARC|Hay bale (Secretive Soul)|Set piece / modular kit|Tripo #904|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #904; not named in the chapter text]|
+ARC|Well (Secretive Soul)|Set piece / modular kit|Tripo #905|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #905; not named in the chapter text]|
+ARC|Wooden bridge plank (Secretive Soul)|Set piece / modular kit|Tripo #906|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #906; likely the same asset as ARC-0025 Plank bridge; kept as its own entry so no Tripo row is dropped]|
+ARC|Torii pillar (Secretive Soul)|Set piece / modular kit|Tripo #907|B|Modular dressing piece for Ch 13 Secretive Soul [inferred: Tripo list #907; not named in the chapter text]|
+PRP|Monolith glyph set|Insignia|Tripo #234|B|Undecipherable red hieroglyphics [inferred: Tripo list #234; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

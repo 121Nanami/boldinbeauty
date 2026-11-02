@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 1, "title": "Death M1: Scythe Graze", "slug": "death-scythe-graze", "who": "death", "label": "PROPOSED", "note": "Wide cuts that mark; Soul reap on the third"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-01-death-scythe-graze", "title": "Death M1: Scythe Graze", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 3, "len": 620, "w": 40, "fan": 0.3, "col": "#7657FF", "col2": "#F7F4FA", "ang": -18}, {"fx": "mark", "at": "en", "glyph": "skull", "h": 360, "col": "#FF3D8D", "s": 24, "t0": 0.7, "t1": 3.0, "pips": 1}], "enemy": true, "cas": true, "note": "Wide cuts that mark; Soul reap on the third", "label": "PROPOSED", "who": "Death", "slot": "M1", "hit": 0.15, "sfx": "hit", "n": 1, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

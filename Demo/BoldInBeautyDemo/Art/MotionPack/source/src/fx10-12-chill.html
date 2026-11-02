@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "10", "n": 12, "title": "Chill", "slug": "chill", "who": null, "label": "DERIVED", "note": "Frost mist + falling flakes"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx10-12-chill", "title": "Chill", "dur": 3.0, "layers": [{"fx": "status", "at": "en", "kind": "chill", "sc": 1.6, "col": "#64E8FF"}], "enemy": false, "cas": false, "note": "Frost mist + falling flakes", "label": "DERIVED", "who": "SHARED", "slot": "Weather, Ishii", "hit": 0.2, "sfx": "soft", "n": 12, "sheet": "10"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Boldinbeauty</title>
+<meta name="description" content="Boldinbeauty is a 3D action gacha game set in Neo Tokyo, 2009. The angels came in 2002. Humanity lives underground in the arc, and the operators fight back.">
+<meta name="theme-color" content="#0c0a14">
+<meta property="og:title" content="Boldinbeauty">
+<meta property="og:description" content="A 3D action gacha game set in Neo Tokyo, 2009. In development.">
+<meta property="og:image" content="assets/operators/luna.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Share+Tech+Mono&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#home"><b>Bold</b>inbeauty</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#news">News</a></li>
+      <li><a href="#world">World</a></li>
+      <li><a href="#operators">Operators</a></li>
+      <li><a href="#gameplay">Gameplay</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#merch">Merch</a></li>
+      <li><a class="cta" href="#support">Support</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<!-- ================= HOME ================= -->
+<div id="view-home" class="view">
+
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Neo Tokyo · 2009 · The arc</p>
+        <h1 class="hero-title" id="hero-title">
+          <span class="b">Bold</span>
+          <span class="in">in</span>
+          <span>Beauty</span>
+        </h1>
+        <p class="hero-tag">The angels came in 2002 and ended the world above. Humanity survives underground in the arc, and its operators are the only thing fighting back.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#operators">Meet the operators</a>
+          <a class="btn ghost" href="#support">Support development</a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="dot">●</span> In development</span>
+          <span>Windows · macOS · Linux · Android · iOS</span>
+          <span>Unreal Engine 5</span>
+        </div>
+      </div>
+
+      <div class="hero-stage" aria-label="Luna, Plack and Kuu">
+        <div class="halo" aria-hidden="true">
+          <svg viewBox="0 0 400 400" style="color: var(--halo)">
+            <g class="spin" fill="none" stroke="currentColor">
+              <circle cx="200" cy="200" r="190" stroke-opacity=".25" stroke-dasharray="2 8"/>
+              <circle cx="200" cy="200" r="172" stroke-opacity=".5"/>
+              <polygon points="200,28 349,286 51,286" stroke-opacity=".28"/>
+              <polygon points="200,372 51,114 349,114" stroke-opacity=".28"/>
+            </g>
+            <g class="spin rev" fill="none" stroke="currentColor">
+              <circle cx="200" cy="200" r="150" stroke-opacity=".18" stroke-width="10" stroke-dasharray="1 14"/>
+              <circle cx="200" cy="200" r="118" stroke-opacity=".35" stroke-dasharray="40 10 4 10"/>
+            </g>
+          </svg>
+        </div>
+        <div class="trio" id="trio"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="band alt" id="news" aria-labelledby="news-title">
+    <div class="wrap">
+      <div class="band-head split">
+        <div style="display:grid;gap:12px">
+          <p class="eyebrow">Game updates</p>
+          <h2 class="section-title" id="news-title">News &amp; updates</h2>
+        </div>
+        <div class="news-filters" id="news-filters" role="group" aria-label="Filter posts">
+          <button class="chip" type="button" data-f="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-f="news" aria-pressed="false">Announcements</button>
+          <button class="chip" type="button" data-f="dev" aria-pressed="false">Dev updates</button>
+          <button class="chip" type="button" data-f="art" aria-pressed="false">Art</button>
+        </div>
+      </div>
+      <div class="news-grid" id="news-grid"></div>
+    </div>
+  </section>
+
+  <!-- WORLD -->
+  <section class="band" id="world" aria-labelledby="world-title">
+    <div class="wrap world-grid">
+      <div class="world-copy">
+        <p class="eyebrow">The world</p>
+        <h2 class="section-title" id="world-title">Above us, only angels</h2>
+        <p>The angels that descended on Tokyo are not the ones from scripture. They are beings of pure light and mathematics, perfect things built to kill everything. Everyone left on the surface died.</p>
+        <p>What remains of humanity lives underground in <strong>the arc</strong>. To fight back, it built <strong>operators</strong>: autonomous, sentient soldiers who are part human, part machine and part angel.</p>
+        <p>The government that commands them is mostly a dictatorship. It sells the operators' fights for sponsorship money and public support. You play as a <strong>commander</strong>, following <strong>Luna</strong>, <strong>Plack</strong> and <strong>Kuu</strong> as they take government jobs, fight angels and deal with other operators' problems.</p>
+
+        <div class="makeup" aria-label="Operator composition">
+          <p class="mono" style="font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--text)">Operator composition</p>
+          <div class="makeup-bar" role="img" aria-label="50% human, 49% robot, 1% angel"><span class="h"></span><span class="r"></span><span class="a"></span></div>
+          <div class="makeup-legend">
+            <span><i style="background:var(--bold)"></i>50% human</span>
+            <span><i style="background:var(--r3)"></i>49% robot</span>
+            <span><i style="background:var(--halo)"></i>1% angel</span>
+          </div>
+        </div>
+      </div>
+
+      <ol class="timeline" aria-label="Timeline">
+        <li><span class="yr">2002</span><p>The angels descend. The world above ends, and the survivors retreat into the arc.</p></li>
+        <li><span class="yr">2002<small> → </small>2009</span><p>Humanity builds operators to fight back. The government turns them into a business.</p></li>
+        <li class="hot"><span class="yr">2009</span><p>Neo Tokyo. The story begins.</p></li>
+        <li><span class="yr">2009<small> → </small>2017</span><p>The playable story spans eight years of the war under the city.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- OPERATORS -->
+  <section class="band alt" id="operators" aria-labelledby="ops-title">
+    <div class="wrap">
+      <div class="band-head split">
+        <div style="display:grid;gap:12px">
+          <p class="eyebrow">Launch roster · 20 operators</p>
+          <h2 class="section-title" id="ops-title">Operators</h2>
+        </div>
+        <div class="ops-filters" id="ops-filters" role="group" aria-label="Filter by rarity">
+          <button class="chip" type="button" data-f="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-f="6" aria-pressed="false">6★ Secret</button>
+          <button class="chip" type="button" data-f="5" aria-pressed="false">5★ Legendary</button>
+          <button class="chip" type="button" data-f="4" aria-pressed="false">4★ Epic</button>
+          <button class="chip" type="button" data-f="3" aria-pressed="false">3★ Rare</button>
+        </div>
+      </div>
+      <div class="ops-grid" id="ops-grid"></div>
+      <p class="ops-note"><span id="ops-count"></span> · Designs shown are in-development drafts and may change.</p>
+    </div>
+  </section>
+
+  <!-- GAMEPLAY -->
+  <section class="band" id="gameplay" aria-labelledby="gp-title">
+    <div class="wrap">
+      <div class="band-head">
+        <p class="eyebrow">How it plays</p>
+        <h2 class="section-title" id="gp-title">Three operators. One on the field.</h2>
+        <p class="lede">A 3D action game with full movement: run, climb, swim, block, parry and dodge across Neo Tokyo and the arc.</p>
+      </div>
+
+      <div class="feat-grid">
+        <article class="feat">
+          <p class="eyebrow">Squad</p>
+          <h3>Switch on the fly</h3>
+          <p>Bring three operators into every level. One fights at a time, and you can swap the active operator with a single button. If your active operator falls, the next in line steps in.</p>
+        </article>
+        <article class="feat">
+          <p class="eyebrow">Kit</p>
+          <h3>Five ability slots</h3>
+          <p>Every operator, from Rare to Secret, has the same core layout. Legendary and Secret operators also carry passives.</p>
+          <div class="slots"><span class="slot">Move 1</span><span class="slot">Move 2</span><span class="slot">Move 3</span><span class="slot sp">Special</span><span class="slot ult">Ultimate</span></div>
+        </article>
+        <article class="feat">
+          <p class="eyebrow">Campaign</p>
+          <h3>Clear every section</h3>
+          <p>Talk your way into each battle, then clear 10 to 30 enemies per section to push forward. Every level has a mini-boss, and every chapter ends with a boss.</p>
+          <div class="path"><b>Chapter</b><span>→</span><b>Stage</b><span>→</span><b>Section</b></div>
+        </article>
+      </div>
+
+      <div class="rates">
+        <div class="copy">
+          <p class="eyebrow">Summoning</p>
+          <h3>Rates, in the open</h3>
+          <p>One Epic or better in every 10-pull. A guaranteed 5★ within 100 summons and a guaranteed 6★ within 2,000. Lose a featured 50/50 and the next one is yours.</p>
+          <p>Every non-daily summon also earns Mileage, which carries across banners and can be spent on the featured operator.</p>
+        </div>
+        <div class="rate-wrap">
+          <table class="rate-table">
+            <caption class="mono" style="caption-side:bottom;text-align:left;padding-top:12px;font-size:.74rem;color:var(--muted)">Planned base rates. Subject to change before release.</caption>
+            <thead><tr><th scope="col">Rarity</th><th scope="col">Tier</th><th scope="col" class="num">Rate</th></tr></thead>
+            <tbody>
+              <tr><td class="r6">★★★★★★</td><td>Secret</td><td class="num r6">0.1%</td></tr>
+              <tr><td class="r5">★★★★★</td><td>Legendary</td><td class="num r5">2%</td></tr>
+              <tr><td class="r4">★★★★</td><td>Epic</td><td class="num r4">19.9%</td></tr>
+              <tr><td class="r3">★★★</td><td>Rare</td><td class="num r3">78%</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="band alt" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="band-head">
+        <p class="eyebrow">Questions</p>
+        <h2 class="section-title" id="faq-title">FAQ</h2>
+      </div>
+      <div class="faq">
+        <details><summary>When does Boldinbeauty release?</summary><p>There is no release date yet. The game is in active development. Follow the news section or our socials for updates.</p></details>
+        <details><summary>Which platforms is it coming to?</summary><p>Windows, macOS, Linux, Android and iOS.</p></details>
+        <details><summary>What kind of game is it?</summary><p>A 3D action gacha game. You collect operators through summoning, build a team of three and fight through a story set in Neo Tokyo between 2009 and 2017.</p></details>
+        <details><summary>Who is making it?</summary><p>Boldinbeauty is an independent project built in Unreal Engine 5.</p></details>
+        <details><summary>How can I help?</summary><p>Following the project and sharing it helps a lot. You can support development on Patreon or Buy Me a Coffee from the <a href="#support">support page</a>, and official merch is on the way.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="band cta-band" aria-labelledby="cta-title">
+    <div class="wrap">
+      <div style="display:grid;gap:12px">
+        <p class="eyebrow">Support the project</p>
+        <h2 class="section-title" id="cta-title">Help build the arc</h2>
+        <p class="lede">Boldinbeauty is independently developed. Back it on Patreon or Buy Me a Coffee; official merch is on the way.</p>
+      </div>
+      <a class="btn" href="#support">Ways to support</a>
+    </div>
+  </section>
+</div>
+
+<!-- ================= SUPPORT ================= -->
+<div id="view-support" class="view" hidden>
+  <section class="page-hero" aria-labelledby="support-title">
+    <div class="wrap">
+      <p class="eyebrow">Support</p>
+      <h1 class="section-title" id="support-title">Back the operators</h1>
+      <p class="lede">Every bit of support goes straight into building Boldinbeauty.</p>
+    </div>
+  </section>
+
+  <section class="band" style="padding-top:0" aria-label="Support options">
+    <div class="wrap support-grid">
+      <article class="support-card patreon">
+        <span class="status live" id="patreon-status">Open</span>
+        <h3>Patreon</h3>
+        <p>Monthly support for ongoing development, with behind-the-scenes posts as the game takes shape.</p>
+        <div id="patreon-btn"></div>
+      </article>
+      <article class="support-card coffee">
+        <span class="status live" id="coffee-status">Open</span>
+        <h3>Buy Me a Coffee</h3>
+        <p>A one-time tip, no account or subscription needed.</p>
+        <div id="coffee-btn"></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="band alt" id="socials" aria-labelledby="social-title">
+    <div class="wrap">
+      <div class="band-head">
+        <p class="eyebrow">Community</p>
+        <h2 class="section-title" id="social-title">Follow along</h2>
+      </div>
+      <div class="social-grid" id="social-grid"></div>
+    </div>
+  </section>
+
+  <section class="band" id="merch" aria-labelledby="merch-title">
+    <div class="wrap">
+      <div class="band-head split">
+        <div style="display:grid;gap:12px">
+          <p class="eyebrow" id="merch-status">Store opening later</p>
+          <h2 class="section-title" id="merch-title">Merch</h2>
+          <p class="lede">Official Boldinbeauty merch is planned. The store will open here.</p>
+        </div>
+        <div id="merch-btn"></div>
+      </div>
+      <div class="merch-grid" aria-label="Upcoming merch">
+        <div class="merch-slot"><div><b>Coming soon</b><span>Slot 01</span></div></div>
+        <div class="merch-slot"><div><b>Coming soon</b><span>Slot 02</span></div></div>
+        <div class="merch-slot"><div><b>Coming soon</b><span>Slot 03</span></div></div>
+        <div class="merch-slot"><div><b>Coming soon</b><span>Slot 04</span></div></div>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <a class="logo" href="#home"><b>Bold</b>inbeauty</a>
+    <nav aria-label="Footer">
+      <a href="#news">News</a><a href="#operators">Operators</a><a href="#support">Support</a><a href="#merch">Merch</a>
+    </nav>
+    <p>© <span id="year">2026</span> Boldinbeauty. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>

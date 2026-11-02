@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "15", "n": 1, "title": "Alchemist M1: Goo Slap", "slug": "alch-m1-goo-slap", "who": "alch", "label": "PROPOSED", "note": "Two goo-covered slaps"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-01-alch-m1-goo-slap", "title": "Alchemist M1: Goo Slap", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 2, "col": "#7657FF", "col2": "#64E8FF", "len": 440, "w": 70}, {"fx": "burst", "at": "mid", "t0": 0.15, "n": 26, "shape": "dot", "cols": ["#7657FF", "#64E8FF"], "spd": 330, "g": 900, "size": 10, "life": 0.8}, {"fx": "burst", "at": "mid", "t0": 0.35, "n": 26, "shape": "dot", "cols": ["#7657FF", "#64E8FF"], "spd": 330, "g": 900, "size": 10, "life": 0.8, "seed": 9}], "enemy": true, "cas": true, "note": "Two goo-covered slaps", "label": "PROPOSED", "who": "Alchemist", "slot": "M1", "hit": 0.15, "sfx": "hit", "n": 1, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

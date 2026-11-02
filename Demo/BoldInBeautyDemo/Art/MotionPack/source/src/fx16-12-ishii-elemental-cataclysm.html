@@ -1,0 +1,9 @@
+<!--META {"dur": 5.8, "alpha": true, "kind": "fx", "sheet": "16", "n": 12, "title": "Ishii Ultimate: Elemental Cataclysm", "slug": "ishii-elemental-cataclysm", "who": "ishii", "label": "PROPOSED", "note": "6 s channel; a burning meteor every 0.4 s"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-12-ishii-elemental-cataclysm", "title": "Ishii Ultimate: Elemental Cataclysm", "dur": 5.8, "layers": [{"fx": "aura", "at": "cas", "col": "#7657FF", "col2": "#64E8FF", "r": 120, "h": 320, "t1": 4.8}, {"fx": "meteors", "at": "mid", "t0": 0.5, "n": 10, "gap": 0.4, "col": "#FF3D8D", "col2": "#F7F4FA", "area": 1000, "sx": 0, "ir": 240}], "enemy": true, "cas": true, "note": "6 s channel; a burning meteor every 0.4 s", "label": "PROPOSED", "who": "Ishii", "slot": "Ultimate", "hit": 0.9, "sfx": "boom", "n": 12, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

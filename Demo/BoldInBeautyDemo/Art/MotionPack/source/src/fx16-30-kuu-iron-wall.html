@@ -1,0 +1,9 @@
+<!--META {"dur": 3.8, "alpha": true, "kind": "fx", "sheet": "16", "n": 30, "title": "Kuu Special: Iron Wall", "slug": "kuu-iron-wall", "who": "kuu", "label": "PROPOSED", "note": "4000 shield + shoving barrier; heal on end"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-30-kuu-iron-wall", "title": "Kuu Special: Iron Wall", "dur": 3.8, "layers": [{"fx": "dome", "at": "cas", "rx": 240, "ry": 270, "col": "#F7F4FA"}, {"fx": "hexfield", "at": "cas", "ox": 150, "w": 360, "h": 300, "col": "#F7F4FA", "col2": "#7657FF"}, {"fx": "blast", "at": "cas", "t0": 3.0, "r": 300, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 1}, {"fx": "burst", "at": "cas", "t0": 3.0, "n": 16, "col": "#FF3D8D", "cols": ["#FF3D8D", "#F7F4FA"], "spd": 280, "a0": -2.7, "a1": -0.4, "g": -200, "y": -120, "shape": "dot", "size": 8}], "enemy": false, "cas": true, "note": "4000 shield + shoving barrier; heal on end", "label": "PROPOSED", "who": "Kuu", "slot": "Special", "hit": 0.3, "sfx": "chime", "n": 30, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

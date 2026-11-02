@@ -1,0 +1,1869 @@
+{
+ "2": {
+  "short": "Ruins",
+  "theme": "city",
+  "lay": "line",
+  "land": "dome",
+  "floor": "Rubble",
+  "wall": "Rubble",
+  "accent": "NeonYellow",
+  "sun": [
+   255,
+   225,
+   190
+  ],
+  "fog": 0.035,
+  "boss": "The Crowd",
+  "phases": 1,
+  "mini": [
+   "Hatch Guard",
+   "Stadium Sentry",
+   "Rubble Brute",
+   "Fire-Yard Warden"
+  ],
+  "npcs": [
+   "Scrap Peddler",
+   "Plack (classroom)",
+   "Kuu (lost-and-found)"
+  ],
+  "pickups": [
+   "Field recorder",
+   "Face-down playing card",
+   "Lost lunchbox"
+  ],
+  "cuts": [
+   "Recorder playback: angels facing west"
+  ],
+  "objs": [
+   "Open hatch 1-16 in order",
+   "Reach the stadium"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: sixteen hatches, one stuck. Luna's first act on the surface is selling the hatch's hinge.",
+   "School: Plack reads every classroom noticeboard aloud while Kuu hunts the lost-and-found box.",
+   "The peddler returns with Luna's own hinge for sale at double the price; a short, truly petty argument.",
+   "Midpoint swerve: the field recorder's last entry plays: the dead operator said the angels 'were counting us'.",
+   "Police and fire station: a locked evidence room, a cat, a fire truck that still starts.",
+   "Hospital: Plack stops speaking; there are no bodies and every bed has a name card in the same handwriting.",
+   "Low point: the stadium's stands are moving; the Crowd is assembling out of the angels that stood facing west.",
+   "Boss: the Crowd. Stinger: the recorder replay shows the rows of angels, all facing the sea. Luna says 'west it is' and pockets a playing card she did not mention."
+  ]
+ },
+ "4": {
+  "short": "HangingCity",
+  "theme": "city",
+  "lay": "up",
+  "land": "tower",
+  "floor": "Concrete",
+  "wall": "Metal",
+  "accent": "NeonCyan",
+  "sun": [
+   200,
+   220,
+   255
+  ],
+  "fog": 0.02,
+  "boss": "The Anchorite",
+  "phases": 1,
+  "mini": [
+   "Lift Warden",
+   "Chain Drifter",
+   "Bridge Guard",
+   "Cable Wraith"
+  ],
+  "npcs": [
+   "Lift rota clerk",
+   "Resident child (4:12)",
+   "Unregistered recruit"
+  ],
+  "pickups": [
+   "Stopped clock",
+   "Lift schedule"
+  ],
+  "cuts": [
+   "Every clock reads 4:12"
+  ],
+  "objs": [
+   "Repair the north lift",
+   "Reach the chain anchor"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: a city hangs from a chain into the fog; Kuu announces he is staying at the entrance.",
+   "Lifts and plank bridges; the residents ask for ID and are delighted when nobody has any.",
+   "Plack fixes the north lift; the residents elect Plack 'rota captain' by acclamation.",
+   "Midpoint swerve: every clock in the city shows 4:12. 'It has always been 4:12,' says a child, cheerfully.",
+   "A district of angels drifting down the chain; Kuu climbs links while narrating his own death.",
+   "Luna recruits her first unregistered operators and is told, kindly, that she is 'doing it wrong'.",
+   "Low point: the chain groans; the Anchorite is not defending the anchor, it is holding the city up.",
+   "Boss: the Anchorite. Stinger: the residents let the trio keep the lift schedule, and one clock moves to 4:13 for the first time in years."
+  ]
+ },
+ "5": {
+  "short": "ArcTech",
+  "theme": "factory",
+  "lay": "line",
+  "land": "machine",
+  "floor": "Metal",
+  "wall": "Metal",
+  "accent": "CubeGlow",
+  "sun": [
+   255,
+   235,
+   200
+  ],
+  "fog": 0.01,
+  "boss": "Foreman",
+  "phases": 1,
+  "mini": [
+   "Press Sentry",
+   "Arm Gauntlet",
+   "Cube Hauler",
+   "Line Inspector"
+  ],
+  "npcs": [
+   "The Voice (loudspeaker)"
+  ],
+  "pickups": [
+   "Glowing cube",
+   "Stamped pallet (1%)"
+  ],
+  "cuts": [
+   "Pallet stamp: 1%"
+  ],
+  "objs": [
+   "Time the ten stampers",
+   "Reach the cube core"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: a friendly voice welcomes 'visitors' to A.R.C TECH. No one is here.",
+   "Intake hall: the voice rates each of the trio out of five. Luna asks it to rate Kuu twice.",
+   "Conveyors: cubes the colour of a sunrise; Plack picks one up and puts it back very carefully.",
+   "Midpoint swerve: the pallet stamp reads 1%. Plack says the number aloud and Kuu goes quiet.",
+   "Press hall: ten stampers, a timing run; Luna takes the safe route and then pretends she did not.",
+   "Robot-arm gauntlet; the voice narrates their death in advance, in the past tense, as a bedtime story.",
+   "Low point: the Foreman is a person-shaped automaton with a clipboard and it knows all three of their names.",
+   "Boss: the Foreman. Stinger: Luna's pocket is warm. She does not tell Plack or Kuu about the cube."
+  ]
+ },
+ "6": {
+  "short": "MoonKingdom",
+  "theme": "village",
+  "lay": "ring",
+  "land": "dome",
+  "floor": "Moss",
+  "wall": "Stone",
+  "accent": "Flora",
+  "sun": [
+   120,
+   130,
+   180
+  ],
+  "fog": 0.03,
+  "boss": "The Gardener",
+  "phases": 1,
+  "mini": [
+   "Moss Sentinel",
+   "Vine Walker",
+   "Bloom Guard",
+   "Root Warden"
+  ],
+  "npcs": [
+   "Empty house (three names)"
+  ],
+  "pickups": [
+   "Lantern oil",
+   "Empty tomb tag"
+  ],
+  "cuts": [
+   "Tombs open and empty"
+  ],
+  "objs": [
+   "Relight three lanterns",
+   "Cross the lake"
+  ],
+  "water": true,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: a second arc, lit by a dim Moon, with a population sign that reads 0.",
+   "Gate plaza: flora in every doorway; Plack bows to a house.",
+   "Market: stalls fully stocked; Kuu counts the coins on every counter; none are missing.",
+   "Midpoint swerve: the beds are made, the plates are laid, the tombs on the cemetery wall are open and empty.",
+   "Lake: lily-pad stones; Luna argues with the Moon and the Moon wins by being large.",
+   "A house with three names carved in the door-frame: theirs, in an earlier hand.",
+   "Low point: the Gardener is not guarding anything; it is weeding.",
+   "Boss: the Gardener. Stinger: the Moon flickers the exact yellow of the cubes, for one second."
+  ]
+ },
+ "7": {
+  "short": "TOMBS",
+  "theme": "office",
+  "lay": "up",
+  "land": "vault",
+  "floor": "Concrete",
+  "wall": "Concrete",
+  "accent": "NeonYellow",
+  "sun": [
+   230,
+   230,
+   255
+  ],
+  "fog": 0.01,
+  "boss": "The Auditor",
+  "phases": 1,
+  "mini": [
+   "Reception Drone",
+   "Cubicle Warden",
+   "Filing Sentry",
+   "Floor Clerk"
+  ],
+  "npcs": [
+   "Receptionist (bell)"
+  ],
+  "pickups": [
+   "Folder: ANGEL V1",
+   "Folder: OPERATOR V!",
+   "Coffee"
+  ],
+  "cuts": [
+   "Five hidden doors open"
+  ],
+  "objs": [
+   "Match doors to folders",
+   "Reach floor 9"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: a black shell taller than the ceiling; inside, a lobby with a plant and a bell.",
+   "Reception: Luna rings the bell nineteen times; Plack signs them in as visitors.",
+   "Cubicles: Kuu vaults desks; the coffee machine is warm.",
+   "Midpoint swerve: five doors that look exactly like walls. Behind them, folders. Two names repeat: ANGEL V1, OPERATOR V!.",
+   "Floor 6: a meeting room set for a meeting that already happened. The minutes are one line long.",
+   "Elevator shafts: Luna presses every button; the building notes this on a form.",
+   "Low point: the Auditor asks them to fill in a form, and if they refuse it fills it for them.",
+   "Boss: the Auditor. Stinger: the lobby clock chimes a time that is not the time and the plant has moved."
+  ]
+ },
+ "8": {
+  "short": "Intersection",
+  "theme": "tunnel",
+  "lay": "line",
+  "land": "arch",
+  "floor": "Concrete",
+  "wall": "Concrete",
+  "accent": "NeonCyan",
+  "sun": [
+   150,
+   170,
+   200
+  ],
+  "fog": 0.04,
+  "boss": "The Toll Collector",
+  "phases": 1,
+  "mini": [
+   "Lane Angel",
+   "Shard Carrier",
+   "Pump Brute",
+   "Gate Warden"
+  ],
+  "npcs": [
+   "Stranded technician"
+  ],
+  "pickups": [
+   "Shard",
+   "Rubber duck"
+  ],
+  "cuts": [
+   "Angels carrying shards"
+  ],
+  "objs": [
+   "Survive the flood",
+   "Reach the HQ-side gate"
+  ],
+  "water": true,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: rain pours through the grates; Luna looks at the demolition kit and puts it back in the bag.",
+   "The tunnel: angels in lanes, all moving the same way; Plack counts until the numbers are not useful.",
+   "A flood junction; Kuu volunteers to check the depth and goes under.",
+   "Midpoint swerve: every angel is carrying a shard. They are not attacking; they are delivering.",
+   "Pump room: a dive, a flooded control desk, a rubber duck Kuu insists on keeping.",
+   "Luna refuses to blow the tunnel: 'the explosives are damp.' Plack decides not to ask.",
+   "Low point: the lanes bend at the gate and the Toll Collector asks them for a ticket none of them have.",
+   "Boss: the Toll Collector. Stinger: Luna watches the last angel go by, shard glowing, toward the arc."
+  ]
+ },
+ "9": {
+  "short": "RemnantRemains",
+  "theme": "factory",
+  "lay": "ring",
+  "land": "stack",
+  "floor": "Sand",
+  "wall": "Metal",
+  "accent": "Screen",
+  "sun": [
+   210,
+   190,
+   150
+  ],
+  "fog": 0.03,
+  "boss": "The Uptime",
+  "phases": 1,
+  "mini": [
+   "Rack Sentry",
+   "Cooling Warden",
+   "Cable Crawler",
+   "Hall Monitor"
+  ],
+  "npcs": [
+   "Small screen"
+  ],
+  "pickups": [
+   "Data core",
+   "Lost boot"
+  ],
+  "cuts": [
+   "The small screen (verbatim)"
+  ],
+  "objs": [
+   "Climb the cable trunks",
+   "Read the screen"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: a desert, a downpour, a wind that speaks three words and leaves.",
+   "Dunes: Kuu loses a boot and Plack finds a sock in a different place.",
+   "Cable trunks: climbing along the black lines of a thing buried in the sand.",
+   "Midpoint swerve: the data centre is lit, warm and tidy. It has been waiting.",
+   "Cooling towers; steam; the vents breathe a low note Kuu says he can feel in his teeth.",
+   "Server hall: the small screen, the damaged Morse; Luna says she can read it. She cannot.",
+   "Low point: the Uptime assembles from server racks and the hall's lights say, over and over, 'Operator failed.'",
+   "Boss: the Uptime. Stinger: the hum does not stop when they leave. It follows them across the desert."
+  ]
+ },
+ "10": {
+  "short": "Hallucinations",
+  "theme": "gallery",
+  "lay": "spiral",
+  "land": "statue",
+  "floor": "PastelPink",
+  "wall": "PastelBlue",
+  "accent": "PastelLilac",
+  "sun": [
+   255,
+   230,
+   245
+  ],
+  "fog": 0.01,
+  "boss": "The Mimic",
+  "phases": 1,
+  "mini": [
+   "Apparition",
+   "Teacup Giant",
+   "Chair Wraith",
+   "Clock Face"
+  ],
+  "npcs": [
+   "Morse carvings (four)"
+  ],
+  "pickups": [
+   "Teacup shard",
+   "Melted clock hand"
+  ],
+  "cuts": [
+   "Morse line 1-4"
+  ],
+  "objs": [
+   "Read the four Morse lines",
+   "Face the Mimic"
+  ],
+  "water": true,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: a pastel island, a chair as tall as a house; nothing here is real, which does not help.",
+   "Luna's island: a waiting room where the television is off, and she waits anyway.",
+   "Kuu's island: a street he cannot leave; every shop sells one thing: apologies.",
+   "Midpoint swerve: the Morse in the floor reads 'THE ANGELS BRING MERCY FOR ALL'. Under it, a smaller line: 'not those'.",
+   "Plack's island: a wedding cake that bleeds and a guest list written in teeth.",
+   "Impossible stairs; hyper-real horrors walking past; Luna decides to ignore them out of rudeness.",
+   "Low point: the Mimic wears Luna's face and says what she is afraid to: 'I do not know why I am doing this.'",
+   "Boss: the Mimic. Stinger: the fourth Morse line, 'THE REST ARE ALL FILTH COMPARED TO ITS EXISTENCE', is carved by someone who had time."
+  ]
+ },
+ "12": {
+  "short": "Paradise",
+  "theme": "village",
+  "lay": "line",
+  "land": "arch",
+  "floor": "Turquoise",
+  "wall": "Coral",
+  "accent": "Sunflower",
+  "sun": [
+   255,
+   245,
+   200
+  ],
+  "fog": 0.01,
+  "boss": "The Ambassador",
+  "phases": 1,
+  "mini": [
+   "Camera Drone",
+   "Beach Guard",
+   "Brand Elite",
+   "Rooftop Sentry"
+  ],
+  "npcs": [
+   "Luna and Plack (wedding)",
+   "Kuu (best-person)",
+   "Rationing clerk"
+  ],
+  "pickups": [
+   "Wing-logo menu",
+   "Mango",
+   "Wedding rings"
+  ],
+  "cuts": [
+   "The proposal",
+   "The wedding, 2009"
+  ],
+  "objs": [
+   "Reach the rooftop garden",
+   "Cross the lagoon"
+  ],
+  "water": true,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: sunshine, rain, a brass band; the trio are 'guests of honour' of a city that has never been touched.",
+   "Tour: Luna eats five meals; Plack reads the menu and finds the same wing logo on every plate.",
+   "Midpoint swerve: Plack proposes. The city streams it live to the whole arc; the sponsors name the moment.",
+   "Wedding, 2009: Luna and Plack are married on a rooftop garden under waterfalls; Kuu is best-person and loses the rings twice.",
+   "The service tunnels: the rationing office, the queue, the same logo.",
+   "Luna collects receipts instead of souvenirs; Kuu finds the people who cook the food and cannot eat it.",
+   "Low point: the Ambassador crashes the reception to 'bless the union', on camera, for the sponsor.",
+   "Boss: the Ambassador in the lagoon. Stinger: Luna takes the cheque, tears it in half, and says, quietly, 'I'm done being nice.'"
+  ]
+ },
+ "14": {
+  "short": "Declaration",
+  "theme": "tower",
+  "lay": "up",
+  "land": "tower",
+  "floor": "Concrete",
+  "wall": "Glass",
+  "accent": "NeonRed",
+  "sun": [
+   200,
+   210,
+   255
+  ],
+  "fog": 0.02,
+  "boss": "Primetime Squad",
+  "phases": 1,
+  "mini": [
+   "Spire Guard",
+   "Studio Warden",
+   "Antenna Sentry",
+   "Squad Understudy"
+  ],
+  "npcs": [
+   "Receptionist",
+   "Quiz-show host"
+  ],
+  "pickups": [
+   "Visitor sticker",
+   "Toaster"
+  ],
+  "cuts": [
+   "The declaration",
+   "The feed is cut"
+  ],
+  "objs": [
+   "Reach the transmitter",
+   "Go live"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: dawn over the spire; Luna rehearses the speech to a mirror and rejects three drafts.",
+   "Lobby: the trio walk in on a school tour and are given visitor stickers.",
+   "Studio floors: a quiz show set; Kuu wins a toaster while avoiding a guard.",
+   "Midpoint swerve: the transmitter is guarded by the Primetime Squad, who recognise them from the Paradise wedding.",
+   "Climb: the antenna mast; Plack fixes the wiring while Luna reads her speech out loud.",
+   "Luna goes live. Plack reads over her shoulder and changes one word. The feed is cut in the middle of 'oppression'.",
+   "Low point: Kuu is shot while holding the door; he says it is a flesh wound and passes out.",
+   "Boss: Primetime Squad. Stinger: the commanders' answer comes in on every screen: 'Luna is a war criminal.' She says, 'Good title.'"
+  ]
+ },
+ "15": {
+  "short": "DeadAir",
+  "theme": "tunnel",
+  "lay": "line",
+  "land": "stack",
+  "floor": "Dark",
+  "wall": "Concrete",
+  "accent": "NeonCyan",
+  "sun": [
+   90,
+   100,
+   140
+  ],
+  "fog": 0.05,
+  "boss": "Jammer Choir",
+  "phases": 1,
+  "mini": [
+   "Jammer Drone",
+   "Static Walker",
+   "Tape Eater",
+   "Relay Warden"
+  ],
+  "npcs": [
+   "Media",
+   "Plack (soup)"
+  ],
+  "pickups": [
+   "Cassette tape",
+   "Patch cable"
+  ],
+  "cuts": [
+   "Dawn: Luna and the coffee"
+  ],
+  "objs": [
+   "Reconnect the relay",
+   "Hold the studio"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: Media at a mixing desk at 4 a.m., eating cereal, listening to the arc's secrets.",
+   "The studio: a defunct subway station with a hundred wires and a single chair.",
+   "Jammer drones; Media's patch panel puzzle, solved with music.",
+   "Midpoint swerve: the speech's metadata contained a kill order that triggered on a single word.",
+   "Signal tunnels: Media reconnects the relay and rereads her old broadcast, the damaged Morse from the desert.",
+   "Plack arrives with soup and no questions; Media does not take it and then does.",
+   "Low point: the Jammer Choir takes the studio; Media's tapes are burning.",
+   "Boss: Jammer Choir. Stinger: dawn; Luna arrives with a coffee she did not pay for and says she owes Media nothing, and will pay it all back."
+  ]
+ },
+ "16": {
+  "short": "Recruitment",
+  "theme": "city",
+  "lay": "zig",
+  "land": "arch",
+  "floor": "Dark",
+  "wall": "Concrete",
+  "accent": "NeonYellow",
+  "sun": [
+   140,
+   120,
+   170
+  ],
+  "fog": 0.04,
+  "boss": "Repo",
+  "phases": 1,
+  "mini": [
+   "Debt Collector",
+   "Sponsor Thug",
+   "Ambush Archer",
+   "Collector Brute"
+  ],
+  "npcs": [
+   "Recruit (soup)",
+   "Recruit (smiling)",
+   "Hanging City recruit",
+   "Contract clerk"
+  ],
+  "pickups": [
+   "Contract (likeness clause)",
+   "Recruiting sign"
+  ],
+  "cuts": [
+   "Plack's question",
+   "The ambush"
+  ],
+  "objs": [
+   "Sign four recruits",
+   "Survive the ambush"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: a hand-painted sign in the Underworld: 'LUNA PAYS ON TIME.'",
+   "The sign-in table: Plack's clipboard, Kuu's patience, Luna's briefing about 'chess pieces'.",
+   "Hanging City operators arrive and ask where the lift is.",
+   "Midpoint swerve: the contract: sponsor owns your likeness, voice, and a third of your wages.",
+   "Recruit missions: four operators, four terrible reasons, one of them about soup.",
+   "A recruit smiles too much. Kuu watches him. Luna does not.",
+   "Low point: the Underworld is ambushed; the recruit sold the table.",
+   "Boss: Repo. Stinger: Plack asks what the recruit was being paid. Luna writes the question down."
+  ]
+ },
+ "17": {
+  "short": "Court",
+  "theme": "court",
+  "lay": "ring",
+  "land": "bench",
+  "floor": "Concrete",
+  "wall": "Concrete",
+  "accent": "NeonYellow",
+  "sun": [
+   255,
+   240,
+   210
+  ],
+  "fog": 0.01,
+  "boss": "The Bailiff Prime",
+  "phases": 1,
+  "mini": [
+   "Bailiff Automaton",
+   "Cell Guard",
+   "Gavel Sentry",
+   "Clerk Drone"
+  ],
+  "npcs": [
+   "Judge",
+   "The accused",
+   "Vending-machine witness"
+  ],
+  "pickups": [
+   "Charge sheet",
+   "Statute volume"
+  ],
+  "cuts": [
+   "The ruling: commanders are subject to law"
+  ],
+  "objs": [
+   "Hear the first case",
+   "Reach the final case"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: Judge at dawn, in a courthouse that smells of floor wax, reading statutes to nobody.",
+   "First case: an operator accused of 'organising without a sponsor'.",
+   "Bailiff automata; a witness who is a vending machine.",
+   "Midpoint swerve: the charge sheet is typed in a house style Judge has seen before and cannot place.",
+   "Cell block: Judge refuses to let the accused be moved; the bailiffs disagree.",
+   "In chambers: the precedent of the first law after 2002, in her own hand.",
+   "Low point: the Bailiff Prime arrives with an order to remove her from the bench.",
+   "Boss: the Bailiff Prime. Stinger: the ruling: commanders are subject to the same law. Luna reads it that night, twice."
+  ]
+ },
+ "18": {
+  "short": "Exchange",
+  "theme": "city",
+  "lay": "zig",
+  "land": "stack",
+  "floor": "Dark",
+  "wall": "Metal",
+  "accent": "NeonGreen",
+  "sun": [
+   170,
+   140,
+   100
+  ],
+  "fog": 0.04,
+  "boss": "The Broker",
+  "phases": 1,
+  "mini": [
+   "Stall Thug",
+   "Ledger Guard",
+   "Vault Sentry",
+   "Broker's Man"
+  ],
+  "npcs": [
+   "Spy recruit",
+   "Stall-holder",
+   "Plack"
+  ],
+  "pickups": [
+   "Ledger page",
+   "Cheque"
+  ],
+  "cuts": [
+   "Luna pays the spy"
+  ],
+  "objs": [
+   "Find the spy",
+   "Reach the Broker's floor"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: Kuu's ledger shows nine coins missing; he is sure it is ten.",
+   "The Exchange: stall-holders who all smile the same smile.",
+   "A ledger vault; a spy-hunt that Luna treats like a game.",
+   "Midpoint swerve: the spy is a recruit with a sick sibling and a medical contract.",
+   "Luna pays him. 'A business deal.' Plack looks at her for a long time.",
+   "The Broker's men arrive; the floor becomes a fight.",
+   "Low point: Luna realises she does not know how much a favour is worth.",
+   "Boss: the Broker. Stinger: a stall-holder tells her a favour is worth exactly one person. She does not like that."
+  ]
+ },
+ "19": {
+  "short": "HouseRules",
+  "theme": "casino",
+  "lay": "ring",
+  "land": "table",
+  "floor": "Dark",
+  "wall": "Metal",
+  "accent": "NeonPink",
+  "sun": [
+   255,
+   180,
+   200
+  ],
+  "fog": 0.02,
+  "boss": "The Backer's Dealer",
+  "phases": 1,
+  "mini": [
+   "Enforcer",
+   "Chip Guard",
+   "Vault Dealer",
+   "Pit Boss"
+  ],
+  "npcs": [
+   "Gambler",
+   "Bartender",
+   "Luna (card)"
+  ],
+  "pickups": [
+   "Wing chip",
+   "Card deck"
+  ],
+  "cuts": [
+   "Gambler recognises the card"
+  ],
+  "objs": [
+   "Open the vault",
+   "Hold the rooftop"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: the Deck at night; Gambler dealing herself a hand she will not play.",
+   "The floor: odds on Luna written on a board above the bar; they are not good.",
+   "A backer is buying every bet against Luna with money that has no fund.",
+   "Midpoint swerve: the vault; the chips have a wing stamp.",
+   "A chip-count puzzle; Gambler does the sum in her head and says nothing.",
+   "A visitor with a playing card asks for the house's blessing.",
+   "Low point: the backer's dealer flips the table and the casino is on fire.",
+   "Boss: the Backer's Dealer. Stinger: Gambler recognises Luna's card: 'That's not mine.' The only house in the arc that leaves cards is the Jester's."
+  ]
+ },
+ "20": {
+  "short": "TheHour",
+  "theme": "cathedral",
+  "lay": "up",
+  "land": "clock",
+  "floor": "Stone",
+  "wall": "Stone",
+  "accent": "NeonYellow",
+  "sun": [
+   255,
+   230,
+   170
+  ],
+  "fog": 0.02,
+  "boss": "The Minute Hand",
+  "phases": 1,
+  "mini": [
+   "Gear Sentry",
+   "Paused Pilgrim",
+   "Hour Guard",
+   "Chime Warden"
+  ],
+  "npcs": [
+   "Timekeeper",
+   "Plack (negotiator)"
+  ],
+  "pickups": [
+   "Pocket watch",
+   "Stopped hour"
+  ],
+  "cuts": [
+   "The Timekeeper agrees to attend"
+  ],
+  "objs": [
+   "Cross the gear halls",
+   "Reach the nave"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: every clock in the district points to the same minute.",
+   "Cathedral nave; Plack leads because the Timekeeper finds Plack interesting.",
+   "Gear halls: rooms that freeze when you stop moving.",
+   "Midpoint swerve: Kuu notices that the stopped places are where the government has no records.",
+   "The Timekeeper explains: 'time you are not counted in cannot be taxed.'",
+   "A hall with clocks that are stopped for no reason at all. The Timekeeper will not look at it.",
+   "Low point: the Minute Hand sweeps the nave; the trio must keep moving or be paused.",
+   "Boss: the Minute Hand. Stinger: 'I never stopped that one,' the Timekeeper says. 'Someone else did.'"
+  ]
+ },
+ "21": {
+  "short": "FixedDose",
+  "theme": "lab",
+  "lay": "zig",
+  "land": "dome",
+  "floor": "Grass",
+  "wall": "Glass",
+  "accent": "NeonGreen",
+  "sun": [
+   220,
+   255,
+   200
+  ],
+  "fog": 0.02,
+  "boss": "Overdose",
+  "phases": 1,
+  "mini": [
+   "Plant Creature",
+   "Lab Drone",
+   "Cold-Store Guard",
+   "Test Subject"
+  ],
+  "npcs": [
+   "Alchemist",
+   "Blood",
+   "Test subject (tea)"
+  ],
+  "pickups": [
+   "Cube sample",
+   "Label: 1"
+  ],
+  "cuts": [
+   "The 1% ceiling"
+  ],
+  "objs": [
+   "Test one",
+   "Contain Overdose"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: a greenhouse and a smell of burnt sugar; Alchemist adding a drop to a cube.",
+   "Blood hauls crates and complains about the weight of the glassware.",
+   "Test one: the subject sits up, blinks, and asks for tea.",
+   "Midpoint swerve: test two; the subject does not ask for tea.",
+   "Laboratory fights; chemical hazards; Blood keeps Alchemist alive and tells her about it.",
+   "The ceiling: the 1% is a limit, not a choice; past it, they become something else.",
+   "Low point: Overdose breaks the glass walls.",
+   "Boss: Overdose. Stinger: Alchemist writes 1 on a label and puts the project in a drawer."
+  ]
+ },
+ "22": {
+  "short": "Library",
+  "theme": "library",
+  "lay": "spiral",
+  "land": "stack",
+  "floor": "Wood",
+  "wall": "Wood",
+  "accent": "NeonPurple",
+  "sun": [
+   230,
+   200,
+   170
+  ],
+  "fog": 0.02,
+  "boss": "The Editor",
+  "phases": 1,
+  "mini": [
+   "Page Wraith",
+   "Reading-Room Guard",
+   "Index Sentry",
+   "Binder Brute"
+  ],
+  "npcs": [
+   "The Narrator",
+   "Archivist"
+  ],
+  "pickups": [
+   "Charge draft",
+   "Margin notes"
+  ],
+  "cuts": [
+   "The Narrator's offer"
+  ],
+  "objs": [
+   "Read the rooms",
+   "Reach the central room"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: a library with no roof and a floor of pages.",
+   "Reading rooms that rearrange when read.",
+   "The drafts of Luna's charge, with margin notes.",
+   "Midpoint swerve: the loudspeaker voice from A.R.C TECH is the Narrator's, recorded years ago.",
+   "The central reading room; the Narrator receives them, politely, in the third person.",
+   "The offer: a better ending for her silence. Luna asks for a worse one with more jokes.",
+   "Low point: the Editor attacks; the walls fold; Plack loses a page she needed.",
+   "Boss: the Editor. Stinger: a page on the desk with Luna's name and no ending."
+  ]
+ },
+ "23": {
+  "short": "RedSky",
+  "theme": "field",
+  "lay": "up",
+  "land": "tower",
+  "floor": "Rock",
+  "wall": "Metal",
+  "accent": "NeonRed",
+  "sun": [
+   255,
+   150,
+   120
+  ],
+  "fog": 0.03,
+  "boss": "The Stormfront",
+  "phases": 1,
+  "mini": [
+   "Storm Angel",
+   "Gale Warden",
+   "Instrument Drone",
+   "Lightning Brute"
+  ],
+  "npcs": [
+   "Weather",
+   "Stargazer"
+  ],
+  "pickups": [
+   "Map of convergences",
+   "Barometer"
+  ],
+  "cuts": [
+   "The Centre and the hole"
+  ],
+  "objs": [
+   "Survive the front",
+   "Reach the storm balcony"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: the observatory; Weather swears at a barometer; Stargazer draws a star that is not there.",
+   "Instrument galleries; wind gusts; a map pinned to every wall.",
+   "The storm front: not weather; it moves too evenly.",
+   "Midpoint swerve: every angel's path in the last year, drawn as a line; they meet at a single point.",
+   "The hole in the map: a place where nothing converges.",
+   "Weather names the first point 'the Centre' and will not name the second.",
+   "Low point: the Stormfront takes the observatory floor by floor.",
+   "Boss: the Stormfront. Stinger: Stargazer circles the hole in red and writes 'do not'."
+  ]
+ },
+ "24": {
+  "short": "TheJoke",
+  "theme": "carnival",
+  "lay": "ring",
+  "land": "bigtop",
+  "floor": "Dark",
+  "wall": "Magenta",
+  "accent": "NeonPink",
+  "sun": [
+   255,
+   180,
+   255
+  ],
+  "fog": 0.02,
+  "boss": "The Ringmaster Machine",
+  "phases": 1,
+  "mini": [
+   "Clown Automaton",
+   "Gallery Target",
+   "Mirror Image",
+   "Tent Brute"
+  ],
+  "npcs": [
+   "The Jester",
+   "Kuu (target)"
+  ],
+  "pickups": [
+   "Prize ticket",
+   "Joker card"
+  ],
+  "cuts": [
+   "The third game"
+  ],
+  "objs": [
+   "Win three games",
+   "Reach the ring"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: a carousel under Neo Tokyo plays a tune Luna half remembers.",
+   "Midway: shooting gallery with real targets.",
+   "Game one: the mirror house; Luna wins by seeing which mirror is bored.",
+   "Midpoint swerve: game three is rigged against her and the Jester says so, out loud, to the whole tent.",
+   "Luna cheats. The Jester applauds. Kuu is made the target.",
+   "Plack does not speak to Luna for the rest of the night.",
+   "Low point: the Ringmaster Machine tries to eject them.",
+   "Boss: the Ringmaster Machine. Stinger: the Jester's vote is hers, and something between her and Kuu is spent."
+  ]
+ },
+ "25": {
+  "short": "Adapt",
+  "theme": "range",
+  "lay": "line",
+  "land": "tower",
+  "floor": "Concrete",
+  "wall": "Metal",
+  "accent": "NeonGreen",
+  "sun": [
+   230,
+   240,
+   255
+  ],
+  "fog": 0.015,
+  "boss": "The Sponsor's Warden",
+  "phases": 1,
+  "mini": [
+   "Course Drone",
+   "Adaptive Target",
+   "Range Guard",
+   "Warden's Aide"
+  ],
+  "npcs": [
+   "Adapt",
+   "Cadets"
+  ],
+  "pickups": [
+   "Course blueprint",
+   "Cup trophy"
+  ],
+  "cuts": [
+   "Adapt's condition"
+  ],
+  "objs": [
+   "Finish the course",
+   "Hold the tower"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: the Cadet Cup; Adapt in a whistle and a sun visor.",
+   "Training halls: courses that change to suit the cadet who is running them.",
+   "Live-fire course: the targets are learning.",
+   "Midpoint swerve: a sponsor's representative changes the ammunition mid-run.",
+   "The course adapts exactly as designed and the cadets are in it.",
+   "Adapt tears up its own rules in the control tower.",
+   "Low point: the Sponsor's Warden sweeps the range.",
+   "Boss: the Sponsor's Warden. Stinger: Adapt will join Luna on one condition: that the course adapts to her."
+  ]
+ },
+ "26": {
+  "short": "DeathsDoor",
+  "theme": "vault",
+  "lay": "up",
+  "land": "dome",
+  "floor": "Stone",
+  "wall": "Stone",
+  "accent": "NeonPurple",
+  "sun": [
+   120,
+   110,
+   150
+  ],
+  "fog": 0.05,
+  "boss": "The Pallbearers",
+  "phases": 1,
+  "mini": [
+   "Grave Walker",
+   "Bearer",
+   "Crypt Warden",
+   "Lantern Wraith"
+  ],
+  "npcs": [
+   "Death",
+   "Plack (names)"
+  ],
+  "pickups": [
+   "Ledger page",
+   "Name stone"
+  ],
+  "cuts": [
+   "The ledger: visited"
+  ],
+  "objs": [
+   "Relight the lanterns",
+   "Reach the hall of records"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: the Mortuary Level; tiers of names; the trio talk too much to cover the quiet.",
+   "The upper tier: Plack reads the wall aloud, name by name.",
+   "Crypt lanterns: relight in order to find the stair.",
+   "Midpoint swerve: a ledger open on a lectern with their own names in it and a single word: visited.",
+   "Death receives them; the true casualty count since 2002.",
+   "Luna tries a joke and the hall does not answer.",
+   "Low point: Death asks whether a count is a life.",
+   "Boss: the Pallbearers. Stinger: Death will attend the unification. It asked for one thing: an answer."
+  ]
+ },
+ "27": {
+  "short": "OrdinaryHours",
+  "theme": "city",
+  "lay": "zig",
+  "land": "arch",
+  "floor": "Concrete",
+  "wall": "Concrete",
+  "accent": "NeonYellow",
+  "sun": [
+   255,
+   235,
+   190
+  ],
+  "fog": 0.02,
+  "boss": "The Compliance Officer",
+  "phases": 1,
+  "mini": [
+   "Mall Guard",
+   "Branded Drone",
+   "Vault Sentry",
+   "Dock Brute"
+  ],
+  "npcs": [
+   "Ishii",
+   "Shiraishi",
+   "Arita",
+   "Manager"
+  ],
+  "pickups": [
+   "Wage bundle",
+   "Taped armour",
+   "COUNCIL sign"
+  ],
+  "cuts": [
+   "The COUNCIL table"
+  ],
+  "objs": [
+   "Reach the vault",
+   "Take the wages"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: a Barracks canteen; three trays; three three-stars; one broken kettle.",
+   "The shift: branded armour that does not fit; a manager who calls them 'talent'.",
+   "Ishii counts the hours. Shiraishi writes the grievances. Arita tapes the armour.",
+   "Midpoint swerve: a month's wages are in the sponsor's vault.",
+   "The heist: small, loud, over-prepared; one lift and a mop bucket.",
+   "A table is placed in the canteen with a sign: COUNCIL, in marker.",
+   "Low point: the Compliance Officer arrives with a clipboard.",
+   "Boss: the Compliance Officer. Stinger: Luna's recruiters find the table and understand it is the thing she has been looking for."
+  ]
+ },
+ "28": {
+  "short": "CommandersTable",
+  "theme": "tower",
+  "lay": "up",
+  "land": "dais",
+  "floor": "Concrete",
+  "wall": "Glass",
+  "accent": "NeonYellow",
+  "sun": [
+   240,
+   240,
+   255
+  ],
+  "fog": 0.01,
+  "boss": "The Sovereign Guard",
+  "phases": 1,
+  "mini": [
+   "Tower Guard",
+   "Floor Sentry",
+   "Logo Drone",
+   "Suite Warden"
+  ],
+  "npcs": [
+   "Seven commanders",
+   "Intern",
+   "Plack",
+   "Kuu"
+  ],
+  "pickups": [
+   "Sponsorship offer",
+   "Reform memo"
+  ],
+  "cuts": [
+   "The Table splits"
+  ],
+  "objs": [
+   "Reach the chamber",
+   "Leave the tower"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: the elevator of the government tower; the music is a sponsored jingle.",
+   "Lobby: truce rules read aloud by a guard who is plainly afraid.",
+   "Floors: offices; a thousand framed logos; Kuu is offered a sponsorship by an intern.",
+   "Midpoint swerve: seven commanders under a ceiling of wings.",
+   "The Table: hardliners and reformers split in front of her, on purpose.",
+   "Plack names the logo on the ceiling: the Paradise wing.",
+   "Low point: the truce ends at the chamber door.",
+   "Boss: the Sovereign Guard. Stinger: Luna leaves with the reformers' names and a coffee she does not drink."
+  ]
+ },
+ "29": {
+  "short": "SponsorNight",
+  "theme": "casino",
+  "lay": "line",
+  "land": "stage",
+  "floor": "Dark",
+  "wall": "Metal",
+  "accent": "NeonPink",
+  "sun": [
+   255,
+   200,
+   150
+  ],
+  "fog": 0.02,
+  "boss": "The Showrunner",
+  "phases": 1,
+  "mini": [
+   "Gala Guard",
+   "Cage Handler",
+   "Spot Drone",
+   "Stage Brute"
+  ],
+  "npcs": [
+   "Myrcia",
+   "Fujita",
+   "Showrunner"
+  ],
+  "pickups": [
+   "Cage label",
+   "Canap\u00e9"
+  ],
+  "cuts": [
+   "The staged rescue"
+  ],
+  "objs": [
+   "Open the cages",
+   "Stop the stage"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: two three-stars in dress uniforms at a gala, holding canapes they cannot afford.",
+   "Backstage: the rig is not for the show; the cages are warm.",
+   "The cage vault: lock puzzles under a stage.",
+   "Midpoint swerve: the angels in the cages are the same angels from the Intersection, with shards.",
+   "Fujita breaks locks quietly; Myrcia talks the guards to sleep.",
+   "The stage lights up and the audience applauds a rescue that does not happen.",
+   "Low point: the Showrunner catches them and offers them a contract.",
+   "Boss: the Showrunner. Stinger: a cage label with a number and the name of a factory."
+  ]
+ },
+ "30": {
+  "short": "LineRestarts",
+  "theme": "factory",
+  "lay": "line",
+  "land": "machine",
+  "floor": "Metal",
+  "wall": "Metal",
+  "accent": "CubeGlow",
+  "sun": [
+   255,
+   235,
+   200
+  ],
+  "fog": 0.01,
+  "boss": "Foreman Mk II",
+  "phases": 1,
+  "mini": [
+   "Engineer Guard",
+   "Line Drone",
+   "Cradle Sentry",
+   "Line Brute"
+  ],
+  "npcs": [
+   "Engineers",
+   "The Voice"
+  ],
+  "pickups": [
+   "Custody log",
+   "Cradle plate"
+  ],
+  "cuts": [
+   "The custody log"
+  ],
+  "objs": [
+   "Sabotage the Line",
+   "Reach the cradle hall"
+  ],
+  "water": false,
+  "movers": true,
+  "indoor": true,
+  "episodes": [
+   "Cold open: the lights are on again at A.R.C TECH; there are people this time.",
+   "Intake: engineers in the same uniform, polite and tired.",
+   "Line halls: cubes the size of fists; the voice says 'welcome back'.",
+   "Midpoint swerve: the cradle hall. One empty cradle: ANGEL V1, RELEASED TO CUSTODY.",
+   "Kuu finds the custody log. The Patron is a Secret.",
+   "Plack reads the signature. It is the same wing.",
+   "Low point: Foreman Mk II knows what they have read.",
+   "Boss: Foreman Mk II. Stinger: Luna wrecks the Line anyway. 'It will make another.' 'Then it will have to find another Luna.'"
+  ]
+ },
+ "31": {
+  "short": "Fracture",
+  "theme": "tunnel",
+  "lay": "line",
+  "land": "train",
+  "floor": "Dark",
+  "wall": "Metal",
+  "accent": "NeonYellow",
+  "sun": [
+   140,
+   140,
+   160
+  ],
+  "fog": 0.03,
+  "boss": "The Hardliner Train",
+  "phases": 1,
+  "mini": [
+   "Rail Guard",
+   "Signal Sentry",
+   "Carriage Brute",
+   "Coupling Warden"
+  ],
+  "npcs": [
+   "Three reformer commanders",
+   "Plack (sandwich)"
+  ],
+  "pickups": [
+   "Rail pass",
+   "Signal flare"
+  ],
+  "cuts": [
+   "Plack leaves",
+   "Plack returns"
+  ],
+  "objs": [
+   "Board the train",
+   "Hold the third station"
+  ],
+  "water": false,
+  "movers": true,
+  "indoor": false,
+  "episodes": [
+   "Cold open: Terminus Nine; a train with three reformer commanders and a fourth on the roof.",
+   "Platform: reformers bicker over seats.",
+   "Station one: sabotage; a signal that will not change.",
+   "Midpoint swerve: Plack leaves at station two; Luna says 'ends justify means' and means it.",
+   "Kuu stays. It costs him something.",
+   "The hardliners' armoured train catches up.",
+   "Low point: the coupling between Luna's carriage and the reformers' carriage fails.",
+   "Boss: the Hardliner Train. Stinger: Plack returns without a word and with a sandwich."
+  ]
+ },
+ "32": {
+  "short": "Charter",
+  "theme": "vault",
+  "lay": "ring",
+  "land": "vault",
+  "floor": "Stone",
+  "wall": "Stone",
+  "accent": "NeonCyan",
+  "sun": [
+   200,
+   220,
+   255
+  ],
+  "fog": 0.02,
+  "boss": "The Charter Guardian",
+  "phases": 1,
+  "mini": [
+   "Archive Warden",
+   "Clause Sentry",
+   "Vault Drone",
+   "Seal Brute"
+  ],
+  "npcs": [
+   "Judge",
+   "Plack",
+   "Kuu"
+  ],
+  "pickups": [
+   "Charter draft",
+   "Seal"
+  ],
+  "cuts": [
+   "The seventh line stays blank"
+  ],
+  "objs": [
+   "Pass the three trial rooms",
+   "Reach the signature chamber"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: a vault under the old city hall; three doors, three labels: Operators, Secrets, Government.",
+   "Archive halls: the Charter's first clause is a blank page.",
+   "Operators' room: a barracks that asks the player questions.",
+   "Midpoint swerve: Secrets' room: a stage where someone is already rehearsing.",
+   "Government's room: a court that rules against Luna and she thanks it.",
+   "The Charter is drafted by the three of them on the floor.",
+   "Low point: the Guardian tests the text; the seventh line stays blank.",
+   "Boss: the Charter Guardian. Stinger: 'It is the only line that matters.' Luna asks Judge to find the one who belongs there."
+  ]
+ },
+ "33": {
+  "short": "WhiteRoom",
+  "theme": "gallery",
+  "lay": "line",
+  "land": "statue",
+  "floor": "PastelMint",
+  "wall": "Cloud",
+  "accent": "Angel",
+  "sun": [
+   255,
+   255,
+   255
+  ],
+  "fog": 0.01,
+  "boss": "The Hush",
+  "phases": 1,
+  "mini": [
+   "Honour Guard",
+   "Hush Soldier",
+   "Silent Sentry",
+   "Corridor Warden"
+  ],
+  "npcs": [
+   "Judge",
+   "Angel"
+  ],
+  "pickups": [
+   "Black glyph circle"
+  ],
+  "cuts": [
+   "Judge and Angel talk"
+  ],
+  "objs": [
+   "Cross the honour-guard hall",
+   "Enter the white room"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": true,
+  "episodes": [
+   "Cold open: Judge at the lift to the sanctum, adjusting her gavel.",
+   "Corridors: a white that gets whiter; the Hush walk behind.",
+   "Honour-guard hall: silence mechanics; Judge declines to use her voice.",
+   "Midpoint swerve: Angel is not a prisoner; he stands as a host.",
+   "Angel and Judge talk for a day; he is courteous in every sentence and contemptuous in every pause.",
+   "He will sign, 'like a verdict: in advance and without surprise.'",
+   "Low point: the Hush test Judge; she is weighed and does not know it.",
+   "Boss: the Hush. Stinger: his mark is a small black circle of red glyphs."
+  ]
+ },
+ "34": {
+  "short": "NightBefore",
+  "theme": "city",
+  "lay": "ring",
+  "land": "dais",
+  "floor": "Dark",
+  "wall": "Concrete",
+  "accent": "NeonPurple",
+  "sun": [
+   150,
+   130,
+   200
+  ],
+  "fog": 0.02,
+  "boss": "The Final Edition",
+  "phases": 1,
+  "mini": [
+   "Press Guard",
+   "Forgery Drone",
+   "Print Sentry",
+   "Binding Brute"
+  ],
+  "npcs": [
+   "Jester",
+   "Narrator",
+   "Kuu",
+   "Plack",
+   "Luna",
+   "Cake"
+  ],
+  "pickups": [
+   "Forged Charter",
+   "Dunk-tank ticket"
+  ],
+  "cuts": [
+   "Luna and Kuu on the roof",
+   "Narrator says yes"
+  ],
+  "objs": [
+   "Stop the printing",
+   "Reach the signing platform"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: the Operators' dome the night before; a banner, a cake, a speech that will never be given.",
+   "Corridor parties; arguments in kitchens; the Jester sets up a dunk tank.",
+   "Luna and Kuu on a roof: they talk about the third game and do not settle it.",
+   "Midpoint swerve: the Narrator's forged Charter, a thousand copies, printing.",
+   "Printing hall; Plack changes a page by hand.",
+   "Luna and Plack on the roof, not talking, and then talking.",
+   "Low point: the Final Edition is a press the size of a house.",
+   "Boss: the Final Edition. Stinger: 'Write whatever you like, under my name.' The Narrator, after a long silence, says yes."
+  ]
+ },
+ "35": {
+  "short": "Ledger",
+  "theme": "gallery",
+  "lay": "spiral",
+  "land": "statue",
+  "floor": "Dark",
+  "wall": "Stone",
+  "accent": "RedGlyph",
+  "sun": [
+   110,
+   90,
+   130
+  ],
+  "fog": 0.05,
+  "boss": "The Unsigned",
+  "phases": 1,
+  "mini": [
+   "The Counted",
+   "Year Warden",
+   "Ledger Sentry",
+   "Silent Mourner"
+  ],
+  "npcs": [
+   "Death",
+   "The counted"
+  ],
+  "pickups": [
+   "Ledger page 2002",
+   "Unwritten name"
+  ],
+  "cuts": [
+   "The new column: unworthy"
+  ],
+  "objs": [
+   "Walk the year rooms",
+   "Reach the ledger desk"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: Death at a desk, sorting.",
+   "Year room 2002: the counted rise and do not speak.",
+   "Year room 2003-2005: Death walks through, annotating.",
+   "Midpoint swerve: a new column in the ledger, in red glyphs: unworthy.",
+   "Year room 2008: a name that was never written down.",
+   "Death refuses the column and the column writes itself.",
+   "Low point: the Unsigned wakes.",
+   "Boss: the Unsigned. Stinger: Death will sign in the morning, and the pen will hover."
+  ]
+ },
+ "36": {
+  "short": "Unity",
+  "theme": "court",
+  "lay": "ring",
+  "land": "dais",
+  "floor": "Concrete",
+  "wall": "Glass",
+  "accent": "NeonYellow",
+  "sun": [
+   255,
+   245,
+   220
+  ],
+  "fog": 0.015,
+  "boss": "Commander Prime",
+  "phases": 2,
+  "mini": [
+   "Coup Guard",
+   "War Mech Pilot",
+   "Hall Sentry",
+   "Gallery Sniper"
+  ],
+  "npcs": [
+   "All signatories",
+   "Judge",
+   "Plack",
+   "Kuu"
+  ],
+  "pickups": [
+   "Charter pen",
+   "Signature page"
+  ],
+  "cuts": [
+   "The last signature",
+   "Death's declaration"
+  ],
+  "objs": [
+   "Hold the hall",
+   "Collect seven signatures"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: dawn in the Great Hall; the signatories file in.",
+   "Opening address; Luna deletes half of it.",
+   "Midpoint swerve: Commander Prime's coup fires as the first pen touches paper.",
+   "Hold the hall: waves while signatures are collected.",
+   "The war mech breaches the doors.",
+   "Low point: Plack takes a hit meant for Luna and keeps walking.",
+   "The last signature. One minute when everyone is on one side.",
+   "Stinger: Death and Angel put their pens down, stand, and declare humanity, Operators and every other Secret unworthy of life."
+  ]
+ },
+ "37": {
+  "short": "AllianceBreaks",
+  "theme": "war",
+  "lay": "zig",
+  "land": "colossus",
+  "floor": "Dark",
+  "wall": "Concrete",
+  "accent": "NeonRed",
+  "sun": [
+   255,
+   140,
+   100
+  ],
+  "fog": 0.04,
+  "boss": "The Hardliner Colossus",
+  "phases": 2,
+  "mini": [
+   "Interceptor",
+   "Garrison Sentry",
+   "Dome Raider",
+   "District Brute"
+  ],
+  "npcs": [
+   "Council envoy",
+   "Secrets envoy",
+   "Commander envoy",
+   "Plack (hurt)"
+  ],
+  "pickups": [
+   "Charter copy"
+  ],
+  "cuts": [
+   "The dome burns"
+  ],
+  "objs": [
+   "Hold three districts",
+   "Stop the Colossus"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: the hall empties in seconds; Death and Angel walk out untouched.",
+   "The Council demands the Secrets disarm.",
+   "The Secrets demand the government dissolve.",
+   "Midpoint swerve: the Operators' dome burns; no one will say who lit it.",
+   "Plack is hurt shielding a civilian; Kuu carries them out.",
+   "Luna runs between three districts with the last copy of the Charter.",
+   "Low point: the Colossus walks.",
+   "Boss: the Hardliner Colossus. Stinger: on the surface the angels are in rows, facing the arc."
+  ]
+ },
+ "38": {
+  "short": "WhoIsStrongest",
+  "theme": "war",
+  "lay": "line",
+  "land": "tower",
+  "floor": "Sand",
+  "wall": "Metal",
+  "accent": "NeonCyan",
+  "sun": [
+   200,
+   200,
+   220
+  ],
+  "fog": 0.045,
+  "boss": "The Warlord of the Docks",
+  "phases": 2,
+  "mini": [
+   "Front Soldier",
+   "Siege Engine",
+   "Champion Guard",
+   "Front Brute"
+  ],
+  "npcs": [
+   "The Adapted",
+   "The Chain Marshal",
+   "The Warlord",
+   "Truce clerk"
+  ],
+  "pickups": [
+   "Truce treaty",
+   "War flag"
+  ],
+  "cuts": [
+   "The truce on the lighthouse stair"
+  ],
+  "objs": [
+   "Defeat three champions",
+   "Sign the truce"
+  ],
+  "water": true,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: three flags on three fronts; three speeches; one rain.",
+   "Docks front: the lighthouse beam sweeps a sea that is empty.",
+   "Operators' Warlord: a champion who is not a villain.",
+   "Midpoint swerve: the Moon flickers cube-yellow a second time.",
+   "Hanging City: the chain is cut at one link; the city shifts.",
+   "Luna defeats each champion and refuses to kill them.",
+   "Low point: all three champions wake to a surface full of angels.",
+   "Boss: the Warlord of the Docks. Stinger: truce signed on the lighthouse stair; it will last two days."
+  ]
+ },
+ "39": {
+  "short": "NowhereInhabited",
+  "theme": "gallery",
+  "lay": "spiral",
+  "land": "statue",
+  "floor": "PureGrey",
+  "wall": "PureGrey",
+  "accent": "RedGlyph",
+  "sun": [
+   200,
+   200,
+   200
+  ],
+  "fog": 0.06,
+  "boss": "Death",
+  "phases": 3,
+  "mini": [
+   "Echo of Neo Tokyo",
+   "Echo Lighthouse",
+   "Echo Chain",
+   "Echo Screen"
+  ],
+  "npcs": [
+   "The counted (rows)",
+   "Death"
+  ],
+  "pickups": [
+   "Left-behind item",
+   "Counted tag"
+  ],
+  "cuts": [
+   "Luna answers Death"
+  ],
+  "objs": [
+   "Walk the echoes",
+   "Reach Death's gallery"
+  ],
+  "water": false,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: the map in Stargazer's drawer has a hole in it; Luna walks into it.",
+   "Entry: grey; white noise; no one speaks.",
+   "Echo of Neo Tokyo: a crossing with a figure at every corner.",
+   "Midpoint swerve: the counted stand in rows and do not look at them.",
+   "Echo of the Docks; echo of the Hanging City; each holds something they left behind.",
+   "The data-centre echo: the small screen now says their names.",
+   "Low point: Death meets them at the exit and asks again.",
+   "Boss: Death. Stinger: Luna answers. The counted lie down."
+  ]
+ },
+ "40": {
+  "short": "TheyWerePurity",
+  "theme": "village",
+  "lay": "line",
+  "land": "monolith",
+  "floor": "Paddy",
+  "wall": "Wood",
+  "accent": "RedGlyph",
+  "sun": [
+   200,
+   190,
+   200
+  ],
+  "fog": 0.04,
+  "boss": "Angel",
+  "phases": 3,
+  "mini": [
+   "Angel Host",
+   "Pure Soldier",
+   "Shrine Warden",
+   "Host Brute"
+  ],
+  "npcs": [
+   "Angel",
+   "Villager",
+   "Judge (epilogue)",
+   "Plack",
+   "Kuu"
+  ],
+  "pickups": [
+   "Black glyph shard",
+   "Shrine bell"
+  ],
+  "cuts": [
+   "The monolith's voice through Angel",
+   "The verdict (epilogue)"
+  ],
+  "objs": [
+   "Cross the paddies",
+   "Silence the monolith"
+  ],
+  "water": true,
+  "movers": false,
+  "indoor": false,
+  "episodes": [
+   "Cold open: dawn at the village; the rain stops.",
+   "The torii, the shrine stair, a villager who knows their names.",
+   "The paddies: the angel host in a wave.",
+   "Midpoint swerve: the monolith's voice speaks through Angel, who is waiting at its foot.",
+   "The river: the bridge breaks; they hold it.",
+   "The monolith: glyphs go out one by one as Luna uses the black and white hole.",
+   "Low point: Angel is certain; Luna is not; she does it anyway.",
+   "Boss: Angel. Stinger/epilogue: spring 2017; Judge's courtroom; Luna asks to be tried; Plack at her side, Kuu at the door; it is raining in Neo Tokyo."
+  ]
+ }
+}

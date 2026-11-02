@@ -1,0 +1,85 @@
+# Ch03 Docks. Sources: Chapters/Ch03.md, Scripts/Ch03.md (primary); Scripts/Ch03_Docks.md ([alt])
+ENV|The Docks quay|Location / quay|Cold open|H|Semi-ruined quay by the sea, heavy fog, waves; the only structure is the lighthouse|Fog dawn;Fog lifting (stinger);Tide high [alt];Shallow tide [alt]
+ENV|Broken piers|Location / piers|Ep2|H|Three piers with missing planks, plank-run gaps, collapsed section slopes into water|Intact;Collapsed;Wave-washed
+ENV|Boatyard [alt]|Location / yard|Ep2|S|Hulls on stilts, rusted fishing-boat skeletons, a sunk crane arm [alt]|Fog;Low tide
+ENV|Stepping rocks and open sea|Location / sea crossing|Ep3|H|Chain of black rocks, swim or jump, half-collapsed rope bridge [alt]|Swim route;Jump route;Spray
+ENV|Lighthouse island shore|Location / island|Ep4|H|Shore lined with standing angels in rows facing the lighthouse|Beam sweep;Fog thinner [alt]
+ENV|Outer spiral stair|Location / structure|Ep5|S|Narrow iron stair clinging to the outside, wind and spray|Wet;Gusts [alt]
+ENV|Lamp room|Location / interior|Ep6|H|Huge lens, serial plate, sponsor wing, technician's cot|Beam on;Beam flickering;Beam shuddering (Keeper);Lens detached (boss);Calm after
+ENV|Lamp room gallery|Location / exterior|Ep8|S|Boss fight outside the lamp room|Standard
+ENV|Open sea|Location / backdrop|Ep3|B|Black water, waves slap pilings|Fog;Clear after fog lifts
+ARC|Lighthouse|Architecture / landmark|Cold open|H|Pale smear in the fog; a government unit, not a navigation light|Fog smear;Beam lit;Beam dimmed;Beam on after boss
+ARC|Piers and pilings|Architecture / structure|Ep2|S|Planks sagging into black water|Broken;Sagging
+ARC|Bollards and mooring rings|Architecture / hardware|Cold open|S|Kuu walks into a bollard; mooring ring for rope [alt]|Standard
+ARC|Rope lines (fog navigation)|Architecture / guide|Ep1|S|Follow rope lines; hearing-led waypoints|Tied
+ARC|Lighthouse door (iron, government seal)|Architecture / door|Ep5|S|Small rusted iron door with a government seal on its lock [alt]|Sealed;Open
+ARC|Spiral stair (84 steps)|Architecture / structure|Ep5|S|Luna counts, lies about the number|Eighty-four;Sign at the bottom [alt]
+ARC|Crane arm sunk in water [alt]|Architecture / structure|Ep2|B|Sunk crane arm|Standard
+PRP|Fresnel lens (main)|Prop / hero|Ep6|H|Huge lens of brass and glass with a serial plate; holds the angels|Intact;Cracked [alt];Detached lens boss;Failing
+PRP|Spare lens|Prop / hero|Ep8|H|Falls free; Luna keeps it "a light that doesn't belong to anyone"|In cabinet [alt];Falls free;In Luna's coat
+PRP|Serial plate and sponsor wing|Prop / insignia|Ep6|H|Serial plate and a small wing logo screwed to the casing|Standard
+PRP|Maintenance plate|Prop / document|Archive|S|"Unit 7 - Western Approach. Property of the Commanders' Council. Do not extinguish."|Standard
+PRP|Lamp manual p.3|Prop / document|Archive|S|"In the event of an interruption, do not attempt repair. Notify the nearest sponsor office."|Standard
+PRP|Keeper's log entry 2561|Prop / document|Archive|S|"Dog is not here. Light is on."|Standard
+PRP|Technician's cot|Prop / furniture|Ep6|S|In a corner of the lamp room|Standard
+PRP|Cables (bundle) [alt]|Prop / equipment|Ep6|S|Thick cables from the base of the lens through the floor|Standard
+PRP|Kettle on a camping stove [alt]|Prop / set dressing|Ep7|B|Four tin cups [alt]|Standard
+PRP|Oilskins and salt|Prop / costume piece|Ep7|S|Keeper's oilskins, years of salt|Standard
+PRP|Lens-polishing kit|Prop / tool|Ep7|S|Cloth and wrench [alt]|Standard
+PRP|MARU-3 hull [alt]|Prop / boat|Ep2|S|Sixth hull has MARU-3 painted on the stern, crew locker with lantern, rope, biscuits [alt]|Standard
+PRP|Biscuit tin [alt]|Prop|Ep2|B|Sealed tin of biscuits kept for the cat|Sealed;Open
+PRP|Rope (Kuu's bowline)|Prop / tool|Ep1|B|Bowline between Plack and Kuu|Tied
+PRP|Ledger in sealed bag [alt]|Prop|Ep3|B|Plack's ledger carried swimming|Sealed
+PRP|Combination door numbers [alt]|Prop / puzzle|Ep5|B|Three numbers: scratched mark, painted number, bolt count|Standard
+PRP|Boat outline (the thorough outline)|Prop / set dressing|Ep1|B|Outline of a boat on the bottom Luna finds|Standard
+FAU|Keeper's dog|Fauna / dog|Ep7|S|"I had a dog. The dog is not here."|?Seen only in memory~text says it is not there; Keeper log "Dog is not here"
+CHR|The Keeper|NPC / operator (BLUE then RED)|Ep7|H|Gaunt technician-operator stranded seven years in oilskins; [alt] Abe, keeper since 2003, partner Mei|Oilskins;Kettle scene [alt];Hostile lens phase;Helping hold cable [alt]
+CHR|Mei [alt]|NPC / absent|Ep7|S|Keeper's partner who went out to relight the lamp and did not come back [alt]|Mentioned only
+CHR|Luna|Operator|Ep3|H|Swims; keeps the spare lens|Wet;Coat with lens
+CHR|Plack|Operator|Ep3|H|Swims the stepping rocks for the principle|Wet;Swimming
+CHR|Kuu|Operator|Ep1|H|Walks into bollard; swim-shy [alt]|Wet;Tied to rope
+CHR|Commander (voice)|Voice character|Ep1|B|Radio crackling [alt]|Voice only
+CRE|Basic angel (shore row)|Enemy / angel|Ep4|H|Standing in rows facing the lighthouse; do not react unless attacked|Standing frozen;Freed twitching [alt];Marching west [alt]
+CRE|Ranged angel (rocks and pier)|Enemy / angel|Ep2|S|Fire from the rocks, bow archers on gallery|Standard
+CRE|Gallery drop angel|Enemy / angel|Ep5|S|Angels dropping from the gallery|Standard
+CRE|The Keeper's Lens|Boss / mini-boss|Ep8|H|Lens detaches and chases; rotating beam sweep; eyes of light on glass [alt]|Phase 1 rotating beam;Phase 2 lens detaches;[alt] Phase 3 arena flips;Interlock hostile mode
+VFX|Lighthouse beam|VFX / light|Ep4|H|Sweeps shore every eight seconds [alt]; holds angels still|Sweep;Steady;Flicker;Boss rotating beams;Pulse rolling across sea [alt]
+VFX|Fog bending around the beam|VFX|Ep4|S|Fog parts where beam passes [alt]|Standard
+VFX|Wave spray and crashing waves|VFX / water|Cold open|S|Waves breaking across the pier, swell hazards|Swell;Spray
+VFX|Tide rise [alt]|VFX / water|Ep2|S|Tides rise every 40 s turning level into shallow water [alt]|Low;Shallow
+VFX|Black hole pull of light [alt]|VFX / ability|Ep8|S|Luna pulls energy out of the lens [alt]|Standard
+WTH|Heavy fog|Weather|Cold open|H|White wall of fog, visibility under four metres [alt]|Heavy;Thin;Lifting (stinger)
+WTH|Wind and spray|Weather|Ep5|S|On the stair|Standard
+LGT|Lighthouse beam light|Lighting|Ep4|H|Moving white beam|Eight-second sweep;Boss shafts
+LGT|Fog-white dawn|Lighting|Cold open|H|Dawn that never quite arrives [alt]|Dawn;Cleared
+AUD|Wave sound and footsteps|Audio / ambience|Cold open|H|No music cold open [alt]|Standard
+AUD|Beam hum / ringing near angel|Audio / sfx|Ep1|S|Ringing on the left means an angel is near [alt]|Ring
+AUD|Siren [alt]|Audio / sfx|Ep7|B|Siren as beam stutters [alt]|Standard
+AUD|Distant foghorn|Audio / ambience|Cold open|B|?Distant horn~inferred coastal ambience, not named|Standard
+UI|Fog navigation indicator|UI|Ep1|S|Hearing-led waypoints|Standard
+UI|Beam hazard indicator|UI|Ep4|B|Beam as moving hazard [alt]|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+CRE|Rock ranged angel|Enemy|Tripo #66|B|Fires from the rocks [inferred: Tripo list #66; likely the same asset as CRE-0009 Ranged angel; kept as its own entry so no Tripo row is dropped]|
+PRP|Spare lighthouse lens|Prop|Tripo #59|B|Luna keeps it [inferred: Tripo list #59; likely the same asset as PRP-0069 Spare lens; kept as its own entry so no Tripo row is dropped]|
+PRP|Lamp manual|Prop|Tripo #60|B|Do not extinguish [inferred: Tripo list #60; likely the same asset as PRP-0003 The Lamp (lighthouse beam unit); kept as its own entry so no Tripo row is dropped]|
+PRP|Keeper's cot and dog bowl|Prop|Tripo #61|B|The dog is not here [inferred: Tripo list #61; likely the same asset as FAU-0002 Keeper's dog; kept as its own entry so no Tripo row is dropped]|
+PRP|Mooring bollard|Prop|Tripo #62|B|Kuu apologised to it [inferred: Tripo list #62; not named in the chapter text]|
+ARC|Quay and broken pier|Set piece / modular kit|Tripo #54|B|Missing planks [inferred: Tripo list #54; not named in the chapter text]|
+ARC|Stepping rocks|Set piece / modular kit|Tripo #55|B|Crosses the sea [inferred: Tripo list #55; likely the same asset as ENV-0028 Stepping rocks and open sea; kept as its own entry so no Tripo row is dropped]|
+ARC|Wave breaker set|Set piece / modular kit|Tripo #58|B|Waves crash [inferred: Tripo list #58; not named in the chapter text]|
+ARC|Pier plank module (Docks)|Set piece / modular kit|Tripo #754|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #754; not named in the chapter text]|
+ARC|Pier post (Docks)|Set piece / modular kit|Tripo #755|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #755; not named in the chapter text]|
+ARC|Rope bundle (Docks)|Set piece / modular kit|Tripo #756|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #756; not named in the chapter text]|
+ARC|Fishing net heap (Docks)|Set piece / modular kit|Tripo #757|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #757; not named in the chapter text]|
+ARC|Wooden crate stack (Docks)|Set piece / modular kit|Tripo #758|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #758; not named in the chapter text]|
+ARC|Barrel cluster (Docks)|Set piece / modular kit|Tripo #759|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #759; not named in the chapter text]|
+ARC|Tarpaulin (Docks)|Set piece / modular kit|Tripo #760|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #760; not named in the chapter text]|
+ARC|Sea rock cluster (Docks)|Set piece / modular kit|Tripo #761|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #761; not named in the chapter text]|
+ARC|Crab-pot stack (Docks)|Set piece / modular kit|Tripo #762|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #762; not named in the chapter text]|
+ARC|Anchor (Docks)|Set piece / modular kit|Tripo #763|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #763; not named in the chapter text]|
+ARC|Broken rowboat (Docks)|Set piece / modular kit|Tripo #764|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #764; not named in the chapter text]|
+ARC|Signal bell (Docks)|Set piece / modular kit|Tripo #765|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #765; not named in the chapter text]|
+ARC|Harbour lamp (Docks)|Set piece / modular kit|Tripo #766|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #766; not named in the chapter text]|
+ARC|Wave-crest set (Docks)|Set piece / modular kit|Tripo #767|B|Modular dressing piece for Ch 3 Docks [inferred: Tripo list #767; not named in the chapter text]|
+PRP|Unit 7 maintenance plate|Insignia|Tripo #64|B|Property of the Commanders' Council [inferred: Tripo list #64; likely the same asset as PRP-0071 Maintenance plate; kept as its own entry so no Tripo row is dropped]|
+# --- TRIPO-CROSSCHECK-END

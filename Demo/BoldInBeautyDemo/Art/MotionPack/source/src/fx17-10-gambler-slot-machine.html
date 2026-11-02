@@ -1,0 +1,9 @@
+<!--META {"dur": 3.8, "alpha": true, "kind": "fx", "sheet": "17", "n": 10, "title": "Gambler Move 3: Slot Machine", "slug": "gambler-slot-machine", "who": "gambler", "label": "PROPOSED", "note": "Three reels: 777 jackpot"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-10-gambler-slot-machine", "title": "Gambler Move 3: Slot Machine", "dur": 3.8, "layers": [{"fx": "slots", "at": "mid", "res": ["7", "7", "7"], "col": "#FF3D8D"}, {"fx": "blast", "at": "en", "t0": 2.3, "r": 560, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 3, "flat": true}, {"fx": "burst", "at": "mid", "t0": 2.3, "y": -140, "n": 40, "cols": ["#FF3D8D", "#64E8FF", "#F7F4FA"], "spd": 480, "g": 700, "shape": "sq", "size": 9}], "enemy": true, "cas": false, "note": "Three reels: 777 jackpot", "label": "PROPOSED", "who": "Gambler", "slot": "Move 3", "hit": 2.3, "sfx": "boom", "n": 10, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 4.2, "alpha": true, "kind": "fx", "sheet": "16", "n": 37, "title": "Plack Ultimate: Overdrive", "slug": "plack-overdrive", "who": "plack", "label": "PROPOSED", "note": "10 s power-up aura, then a 3000 burst"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-37-plack-overdrive", "title": "Plack Ultimate: Overdrive", "dur": 4.2, "layers": [{"fx": "aura", "at": "cas", "col": "#FF3D8D", "col2": "#64E8FF", "r": 180, "h": 380, "t1": 3.0}, {"fx": "pulsehex", "at": "cas", "n": 3, "r": 360, "col": "#FF3D8D"}, {"fx": "blast", "at": "cas", "t0": 3.0, "r": 620, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 3, "flat": true}, {"fx": "flash", "at": "mid", "t0": 3.0, "D": 0.15, "a": 0.6}, {"fx": "speed", "at": "cas", "t0": 3.0, "D": 0.4, "col": "#FF3D8D"}], "enemy": false, "cas": true, "note": "10 s power-up aura, then a 3000 burst", "label": "PROPOSED", "who": "Plack", "slot": "Ultimate", "hit": 3.0, "sfx": "boom", "n": 37, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

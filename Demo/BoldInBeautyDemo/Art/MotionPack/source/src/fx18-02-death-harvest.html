@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "18", "n": 2, "title": "Death Move 1: Harvest", "slug": "death-harvest", "who": "death", "label": "PROPOSED", "note": "270 degree sweep; marked enemies die"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-02-death-harvest", "title": "Death Move 1: Harvest", "dur": 3.2, "layers": [{"fx": "strike", "at": "cas", "oy": -120, "n": 1, "len": 900, "w": 110, "ang": 0, "col": "#7657FF", "col2": "#F7F4FA", "fin": true}, {"fx": "mark", "at": "en", "glyph": "skull", "h": 360, "col": "#FF3D8D", "s": 26, "t1": 0.9}, {"fx": "shards", "at": "en", "t0": 0.8, "up": true, "n": 60, "w": 160, "h": 320, "col": "#F7F4FA", "col2": "#7657FF"}, {"fx": "flash", "at": "mid", "t0": 0.8, "D": 0.1, "a": 0.4, "col": "#7657FF"}], "enemy": true, "cas": true, "note": "270 degree sweep; marked enemies die", "label": "PROPOSED", "who": "Death", "slot": "Move 1", "hit": 0.4, "sfx": "boom", "n": 2, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

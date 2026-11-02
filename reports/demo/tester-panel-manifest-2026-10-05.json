@@ -1,0 +1,140 @@
+{
+ "task": "tester panel, playthroughs, Windows packaging",
+ "date": "2026-10-05",
+ "base_commit": "ffeae05",
+ "device": "linux cloud container (neither replica)",
+ "files": [
+  {
+   "path": "Demo/BoldInBeautyDemo/README.md",
+   "before_sha256": "ffbc732d30b3a0071fd0e80b51c98142a735512b616c501692d94b4a80a805a2",
+   "after_sha256": "858d122cb92519728aa2304663d1275a8ed83081816fc46e6b13e57f80ea80ad",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCampaign.h",
+   "before_sha256": "10bc04851a879d54870d4458324af1c770c464b5da9d3ab73d954e688ee01c32",
+   "after_sha256": "cef16120f4a74ef8bee2382e3e0e0df564b91e878df95f549f471f504c3d1393",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBConfig.h",
+   "before_sha256": "70200379dd0487f8679205d96f65f6f5ad10f165528089cb63653189175aac34",
+   "after_sha256": "be2b5e1d3679d863ea53c07556c4b62ed69770bf9431db9455aec9b99565cd76",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.cpp",
+   "before_sha256": "56d45ce746564e3dc583547de0e78a29dc8df629e5b7c4a210ebe690f110b9ee",
+   "after_sha256": "47293701fabbb0b4fc085dea87f6e8e5773c704faf096e4d386bc4414342c49c",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.h",
+   "before_sha256": "f3aa86e78433391efbf856849cecda918127b7b2a1183a395cf1c268596023eb",
+   "after_sha256": "f4c490a182ab41ff285fca87cd878f0e20d7416c1f603777df0962832780c86e",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBTester.cpp",
+   "before_sha256": null,
+   "after_sha256": "49c0a2876a6497100b88d2534d6ba643d6cb922d7bd6710ac6a3f1c6d40432a4",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBTester.h",
+   "before_sha256": null,
+   "after_sha256": "64f422b956affd863df8de007b2eefffb9f994df6235e62ecbd6e45e6cd132aa",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBTutorial.cpp",
+   "before_sha256": "e34a08451795282e6fd09cf168842cf5262ad436ab690f83f2e7e294222a239b",
+   "after_sha256": "1c7eb3e4e1bee47e4e0a23731936888bc02cb8b0e75617749b6a5c87c1f1c413",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/meta_tests.cpp",
+   "before_sha256": "66a11c2dda434a2435d8eeaedf68c261bebc689c56d4648bfa543f47072689b3",
+   "after_sha256": "cfc6eb62bf7364f623fa1f23b5d1e517a82fe8024f7f7c81dc9d5012ef5e2d91",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/playthrough.cpp",
+   "before_sha256": null,
+   "after_sha256": "64ef646570c909e4d8ef5522b64f560a9f8a8c27fc2cae7aab384326107c7666",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/run_core_tests.sh",
+   "before_sha256": "d33b4f65385c1d53fad6795923ef045db221efdfa9ac4348d0f4fe05ee7da182",
+   "after_sha256": "87ec5d8d70082ef41b5af632e61a5681ab1f140b2890976075715332592709b8",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/tester_tests.cpp",
+   "before_sha256": null,
+   "after_sha256": "579da818523b1da945e6cf3324882cd77b398fb593c09be1c3b59a03d4636a8a",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/Package-Windows.bat",
+   "before_sha256": null,
+   "after_sha256": "03d53c88478c7395db089ed806ab9589458aacb013c480e6497819d1584ba46b",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/Package-Windows.ps1",
+   "before_sha256": null,
+   "after_sha256": "d8cd29527d803ec2808145638df3d82bc1a6d634401efd73dafd7f0f0fcce6f7",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_campaign_data.py",
+   "before_sha256": "7024d0aa4009bfcc40168ee7c65369db717db2598e1cd34c2fa860cb3b8f4e44",
+   "after_sha256": "78f1ee45a4a5bec9788fc360f4bffef0009cf522442afeae6ff6888a16dd5614",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_kit_docs.py",
+   "before_sha256": "1255f522c12e3b07cc83ae8b2ab0e5a65eef3941cc0b3beaeaf53e34316e961e",
+   "after_sha256": "4f7b4ad4236f1ce834fb17854017c1c483b2e107a40b52ce76c90fa0f2908f1b",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_tags.py",
+   "before_sha256": "9c85d53f5a71e269034be97faf34df1aac3c0726360dba3ef556dadafe3f960d",
+   "after_sha256": "32579f490c8ce769cdafcc19075e6d378a977347ac2ae4adc74d3c4fd1c29f7f",
+   "scope": "SHARED"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_tester.py",
+   "before_sha256": null,
+   "after_sha256": "6e9680f5dbb229f3f5ae4504dcd74673946bbf5668a6e3f5d227d7d314e469d7",
+   "scope": "SHARED"
+  },
+  {
+   "path": "HANDOFF.md",
+   "before_sha256": "08ef24a200ef49de6882fe15fad6f4dc6b4a6d5e8491a5decad9e57ee306aadc",
+   "after_sha256": "594c8a0b5d7fe42c284fb72f38c588960882810c16814bb7f126bd20525c4ad3",
+   "scope": "SHARED"
+  },
+  {
+   "path": "docs/campaign.md",
+   "before_sha256": "8f911debab45963b0d12d1ddfb47c84732228c49021af26d78ebf4538142fbfa",
+   "after_sha256": "3367b0002e301845e9fcfbcea05b5f6db2d531f865ad1c17dac2eabd9358dce1",
+   "scope": "SHARED"
+  },
+  {
+   "path": "docs/windows-build.md",
+   "before_sha256": null,
+   "after_sha256": "4e0eb8257e1644d07bf72a78bf60feb6c790ea8c110a0d589e97381e30e3138e",
+   "scope": "SHARED"
+  },
+  {
+   "path": "reports/demo/2026-10-05-tester-panel-playthroughs-windows.md",
+   "before_sha256": null,
+   "after_sha256": "795ac8edd509f99bcd537e9a92833956be8bb9c97cb65854f4f50b4a5df96057",
+   "scope": "SHARED"
+  }
+ ]
+}

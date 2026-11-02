@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "12", "n": 1, "title": "Idle motif", "slug": "idle-motif", "who": "luna", "label": "SOURCE", "note": "Black and white holes orbiting her"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx12-01-idle-motif", "title": "Idle motif", "dur": 3.0, "layers": [{"fx": "orbit", "at": "cas", "n": 2, "kinds": ["black", "white"], "r": 170, "col": "#4B2C9E", "col2": "#FFD23F", "s": 42, "dy": -150, "flat": 0.6, "sp": 2.4, "pull": true}], "enemy": false, "cas": true, "note": "Black and white holes orbiting her", "label": "SOURCE", "who": "Luna", "slot": "Idle", "hit": 0.3, "sfx": "soft", "n": 1, "sheet": "12"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

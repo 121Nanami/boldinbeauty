@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 15, "title": "Poise shield shimmer", "slug": "poise-shield-shimmer", "who": null, "label": "NEEDS ART", "note": "Shimmering shield after 5 flinches"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-15-poise-shield-shimmer", "title": "Poise shield shimmer", "dur": 3.0, "layers": [{"fx": "dome", "at": "en", "rx": 130, "ry": 210, "col": "#64E8FF", "hits": [0.6, 1.4, 2.2], "pulse": true}], "enemy": true, "cas": false, "note": "Shimmering shield after 5 flinches", "label": "NEEDS ART", "who": "SHARED", "slot": "After 5 flinches in 2.5 s", "hit": 0.2, "sfx": "soft", "n": 15, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

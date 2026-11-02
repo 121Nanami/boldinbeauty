@@ -1,0 +1,9 @@
+<!--META {"dur": 5.4, "alpha": true, "kind": "fx", "sheet": "13", "n": 7, "title": "Ultimate: Justice", "slug": "ultimate-justice", "who": "judge", "label": "DERIVED", "note": "Circle grows 20% each second unhit; attacker dies when it hits her"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx13-07-ultimate-justice", "title": "Ultimate: Justice", "dur": 5.4, "layers": [{"fx": "zone", "at": "cas", "rx": 360, "ry": 108, "col": "#F7F4FA", "col2": "#FFD23F", "kind": "cells", "t0": 0.0, "grow": 0.6}, {"fx": "zone", "at": "cas", "rx": 432, "ry": 130, "col": "#F7F4FA", "col2": "#FFD23F", "kind": "cells", "t0": 1.2, "grow": 0.4, "t1": 5.0}, {"fx": "zone", "at": "cas", "rx": 518, "ry": 156, "col": "#F7F4FA", "col2": "#FFD23F", "kind": "cells", "t0": 2.4, "grow": 0.4, "t1": 5.0}, {"fx": "blast", "at": "en", "t0": 3.7, "r": 340, "col": "#E5252A", "col2": "#F7F4FA", "rings": 3}, {"fx": "mark", "at": "en", "glyph": "skull", "h": 360, "col": "#E5252A", "t0": 3.7, "s": 32}, {"fx": "shards", "at": "en", "t0": 3.8, "up": true, "n": 40, "w": 140, "h": 300, "col": "#E5252A", "col2": "#F7F4FA"}], "enemy": true, "cas": true, "note": "Circle grows 20% each second unhit; attacker dies when it hits her", "label": "DERIVED", "who": "Judge", "slot": "Ultimate", "hit": 3.7, "sfx": "boom", "n": 7, "sheet": "13"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,85 @@
+# Ch05 A.R.C TECH INCORPORATED. Sources: Chapters/Ch05.md, Scripts/Ch05.md (primary); Scripts/Ch05_ArcTech.md ([alt])
+ENV|A.R.C TECH INCORPORATED (factory)|Location / factory|Cold open|H|Fully functional undamaged factory with no visible workers, making glowing cubes; "Visitors Welcome. Please Do Not Touch The Product."|Evening;Rain outside (stinger);Lights stay on after boss
+ENV|Intake hall|Location / hall|Ep1|H|Door the width of a street [alt: cathedral hangar], a thousand machines moving in order|Polished floors;Console with five stars
+ENV|Conveyor hall|Location / hall|Ep2|S|Belt lines as moving platforms; cube hauler automata|Running;Stamper arms
+ENV|Loading dock|Location / dock|Ep3|S|Hundreds of pallets of glowing cubes, stacked three high [alt]|Pallets wrapped;Gate puzzle
+ENV|Packaging bay|Location / bay|Ep4|S|Crate-stack puzzle, pallet stamp|Standard
+ENV|Press hall (ten stampers)|Location / hall|Ep5|H|Ten stampers drop in sequence, timing run; coolant-pool shortcut|Running;Slow variant
+ENV|Robot-arm halls|Location / hall|Ep6|H|Assembly floor with arm sweep lanes|Arms tilt as if watching [alt]
+ENV|Cube core antechamber|Location / room|Ep7|S|Glass-walled core, Foreman at the middle|Standard
+ENV|Cube core|Location / arena|Ep8|H|Boss arena with press and arm sweeps|Phase 1;Phase 2 fused stampers;Quiet
+ENV|Coolant pools|Location / hazard|Ep5|S|Swim to bypass a locked gate|Standard
+ENV|Overhead catwalks|Location / structure|Chapter beats|S|Catwalks above the lines|Standard
+ENV|Foreman's office [alt]|Location / interior|Ep7|S|Desk, coat rack, name badge FOREMAN [alt]|Standard
+ARC|Intake door|Architecture / door|Cold open|H|Letters a metre high: A.R.C TECH INCORPORATED; smaller sign below|Open;Closed
+ARC|Conveyor belts|Architecture / machinery|Ep2|H|Four conveyor lines; belts as moving platforms; line a hundred metres long [alt]|Moving;Stopped (boss end);Restarting
+ARC|Press stampers|Architecture / machinery|Ep5|H|Ten steel stampers the size of a van [alt]|Dropping;Fused with Foreman
+ARC|Robot arms|Architecture / machinery|Ep6|H|Huge arcs over the heads; synchronised|Sweep;Stutter [alt];Boss-controlled
+ARC|Overhead rails|Architecture / machinery|Ep2|B|Carry crates [alt]|Standard
+ARC|Glass walls of the core|Architecture / structure|Ep7|S|Glass-walled core|Intact
+ARC|Door holding itself open [alt]|Architecture / door|Ep6|B|Door at the end of the floor slides open on its own|Closed;Open
+PRP|The glowing cube|Prop / hero|Ep3|H|Thirty-centimetre cube, violent sunrise-yellow; warm like it was held; [alt] fist-sized with hairline seam|Pallet cube;Plack lifts it;Seam opened (finger of pale light) [alt];Luna's pocketed cube warm;White core cube [alt]
+PRP|Pallet|Prop|Ep3|S|Strapped pallets of cubes|Plastic-wrapped [alt];Stamped 1%
+PRP|Pallet stamp 1%|Prop / hero|Ep4|H|Stamp 1% on every pallet; YELLOW key|Stamp;Stamp key doc
+PRP|Pallet tag (YELLOW)|Prop / document|Ep3|S|Stamped pallet tag pickup|Standard
+PRP|Visitor manifest|Prop / document|Archive|S|Many names, three circled in a different pen|Standard
+PRP|Pallet stamp key|Prop / document|Archive|S|"1% - Standard dose. Handle as held."|Standard
+PRP|Voice transcript|Prop / document|Archive|S|"Once upon a time, three visitors came ..."|Standard
+PRP|Foreman's clipboard|Prop / weapon|Ep7|H|Clipboard where its left hand should be; form with three typed names [alt]|Standard;Firing paper forms [alt];Form with pen
+PRP|Safety exit signs|Prop / signage|Ep8|S|Follow exit signs to dodge|Marked;Unmarked exit
+PRP|Console with five stars|Prop / screen|Ep2|S|Smiley face and five empty stars [alt]|Empty stars;Filled stars
+PRP|Visitors Welcome sign|Prop / signage|Cold open|S|"Visitors Welcome. Please Do Not Touch The Product."|Standard
+PRP|Ledger (Plack)|Prop / document|Ep2|B|Plack's ledger entries [alt]|Standard
+PRP|High-visibility vest [alt]|Prop / costume|Ep7|S|Foreman's faded vest [alt]|Worn;Removed
+PRP|Coat rack and desk [alt]|Prop / furniture|Ep7|B|Foreman's office|Standard
+PRP|Loudspeakers|Prop / device|Cold open|H|Voice heard through them everywhere|Ceiling horn;Wall
+CHR|The Voice (loudspeaker)|Heard-only character / Narrator hint|Cold open|H|Warm, unhurried bedtime-story narrator; third person, past tense|Voice only
+CHR|The Foreman|Boss / person-shaped automaton|Ep7|H|Clipboard, knows the three names, safety-briefing patterns; [alt] tall automaton in vest|Standard;Mini-boss lieutenant;Boss phases;Foreman as heavy automaton lieutenant
+CHR|Luna|Operator|Ep1|H|Rated four stars; pockets a cube|Two coats [alt];Holding cube
+CHR|Plack|Operator|Ep1|H|Rated five stars; says 1% aloud|Ledger
+CHR|Kuu|Operator|Ep1|H|Rated three stars; goes last|Umbrella [alt]
+CHR|Commander (voice)|Voice character|Ep1|B|Government work order to verify output [alt]|Voice only
+CRE|Security automata|Enemy / automaton|Ep1|H|Polite guards; warn before attacking [alt]|Basic;Cube hauler;Angel-contaminated machinery (RED)
+CRE|Cube hauler automata|Enemy / automaton|Ep2|S|On conveyor hall|Standard
+CRE|Heavy automaton (lieutenant)|Enemy / mini-boss|Ep7|S|Foreman's lieutenant in the arena|Standard
+CRE|Angel-contaminated machinery|Enemy / machine|Chapter beats|S|Machinery flagged RED|Standard
+VFX|Cube glow (violent yellow)|VFX|Cold open|H|Almost painful yellow; lights Plack's face from below [alt]|Steady;Flicker across faces [alt];Warm in pocket
+VFX|Stamper impact|VFX|Ep5|S|Stamper drops|Standard
+VFX|Paper-sharp forms [alt]|VFX|Ep8|S|Clipboard fires forms; standing in them removes a buff|Standard
+VFX|Cube scatter|VFX|Ep8|S|Cubes scatter when Foreman falls|Standard
+VFX|Black hole snaps around cube [alt]|VFX / ability|Ep8|S|Luna folds the Foreman inward|Standard
+WTH|Outside rain|Weather|Stinger|S|Rain outside the factory|Standard
+LGT|Factory floodlight|Lighting|Cold open|H|Polished floor, no dust; lights never go out|On;Flicker (boss end)
+LGT|Cube glow lighting|Lighting|Ep3|S|Yellow glow on faces|Standard
+AUD|Voice (warm, unhurried)|Audio / voice|Cold open|H|Bedtime narration and star ratings|Standard;Lullaby hum [alt];Pause one full second [alt]
+AUD|Factory machine hum|Audio / ambience|Cold open|H|Faint hum; perfect rhythm|Standard;Silence at boss end [alt]
+AUD|Stamper thud|Audio / sfx|Ep5|S|Master beat [alt]|Standard
+AUD|Cube warm hum|Audio / sfx|Ep4|B|Humming light in cube [alt]|Standard
+UI|Star ratings|UI|Ep2|S|Four stars Luna, three Kuu, five Plack; "rate Kuu twice" gives sixth star [alt]|Standard
+UI|Ledger journal entry|UI|Ep4|B|Plack's journal unlock [alt]|Standard
+UI|Rate-the-Voice options [alt]|UI|Ep2|B|Optional hidden response|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+CRE|Security automaton|Enemy|Tripo #98|B|Factory security [inferred: Tripo list #98; not named in the chapter text]|
+CRE|Cube hauler|Enemy|Tripo #99|B|Hauls cubes [inferred: Tripo list #99; likely the same asset as CRE-0023 Cube hauler automata; kept as its own entry so no Tripo row is dropped]|
+CRE|Arm sentry|Enemy|Tripo #100|B|Robot arm [inferred: Tripo list #100; not named in the chapter text]|
+PRP|Stamped pallet (1%)|Prop|Tripo #94|B|Pallet of cubes [inferred: Tripo list #94; not named in the chapter text]|
+PRP|Loudspeaker horn|Prop|Tripo #96|B|The Voice [inferred: Tripo list #96; not named in the chapter text]|
+ARC|Conveyor line|Set piece / modular kit|Tripo #87|B|Cubes on belts [inferred: Tripo list #87; not named in the chapter text]|
+ARC|Robot-arm gantry|Set piece / modular kit|Tripo #90|B|Arm gauntlet [inferred: Tripo list #90; not named in the chapter text]|
+ARC|Coolant pool|Set piece / modular kit|Tripo #91|B|Swim shortcut [inferred: Tripo list #91; not named in the chapter text]|
+ARC|Conveyor segment (A.R.C TECH)|Set piece / modular kit|Tripo #782|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #782; not named in the chapter text]|
+ARC|Conveyor corner (A.R.C TECH)|Set piece / modular kit|Tripo #783|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #783; not named in the chapter text]|
+ARC|Robot-arm base (A.R.C TECH)|Set piece / modular kit|Tripo #784|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #784; not named in the chapter text]|
+ARC|Stamper housing (A.R.C TECH)|Set piece / modular kit|Tripo #785|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #785; not named in the chapter text]|
+ARC|Catwalk module (A.R.C TECH)|Set piece / modular kit|Tripo #786|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #786; not named in the chapter text]|
+ARC|Guard-rail module (A.R.C TECH)|Set piece / modular kit|Tripo #787|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #787; not named in the chapter text]|
+ARC|Cube tray (A.R.C TECH)|Set piece / modular kit|Tripo #788|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #788; not named in the chapter text]|
+ARC|Pallet jack (A.R.C TECH)|Set piece / modular kit|Tripo #789|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #789; not named in the chapter text]|
+ARC|Coolant pipe run (A.R.C TECH)|Set piece / modular kit|Tripo #790|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #790; not named in the chapter text]|
+ARC|Control cabinet (A.R.C TECH)|Set piece / modular kit|Tripo #791|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #791; not named in the chapter text]|
+ARC|Warning light (A.R.C TECH)|Set piece / modular kit|Tripo #792|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #792; not named in the chapter text]|
+ARC|Yellow hazard stripe tile (A.R.C TECH)|Set piece / modular kit|Tripo #793|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #793; not named in the chapter text]|
+ARC|Loudspeaker horn cluster (A.R.C TECH)|Set piece / modular kit|Tripo #794|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #794; not named in the chapter text]|
+ARC|Overhead gantry (A.R.C TECH)|Set piece / modular kit|Tripo #795|B|Modular dressing piece for Ch 5 A.R.C TECH [inferred: Tripo list #795; not named in the chapter text]|
+PRP|A.R.C TECH INCORPORATED logo|Insignia|Tripo #102|B|Over the intake [inferred: Tripo list #102; likely the same asset as ENV-0046 A.R.C TECH INCORPORATED (factory); kept as its own entry so no Tripo row is dropped]|
+# --- TRIPO-CROSSCHECK-END

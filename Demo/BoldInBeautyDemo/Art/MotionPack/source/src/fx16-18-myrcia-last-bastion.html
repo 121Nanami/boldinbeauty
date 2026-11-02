@@ -1,0 +1,9 @@
+<!--META {"dur": 4.8, "alpha": true, "kind": "fx", "sheet": "16", "n": 18, "title": "Myrcia Ultimate: Last Bastion", "slug": "myrcia-last-bastion", "who": "myrcia", "label": "PROPOSED", "note": "6 s immovable state, pull-in, then a shockwave"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-18-myrcia-last-bastion", "title": "Myrcia Ultimate: Last Bastion", "dur": 4.8, "layers": [{"fx": "dome", "at": "cas", "rx": 230, "ry": 260, "col": "#64E8FF", "hits": [1.0, 1.7], "t1": 3.6}, {"fx": "suck", "at": "cas", "oy": -100, "r": 700, "col": "#64E8FF", "col2": "#F7F4FA", "t0": 0.3, "t1": 3.4, "core": true}, {"fx": "blast", "at": "cas", "t0": 3.6, "r": 860, "col": "#64E8FF", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "flash", "at": "mid", "t0": 3.6, "D": 0.2, "a": 0.6}], "enemy": true, "cas": true, "note": "6 s immovable state, pull-in, then a shockwave", "label": "PROPOSED", "who": "Myrcia", "slot": "Ultimate", "hit": 3.6, "sfx": "boom", "n": 18, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

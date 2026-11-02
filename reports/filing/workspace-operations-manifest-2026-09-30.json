@@ -1,0 +1,153 @@
+{
+  "record_kind": "actual local filing operations; not a transfer",
+  "device": "macos",
+  "project_root_reference": "sync/devices/macos.json",
+  "declared_implementation_version": "5.8",
+  "local_project_version": null,
+  "base_manifest": null,
+  "counterpart_handoff": null,
+  "cross_device_freshness": "OPEN",
+  "accountable_MAIN_writer": "root",
+  "files": [
+    {
+      "path": "docs/agent-workflow.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "a1f0410e8fe2277b1c812d396703e8a28ad64b51421fe8f51ed8c227be4edd37",
+      "action": "created",
+      "evidence": [
+        "local written file; existence and SHA-256 checked"
+      ],
+      "verification": [
+        "UTF-8 read succeeds"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/templates/agent-report.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "7464c326d52b7cb87e1740c21438fff2970dbc488248bc5d91ea085accc15133",
+      "action": "created",
+      "evidence": [
+        "local written file; existence and SHA-256 checked"
+      ],
+      "verification": [
+        "UTF-8 read succeeds"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/README.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "335d780ddf68b0feb916cd8cb78fbf517945ad4fed6ee623edf25d092f5907d0",
+      "action": "created",
+      "evidence": [
+        "local written file; existence and SHA-256 checked"
+      ],
+      "verification": [
+        "UTF-8 read succeeds"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Files/README.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "12c909716e0667b03c4d8ce93751662ca3dcef2375d529eda8645a586d53c2fb",
+      "action": "created",
+      "evidence": [
+        "local written file; existence and SHA-256 checked"
+      ],
+      "verification": [
+        "UTF-8 read succeeds"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "docs/research-filing.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "941a86d62c724b24cef426f21edcfb889acd093cb488e610a6d3208f2676bd0b",
+      "action": "created",
+      "evidence": [
+        "local written file; existence and SHA-256 checked"
+      ],
+      "verification": [
+        "UTF-8 read succeeds"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/filing/README.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": "c7b0ad95bc6e1674e441da7d514d9cba450e9297dd2cea1074ace6fca812108d",
+      "after_sha256": "316365a8bf91a47d56059874a91dfabd1fd3041862c4a4ba4726bf5c5327dc24",
+      "action": "edited",
+      "evidence": [
+        "local written file; existence and SHA-256 checked"
+      ],
+      "verification": [
+        "UTF-8 read succeeds"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/filing/workspace-inventory-2026-09-30.json",
+      "scope": "MACOS-LOCAL",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "c961c6bcc6b29274b09d3a11cce935e8a9482053a955af577c9e2ea279bd845e",
+      "action": "created",
+      "evidence": [
+        "local written file; existence and SHA-256 checked"
+      ],
+      "verification": [
+        "UTF-8 read succeeds"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/filing/workspace-operations-2026-09-30.md",
+      "scope": "MACOS-LOCAL",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "e70076374a7d58e1bc7f5d624f8cebdc29dc3320a6cc7d1b6e2de7487a86cb32",
+      "action": "created",
+      "evidence": [
+        "local written file; existence and SHA-256 checked"
+      ],
+      "verification": [
+        "UTF-8 read succeeds"
+      ],
+      "intentional_platform_difference": null
+    }
+  ],
+  "prior_new_mappings": [],
+  "original_files_relocated": false,
+  "conflicts": [],
+  "transfer_status": "prepared locally; not transferred",
+  "counterpart_applied": false,
+  "counterpart_verified": false,
+  "external_system_changes": [],
+  "unresolved_items": [
+    "Windows root/version/base/freshness and filename mapping OPEN",
+    "Custom filing-agent type not exposed this session; procedure applied by worker"
+  ],
+  "checks": [
+    "All created/edited paths exist and UTF-8 read succeeds",
+    "8 relative Markdown links resolved",
+    "Metadata JSON and manifest parse",
+    "No original relocations; no external filing performed"
+  ],
+  "resolved_findings": [
+    "Research/drafting input mismatch resolved in saved definition: explicitly assigned nested paths; administrative files excluded; goal-only input routes candidates to lead. Actual drafting/cloud execution not verified."
+  ]
+}

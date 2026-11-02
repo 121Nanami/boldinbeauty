@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "11", "n": 2, "title": "Feint fake-out flicker", "slug": "feint-fake-out-flicker", "who": null, "label": "NEEDS ART", "note": "A telegraph that flickers away, then the real hit"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx11-02-feint-fake-out-flicker", "title": "Feint fake-out flicker", "dur": 3.0, "layers": [{"fx": "mark", "at": "en", "glyph": "warn", "h": 360, "col": "#FF3D8D", "t1": 0.5}, {"fx": "glitchbar", "at": "en", "oy": -160, "col": "#FF3D8D", "col2": "#F7F4FA", "n": 6, "w": 200, "h": 300, "t0": 0.35, "t1": 0.8}, {"fx": "mark", "at": "en", "glyph": "warn", "h": 360, "col": "#FFD23F", "t0": 1.4, "t1": 2.2}, {"fx": "blast", "at": "en", "t0": 1.8, "r": 240, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 2}], "enemy": true, "cas": true, "note": "A telegraph that flickers away, then the real hit", "label": "NEEDS ART", "who": "SHARED", "slot": "Feint", "hit": 1.8, "sfx": "hit", "n": 2, "sheet": "11"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

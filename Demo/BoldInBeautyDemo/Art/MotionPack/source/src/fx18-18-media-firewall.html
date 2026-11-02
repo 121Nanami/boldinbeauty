@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "18", "n": 18, "title": "Media Special: Firewall", "slug": "media-firewall", "who": "media", "label": "PROPOSED", "note": "6 s line of data fire ahead"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-18-media-firewall", "title": "Media Special: Firewall", "dur": 3.6, "layers": [{"fx": "hexfield", "at": "mid", "w": 980, "h": 240, "col": "#64E8FF", "col2": "#FF3D8D", "t1": 3.4}, {"fx": "grid", "at": "mid", "col": "#64E8FF", "w": 900, "t1": 3.4}, {"fx": "zone", "at": "mid", "rx": 500, "ry": 60, "col": "#FF3D8D", "col2": "#64E8FF", "kind": "cells", "t1": 3.4}], "enemy": true, "cas": false, "note": "6 s line of data fire ahead", "label": "PROPOSED", "who": "Media", "slot": "Special", "hit": 0.3, "sfx": "chime", "n": 18, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

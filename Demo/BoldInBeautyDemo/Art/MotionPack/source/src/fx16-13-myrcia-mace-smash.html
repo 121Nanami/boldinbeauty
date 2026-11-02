@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "16", "n": 13, "title": "Myrcia M1: Mace Smash", "slug": "myrcia-mace-smash", "who": "myrcia", "label": "PROPOSED", "note": "Three mace blows; third is a tidal slam splash"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-13-myrcia-mace-smash", "title": "Myrcia M1: Mace Smash", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 3, "len": 400, "w": 76, "fan": 0.25, "col": "#64E8FF", "col2": "#F7F4FA", "fin": true}, {"fx": "blast", "at": "en", "t0": 0.5, "r": 360, "col": "#64E8FF", "col2": "#F7F4FA", "rings": 2, "flat": true}, {"fx": "burst", "at": "en", "t0": 0.5, "n": 26, "shape": "dot", "cols": ["#64E8FF", "#F7F4FA"], "spd": 380, "a0": -2.7, "a1": -0.45, "g": 900, "size": 9}], "enemy": true, "cas": true, "note": "Three mace blows; third is a tidal slam splash", "label": "PROPOSED", "who": "Myrcia", "slot": "M1", "hit": 0.5, "sfx": "boom", "n": 13, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

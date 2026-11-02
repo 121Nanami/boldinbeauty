@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 15, "title": "Media Move 1: Blink Cut", "slug": "media-blink-cut", "who": "media", "label": "PROPOSED", "note": "800 teleport through enemies"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-15-media-blink-cut", "title": "Media Move 1: Blink Cut", "dur": 3.0, "layers": [{"fx": "blink", "at": "mid", "n": 2, "gap": 0.12, "area": 480, "rows": 30, "col": "#64E8FF", "col2": "#F7F4FA"}, {"fx": "dash", "at": "mid", "dist": 800, "col": "#64E8FF", "col2": "#F7F4FA", "dd": 0.12, "trail": 700, "h": 60}, {"fx": "strike", "at": "en", "t0": 0.2, "n": 1, "len": 500, "col": "#FF3D8D", "col2": "#F7F4FA", "fin": true}], "enemy": true, "cas": true, "note": "800 teleport through enemies", "label": "PROPOSED", "who": "Media", "slot": "Move 1", "hit": 0.2, "sfx": "zap", "n": 15, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

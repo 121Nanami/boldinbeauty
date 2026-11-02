@@ -1,0 +1,68 @@
+{
+  "device": "macos",
+  "project_root": "<local-home>/Documents/BoldInBeauty-Project",
+  "declared_engine": "5.8",
+  "base_manifest": null,
+  "counterpart_freshness": "OPEN",
+  "transfer_state": "Private GitHub upload verified; no counterpart transfer or Windows verification",
+  "repositories": {
+    "documents": "https://github.com/121Nanami/BoldInBeauty-Project",
+    "game": "https://github.com/121Nanami/BoldInBeauty-Game"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "scope": "SHARED procedure/evidence; Windows reconciliation OPEN",
+      "before_sha256": "c16e824015ce75aa756339a5b8320ea654574517aa0bcdb366fce2c28e88fdbf",
+      "after_sha256": "a13aafa5d06e0d2ff51a0765fcd05b24d187a2ed4966e28e8b80bfaa84b8fb6a"
+    },
+    {
+      "path": ".gitattributes",
+      "scope": "SHARED procedure/evidence; Windows reconciliation OPEN",
+      "before_sha256": null,
+      "after_sha256": "0795f51bdbe2eca3eb7bb8ae758e21236106b96087940863840680d70e75f469"
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/.gitignore",
+      "scope": "SHARED procedure/evidence; Windows reconciliation OPEN",
+      "before_sha256": "288c7201d136618255743f44454ee9acf9bbd28187f636db908ab808996ab4a6",
+      "after_sha256": "858a2df0d269772a98bb95e1cc7709e86db9cb4d74b151f151c4b5cc09f38ac5"
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/.gitattributes",
+      "scope": "SHARED procedure/evidence; Windows reconciliation OPEN",
+      "before_sha256": null,
+      "after_sha256": "d8b20d288b1a7ddeb5dc4f919c9dcb52fe400ad769a3cb7f839dea97a9255147"
+    },
+    {
+      "path": "BoldInBeauty_MAIN",
+      "scope": "SHARED procedure/evidence; Windows reconciliation OPEN",
+      "before_sha256": "5181bc586d5f1141f5be866736ae9f6f5261e652564d35840dd9503bf81d4c2f",
+      "after_sha256": "d4615c32f46d78536c79dea7d68dd025bfd15c1c504cad80a5e19f62f71f2aa0"
+    },
+    {
+      "path": "docs/version-control.md",
+      "scope": "SHARED procedure/evidence; Windows reconciliation OPEN",
+      "before_sha256": null,
+      "after_sha256": "c593e48039bda928a0d466f70419643eedca99ddf3c98cc4fe9590613d621e6c"
+    },
+    {
+      "path": "sync/README.md",
+      "scope": "SHARED procedure/evidence; Windows reconciliation OPEN",
+      "before_sha256": "0d9a2a0e45c6199f877b7d066c403b1332f8430f42272a078354d294ecf2ecdd",
+      "after_sha256": "f34f11ecdfb621a56d2ada2eee958e7ade20a8149e800c9499d7fe6fe34f02d6"
+    },
+    {
+      "path": "sync/devices/macos.json",
+      "scope": "MACOS-LOCAL",
+      "before_sha256": "72690f1655879986145b49c17ea3270a63715c9af92e489b12d9c34a84fc3dbf",
+      "after_sha256": "57b25a3490b3eaad05770c40cb2539945f9f9823adc1c25d4629ac5518823634"
+    },
+    {
+      "path": "reports/version-control/setup-2026-09-30.md",
+      "scope": "SHARED procedure/evidence; Windows reconciliation OPEN",
+      "before_sha256": null,
+      "after_sha256": "a5574017670fa5ce18414a7a8e56799e550eb85f8e0b10a62b343729442f437c"
+    }
+  ]
+}

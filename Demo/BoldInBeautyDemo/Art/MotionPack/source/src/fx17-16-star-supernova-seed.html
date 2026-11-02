@@ -1,0 +1,9 @@
+<!--META {"dur": 4.4, "alpha": true, "kind": "fx", "sheet": "17", "n": 16, "title": "Stargazer Move 3: Supernova Seed", "slug": "star-supernova-seed", "who": "star", "label": "PROPOSED", "note": "Seed on an enemy, 4 s fuse, then an explosion"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-16-star-supernova-seed", "title": "Stargazer Move 3: Supernova Seed", "dur": 4.4, "layers": [{"fx": "status", "at": "en", "kind": "seed", "col": "#64E8FF", "shell": true, "t1": 3.4}, {"fx": "blast", "at": "en", "oy": -150, "t0": 3.4, "r": 460, "col": "#F7F4FA", "col2": "#64E8FF", "rings": 4}, {"fx": "flash", "at": "mid", "t0": 3.4, "D": 0.2, "a": 0.6, "col": "#F7F4FA"}], "enemy": true, "cas": false, "note": "Seed on an enemy, 4 s fuse, then an explosion", "label": "PROPOSED", "who": "Stargazer", "slot": "Move 3", "hit": 3.4, "sfx": "boom", "n": 16, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

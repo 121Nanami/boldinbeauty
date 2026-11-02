@@ -1,0 +1,9 @@
+<!--META {"dur": 4.6, "alpha": true, "kind": "fx", "sheet": "18", "n": 19, "title": "Media Ultimate: System Overload", "slug": "media-system-overload", "who": "media", "label": "PROPOSED", "note": "6 s of teleport strikes every 0.15 s (about 40 hits)"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-19-media-system-overload", "title": "Media Ultimate: System Overload", "dur": 4.6, "layers": [{"fx": "blink", "at": "mid", "n": 30, "gap": 0.1, "area": 560, "rows": 130, "col": "#64E8FF", "col2": "#FF3D8D"}, {"fx": "glitchbar", "at": "mid", "col": "#64E8FF", "col2": "#F7F4FA", "n": 14, "w": 900, "h": 400, "t0": 0.0, "t1": 3.4}, {"fx": "flash", "at": "mid", "t0": 0.3, "D": 0.08, "a": 0.3, "col": "#64E8FF"}, {"fx": "flash", "at": "mid", "t0": 1.2, "D": 0.08, "a": 0.3, "col": "#FF3D8D"}, {"fx": "flash", "at": "mid", "t0": 2.1, "D": 0.08, "a": 0.3, "col": "#64E8FF"}, {"fx": "blast", "at": "mid", "t0": 3.3, "r": 900, "col": "#64E8FF", "col2": "#FF3D8D", "rings": 4, "flat": true}, {"fx": "flash", "at": "mid", "t0": 3.3, "D": 0.2, "a": 0.7}], "enemy": true, "cas": true, "note": "6 s of teleport strikes every 0.15 s (about 40 hits)", "label": "PROPOSED", "who": "Media", "slot": "Ultimate", "hit": 0.1, "sfx": "zap", "n": 19, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

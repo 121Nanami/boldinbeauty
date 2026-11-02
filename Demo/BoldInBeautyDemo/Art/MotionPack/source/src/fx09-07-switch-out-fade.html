@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 7, "title": "Switch-out fade", "slug": "switch-out-fade", "who": null, "label": "NEEDS ART", "note": "Dissolves upward into shards"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-07-switch-out-fade", "title": "Switch-out fade", "dur": 3.0, "layers": [{"fx": "shards", "at": "cas", "up": true, "col": "#64E8FF", "col2": "#F7F4FA", "n": 48, "w": 140, "h": 280, "D": 1.0}, {"fx": "ring", "at": "cas", "r1": 240, "col": "#64E8FF", "flat": true}], "enemy": true, "cas": true, "note": "Dissolves upward into shards", "label": "NEEDS ART", "who": "SHARED", "slot": "Tab", "hit": 0.2, "sfx": "soft", "n": 7, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

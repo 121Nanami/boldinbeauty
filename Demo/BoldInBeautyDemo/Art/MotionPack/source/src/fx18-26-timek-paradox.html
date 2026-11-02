@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "18", "n": 26, "title": "Timekeeper Passive: Paradox", "slug": "timek-paradox", "who": "timek", "label": "PROPOSED", "note": "Low-health rewind: heal and 1.5 s untouchable"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-26-timek-paradox", "title": "Timekeeper Passive: Paradox", "dur": 3.2, "layers": [{"fx": "clock", "at": "cas", "h": 300, "r": 90, "rewind": true, "spd": -4, "col": "#F7F4FA", "col2": "#64E8FF", "t1": 2.4}, {"fx": "burst", "at": "cas", "t0": 1.0, "n": 26, "cols": ["#64E8FF", "#F7F4FA"], "spd": 180, "a0": -2.6, "a1": -0.5, "g": -300, "shape": "dot", "size": 8, "life": 1.2}, {"fx": "dome", "at": "cas", "t0": 1.0, "t1": 2.6, "rx": 130, "ry": 180, "col": "#64E8FF"}, {"fx": "flash", "at": "mid", "t0": 1.0, "D": 0.2, "a": 0.3, "col": "#64E8FF"}], "enemy": false, "cas": true, "note": "Low-health rewind: heal and 1.5 s untouchable", "label": "PROPOSED", "who": "Timekeeper", "slot": "Passive", "hit": 1.0, "sfx": "chime", "n": 26, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

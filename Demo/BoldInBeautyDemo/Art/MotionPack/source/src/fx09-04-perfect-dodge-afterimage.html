@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 4, "title": "Perfect dodge afterimage", "slug": "perfect-dodge-afterimage", "who": null, "label": "NEEDS ART", "note": "Violet afterimage + time-slow tint"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-04-perfect-dodge-afterimage", "title": "Perfect dodge afterimage", "dur": 3.0, "layers": [{"fx": "dash", "at": "mid", "dist": 700, "dir": -1, "col": "#7657FF", "col2": "#F7F4FA", "trail": 500, "dd": 0.25}, {"fx": "flash", "at": "mid", "t0": 0.0, "D": 0.7, "a": 0.28, "col": "#7657FF"}, {"fx": "pulsehex", "at": "mid", "t0": 0.1, "r": 420, "col": "#7657FF", "n": 3}], "enemy": true, "cas": true, "note": "Violet afterimage + time-slow tint", "label": "NEEDS ART", "who": "SHARED", "slot": "Hit in first 0.2 s of a dodge", "hit": 0.2, "sfx": "soft", "n": 4, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

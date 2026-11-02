@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "11", "n": 1, "title": "Guard Counter stance + riposte", "slug": "guard-counter-stance", "who": null, "label": "NEEDS ART", "note": "Glowing stance, then a counter slash"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx11-01-guard-counter-stance", "title": "Guard Counter stance + riposte", "dur": 3.2, "layers": [{"fx": "aura", "at": "en", "col": "#FFD23F", "col2": "#F7F4FA", "r": 90, "h": 300, "t1": 1.5}, {"fx": "dome", "at": "en", "rx": 130, "ry": 210, "col": "#FFD23F", "hits": [0.7, 1.1], "t1": 1.6}, {"fx": "strike", "at": "en", "t0": 1.7, "n": 1, "col": "#FFD23F", "col2": "#F7F4FA", "len": 620, "w": 70, "ang": 170, "fin": true}], "enemy": true, "cas": true, "note": "Glowing stance, then a counter slash", "label": "NEEDS ART", "who": "SHARED", "slot": "Angel learned LMB spam", "hit": 1.7, "sfx": "hit", "n": 1, "sheet": "11"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

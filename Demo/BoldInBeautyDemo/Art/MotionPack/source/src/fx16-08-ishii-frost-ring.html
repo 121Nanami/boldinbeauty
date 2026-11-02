@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "16", "n": 8, "title": "Ishii Move 1: Frost Ring", "slug": "ishii-frost-ring", "who": "ishii", "label": "PROPOSED", "note": "Ring burst, slow + soak"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-08-ishii-frost-ring", "title": "Ishii Move 1: Frost Ring", "dur": 3.2, "layers": [{"fx": "blast", "at": "cas", "r": 560, "col": "#64E8FF", "col2": "#F7F4FA", "rings": 3, "flat": true}, {"fx": "status", "at": "en", "t0": 0.5, "kind": "slow", "col": "#7657FF", "shell": false}, {"fx": "status", "at": "en", "t0": 0.7, "kind": "wet", "col": "#64E8FF", "shell": false}], "enemy": true, "cas": true, "note": "Ring burst, slow + soak", "label": "PROPOSED", "who": "Ishii", "slot": "Move 1", "hit": 0.05, "sfx": "boom", "n": 8, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

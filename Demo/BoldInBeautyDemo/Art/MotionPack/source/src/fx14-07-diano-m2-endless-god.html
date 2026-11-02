@@ -1,0 +1,9 @@
+<!--META {"dur": 5.4, "alpha": true, "kind": "fx", "sheet": "14", "n": 7, "title": "Diano M2: Endless god (hold)", "slug": "diano-m2-endless-god", "who": "narr", "label": "SOURCE", "note": "Narrator's soul is sucked out; a phantom of the death animation"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-07-diano-m2-endless-god", "title": "Diano M2: Endless god (hold)", "dur": 5.4, "layers": [{"fx": "suck", "at": "cas", "oy": -180, "r": 420, "col": "#F7F4FA", "col2": "#7657FF", "core": true, "t1": 3.3}, {"fx": "hole", "at": "cas", "oy": -200, "kind": "white", "s": 40, "col": "#7657FF", "t0": 0.3, "t1": 3.3}, {"fx": "shards", "at": "cas", "t0": 3.3, "up": true, "n": 70, "w": 200, "h": 340, "col": "#7657FF", "col2": "#F7F4FA", "D": 1.6}, {"fx": "halo", "at": "cas", "n": 1, "h": 360, "col": "#F7F4FA", "r": 80, "t0": 3.5}, {"fx": "flash", "at": "mid", "t0": 3.3, "D": 0.2, "a": 0.5, "col": "#F7F4FA"}], "enemy": true, "cas": true, "note": "Narrator's soul is sucked out; a phantom of the death animation", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Diano M2", "hit": 3.3, "sfx": "magic", "n": 7, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

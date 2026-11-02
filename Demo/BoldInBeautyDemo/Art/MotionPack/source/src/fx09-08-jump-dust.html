@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 8, "title": "Jump dust", "slug": "jump-dust", "who": null, "label": "NEEDS ART", "note": "Small ground puff on take-off"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-08-jump-dust", "title": "Jump dust", "dur": 3.0, "layers": [{"fx": "burst", "at": "cas", "n": 26, "shape": "dot", "col": "#F7F4FA", "cols": ["#F7F4FA", "#9A98A6"], "spd": 300, "a0": -2.9, "a1": -0.25, "g": 250, "size": 20, "life": 0.9}, {"fx": "ring", "at": "cas", "r0": 10, "r1": 150, "col": "#F7F4FA", "flat": true, "w": 8}], "enemy": true, "cas": true, "note": "Small ground puff on take-off", "label": "NEEDS ART", "who": "SHARED", "slot": "Jump", "hit": 0.1, "sfx": "soft", "n": 8, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

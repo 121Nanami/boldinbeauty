@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "17", "n": 20, "title": "Weather Move 1: Downpour", "slug": "weather-downpour", "who": "weather", "label": "PROPOSED", "note": "Rain cloud for 8 s"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-20-weather-downpour", "title": "Weather Move 1: Downpour", "dur": 3.4, "layers": [{"fx": "rain", "at": "en", "cloud": true, "n": 100, "area": 760, "h": 560, "col": "#64E8FF", "col2": "#7657FF"}], "enemy": true, "cas": false, "note": "Rain cloud for 8 s", "label": "PROPOSED", "who": "Weather", "slot": "Move 1", "hit": 0.2, "sfx": "soft", "n": 20, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "15", "n": 3, "title": "Alchemist Move 3: Transmutation", "slug": "alch-move3-transmutation", "who": "alch", "label": "DERIVED", "note": "Saw charge, 360 spin, three slices, leap smash"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-03-alch-move3-transmutation", "title": "Alchemist Move 3: Transmutation", "dur": 3.2, "layers": [{"fx": "dash", "at": "mid", "dist": 560, "col": "#7657FF", "col2": "#64E8FF", "dd": 0.28, "trail": 300}, {"fx": "ring", "at": "en", "ox": -60, "oy": -120, "t0": 0.9, "r1": 240, "col": "#64E8FF", "w": 10}, {"fx": "strike", "at": "en", "ox": -60, "oy": -150, "t0": 0.9, "n": 3, "fan": 1.0, "gap": 0.12, "col": "#7657FF", "col2": "#64E8FF", "len": 440}, {"fx": "blast", "at": "en", "t0": 1.9, "r": 380, "col": "#7657FF", "col2": "#FF3D8D", "rings": 3, "flat": true}], "enemy": true, "cas": true, "note": "Saw charge, 360 spin, three slices, leap smash", "label": "DERIVED", "who": "Alchemist", "slot": "Move 3", "hit": 1.9, "sfx": "boom", "n": 3, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

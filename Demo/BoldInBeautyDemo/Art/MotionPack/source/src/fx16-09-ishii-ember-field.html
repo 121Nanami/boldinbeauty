@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 9, "title": "Ishii Move 2: Ember Field", "slug": "ishii-ember-field", "who": "ishii", "label": "PROPOSED", "note": "Burning ground field for 6 s"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-09-ishii-ember-field", "title": "Ishii Move 2: Ember Field", "dur": 3.4, "layers": [{"fx": "zone", "at": "mid", "rx": 440, "ry": 130, "col": "#FF3D8D", "col2": "#F7F4FA", "kind": "embers", "grow": 0.5}], "enemy": true, "cas": true, "note": "Burning ground field for 6 s", "label": "PROPOSED", "who": "Ishii", "slot": "Move 2", "hit": 0.2, "sfx": "hit", "n": 9, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

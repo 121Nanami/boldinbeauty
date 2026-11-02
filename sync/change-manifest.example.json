@@ -1,0 +1,43 @@
+{
+  "record_kind": "example only; not an actual change or transfer",
+  "device": "OPEN",
+  "project_root_reference": "device-local profile",
+  "local_project_version": null,
+  "base_manifest": null,
+  "counterpart_handoff": null,
+  "cross_device_freshness": "OPEN",
+  "files": [
+    {
+      "path": "BoldInBeauty_MAIN",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": null,
+      "action": "OPEN",
+      "evidence": [],
+      "proposed_MAIN_update": null,
+      "intentional_platform_difference": null,
+      "verification": []
+    }
+  ],
+  "conflicts": [
+    {
+      "path": null,
+      "scope": "OPEN",
+      "base_sha256": null,
+      "macos_sha256": null,
+      "windows_sha256": null,
+      "competing_edits": [],
+      "evidence": [],
+      "proposed_resolution": null,
+      "owner_decision": null,
+      "accountable_writer": null,
+      "status": "OPEN",
+      "final_hashes": {}
+    }
+  ],
+  "transfer_status": "not transferred",
+  "counterpart_applied": false,
+  "counterpart_verified": false,
+  "unresolved_items": []
+}

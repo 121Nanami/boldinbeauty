@@ -1,0 +1,105 @@
+# Ch12 Paradise. Sources: Chapters/Ch12.md, Scripts/Ch12.md (primary); Scripts/Ch12_Paradise.md ([alt])
+ENV|Paradise (neo-tropical showcase city)|Location / city|Cold open|H|Bright, clean, untouched city: coral buildings, canals, rooftop gardens, waterfalls, heavy warm rain, brass band|Warm heavy rain;Dusk back road (stinger);Dawn lagoon (blessing) [alt]
+ENV|Harbour plaza|Location / plaza|Ep1|S|Where the Ambassador greets the guests of honour|Brass band;Banners
+ENV|The Canal Market|Location / market|Ep2|H|Canal stall where Luna eats five meals; canal combat; boats [alt]|Market;Restaurant [alt]
+ENV|Canals (swim)|Location / canal|Chapter beats|S|Canals; swim|Standard
+ENV|Rooftop garden under a waterfall|Location / rooftop|Ep3|H|Proposal; wedding ceremony; waterfalls pour to rainbows [alt]|Afternoon heavy sky;Wedding decked with flowers;Empty glass pavilion [alt]
+ENV|Sky bridges|Location / traversal|Chapter beats|S|Bridges between districts|Standard
+ENV|Service tunnels|Location / tunnel|Ep5|H|Long grey corridor beneath the stage; pipes, ducts, trolleys; queue of overalls [alt]|Harsh light;Rationing queue
+ENV|Rationing office window|Location / office|Ep5|H|Window marked RATIONS / RATIONING OFFICE, "Show your card"|Open 04:00 close 04:07;Queue three hundred long
+ENV|Convention Hall archive|Location / archive|Ep6|S|Receipts archive; drone sentries; stealth gate|Standard
+ENV|Bridal suite [alt]|Location / interior|Ep6|B|Midnight; Luna cross-legged with receipts [alt]|Standard
+ENV|Lagoon and beach|Location / arena|Ep7|H|Reception beach with fairy lights; boss arena in the lagoon|Fairy lights reception;Dawn pavilion [alt];Floating pavilion;Boss surf
+ARC|Coral-pink buildings|Architecture / building|Cold open|H|Coral, turquoise, lime, sunflower [alt]|Standard
+ARC|Waterfalls and terraces|Architecture / feature|Ep3|S|Waterfalls that don't get anyone wet|Standard
+ARC|Glass pavilion|Architecture / structure|Ep3|B|On the rooftop garden [alt]|Standard
+ARC|White carpet and floral arches|Architecture / set dressing|Ep4|S|Wedding set [alt]|Standard
+ARC|Welcome banner|Architecture / signage|Cold open|S|WELCOME, HONOURED GUESTS over the street|Standard
+ARC|Stage (reception)|Architecture / structure|Ep7|S|Ambassador steps up on a stage|Standard
+ARC|Boat landing / canal boats [alt]|Architecture / transport|Ep1|B|Canal boats ridden|Standard
+PRP|Wing logo|Prop / insignia / hero|Ep2|H|Stylised wing logo on every plate, umbrella, awning, rain; 3 feathered lines|Menu foot;Plate;Umbrella;Awning;Banner;Apron;Camera drone;Cheque top;Sunrise backdrop
+PRP|Wedding menu|Prop / document|Archive|S|Wing logo bottom of every page|Standard
+PRP|Event licence|Prop / document|Archive|S|"Likeness licence. Ring licence. Bride's surname: pending."|Standard
+PRP|Ration office timetable|Prop / document|Archive|S|"Window opens at 04:00. Window closes at 04:07."|Standard
+PRP|Receipts|Prop / hero|Ep6|H|Luna collects receipts: event, likeness, ring licence; florist, caterer [alt]; dated|Fan of paper;Pink / yellow / blue slips [alt];Held to drone
+PRP|Ring on a chain|Prop / hero|Ep3|H|Plack carries it through the chapters; the engagement ring|On a chain;In the box;Lost in hedge / pastry / pond
+PRP|Wedding rings (box)|Prop / hero|Ep4|H|Kuu loses them twice|Empty box;On the priest;In a hedge;In a pastry;In the pond;Wet
+PRP|Ring box|Prop|Ep4|S|Kuu holds a box|Empty;Full
+PRP|Wedding dress (Luna)|Prop / costume|Ep4|H|Flowing white dress with silk veil|Standard;Short veil [Tripo list]
+PRP|Wedding outfit (Plack)|Prop / costume|Ep4|H|White, hair braided [alt]|Standard
+PRP|Best-person jacket (Kuu)|Prop / costume|Ep4|S|Ill-fitting formal jacket|Standard
+PRP|Priest's card|Prop|Ep4|B|Priest-automaton re-reads its card|Standard
+PRP|Camera drones|Prop / device|Ep1|H|Follow the squad; each carries a small wing logo; hazards in the boss fight|Hovering;Ring formation [alt];Diving
+PRP|Cheque|Prop / document|Stinger|S|Sponsor cheque / honorarium 200,000 credits [alt]; torn in half twice|Whole;Torn
+PRP|Mango stall / bag of fruit|Prop|Stinger|S|Mango stall; bag of fruit carried out|Stall;Bag
+PRP|Sock (Kuu's pocket)|Prop|Cold open|B|One carrying a sock; sock in the tuxedo pocket|Standard
+PRP|Champagne / punch bowl [alt]|Prop|Ep5|B|Kuu goes for champagne|Standard
+PRP|Dumpling / five bowls|Prop|Ep2|B|Five empty bowls, a sixth|Standard
+PRP|Umbrellas of every colour|Prop|Cold open|S|Sponsor-paid umbrellas|Standard
+PRP|Pink / yellow / blue receipts [alt]|Prop|Ep6|B|Colour slips|Standard
+PRP|Bride's wing sunrise backdrop [alt]|Prop / set dressing|Ep7|B|Wing-logo sunrise|Standard
+PRP|Service backpack charm [alt]|Prop / reward|Ep5|B|Kuu's service tunnel charm|Standard
+PRP|Trays [alt]|Prop|Ep5|B|Carried for cooks|Standard
+FLO|Rooftop garden plants|Flora / garden|Ep3|S|Rooftop gardens|Standard
+FLO|Palm trees|Flora / tree|Cold open|S|Palm trees [alt]|Standard
+FLO|Hedge|Flora / hedge|Ep3|B|Camera click from a hedge; rings in a hedge|Standard
+FAU|Small bird on the rail|Fauna / bird|Ep3|B|Very small bird on the rail during the proposal|Standard
+CHR|The Ambassador|Boss|Ep1|H|Celebrity operator: warm on camera, brittle off it; white linen suit [alt]; cape unfolds into wing-logo sail; wings of sponsor-light [alt]|White smile;Linen suit;Cape sail;Wings of sponsor-light [alt];Falls on live feed
+CHR|Priest automaton|NPC|Ep4|S|Serious priest-shaped automaton|Standard
+CHR|Registrar [alt]|NPC|Ep4|S|Reads from sponsor script [alt]|Standard
+CHR|Cook (service tunnel)|NPC|Ep5|S|Woman in stained apron|Standard
+CHR|Ration queue residents|NPC / group|Ep5|S|Plain overalls, grey uniforms [alt]|Queue
+CHR|Wedding guests (Hanging City extras) [alt]|NPC / group|Ep4|S|Residents brought as extras|Standard
+CHR|Luna|Operator|Ep1|H|Wedding dress; receipts|Wet;Wedding dress (2009);Robe [alt]
+CHR|Plack|Operator|Ep3|H|Proposes|Wedding outfit;Hair braided
+CHR|Kuu|Operator|Ep4|H|Best-person; loses the rings twice|Tuxedo;Wet
+CHR|Brand Elites|Enemy / guard|Ep7|S|Ambassador's elite guards [alt: Beach Guards]|Standard
+CRE|Camera drones (hazard)|Enemy / device|Ep8|H|Shoot, redirect cameras|Volleys;Shields [alt]
+CRE|Brand Elite guards|Enemy / mini-boss|Ep7|S|Live-broadcast fight|Standard
+CRE|Drone sentries|Enemy|Ep6|S|Archive sentries|Standard
+VFX|Rain (warm heavy)|VFX / weather|Cold open|H|Warm heavy rain|Heavy;Drizzle [alt]
+VFX|Confetti [alt]|VFX|Ep1|B|Confetti in warm rain|Standard
+VFX|Spotlights [alt]|VFX|Ep8|S|Dodge spotlights|Standard
+VFX|Waterfall without wet [alt]|VFX|Ep4|B|Ceremony under a waterfall that gets no one wet|Standard
+VFX|Rainbows in waterfalls [alt]|VFX|Ep3|B|Waterfalls to rainbows|Standard
+VFX|Broadcast overlay [alt]|VFX / UI|Ep4|S|In-world TV overlay in the corner|Standard
+WTH|Warm heavy rain|Weather|Cold open|H|Quite heavy rainfall, no one carries an umbrella [alt]|Heavy;Drizzle;Dusk
+LGT|Saturated bright light|Lighting|Cold open|H|Bright vibrant colours|Day rain;Dusk;Dawn [alt]
+LGT|Fairy lights on the sand|Lighting|Ep7|S|Reception|Standard
+LGT|Lanterns [alt]|Lighting|Ep4|B|Rooftop wedding lanterns|Standard
+AUD|Brass band|Audio / music|Cold open|H|In the rain|Standard
+AUD|Warm rain on streets|Audio / ambience|Cold open|S|Rain on warm streets|Standard
+AUD|Crowd applause (sparse then enormous)|Audio / sfx|Ep4|S|After the kiss|Sparse;Enormous;Slow clap [alt]
+AUD|Camera click|Audio / sfx|Ep3|B|Drone camera click|Standard
+UI|Wedding vows bark chooser [alt]|UI|Ep4|S|Player picks Luna's vows from three lines|Standard
+UI|Ring search minigame|UI|Ep4|S|Find the rings (YELLOW)|Standard
+UI|Broadcast label [alt]|UI|Ep1|B|"Broadcast" scenes|Standard
+UI|Logo codex entry|UI|Ep2|B|Tracked wing logo codex|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+CHR|Luna - wedding dress|Costume / outfit variant|Tripo #208|B|Luna's 2009 wedding outfit [inferred: Tripo list #208; likely the same asset as PRP-0214 Wedding dress (Luna); kept as its own entry so no Tripo row is dropped]|
+CHR|Plack - wedding outfit|Costume / outfit variant|Tripo #209|B|Plack's 2009 wedding outfit [inferred: Tripo list #209; likely the same asset as PRP-0215 Wedding outfit (Plack); kept as its own entry so no Tripo row is dropped]|
+CHR|Kuu - best-person formalwear|Costume / outfit variant|Tripo #210|B|Loses the rings [inferred: Tripo list #210; not named in the chapter text]|
+CRE|Camera drone|Enemy|Tripo #214|B|Broadcast drone [inferred: Tripo list #214; not named in the chapter text]|
+CRE|Brand elite|Enemy|Tripo #215|B|Ambassador's guard [inferred: Tripo list #215; likely the same asset as CRE-0046 Brand Elite guards; kept as its own entry so no Tripo row is dropped]|
+PRP|Wing-logo menu|Prop|Tripo #202|B|Logo everywhere [inferred: Tripo list #202; likely the same asset as PRP-0002 Wing logo (sponsor mark); kept as its own entry so no Tripo row is dropped]|
+PRP|Mango|Prop|Tripo #203|B|Plack's test [inferred: Tripo list #203; not named in the chapter text]|
+PRP|Camera drone ring light|Prop|Tripo #207|B|Dressing [inferred: Tripo list #207; not named in the chapter text]|
+ARC|Neo-tropical harbour plaza|Set piece / modular kit|Tripo #194|B|Honoured guests [inferred: Tripo list #194; likely the same asset as ENV-0112 Harbour plaza; kept as its own entry so no Tripo row is dropped]|
+ARC|Rooftop garden with waterfall|Set piece / modular kit|Tripo #196|B|The proposal and wedding [inferred: Tripo list #196; likely the same asset as ENV-0115 Rooftop garden under a waterfall; kept as its own entry so no Tripo row is dropped]|
+ARC|Ration window|Set piece / modular kit|Tripo #198|B|04:00 to 04:07 [inferred: Tripo list #198; not named in the chapter text]|
+ARC|Wedding stage|Set piece / modular kit|Tripo #201|B|Reception [inferred: Tripo list #201; not named in the chapter text]|
+ARC|Coral facade module (Paradise)|Set piece / modular kit|Tripo #880|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #880; not named in the chapter text]|
+ARC|Balcony (Paradise)|Set piece / modular kit|Tripo #881|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #881; not named in the chapter text]|
+ARC|Canal railing (Paradise)|Set piece / modular kit|Tripo #882|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #882; not named in the chapter text]|
+ARC|Palm tree (Paradise)|Set piece / modular kit|Tripo #883|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #883; not named in the chapter text]|
+ARC|Market awning (Paradise)|Set piece / modular kit|Tripo #884|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #884; not named in the chapter text]|
+ARC|String-light run (Paradise)|Set piece / modular kit|Tripo #885|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #885; not named in the chapter text]|
+ARC|Flower box (Paradise)|Set piece / modular kit|Tripo #886|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #886; not named in the chapter text]|
+ARC|Bridge arch (Paradise)|Set piece / modular kit|Tripo #887|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #887; not named in the chapter text]|
+ARC|Garden planter (Paradise)|Set piece / modular kit|Tripo #888|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #888; not named in the chapter text]|
+ARC|Waterfall spout (Paradise)|Set piece / modular kit|Tripo #889|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #889; not named in the chapter text]|
+ARC|Beach umbrella (Paradise)|Set piece / modular kit|Tripo #890|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #890; not named in the chapter text]|
+ARC|Deck chair (Paradise)|Set piece / modular kit|Tripo #891|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #891; not named in the chapter text]|
+ARC|Tiki torch (Paradise)|Set piece / modular kit|Tripo #892|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #892; not named in the chapter text]|
+ARC|Tile roof (Paradise)|Set piece / modular kit|Tripo #893|B|Modular dressing piece for Ch 12 Paradise [inferred: Tripo list #893; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

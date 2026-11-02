@@ -1,0 +1,1458 @@
+{
+  "record_kind": "actual local coordination and multi-subscription routing handoff",
+  "device": "macos",
+  "project_root_reference": "sync/devices/macos.json",
+  "local_project_version": "OPEN: no committed documentation baseline",
+  "base_manifest": null,
+  "counterpart_handoff": null,
+  "cross_device_freshness": "OPEN",
+  "files": [
+    {
+      "path": ".claude/agents/3d-asset-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "b0351f97eb7b7ba20d687dc8e640cd1a8a7cf13f66d06239aea0106a7b0a3c46",
+      "after_sha256": "d26212ab0672a0efe5c31f689bd326619eb5411b8fb5a5bb006ac01042baf78c",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/README.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "7fbaa7cf2037c1431aceedfdf0495dc32616c60afee88bb8ec6f03071de227f5",
+      "after_sha256": null,
+      "action": "removed false README agent",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/animation-vfx-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "c48208caae6bc064c52b0f32495ca947c420f99f373a292681953afaadd13476",
+      "after_sha256": "ad158c91b870eaf8b4490e9ffafa4e9cbbd39139ff62fa4347b19bb172cd8043",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/asset-pipeline-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "e7a0e4eeca22d2799889975ffb6caed9b7670cfa57228a4e66c50122c776bc29",
+      "after_sha256": "c57bf3b68b9d332b35e00c3154e8950284520e2c49f3f0ec4cc2e071cb8c6576",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/audio-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "0b1b97cc23285f215df7804861459aaaf125e54ccdc898847f45d00a28d43114",
+      "after_sha256": "6e5b653df2954534cf90b6fca51b714a3511bf59662bca9814a532af2aaf4b19",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/blueprint-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "c46d38392424f05a4fb96f4325574c073e10309ce14839decf2c356768679f0b",
+      "after_sha256": "6a3d98f768f7e7ba47bed575daf2dea4937907f09be024a3acc78b6fbc33de27",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/build-packaging-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "e34fa44d6a9e3c004ad1f48b3410c769bd48fbb2c8d27071dd6d6b144ea1cdf7",
+      "after_sha256": "5822e97f49fe3c0318d666a4a2f04d29f5c5c09183e5a301e7a12db056b47126",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/cinematic-video-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "2e185973b499a5aa78e7429042095d3f7a235d17df9dae3fac0391e0689436a8",
+      "after_sha256": "bb9dab79b7e0a5381d16c271b4daad759dc98d0c475cfd12507ba1d51ff99a13",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/combat-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "522dcf1bfd610e5051d635acea3d208658d671d1041ca48edaa520653ae19ece",
+      "after_sha256": "0dd90c9eebaa925985a0e236187aeb12c4c1a33ed77af2dc97162dd02d1fec41",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/concept-art-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "5935ba6743b1947001b2a690f629b037a6588855492f18b175e460b5555a6473",
+      "after_sha256": "10ec1d9b0700c0ec3da4bf929e9cdf7d3d89eeea7208c9902c1dbef13807cdac",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/equipment-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "3c7b86d4240be546efa3048e1a617436d69779ee1d4f2c60f60658f75f258a5c",
+      "after_sha256": "db805cd2a2b46f435c62b2f8f0e80cb400200b347bc0bf00f4ba73cf0e9d12bf",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/execution-drafting-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "90fad3a187ca254fdc5edcaba9ae5d970bb4edcdefb38a8c9de33c4cdcb15bef",
+      "after_sha256": "e14d1e0325648d5b62d449ddd53031124f4aa6901c6a3123eeefd91c9459291c",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/filing-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "598ad9e3bbde4a7750a26a1d93200f51b31dcca8a87370adb0680b36cd298fbe",
+      "after_sha256": "a56e13d7f027632188826c297bfe20a8f3883b558dec584ffa5d502dc095f711",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/gameplay-implementation-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "ec8279dc01591e3ca0161f09bf3ee6565782886dea36d446f923e0c5f6feabb5",
+      "after_sha256": "e772142c05238e1eada62f0c60f9140e376403f473d38f3a59d24cb75bf1e6da",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/integration-automation-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "dfa393a1e8825be5f382724b4a4aba605c558977a4067b167396e51cf21af3d5",
+      "after_sha256": "cab5880a8e3db82be8a4ad56ad806c0e2adfe66992f4ce2b9412ebb79216fb8a",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/knowledge-maintenance-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "0d177be298280ba3f8b27d8790e9b6e65aca1560c89a44a78b9bbbdfa2659acc",
+      "after_sha256": "c33d3135a2b9fbae57596ab3ede9fd74e703c2f7eb6b81ede359d4b4da0ea274",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/lead-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "046172fd3c0e06f652198efbf0cc11e03f05f2fd103f5a3e9dd45cb9f0e9a6f3",
+      "after_sha256": "a776a8b95126191251bafb68072e062882741f75e5dfbbbd4f118b034a4cb801",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/level-onboarding-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "549b5d1a285e7fee26e95363eade7b2bb266916b54f0cb692834400c2f5958a5",
+      "after_sha256": "59e4f144688bd41f8d9cab89750387baad2d66825fd6dcd0042bd50d4289c9c9",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/localization-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "491846877a67ec6b636f33630671827f697f70e1992221b3b380d877327c91bd",
+      "after_sha256": "95981c8e9659bf2f4c239bed45e9071901fd3d247d1d6a8990a968a4639cff8c",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/lore-continuity-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "3fe04825ffc128958e8988d3291a29ab5be0d22baa05d3006f157d9d08169059",
+      "after_sha256": "55d0c6ae78cd72a9807b65368eaf6ced8889445acd97092e2e88a040c5061882",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/marketing-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "66ee86ce50f962236a83e5c0c175aad0800d6d5a941d502c22961cb66ebded5d",
+      "after_sha256": "eea2ead2d01901c6f85858e887c850829c8042e4c0db7ecd5f7b0abf1cf8f10e",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/office-artifact-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "e32575919715fad838a7a032760b0b118b0c224d89d95d3bb0412344999999a5",
+      "after_sha256": "71d4745b63215cd0d1078878926b177839c2042618c79e1b666751a5bf436acd",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/operator-profile-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "7830c89dc82bcba45c6435e2b3acb979493c3c605641764d4edb2476ec565099",
+      "after_sha256": "e8da19c258779d13ab669f17643d1f3a04f9259f7903969d727c65a3a4b804d6",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/performance-debugging-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "82dcaab3852c504b5e14df5db298a17d415f819fa1e978e8ed835f02f86bbdc7",
+      "after_sha256": "813343d46c632ec2b4b8e020dc709b89a1a55722a2e9d74cbec04d8749206251",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/persistence-networking-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "a99c5afe4e82f20eead7f9388735408615f948c4f331175daa5a34abf5f66c06",
+      "after_sha256": "4c9e984026048de31622e0c7252a96edc2cf29e1bce061a3bda5eb7b196c0a83",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/production-planning-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "6124c710fd1f1f9600f4f53f9b101861ffe627c5c1a08897fcbff65f59028b36",
+      "after_sha256": "c01d9c33fd0a06a49831964f03952b34a99cac6765fbe6945715e2cb05e6744d",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/progression-economy-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "2b0f4f71f59ab7092c4d93b0f9ddbcf288ee0f5000f558545bb84f8c7f70bee9",
+      "after_sha256": "e653e0efa9c11865451f78528d262aaf44a37accc788080b2b8e65bf26fc08ce",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/qa-playtest-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "57749cf19a276e8a4b58e535a100c69c25476cb4853cb7c7ce3fe55eee4d0a18",
+      "after_sha256": "166d36df7ead0481061014f8bfdd970938c3be39bdebf4b8bb2052329b7e5938",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/release-incident-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "fa1e771c3bf8070fd1ef04d0251620afde40ec2613b0dd86d32ac499d4f18e06",
+      "after_sha256": "552af8a763e0be4dbe7b1ad412fbf8980eb7527e8fad2ce03c9fae3b5b27a410",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/rendering-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "4d6beb3d66596b5678d8524ca5638b5f54120ecdd4a7c75fcfc49a797b729289",
+      "after_sha256": "f7dfd968838fe7ed45c537f0bfe738baa3778b768297478d44e0f4746fbe45ae",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/research-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "927db193869c767edcec7a8c81a6f8a2fe40609d30e29d45ed92538e08caa6d8",
+      "after_sha256": "8c1a58134d19959967612adcde3a07852afe15a17bfea9a3600a10d7177a514f",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/routine-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "91732e8acaee3718a2cc24864efa66916cf00279b21ecd33b9dd5e81b89f41e5",
+      "after_sha256": "5af231067cd39d9913fed333495adb2c7362b70c98d4037051e904999e80372f",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/security-compliance-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "ce7258d6c2af65b86411410859018f452ef64d0db66a0e4c22247b8ee59922b4",
+      "after_sha256": "c7760441b8c2a56e35a37c5857080b57257992fc562e3faaf4bfff55e5543c96",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/spreadsheet-budget-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "234324a52abebbe3211a8e8fca1ee81ca73ae0a076604dc30d2ab371f08dff49",
+      "after_sha256": "2cfd9451a63c48a9882d053f952949e0ceaf3230d9720b46f3d1c58aa0012a79",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/summoning-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "4a43ce6a9073d0ec030c7d6e1bb557ff936af15ef45d9e03a2396d4cf1aa3b21",
+      "after_sha256": "49ba24a26d71b604324985b0f0282a905aba29f3d2bbafb67ecc209b8ca6bad3",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/synthesise-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "fb524ef2008c9b31be7adaad9dd12bcc69dbd4cb4af3229aa7803b646aceef7a",
+      "after_sha256": "656fbecdd6beae7710ec09f23dc6f88d916780e43af3d9d6c6eedc615a2ff98f",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/ui-accessibility-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "f87907ef667867f152c503fbd925e9f9b87755c8c29b6237b0b9b4196ead2efb",
+      "after_sha256": "06ab766b1068e9fe36e9ea3b0cb46661a2663684436f1f24b465dde36b33c04d",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/unreal-architecture-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "10a3c21574fb85fceb216e8d9a117ebb0ac8713b910b7ab369ad7c72ccda2d49",
+      "after_sha256": "000e6db6eed612c5cc15f20a28c4672645cf5efda6fba062c8363afe9ee2a1ea",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".claude/agents/visual-brief-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "8cdc31804c0e5ac48d80a2284d10a858551d3fee993e86763459d74c8379f1e0",
+      "after_sha256": "5f83b9c650fdf56415e0aa6536636c58273b1577e3280485ce600bebbfb7b7f0",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/3d-asset-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "446419eda298c99c7afd86076c6b5c61be19d68c339a63154728c796c2ab911a",
+      "after_sha256": "494c952e1ef0faaad24bd524aa92c1e9de691c0c3bafdba8e544c7e4b8babcf5",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/README.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "35b1157d0a8daa22ea18b2f7a4188618d3a1c7f687d221d1bf8b256b29fa1bf2",
+      "after_sha256": null,
+      "action": "removed false README agent",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/animation-vfx-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "267b3205795c22e1e2cd12c63eace12019462ec31bf05c2f70c67bb532c53d36",
+      "after_sha256": "ed8d93001e2e91581dec91693751346fb95f92a16e553fc1a673ddacc5d201d5",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/asset-pipeline-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "fdf3713722b2b19f7b5cb4b30fafe04387341857530ed1e90ed66a9ad21a445b",
+      "after_sha256": "8f15de3653bbce68f263b195b9bcd280714b13ef242a5dffb4eb12888e358960",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/audio-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "5928245bc7e60e74563e62a490e4697c0abc9215a8bac0df762e0f24ae3f1a86",
+      "after_sha256": "7b30fa94b822ad8bd4d3aee7790097922e465c00d1bfeb1b68365a67c582c3d1",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/blueprint-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "61fe0be69ee70e36a9db5a8dc66e39ad481da470f55ab85bb606d831d5e7cebb",
+      "after_sha256": "09e898e2755bae6ee4f26177c4121fcc4dfab17d73757941debe82decc995279",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/build-packaging-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "d71de53d9d5fdd6d6301a515fc299041d6b65233f0bbc337d022b6b004b10d62",
+      "after_sha256": "fdda2e6e5e8e068e3a1c4c2e0dca358b5149c9f82b453599fe96c1e684e293dc",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/cinematic-video-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "b103af054980a06a7543bd6403454ebcf51f8a72065f212c3222586682695c11",
+      "after_sha256": "47ed27c43c3940bfa68302e21c61e626518bdddc58c843e21f3a7609ee17456b",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/combat-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "c9a1ee24f35c05d20e03b825c69565ea77cdc3ef8894dcf1896cb52e741543a5",
+      "after_sha256": "c47d3608fbb0ec6ef65c9571895e7580048f5ff6c5b426711bf5ed7bce4f5eeb",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/concept-art-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "b3f207ebc7479b79905408b05a0359861c1bd7d73f7aa3d771810edd48f13dd6",
+      "after_sha256": "23b4803904d85a08640cccc3600e71b3599c35e48e6ef38971160fcb649422d1",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/equipment-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "399879042a3223ae3f33a6bc2de55e29719cc1ff67edfdc80cf85fc925797010",
+      "after_sha256": "5c72c321c54402ebdf6c4c2e4702bd2142bebe611e6282ba00c545b64eef4bd3",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/execution-drafting-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "e0089e849e5b5d99b921c6e6ab67658158d3d3b13895a499b65e5d246a7c580a",
+      "after_sha256": "1ea21585e466e91972b6a0a0ad76bf26fb2fd75b23be55aa50af0a7b2887f94b",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/filing-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "ed81ccf4f2810d535229b803df9b802029a7afbabeb6a917f86f6257782d01ec",
+      "after_sha256": "4314e8b897cd871935f73cd78325165dc7c48dca18997ceb6549e56c25ad80bb",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/gameplay-implementation-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "803cfefd4bb532e76ebf2e36a8eb10d335f7afdf82639957801d237a7d2499f3",
+      "after_sha256": "786ff7152adc03bd5d6dca1a0707ff4c3c045ff77f24c269b5273191875f7da2",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/integration-automation-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "a7b0e3c6f57490f9388aee1d6a4ede45cbb4936e083b5b5cbae037a9408fcf38",
+      "after_sha256": "d2c8972ea6a858b1285c1b0b1fa8c610645cb687762e8c7d3bb8761361f56ba6",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/knowledge-maintenance-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "ea48ecb5d04eca6260108dbc56b606ac872b327d0877c9004ae2d531de84a6f5",
+      "after_sha256": "0a717bbc3c2f4bacf41a6e135954bd636c99788a5b958c2132a4a4026be5e3ee",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/lead-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "183daa1467271b2aa4bfc896dcbae5e210aea76103ec76555b6d6030a4555d2f",
+      "after_sha256": "f6b4a4d1e0bb3ce298a566f9cfc0bf49cec066dac7e9e29e450d3cd29fcb7911",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/level-onboarding-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "c7a48688cf9f00643407f7a92bf43d131a5a828c3332539976aa5ec618edf02f",
+      "after_sha256": "6f17f7a45874c9ea7ecc4ea12e180b4ab62812727305178d0a0c01b2e3df554d",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/localization-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "70734dcbf7f72e06c0bbbcb2d88bd2cfa482e2c43ac9d768dfa18664cb4532b5",
+      "after_sha256": "22eb1d30a8688ea92e81af83d9e9c2e74f57a15c86a4e6848401c23822051be5",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/lore-continuity-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "2e082733cecbf349c2d430857816fd7864f2a8f7a57610288555aa5b4842bde2",
+      "after_sha256": "709e0eb98c7d0547cd601135baf6663365b82dcbafde5e123fbb9e7bf08dca1c",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/marketing-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "bc63b44bd92a11184cd735e42dd56c81f371e3e3b17b3247a0708c8ec98cd5e7",
+      "after_sha256": "8f6fb007d2628cd96e49da3b7e48d8ac6f90d6cce5d815840dd2c2bf9c2f3fd8",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/office-artifact-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "a3c290c2ef397bc74189b242eb93a27803faf274f1bdee8eddb8ca084d0b2391",
+      "after_sha256": "33f47e234b5c2a8204fc01090b8ce26a09b708f6fd04056bb610d4e022b426a6",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/operator-profile-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "92477c7dc2dad158d2a2136c00880490d7d435a7dd5ae6a05a3bfdcc87ec64d3",
+      "after_sha256": "451f544b2b22d2ccbfb5a21ac631bd10224ffba0d20deb25e3a7d6df47c8cc2f",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/performance-debugging-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "0e6af6f4edf6cb462dfb6475c3c7dfd999f6b4c229f51feb920767cd3464d1f7",
+      "after_sha256": "27c522da6b99a1e00e3196100e02336da31122897f8df0ec15a6d4b40a20b0aa",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/persistence-networking-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "0aa16df4930638e94974c4da5f21d2806c69c47e2f94e69e2e8e1ed3daa2b4d7",
+      "after_sha256": "e9ac07c7c2dc735b57bc42f68ce370d92339deee3bd143c460e18fdcb4dda52b",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/production-planning-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "d22b2d2782e2ffe29c9cd23fc704040ea663f4b54c67ca737154f793ce51a7c6",
+      "after_sha256": "c43d898b520525352c8923721590350def34c845f0925c4e0c74a3abd6d0a334",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/progression-economy-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "3dc618aaab2e8d7e23a02cfc2fdf294dec2f9b3491eac9cd3dd999abf8ebd9f4",
+      "after_sha256": "06f15acc6dc138580b2cdec770692a977e587af575c6f81eef07ea8f163dbf1a",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/qa-playtest-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "b7d47030b91e1f42dd74d2c1453f9554287f6c0b10e05a460f508fff22096916",
+      "after_sha256": "2f1c5a0b8a2be541301b319ebce753b6e8a4100b1f179d0eed553f5ffc07ff9c",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/release-incident-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "13a07ed945e19f7952bcf13e8f897ad6fb1b44981679a5601fc2bc38848aa5a4",
+      "after_sha256": "a0e3a9dd7f3c27d58d823f75198976905f318173b9e93c20d88eef4abf6c2592",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/rendering-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "bc38a7471c58795f7c6c1d203e34fcbddc0c57c00dd64f1b758db0c0ed171fe4",
+      "after_sha256": "1fa8f8054611ce995ece68d109635708271dc84dd2bef9de5f7c9b6f79063535",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/research-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "6e54b6e7309c9f6b7186c8fbb912fa82ea35f161c3de1af729972f7a58aacac4",
+      "after_sha256": "54a0eeece9ff252fb310a9482b388183751ec1a381a6e800dcd42e93a76c491a",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/routine-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "1bc2193870dbd2af890f10450e19abc7cda566803f0271886ba5d4b10d825ebf",
+      "after_sha256": "b9090d170d13744f12f5bf3d141f4c9f5ba9faf31cc662a7505926fc9b00358c",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/security-compliance-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "9b103644ca31062796491bb4aff94488ee81825f508d9f152a7cdb7f1c3dd3ec",
+      "after_sha256": "2fa2bc6dfe58172cb28cfaf81af430803ee257a860bb7153ae7632c48c10f19d",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/spreadsheet-budget-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "616bf0924efd6511914135836b697086bbd15233dbcf83f9710db84bbe76723a",
+      "after_sha256": "313c248c069a806d6657a3f71584b6af463bd85ecd32f9ca5be01225a5bbcbb6",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/summoning-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "75c0a7a03a1211ac8aeaa62daab090d9a83bc92e59ab1d42e96b86a116e79890",
+      "after_sha256": "bd011e303a0b51b4b5a5d49cf9e5e1ac42ddc4f3aab1cd4eb781a4caa36ead7b",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/synthesise-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "38ffe71815b4b984ab1f646e46ccdbeddc02ca534613a55c7d57f04b27f46b67",
+      "after_sha256": "2adcf67ed1c1ff26ea65fb9eaba2d17c02d414548ba84326b5b7890b178b979c",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/ui-accessibility-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "e68979a8fc5a5a1f5ae8a2ab42e7c4cf8f5628f9a31f618715440421757aac20",
+      "after_sha256": "981e7f337b26d494d45d95ad338f42e6871b4fee85afa5eb749d8cff3d08308d",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/unreal-architecture-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "6b45c8b7892bd29eb0cfd119daf3bed34560f8b1e97fc714dd2c6c787834c78b",
+      "after_sha256": "50d357bb5f560635e469a2bfccd008fb3a1b52b7840b026acae651771f4eb651",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".codex/agents/visual-brief-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "8e2012febb87b293ea7bfd35f5f6c2df2c95c78a19f4087af810361261b8a70e",
+      "after_sha256": "434c412945467f122cac9b50c503bbef00357c7d76c6a1942bdefd46a1127d37",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/3d-asset-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "d26212ab0672a0efe5c31f689bd326619eb5411b8fb5a5bb006ac01042baf78c",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/animation-vfx-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "ad158c91b870eaf8b4490e9ffafa4e9cbbd39139ff62fa4347b19bb172cd8043",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/asset-pipeline-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "c57bf3b68b9d332b35e00c3154e8950284520e2c49f3f0ec4cc2e071cb8c6576",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/audio-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "6e5b653df2954534cf90b6fca51b714a3511bf59662bca9814a532af2aaf4b19",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/blueprint-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "6a3d98f768f7e7ba47bed575daf2dea4937907f09be024a3acc78b6fbc33de27",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/build-packaging-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "5822e97f49fe3c0318d666a4a2f04d29f5c5c09183e5a301e7a12db056b47126",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/cinematic-video-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "bb9dab79b7e0a5381d16c271b4daad759dc98d0c475cfd12507ba1d51ff99a13",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/combat-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "0dd90c9eebaa925985a0e236187aeb12c4c1a33ed77af2dc97162dd02d1fec41",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/concept-art-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "10ec1d9b0700c0ec3da4bf929e9cdf7d3d89eeea7208c9902c1dbef13807cdac",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/equipment-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "db805cd2a2b46f435c62b2f8f0e80cb400200b347bc0bf00f4ba73cf0e9d12bf",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/execution-drafting-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "e14d1e0325648d5b62d449ddd53031124f4aa6901c6a3123eeefd91c9459291c",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/filing-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": "598ad9e3bbde4a7750a26a1d93200f51b31dcca8a87370adb0680b36cd298fbe",
+      "after_sha256": "a56e13d7f027632188826c297bfe20a8f3883b558dec584ffa5d502dc095f711",
+      "action": "modified",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/gameplay-implementation-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "e772142c05238e1eada62f0c60f9140e376403f473d38f3a59d24cb75bf1e6da",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/integration-automation-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "cab5880a8e3db82be8a4ad56ad806c0e2adfe66992f4ce2b9412ebb79216fb8a",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/knowledge-maintenance-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "c33d3135a2b9fbae57596ab3ede9fd74e703c2f7eb6b81ede359d4b4da0ea274",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/lead-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "a776a8b95126191251bafb68072e062882741f75e5dfbbbd4f118b034a4cb801",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/level-onboarding-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "59e4f144688bd41f8d9cab89750387baad2d66825fd6dcd0042bd50d4289c9c9",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/localization-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "95981c8e9659bf2f4c239bed45e9071901fd3d247d1d6a8990a968a4639cff8c",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/lore-continuity-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "55d0c6ae78cd72a9807b65368eaf6ced8889445acd97092e2e88a040c5061882",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/marketing-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "eea2ead2d01901c6f85858e887c850829c8042e4c0db7ecd5f7b0abf1cf8f10e",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/office-artifact-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "71d4745b63215cd0d1078878926b177839c2042618c79e1b666751a5bf436acd",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/operator-profile-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "e8da19c258779d13ab669f17643d1f3a04f9259f7903969d727c65a3a4b804d6",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/performance-debugging-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "813343d46c632ec2b4b8e020dc709b89a1a55722a2e9d74cbec04d8749206251",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/persistence-networking-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "4c9e984026048de31622e0c7252a96edc2cf29e1bce061a3bda5eb7b196c0a83",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/production-planning-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "c01d9c33fd0a06a49831964f03952b34a99cac6765fbe6945715e2cb05e6744d",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/progression-economy-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "e653e0efa9c11865451f78528d262aaf44a37accc788080b2b8e65bf26fc08ce",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/qa-playtest-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "166d36df7ead0481061014f8bfdd970938c3be39bdebf4b8bb2052329b7e5938",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/release-incident-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "552af8a763e0be4dbe7b1ad412fbf8980eb7527e8fad2ce03c9fae3b5b27a410",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/rendering-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "f7dfd968838fe7ed45c537f0bfe738baa3778b768297478d44e0f4746fbe45ae",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/research-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "8c1a58134d19959967612adcde3a07852afe15a17bfea9a3600a10d7177a514f",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/routine-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "5af231067cd39d9913fed333495adb2c7362b70c98d4037051e904999e80372f",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/security-compliance-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "c7760441b8c2a56e35a37c5857080b57257992fc562e3faaf4bfff55e5543c96",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/spreadsheet-budget-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "2cfd9451a63c48a9882d053f952949e0ceaf3230d9720b46f3d1c58aa0012a79",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/summoning-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "49ba24a26d71b604324985b0f0282a905aba29f3d2bbafb67ecc209b8ca6bad3",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/synthesise-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "656fbecdd6beae7710ec09f23dc6f88d916780e43af3d9d6c6eedc615a2ff98f",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/ui-accessibility-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "06ab766b1068e9fe36e9ea3b0cb46661a2663684436f1f24b465dde36b33c04d",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/unreal-architecture-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "000e6db6eed612c5cc15f20a28c4672645cf5efda6fba062c8363afe9ee2a1ea",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": ".cursor/agents/visual-brief-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "5f83b9c650fdf56415e0aa6536636c58273b1577e3280485ce600bebbfb7b7f0",
+      "action": "created",
+      "intentional_platform_difference": "Native host model/tools inherited; adapt and verify per device"
+    },
+    {
+      "path": "agents/3d-asset-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "b50af38f79de379fe1bdc19cb0b28f4bfd39a0c928a63c1f28751ffcc19b01cd",
+      "after_sha256": "9b7ce0d603b6fca330cbd5b4169cfa38afc6bb0baea486c7c904efea7b97ad04",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/README.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "381db15cff2a37f036a934ef37f431413b6ff223f742f47eabab9cc59181400c",
+      "after_sha256": "5fe4b54798bde376f53db94481410f5673f3502c9e3affd30979366c09f4700a",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/animation-vfx-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "d3a78fa5e573468fa38f1353a6cb96745e09522835484138df17f53fe64a212b",
+      "after_sha256": "2828ff561e7c668319edaaffef1416353e074625b81b330e5007810fa8fb78f7",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/asset-pipeline-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "09dd753a1586c0a827201443b97a093b4736a46a478c264f55dcfd72de78dd50",
+      "after_sha256": "0b03bae0759caa3a979cd7c8782cee1f2732b4c76f85a737645c8ac067e6971e",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/audio-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "d8c3f0e9489a9b05d5354b06852aa7ef0a5e071a583fd5ffd7944eae493d8927",
+      "after_sha256": "97524184a8114124a87b69c9f6207354031bd1ef521cb282ded6072764108933",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/blueprint-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "d892a7e2d1e0673f5c0814424d8b5b63d69c2a17b4b6f27e49a66a1d069ee2c5",
+      "after_sha256": "1e2a3e0dfd8f7715e50d170ee4776490075dde76e9b86e36f5e773980ae1fce0",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/build-packaging-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "68f6cc7d615ca902bf46b4ba12bf9dd2ab542b2237e7c4195a148746e8fcdbc8",
+      "after_sha256": "714ff40b04dc104fce5c9f2f37f8f82ee730af49913a98991d4223915c5c9372",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/cinematic-video-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "241560acc3bd7d09e60b1ff99da26117da93d353d908605cec4d3931e8a35d40",
+      "after_sha256": "c1e4a39434e86496903d3337e404476693a1ad65f41d2a88b7ed5d391be4c71a",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/combat-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "a8ef5246d2b8115a5e2e180fa0df8689ed7500929128d58868d9f1da069bd86b",
+      "after_sha256": "67cf9c82cdd5ea27395f42846ebe2ce6d179c3ebd4774a05cbc5aadd61554c7f",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/concept-art-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "2fa8a83dfffc0004c3b34733ab95c4aa9f4ee6b9c5fd0596401bc61e4bc66601",
+      "after_sha256": "5bfb081125cdae0731c056f0572a10032770a1c38f4ee79960cf070050072bdb",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/equipment-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "14b2a4e1715288f49aa10fe40df3874ee7c30347f0ae26c7b6c43ef5d3eb344b",
+      "after_sha256": "66b6cc12d06d178e81b9aabd942123749e4f7e9a0f1c65acc2c3c023966271f7",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/execution-drafting-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "9ff23be54df1740c2ecc7ab50238dee64d0ef2cea9e8bf44e3be37874846c990",
+      "after_sha256": "02b09a466f278548f8922be244d32639a4742f87b8997c163046e058170bcfdb",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/filing-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "598ad9e3bbde4a7750a26a1d93200f51b31dcca8a87370adb0680b36cd298fbe",
+      "after_sha256": "b111f04c53841e994f8b3885551d3a9bbbfdbb18552235a97936d5a9ad768477",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/gameplay-implementation-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "ea3c042efb1f5b02cc71f11a2e9b39a1609b7ec461b1498c9430da3ee5044b8a",
+      "after_sha256": "e815130a1adb9245fbe1e06ad4303c6546648a85ffcaeb058e95284c8509b4a7",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/integration-automation-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "513a67e2ab1af678259e560761c0ea31b33145d374cd7342aed7e133ba23efb4",
+      "after_sha256": "8050d2f44418b14474a64bbe7c60f8090799105650df6a3ff488095e8b4da4fa",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/integration-automation-agent/skills.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "5a890d2b1548afba33e8a467947b0d7f057efa47368ec65df7379bc2b49ccb60",
+      "after_sha256": "1fa4026e99ba445e0940d3d2e6d360c930162a839f4313bb85fa2465e493fa8f",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/knowledge-maintenance-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "20b0053231eb4ea072858c192ebbad289c8307b3a84442c4297c0bba52807d96",
+      "after_sha256": "3e8a574a3fe701984dd1869958af65ecc501f62b13d2d291d051f344decee6f3",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/lead-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "46b924a155cfb6a6b1ee9f8f3a9a731608786c7a9bf75aed38a9a922f8977faa",
+      "after_sha256": "8ae7e4c977abd78bd92856f4293e9a17d41619b77d39fed38cb4213c8161906f",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/level-onboarding-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "9e8ffa45077a2b18fe43c13f3b5d14bc8177e4c006a5f58c0191907aca96f36f",
+      "after_sha256": "e2c2ebd76b61aba8817c495cc4edc5ec170e773767582594f1efcd7124fda619",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/localization-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "85c65266a7442cec930bf32baefcef8bad9e6a6e7059a305631378b8ad036416",
+      "after_sha256": "efa75e7b0cc7f6f631d4c62ea016e86c9a99ffc6a5d2d3d33c946b5404352292",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/lore-continuity-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "28479cfccd192bd7c38d2182fbd21e26ffb3bd8535b93a6dfbb980621d50af30",
+      "after_sha256": "53f065870191b590110c9f26b4a5e6f26fea487de676d4a7646f73c16a9955db",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/marketing-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "f579cbaeb201f153dcbac5bdc7e3476e876e27c6f19391adae22d56159dae054",
+      "after_sha256": "cb39a0b6fa4eb1774076ab6f527139d1646cd024b18eba318630f2382abb8786",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/office-artifact-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "7d17abdb79f56cb2e7c839165902d43e8a055d02dab468c49240200196eb0e6f",
+      "after_sha256": "235c2e235cce3ff2902bc53f44e04d13bec4db6ecc08e2c45deaa734a225974d",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/operator-profile-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "ad5a9a73f791ce24d322f8e26b8c2a3cb45f5c09e023a1c784ecd622efc03efb",
+      "after_sha256": "c00fba982eb44dffc235c9d3c26893d3e850633ad65054a9704968259c5b3140",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/performance-debugging-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "b7128ae3857b7992dfb543a0a4d6a57a204335a99c54f1a67eedc01b00ca9553",
+      "after_sha256": "5a43ab89be1d043ee34b5215b30cae8f6fcdf186674fa36de3f68c30e8006e41",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/persistence-networking-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "677b3f05e44edb77427ef95614be6af73ffecc1ad141a246e27a4464c7d6d5a4",
+      "after_sha256": "71081c453f34a68388f42def6836484686e8a25a2f31433b3ad052f4ca0ea821",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/production-planning-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "8c994fdf7c117d0fbf08fc9864a1646e1716bb3c5261fd002c463f587b0c3083",
+      "after_sha256": "7ae4e2753fb1cbdcf342aa2aaf74d6200dc4ddec75eee0dca8a525d6666de3da",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/progression-economy-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "556614242735c1412c26389493dda1469abf32622c872ee745912c0387d78fe1",
+      "after_sha256": "b96cc2e4ff3ce3b68e624c77bc87ae3ec75c3c4d2011cc050a3b00c3874be53c",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/qa-playtest-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "151b1fdf5fdd976fed0f1c155842b6744698726ae70902ee03de3b98d374beed",
+      "after_sha256": "1ca94e9efbebf6dd28a51feb518decdae79cd2133fc265541a74015a87c5aa8c",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/release-incident-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "5d18c097cc89bce43d08dce17e667446aa180488b1a5466e728f3f1eea454e4c",
+      "after_sha256": "a828ac281f21921ccd2083782c53196afdf0f48518218e90b65cb90b77a7b352",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/rendering-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "9ae97b26cf4c5785a23f1f13a5dc2a938f8a9d26007df883ae6edf3cda557b10",
+      "after_sha256": "f32abbbb8f0708dc27e331db3bb1e8b23cd00d783e631936043554a3b57bcaa9",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/research-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "2e077ff0b0afef40bd2c9972bb6c0a2bada834fdafcda8802cfda6ad2224adb0",
+      "after_sha256": "b33e11666ccb56171109cfa58ed671dd65ec900267dab6d42c0394672e2f112c",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/routine-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "3d7dfdf4a2532f2f078cb31b20e07ec0db2109ae1f54cfcc8d41d3c280940012",
+      "after_sha256": "342323f4d932d2614e102a064fbf574f7899449376cf546f438f91a981d7b7c9",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/security-compliance-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "d0973f35ae11ca9fbda962a67f1caa8b30fbf7d51a69f9b364742aa91c786ad4",
+      "after_sha256": "fe118bae1308dda4e88a18a836526d15bfb8ccb175b826d90826b42d8b2272fa",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/spreadsheet-budget-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "9c32a17f72b2b82ef3fc1211e2070282dbf70c7c464ed1be8884dc32d9efc6da",
+      "after_sha256": "5e4443a5bf46800757b4d1d7ccf541611ddd68cb9962be7f0426c5cd53f26728",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/summoning-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "82fb795afaa1ce3a7667e5da34cd311ed1b09cc082238cc612c76c3d895ed5e4",
+      "after_sha256": "7cc640bdd309586e1e7329a99fb303d4d4995f581f76c82686fc09dc4712da56",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/synthesise-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "f4f5f0d76e69c6cde36f7bdaf7d20160192c15b26623bd569e128da4bad90ecd",
+      "after_sha256": "d088e941f2bd64683609ebd854a16be85b5dbf808272c51640084be270e46696",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/ui-accessibility-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "717151d2dfcbd542d86035c5a03a2b3a2c334fe70f4a6587cf7f423175e7c9de",
+      "after_sha256": "5719f47cb91905d71fbd1ab19536adb3e92fc207d6a3a7b7501172fd3bc4bffe",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/unreal-architecture-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "0d7b74a5e1e1f4675654f24fcf217e0eeed4b04d2de9826f3c94c33637147e96",
+      "after_sha256": "a65f84c08f6b4b24d6bd0b124efdbd924ccd1b369927202223100d1eeb9fab02",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/visual-brief-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "c1f196c51d26226b0974e7f7d6b662b6f2cc25dd98c11407cc21a7d761118800",
+      "after_sha256": "3996a51a0b9ca38047833bb9adf664c3ecfd6afcb42e3cb5d9bd5cf9a2cab560",
+      "action": "modified",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/agents/coordination-routing-2026-09-30.md",
+      "scope": "MACOS-LOCAL verification report",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "7585ac9cdfd66187c300254b72feba0010370e3a522424f28dc39856ad1e77d5",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "scripts/agents/sync-agents.py",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "47d5df5af1aeb90afdd2eb460ab498fe379e064a3bbc12a326e8d2303438dc40",
+      "action": "created",
+      "intentional_platform_difference": null
+    }
+  ],
+  "checks": [
+    "38 portable contracts checked",
+    "114 native registrations parse/parity checked",
+    "README false agents absent",
+    "Native forced model/tools absent; actual host settings inherited",
+    "sync-agents.py --check passed with zero mismatches",
+    "Selected nested research/drafting guidance reconciled",
+    "No agent-specific filing directory"
+  ],
+  "proposed_MAIN_update": "reports/agents/coordination-routing-2026-09-30.md",
+  "conflicts": [],
+  "accountable_MAIN_writer": "/root",
+  "transfer_status": "prepared locally; not transferred",
+  "counterpart_applied": false,
+  "counterpart_verified": false,
+  "unresolved_items": [
+    "Fresh-session native discovery/invocation OPEN",
+    "Actual subscription remaining quota OPEN",
+    "Kimi/Gemini historical aliases and host tools require actual selector/entitlement checks",
+    "Windows version/freshness and common baseline OPEN"
+  ],
+  "notes": [
+    "No MAIN/root-guide/sync-state/filing-report edits by this worker",
+    "Actual native write approval used; no model/router/service invocation claimed"
+  ]
+}

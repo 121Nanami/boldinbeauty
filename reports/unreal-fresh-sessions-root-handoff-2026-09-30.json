@@ -1,0 +1,23 @@
+{
+  "device": "macos",
+  "root": "<local-home>/Documents/BoldInBeauty-Project",
+  "project_version": "5.8.3 editor; committed baseline OPEN",
+  "base_manifest": null,
+  "counterpart_freshness": "OPEN",
+  "before_sha256": {
+    "BoldInBeauty_MAIN": "7222b1cd143e1fdd84236685d371ddb0844da9791c4a668cccc7bb20a03078b1",
+    "reports/integration-setup.md": "4d417c279341422ff218283f9b5087601419d05895bc66aa032f1cb2178a3b74"
+  },
+  "after_sha256": {
+    "BoldInBeauty_MAIN": "5181bc586d5f1141f5be866736ae9f6f5261e652564d35840dd9503bf81d4c2f",
+    "reports/integration-setup.md": "6e3c7bcf64a18e07bebd6cab5587339c953e1a5905c2cb6e5b3c80441fd305c0"
+  },
+  "scope": "MACOS-LOCAL native session verification; no remote transfer",
+  "sessions": {
+    "codex": 53371,
+    "kimi": 11783,
+    "antigravity": 71459
+  },
+  "checks": "Native /mcp confirms Unreal connected, 3 tools in all three fresh processes",
+  "persistent_conversation_ids": "OPEN: no model prompt sent"
+}

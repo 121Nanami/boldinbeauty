@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "14", "n": 10, "title": "Burning-out", "slug": "burning-out", "who": "narr", "label": "SOURCE", "note": "Set alight, embers around, fire trail"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-10-burning-out", "title": "Burning-out", "dur": 3.4, "layers": [{"fx": "status", "at": "cas", "kind": "burn", "col": "#FF8A2B", "col2": "#E5252A"}, {"fx": "dash", "at": "mid", "dist": 900, "col": "#E5252A", "col2": "#FF8A2B", "trail": 640, "dd": 0.8, "t0": 0.8}], "enemy": false, "cas": true, "note": "Set alight, embers around, fire trail", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Alt", "hit": 0.8, "sfx": "hit", "n": 10, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

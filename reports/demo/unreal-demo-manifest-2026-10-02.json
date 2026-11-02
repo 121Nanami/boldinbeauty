@@ -1,0 +1,2424 @@
+{
+  "record_kind": "task handoff manifest",
+  "task": "Unreal 5.8 gameplay + UI demo",
+  "date": "2026-10-02",
+  "device": "Linux cloud container (Claude Code on the web); neither the Mac nor the Windows replica",
+  "project_root_reference": "repository 121Nanami/BoldInBeauty-Project, branch claude/great-newton-wp7hgt",
+  "local_project_version": "demo head after the 2026-10-04 Mac verification (branch claude/great-newton-wp7hgt, PR 121Nanami/BoldInBeauty-Project#1)",
+  "base_manifest": null,
+  "counterpart_handoff": "Mac Remote Control sessions: session-redacted (first build, offline 02:02 UTC) and session-redacted (Claude in Rider: asset build, PIE verification, screenshots), working in a separate Mac worktree; results recorded in the report",
+  "cross_device_freshness": "OPEN",
+  "context_read": {
+    "BoldInBeauty_MAIN (owner upload, newer than repo copy)": "18cfbc9d90584cb3b45b9b91d307a97058872f93690b65f129ed5e1aed370ee8",
+    "BoldInBeauty_MAIN (repo copy, unchanged by this task)": "d4615c32f46d78536c79dea7d68dd025bfd15c1c504cad80a5e19f62f71f2aa0",
+    "Luna.md": "5eb5facdfe5b7b9e1a2101481946430453e4f5c8ff1a97b54a9068dab1f0f213",
+    "Judge.md": "4f719cc7ef73ab9e10c226bad12f634810c68f0d48d3cfc77d121101eda30ec0",
+    "Narrator:Diamon.md": "fb6331e4808ce23885552981c35e77caba6caba0af4d10030058859554b842d1"
+  },
+  "files": [
+    {
+      "path": "Demo/BoldInBeautyDemo/.gitignore",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a30c8fbd79dd131a7e7293d08b9007168fc02dbff738f0bd73e0714fe9d3c2ba"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/arcade.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c57012f11af55385b32c5bc1e834f7cf2dd80948c050b4a28c4c7fec62120ebd",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/arcade_token.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "71e88cfadf7e5acdbf2f2805085553800952d85ead4375a2f3b0e0afbb117a0f",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/arena.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a28848ec823a13cdcbab293df707181af561b7d78aa063da0adcd2b245d32a27",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/b_fire.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ce70a814ebc562ecffb69e0705b14907ad29c35f4180568f00edd76f743b06c4",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/b_gym.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f949797c71b70b30cdba71397129041eee2221f15e3c83ffa20a729250851086",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/b_hospital.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "46aa34321127d36dd1925ed64fdbae523e2dc319e01a647124c0d13b3ccea7fc",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/b_market.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "16c83ea4a525571f00a2c0175c4f51308e776325295d91dfe6169ca097cc7416",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/b_police.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "31a08bb1204dbe0cfe547f4e749c3355dcde83ec1caf1238549cf911dfe8dcfd",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/b_school.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "25153ff02d5bb7508627c69d4058b157beca482d61f7054e834cb624f6a91392",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/b_shelter.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ca8cbe93c3947bc96fc9313c83bcaafd594839f4715cdc11264f4015af8804d4",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/b_workshop.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a3c9373b949e1bea0cbc65e09f564d05e34e5b70151afc69f2a41f76e765594e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/back.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "0c4bb11115dd69e2eb9c8429c3a6af50ceb10884348ddff52633f20d408d69ae",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/book.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d143a800257ddbd86f39259edc857c3b9d438ce95d76b7316417d7593756d9fb",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/bytes.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e812f452aa073ff3a634817d5661f81547a5d95abebc847a23928bd7d3781356",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/cards.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "295847e9435699b191aa136be78c8abcbcd72990635aaa3c07217aa1cd84878a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/check.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2344bddab67975a7ef4537a77d0a95c7a3ef7ed38a77caca4bafc397772b0cc0",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/coin.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "69c3916f5be51d07c3014ab7b625a0ea5c7f882cab5d19463af5a04c543bfc6e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/cross.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5186d96edbd62c16ef90a23268c90713b1d7ab56e5fd6ef8fce4406ba9ad351b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/diamond.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "73ae05a349c17b02a3e7eb4ad38f166cbe5f86bcf1216814b4859adfe75288c0",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/dice.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "90a7fab1f4086b9c7b2aed46dcb9eb85cccc5b33a6f4a1bdf957ff2d49230b5a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/event.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "91fa48ea7e59be20fc62a007c699b2916f202e41acc597c204b5ed2f31bcb0a6",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/gold.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8e6a9f65a09609669cfdd490165c5b8eaf6a875a68a00e4aa7b2c73249c942ec",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/hearts.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "69f2045206ebc97ef7191ea9d39a5477920dbe6693719662077fbddc1d1a9994",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/lock.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cc1c8c403c95f5db2f819cc545642a9138eeb56c6ad251a547164e35a9799f20",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/mail.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "3721fdbf7e5254da7b92576ed090db151893e6f4d3317a50e3078ecb00ae057f",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/mileage.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2ef37807df97d33a400cf17af236cf0d9d5f9a5dc325b2a5c3332d67cfcc98f7",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/nav_campaign.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c24776064a20bf0ec1073534ec6cf7774f8f43f51a9b924fdaf5593b60097f5c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/nav_lobby.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9eeb16046a99562d4fae30641e96c6cb296e5043304c68dbd2842f4eb5a0ab9a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/nav_operator.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ad72ef5ac848d3d32f80b9e448d5af0a1e9aa483f7deacc2c604105b12453b90",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/nav_revolution.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ae3d731831bae03f0bc89253b3fb685dd145870be849185e283c9b08b31c9a6b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/nav_shop.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "47a4357853627dc5dca9f4ecb7bcf81f2e10e45122bc1afa1730dfadde69c7aa",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/nav_summon.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f46c982cb21353a644de6bbd149a0891772db38fa3bb8836cd4e999bb63fb52b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/nav_team.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "68858bc10991e64664f840e077e0e65cb19f93f3f31e4432f13630ec66920d5d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/next.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a96584bd2ec62f227d6f4f8f1b1566b78639849ae4676658c023e585241c8680",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/notice.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5b994a2ac1ad9fa178dfd5c31ade4f95e1c89a8dcb2ba4adc8d64c9d66653394",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/plus.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "500f3ff2e91a5450377f87c53d09729c10cf505d0953afa28c885426748a6c1c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/preferences.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "7ffa211e812d0feaa573da48fead504bbd2a8830087d1382dbe8940f103931fc",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/profile.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "95f43f5b66bc75c38b8e4edb60be4448aa19c8ae432b4735cee98dce1a24ed5c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/quest.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e7ee8173635770d7a7b05d774d9d44a43de0483fb25ce4d48ef8584ce5a63dd4",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/s_alley.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "dfb58adec5f56ca732862f1178147a47503625971bc87cead9d3d0e44ba96bca",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/s_armoury.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5d7f2464be8351f546d6d42e79fcca497b04ac91b95b50f81e9c36c08bccd76e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/s_premium.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "1886490ca67128d0cb7ca84cd9e29ce369db471b0f0cf72a120f9a7dfe1c1efb",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/s_trade.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ac87f4a51ccee3ae482ef9efbf0e310c4699fd4d42b1d7d7307a6da663c2c44f",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/seasonpass.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "0a00e2e551e5d98163bcbe7750ffe262be28b202defce23cd79cc8f177a0582d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/settings.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "b76d8ba6642550f5798ec16c0a64b1395667e7cc69b84ed4710674b45c50e174",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/stage.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "402e7545b7a06ac2b2482799807d5579ae6d2326dff72b742d98973e35a711bb",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/star.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "eeac2c308249da05b3421d017a77bd0b2277553d03abdb28efdcb5c477749070",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/ticket_daily.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "57123b54e407fee2b964930558b79256abc7953560fa6aca0e852c09fcf48f33",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/ticket_regular.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "1643c60ed05f08c2a7dce1c4b70d8e8df4f041b52cfba02db56e8ed3ca46a775",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/ticket_special.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c9720802cf68b24f69baf95b6008326a7d9c38bc25e562a7ae8c6840b25c52d9",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/tower.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "6db00f57ed58cca95ea0fa1ca84336945e17d1a2ad8329823f81bf4d2b4fbba6",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Icons/xp.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "49b0ea27561ec4d5eba2a84a7c6203bea4b2b22eff93e7d6f016caec38330a53",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/adapt.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "788caa007b8aa44ae856d6807890cbf109803d091a5ec2a2780f6eabfa76d6ba",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/adapt_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cb8c1fecb935bfc4fa62a77300d7c0be49db8f157b8f01251c1963541d2902c9",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/alchemist.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "722268c13d67cce93f5c150b97461f64d77eed0d16a83ea4ce9699a4da2111f7",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/alchemist_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e78e535c8d2c56ad93efa22fac5dc925b2007b5bfb857011cc022a19d8096b3e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/arita.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c25aec146278a64bcc8ec4b4ff14b3112c30ce799f30da3aff1f4caa90a5934f",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/arita_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d40f38293e59c769faa26e8f290daee42b2c5551c0decebc6c37ecdc7b4cde48",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/blood.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "72880b65f64cecce5266569e61f16b3a568b1d0c896ee32cf2ff607388bf9fea",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/blood_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cfd67b625e0d947dc1f57d4e7d622ef70c749023cbdc308c9118c5be153bb13d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/death.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a87f8253b80f7c17935edb039d704e23138d67720ef737342df0c7dc4a267410",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/death_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "34dcc170cb1d39c6b350ac846b2b3d25bb5db0f3f896b5a2866ea508d6733f62",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/fujita.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f2d6052f9e3c4cc3ca82f5c87929dd341f03e052f62a6c971a044d47a248d666",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/fujita_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "46c4dff30872c79258ac1e62fb60cf0676ad390b3581f9337f301866a43d5d2f",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/gambler.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "bb92d42f1da57c6cb9a30c97741f3a2578a32ad14fab9d0fe722b33b58a9a5fa",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/gambler_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e81bd3693c7241d0e9623d69a9a13a4a52e2a7e74b148b3d62fa04bbd9d6619a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/ishii.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "986c30daeceb9d20df476f64191f4a2cce376cb0d8b1b70d93ac933086a0f313",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/ishii_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "bc452f7b93df7c209e9927ae3970a17e30292cb4d1032756b7ed9668c790339d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/jester.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "337fbaa9f58b0ac2e7e4373a59521ca84560ea3c44a7fbb2337e74334a9b9a79",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/jester_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "35c51e2df5d96adb10c59368162ae47ec0c036b5e4f662c26e36a0370a5d261e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/judge.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e55d49f3a490134c1d0289ffe17f7be2ea1f61b28987660f55764e528f2cfd8c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/judge_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5c0e73373578e13697e66aa9d14d17b882e225b80320c81133e9f79d261a471e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/kuu.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "05e16fab483dca1eabeb83b1d1bd06c0218309f1597474b1cb75c56584327ea3",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/kuu_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2ff40f42f39e56af223768da02dc12ffca19bcbec26d94c9c58eb655aa7bc2a6",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/luna.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "fb2c5be88b96bd4cc4ad15a314b74115fdeb8a6a7d46dfc9858b5037cec84ce2",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/luna_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4e661baa0e520b5199d945cc47565417a5e8907bc923e3854b84fdeabd1e542e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/media.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c7efe03968fa51fd84198f30820b50c1f31abf4654719a35942baa69272f3956",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/media_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ba7aec5eb6f84f5a744ef20c3df3092a613bea002243bdb329df9ebaaa142ee1",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/myrcia.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "734aba1296f014a3ddddf2e95b4efef53a7fdb4c36dad2c8f59a2e04b853093b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/myrcia_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "994fbfcef43c042e4e2b3b0babc9749fba455dde7d2a920349cee399cb0de4be",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/narrator.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "613f9a96b5149fb5addc929ef3d1992d62d4481f999db8bc69b0ce0418fe7933",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/narrator_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "96eecdc8419bdfc354d8c019a6db9da65a37b7f269b76d1190b5074a354c8877",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/plack.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8b2f6110e1039736504e4724b7d5f77a2a2acffed2fb98c208d4d23567de19dc",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/plack_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "70e6d90edcf4995fb751311c7add2d05282faef30fec8e6255f5954f992b86b8",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/shiraishi.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c712bdf114cd60c70e2f8e152564c550c5c62ec70ed6836168dce9768e005a21",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/shiraishi_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2b35a74ad8f451103ff261a2fcb2957734f16440e2db90b5622200f873eea4c2",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/stargazer.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "6d0c742577b4436d4c77f791647cb4c4d29e91287748b52200284aea48cfcbbd",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/stargazer_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cee3ad408ef6a57f65b681e9bc7ac2b58e948343e9198ae5c32336a735461729",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/timekeeper.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "dc032fa9c2b33f4aff9b1af0c1d8c2eff9f432946d22729d991790991e00dad7",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/timekeeper_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4d063aa05e4958394952accfd817ac09c6830119433a0301a7e54ad1d43bf4da",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/weather.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "86bd110e7b65d38624c3824fdd9151219b6b96e88c8346cf2eefdbd32b06f16b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Art/Portraits/weather_head.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "750a63df0dd94faafa4431cf5f969dc9abec8bf25442f8eb1c51589655770962",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/BoldInBeautyDemo.uproject",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4787408cacde903bf1a975774f00c1bdc66e0c29cb8c4a65bc9df36d5383cfaf"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Config/DefaultEngine.ini",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "1720b94785db8525dbcc5ca12a79a5155c3f485bc3d5e80d32fad935ef4634cd"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Config/DefaultGame.ini",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "7434304b70f9b8570177036b09d5b67cfe21f0f712eed4ba570edcc5ed7bc4bf"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Config/DefaultInput.ini",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "952f27985c9d37f79723e15edd82c1b9b0c9f1e2fd12e5e0e11f190097ffd8bd"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_BIBDoor.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "fbcf16e80b9271adac47822d55a86c6348934cab2a2a180c17b4a84f7380f905",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_BIBGameInstance.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4c2e732f912be8cf5e255f4cc32664b9f84c07f9aab040c5053131440780cd0f",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_BIBGameMode.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d142aca6462b2d2f68f631194ff2c846a5df914e14a717b63fc9d59b193f3b03",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_BIBPlayerCharacter.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "73d8135ace73ef42ac33826f56c20cf2d573ce5e9f164dfa2ea6203d79a02198",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_BIBPlayerController.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "fd21cfc6ee2a0af51550aba2f61cb0e6f03e2d934a700d048a3969510ea4481a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_BIBSection.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "265dbcb87fffda6a7ddd168debdcb471fc3e7a842bb0e11144a4acd96e7a0f67",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_BIBStoryNPC.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "bab20f39323b24389323a3c7692e7c4937edf6498f1587f70f9226928729cbaa",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_Enemy_Boss.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e54e73973ef728acef24eed7fdaa1917fcca29c9ecef9f9b32898c1bcfaa4f1c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_Enemy_Brute.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "677af272886af385ea775753ff8abfc90da73d27c95d58ca263f07ed748a86a5",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_Enemy_Grunt.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d851551de43e9dbd69499e7877577bb86318e8650af542c2d89a04b0bd4d7038",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Blueprints/BP_Enemy_MiniBoss.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "58baab75be5441cd1cc08ea6428988ec095aa1ce34168ecd0f5936ce1e71ef78",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Attack.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2f6e6934c4c63858fcc2b3c02335ba0cb02145269a46dc136c904a4a6014315c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Block.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9bd3767980b03ca32fce9cd0076b9ce85136f7ab943e88ce6cc7f3b545b7d7e4",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Jump.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4e2109b0966fa8c3ab6b18fecc66e28b673ac150c554598a9ac35c0e591295e0",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Look.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "b80274ca937b22d84b05100f2f3def708edaf94083859fb0dac7e5635e25f6a2",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Move1.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "7a4e0fd9b2978aca96072c96bb820f545781b5778c5396a7efff1b7d53e83275",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Move2.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "20345a3f3a5e899a333de4fa2b4038019064f5754f6467bce44dcc13e784f7b7",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Move3.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c3ddf183be26d47bdbb8e324d7cfb380e9f7acd9b75a28502dc880a4f4bab40d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_MoveBack.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5033e391f2d024cdf17f5269bbad08ee938eea9ca2f47a39ac99ae621136b00a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_MoveForward.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4dad1b57057c7ad08e7027f1b6c93c73d3642643eb83e2cc3c0ceaf9a94b717c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_MoveLeft.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "dab3a426c5720bc9968ce1228f8c8da1d71263ed4b270f217eb9491c389ef63c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_MoveRight.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "87a968a1f4806030733cddb545bb7411290b27f0f0ad03b9a28dde771fb043ec",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Parry.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ff17ef08279bf5579b810cec4fd6cf9305f500a2f978ffae387a6aeeeb6b3224",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Pause.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "b90b190973ae30874693661ec1c96dbdae6df896e660c921a0db050edf249f83",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Run.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a5e38417d7d75ed0841abb856cda83f717792d9a34ba1dba79a013da4d01de5e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Special.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2a62161b49e10a12a5f4dda1a426ebeff478e5039de5aadb29f94bd0179a0748",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_SwitchOperator.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8c5b1625e276790f7d17aa635bed0b9655822324551ac627dad4cacf7f72079c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_Talk.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8687f5f0a370ab7437252d7aa0e3d7ac0767e7765f05055cd22fd6ff67f8068b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_UltimateE.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ede50ed0ae4fde42f397b837a6b5f09608e55ec5b6ce41460b6107ad521cd6cf",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IA_UltimateR.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f891b2d9dc9983d93959c41b4c4e3e5b44285c5f96c52e1317e479a6b220322c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Input/IMC_BIB_Default.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d7e12fc018e8537fe9ef713751da90c3d630a5245d91502fde1d4548eed117b5",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Chapter1_Stage1.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ac18269fc31399001c8b47f5b1d056f96f5a18185c11d2fd0de81248639b6036",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Chapter1_Stage2.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9d60aad97b7161d40887049a6eb3656ff969ff1f74c514879f005ef53c8c343d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Chapter1_Stage3.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f3ead571a8721aae15d0e681ceabaa9c6fba40110ff42ee263e81e329283555b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Chapter1_Stage4.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "52726611668a1ad5e08e58c18b118efaf9106a404ef43748bf00969c54caa8f1",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Chapter1_Stage5.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "3350f75d59992b8983c237dbfe6d32cc68e9ab63718ef48e6448ee585e467ed9",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Chapter1_Stage6.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e73a5429d978ae6f6b20fe705c0e59b45f13650c7c0cb56b94af7deff1abdbca",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Chapter1_Stage7.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "af4b03ba60779a1e260d337b14ea3d3bb1bcff10573aa9621eff793b1b5655d6",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Chapter1_Stage8.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9f1b575f32747d26c8b95b758a4c69dbc9e7ddb27debe0b1133e16e5daa85842",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Maps/L_Hub.umap",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c53d8690308aa77713b22938f4bbaff49d5ce477d7eed14eca4676918170b70d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/Materials/M_BIBTint.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "45a933732a282c2c4ebf694ea17da0d17d6f361349c2d74c347e05b7d6ad4601",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_arcade.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e758de7864e57e8dd042a03302c19814f74bec5da4f37d379d664fe65852aa4a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_arcade_token.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "7221b9d92be65157621d805e773382b7d6b47458fc2bb2e7da68a0efbfaca156",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_arena.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "7f06dc69f682b640e515cf87231dc5f0a57a934a44099858625f6e834095618e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_b_fire.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "bea8c33cc1b4529ae280c5a8bf9890f890e524a7ed6eea18b14f346718d8616d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_b_gym.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f3af2e87f708c040934b72a2b47043194c7091887576efa762e5062a47a42f83",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_b_hospital.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f006760e5538b3c086dda9ec09e8680fca1cd48450b2cdc52fdc40cdb0f06092",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_b_market.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "97ec0afbb6ef83fce0452fb31bba789fad2ce06b3bdb759687b416dfd06cc790",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_b_police.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "fc1e9c9f329cf6139b73dadbe44b0d97cee338cb5ddc7e7ad5cb16d4404e81db",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_b_school.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9acee57a1867558611f5a0a43e261fc50d7dfaf0abb7c9279de9f93d737a3d94",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_b_shelter.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d04e831131be76bec68e3fce2f3749c451823b99dcbc326c5a820a98d5bcda57",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_b_workshop.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "768aa1d734f2581f43f688cfc576d584bf7eb8bb8851cc2c3138799e6196a6e1",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_back.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a404c04e239d0d32461de863a856be9087d4888f43359afe810a532bd8cfe7ef",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_book.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9d0c9bba52f5d83472cbd0e3ba134cfd002a3c9a321afbaa85bbd8531f7b9818",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_bytes.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2be2d97deacf7276352dcba6fb7b35868a0c018875f0ae16acfc19ff43a2d6cb",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_cards.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "0b7a87eb1ab35604b889a3aca65cd9f130dea4dc8ca939017deed48432752745",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_check.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c005261ad5685f7389d0d87d5d924a3a0d81252ea24c6115b61534bbd4c5e731",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_coin.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4941b2de843a1584d66ed9cd0d874c1ecddb38176e5c42d4e6874a07e94e732e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_cross.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "29f902122ba0e0175f54cc2a709434a8bdefdcaeec32341d84a156625a78d63d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_diamond.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c781da203fad64befaaa1dec7f6427039c7db8528bd41c2d8188217f7b8d41d7",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_dice.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "7c2dedb51d1c43bf2bf68ff4a93b5a2ef9697b09e253d7e992c181ea316732a4",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_event.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "57d08ff7387e7c50b49c8856e10251bb8460edff25e196ad20f67c7ecdc3c35e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_gold.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "6a851c555778dd604d6df9e8dd149291b319f7dc5d0f002aca7d89f6ba8c14c1",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_hearts.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4c4d68bc3587024900140ca35d15bc281475ebe0c9b3782cb6eaa295b607a653",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_lock.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9b62125ca59648d88ab3399437854cb8b75a3172481684b62a00beb631581cc7",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_mail.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cab655aa9ad126589433f41c23b913c8c9d6b2b5e6c7c4a65da72798fe438ffc",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_mileage.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4337d0e1f594ab60d4b29d7f9a5037de8ffebe13132f72fefa21e835b97e1fde",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_nav_campaign.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e2337e57340a9a2884df80d7c0fb7c181cc63d4dd58960f6eb4781e1b065f8ac",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_nav_lobby.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "68f45faff3f7f08f85c6d53ed527a2a37cf4bbfb8b5191d40a504930c604bcaa",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_nav_operator.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4c7fdff32abc6ca88fb538c9c2cdadbd71b37d410a495de067bbfe5b9e817881",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_nav_revolution.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d239848f0b671b5c4947d90544c927a6503b677f2648536fe03357fac79bccdb",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_nav_shop.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2c346716a04e25d733860f16402184ac0d1ba5ebea86bf5c049be90c50afc370",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_nav_summon.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "db30a40ff9eec8aad6129413212153032d450e798ae282ea917ae884c430011e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_nav_team.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "70278e25b551963279c6bc52c877c3b3ad20f904b56d6e4c34c5e4f321e237f6",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_next.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a192947def61621b8a1885533ce5efb5f907026e86703022bb50b28eb16df31e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_notice.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9a1455931d3fe423d5e1f53ac74d7b8a97c1a79f563c3cd577f4226ada61ab67",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_plus.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "51b8c95e8366a41127066754f23f46fa4340e43aea5d851d7fbd68ec6d967017",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_preferences.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "3e0a8d9b75f462b367c53c4beab0cb2d7f63e86a56240e2dba9ce3c5fb6acde0",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_profile.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "180f25cef6af22a5c77edef9aa7f998b143dff7e918a4bfe47be550b85571445",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_quest.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "1b625c8ef13ee0889aef8f1b6a9b2e8d7790708f172bffaf322be9718f3b68b5",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_s_alley.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d1a24e1d0a7d5752d5b81c54977a3f11bfdbae26e722e21d5d6187fc6f22108c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_s_armoury.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "fe167f2e087652def28bb4dc9a664bfe8122bd20bddf901fdd4c417f1acce83e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_s_premium.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a4eb478dcf3270aef7299a9163cbc848b7d9193272e3278c7eb0887c56aeb83b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_s_trade.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "19dbd5cf6df1aafa1908f3fe7fe51ad9b0593067a49f470b7e3b71937b32ceff",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_seasonpass.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cedfdcf1549d89f7265b34be5adbe59cccb0c7be449374a5de5d23d19e3bd748",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_settings.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "13012da32136340fa6b37746d4ee2c56ffa43833d059a2ff210d52e455210ed0",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_stage.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "03144e0b0059129a585ba61b7f0e6673be95ab090b1f203bcc1400b4bdac7d1b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_star.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d4db2ed60ebf647adbbc44835f2ca65e1774fa05180a4026f76337c289624c03",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_ticket_daily.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8afd55c0b9e7f3458d088f5968935361e17f24a5157965163cbf76e11ceed384",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_ticket_regular.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a713ddbda71dba8f6c1ea75c56b355b9c13ee3b677fb3e80853c98b35e963719",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_ticket_special.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ca0dd5185119e6b75b5b9316a76acbab0eb4f0514dd0b04348b8d3215d96b586",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_tower.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9c334535ccc8483e398ee6287a266cdc243536e3c424998fa35a58f79b410eca",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_xp.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c20f69e226b3d6b86c5deb331a1f499eb2c8c4efb597a00226e55ccc310d1d84",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_adapt.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a87869d9bd55683c255ce195ead251a15c4117062e9d6611c0fdd260beb46371",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_adapt_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "b448533f2596ef47c2b413e72994911ab5632c603933ac6b814fff27a58d37fe",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_alchemist.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "0452ac0147334fb8abbbadea394215439740819cd720a666259e661238dad94d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_alchemist_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "997b623481a5c16d85230bd9b08879c189fa96bf405fb46b29e3f078f0409099",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_arita.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "34c3cb3e567b7bf3e42fc0be83a9fa2484e64fcc633216798fb6640fb2029b2a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_arita_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cf1c34b99f7992580278de61c4ca1ad2553333eb44900b102398fef78ea65c1a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_blood.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "82d8a347541bc4ae8bcc3b411bf1bb2d81f698c157ff11c2ae45a5b557cb2614",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_blood_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ffe27e04769bb14822a462b0660f935f9144f57eb024759e69a8b5184728645e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_death.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "faed4e1aee9dfb2b5c2a94d98f0ffe04e86dfb609ca806a53e821289d53378db",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_death_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9aa99bb4cf5c808e728dfbdd7d1e17ff2cc1d28f659764d7c968e5daf06c83bc",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_fujita.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "97eb1b205a2b056e22cb37f5b79cd7157484f1c188f9c148b976467845526472",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_fujita_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "56ad1bb3933cd2c47595fc909b1ef6fd12a13387b3e03c501d61c348461ca393",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_gambler.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e6eee28fe7b94ef3da954c36adb09e84f0d4bfb846a008417e57a6ea2c70e8d4",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_gambler_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8d21062a57e5cc4f6bf691ecc1edaaa1538d8056e2f578f5f193f021b71fa713",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_ishii.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "eb30da643a00a7c8e808251916d5d455bae120fd4b0e4d542d9f1d28b9731434",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_ishii_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e6b41b38d71d1c65815a3989ce23d6b2c43fd595dcf058354c6f59042850b378",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_jester.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "09651729b0c9f9416bd3f36553907aaf7e46169a025c33ade1277ace44245dd4",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_jester_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "6625e72bbec58a54c765b573e7151f3ab5e38fe5549dc4bb391398b6bf51e720",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_judge.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5ad62bdfd359873b5f68776d3775c08c38a3f6d472c314ba15921832e8ce9379",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_judge_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2333f0b81d58cb00e5e528b30dba7ec0f35bf5176dd9f48afa36f11eef201849",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_kuu.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "0f198496ee7d2fd1e23a8c05cbe55e3f5b9d31d76047921b06ea53de095a42b3",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_kuu_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8a80d13e0dbc9baf71f42d41c8d6ad8fc7d5ef8fe220ddaef65bad3a43b998c8",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_luna.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "aa319dcb73959eb73fca2cc97c2f62702be640756065fd5838b4c4abf3e7aa18",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_luna_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ada5f064f73661791edb28fe3749f9fbb28cdbfa16c507ea2f226eace10623c8",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_media.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "30ec1d3ad92f2c6907eecde71da917d60a41002de2489f0ce6fdd2e6324fef07",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_media_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8dc2aca75934a8ec0bcfd6a25261081ee63cb9bb6dd744507b9de3602174e4e3",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_myrcia.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "be3b7dfd7bf0735c8d6083fff6d50eb17211d061f7aa49f1ee694508c19db671",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_myrcia_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "312e6882062c196e449e3a111791e660a4225c4deb847ec1c2a4dc336b9aac26",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_narrator.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "73a34dc8d9ea02deefd5d984851df524dfbae2e1fb2ba8133b10a41c4250f681",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_narrator_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "312dea481fe13ff6ca0540c8e24a9c1e896c019c07fca95f4ceed996913bb23c",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_plack.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f139a868051809740941845af649fb43acb54b7ee60be05e8ad7c1a710006659",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_plack_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c7bb61865d86b6a3775aaffc70e535abcb1ed9d38272c7036528ca795b2dd1a9",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_shiraishi.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "043b7874c5172c557a6cd9da65bc87d727ae1deb1905a034690cd61116a48096",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_shiraishi_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cb8e564f0d427330cc3163be6f6cf0abac1cfe396e488be01c2fcdabde4ac866",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_stargazer.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "bc4b308682c334d0e992aab7d105b13ec68d3ce458f62977d76a4eb0c103e52e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_stargazer_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ef254761966c3774dc1a521248f6ce7ea43c1db95673eeaf7026c53a8d63a6d6",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_timekeeper.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d14d41bfa9a07465928f9579d1bf6c285d3158a43c45a7b70c0cf4bdea0a5fd6",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_timekeeper_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5d1887dba18395f21745969bafa9f816a72a5ca00fd105b04a074827477e6844",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_weather.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d834ad1a7a74c31687349f8c1e29b007d0d14e9a053b4df0ad99686943282137",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/Portraits/T_weather_head.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8549d26ec31ebe6fab33e828b0871aeea92ebb2863d88ab932a24cbd8296f9f4",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/WBP_HUD.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d96b0162ed17582cb1803c4d61c6d6b770fc9fb477a7bb2a07d28162ff6635d6",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/WBP_Hub.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cf5e86d3a1001cc8aadf0729a89c1c01573d4244a96e233058d1966726506265",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/WBP_Pause.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "3f693aff660c2c2c0ae9a6f65f981b0e6d8de96a35750e0768b728b8935893a3",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Content/BIB/UI/WBP_Results.uasset",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d6da217b9061ff56d55c91d0e3bd7f5384438a476a333b8233c8beb6dfb673df",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/README.md",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "22c46c75a760fde86b86670e28f322d55cf2fb45b28efc98a6c50d30ba1924fe"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo.Target.cs",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "74328c03612280d638dd3480c006ab2d49e62d02a5d60ba02a866b2d9e9da2cc"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlock.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "1daf3016b322b7a9bbf731bce173e072d26c685b70f550ab25236d3b228694ec"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlock.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "6bc2cd7a64c47c5cd07c9d79961ac8411d7eee124caa15a79a549af8df4d1f00"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2c91b57054a5d55574c086a6096f405ebd5110e823b0de0dfe765507caa4d9f3"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "65ba7bbd12ceeb56e154d05cc2895f908e769c697027d433619e15e1de542113"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ba64b6401d9ef9ec3b3c2314f04f38fd60b190e711e8048334e533dd4feb3b4b"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ac1d46bb6bd649c2d05b84bc75fb010ea1ddf0f4195fd8e1a4553f0557f91e64"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnvironment.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "44e8ea46278372e2442b9adbf595a2b20eca49448e7526ec81e9950702b52f09"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnvironment.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "48a82de3113a841c0442ccf9890f1e7365d462bd112d811b9d5793de5775044b"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameInstance.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "756c5414c1b6431500f2246235ba98cdbb8d2c031e615b743e2c79f368fc1bdb"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameInstance.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "1a04640b0fb4e87e4aa749701babcb160f4565f0f13bccf4e5262118abf8af63"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameMode.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "1fe6d609e3096f1951b124b2de85a52a100be1d9995d8e8b5f99652d636c0ebe"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameMode.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e1e802a54619d529c40be26f52a3cea220e240f791d7d79806d569cff24afb0e"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBHubWidget.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "032b0730a4fd3b9081007355cced53ac5ce214da35761ca3d7a53a8ac772e315"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBHubWidget.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "34026b7703aae2cc936f8e13bd3b2d2abf92edc43bfb4734d5b95ad2d1355604"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBInput.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "b13113e774fd9f5e3e305728c7f46b42380406a8c7031a291dbc343a1b5bccd4"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitJudge.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f149d2f169d6ebfd10ca48c6f8f2b7e54b79de383adae36abd8c221752733896"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitLuna.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "bda83bc1fb1503b2d128e25dd640d4de4ce76ef27ee300e1e3198eb145765342"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitNarrator.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c278c18bc2bc9e3abf9c754958024be4a728e7f826d113d4df87aea4a7dc93bb"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBLevelActors.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4b7452661b8d48d74732adb053d947d0cb084b94c608195c38a599f0da43b929"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBLevelActors.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "edd72b43da9f9cd913a959d8bcb6a72e573f4a15d2306603020ee7fb6557574a"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2032add34e362fb9ea458fa171e9ad8061c08356e4c3646d1249feb5c595c660"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "b9b145f2fc3d67f11f3c97d53d6098a7e7fb61f1c3ab31d97b0d00dfef10c417"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "3405c63811fe2468391b466e8f147b19ebcf55bf7cf8e78be20a5177904ca62d"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "42a4b4cd37d6e7a5bc9245d17b47e87d62d210913614c7229071cd81cb6250f9"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBTuning.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c4f386e836b6a2af07410a5fbd92e3d6e08b730afbd32727ab318f6812176f7e"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBVisuals.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "1b61f9ed611a19e929995e404d103807528e7ca2d192a5ed959a23ac7f34034f"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBVisuals.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ca5ab9fe6190bfdb054ce106987b801ac9b4f4eb48bc2ff3b3c1de36e8543db7"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBConfig.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f65817839e1f032f8b3f8467017cbff8e66bf870080958e3b33fa73e359fc800"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "b17de9b241c16f10ca844c8bdae5a3125c76a3ddf4d7d4951395ef4111b9e9dd"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "952a5e83f755dfc1ce4e25661c159d1a25c35977742c783709a893f1a375ccf8"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMeta.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "11714d00fe59e818c012fc1a55a4c92a2cd0b2c3a5e130caaba452854a2f70ff"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMeta.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e73684e6c6bea8dd98442afd54b6fdc0434708fccc4c44635cc0bf1cb2fc6604"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMetaOps.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "45daca44d117fc2a2f7f2bd5ed1844ea866e516014d805e49ff69d10121cd6eb"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMetaOps.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5096e77acc4c8368c2c550149488df4d2049bcffaafc4cb1bed699a1cd55f749"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "af735cb0bd8977f8d23770844f5663de51ce88fd117173689e7ffa0d7fdda238"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d89c23ee0ea8d6809dc288782876978de21f4b637ef01cc564fd4d27ea2e6c02"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBUI/BIBUI.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "693da88fa78cf84180b22811ac4777973d68e940fa79d18af2a2970529c3de11"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBUI/BIBUI.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9cb4304d5e5553c6829035fad1d851960da3ec045037302d87f09d6bd4906f6c"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BoldInBeautyDemo.Build.cs",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "d00968d86dda0ee80ec8a2a039734fc1f565cdf88b9c52f53a4391ba093383a5"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BoldInBeautyDemo.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "76ce9c35cfdfc57b8851790b59f64349e041a86298fcc38087ce8dbfb1a43ed7"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BoldInBeautyDemo.h",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9c4f425b14e8bbd8e8ff0bcd352cd8c7ac0817c673f3e5281bc57bafef38f50a"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemoEditor.Target.cs",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e00ee53cbf94d0c3d1901d5a1a99c54df74d3b5810f3dda2d1c6bc28dfee175d"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tests/core_tests.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ea0e74cd69922b1db414d9f5b83606eab51f2f3aaff4440a82e1dc21dc229a84"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tests/meta_tests.cpp",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5385489d3ebef7d61752ecd18c015d69942b538057fcfea14cc460d588069522"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tests/run_core_tests.sh",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "45f8133d6d990334f4ad5fbae00687d366cb5e319b7e7cc9ed7ef46fab34308f"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/build_assets.py",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ef98aae674544901753c94431e04d4ae741181d528f680c777aed5832c0a2a2d"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/build_assets.sh",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "68f46389476e43262396958f10b9d64799dff87e537bb6bfa5e80b67452fc368"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/make_icons.py",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "56045a10b27a2c031a2d87f95d235c411f9f4eecfd93ff4cbcd3e4a31c2273a0"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/make_portraits.py",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c093b8c11f196320a099a96ca393cdd80a078bf9a6b95e90ac6cba119f673147"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/verify_assets.py",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9f835721f1e60c7bdfeacadb04800cb955c8f5ffad9d7fffff85bb62579e3f46"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/verify_flow.py",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "cc1ab923036c9d84afd52728d07d9262fbf5670ea5a55205dc4562f82ce94709"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/verify_game.py",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9fcf9b6e4f87e3b5a63cf84a8d7a36990f2278a707bbe478811d20e011b0f5c3"
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/verify_hub.py",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "f0186658981e554bf2d828d3de50323c4918d653e382d8bd2065d6a162de092e"
+    },
+    {
+      "path": "reports/demo/2026-10-02-claude-unreal-demo.md",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "5c0a79af84a50359ec92462a27e254440d27257f45907e1d9a5b1b8a1d5a5d03"
+    },
+    {
+      "path": "reports/demo/main-integration-manifest-2026-10-02.json",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "76513ebc9c333508e6f240c5d34345d31233d68e4dbb1f184be4fffb785c0802"
+    },
+    {
+      "path": "reports/demo/main-integration-manifest-2026-10-04.json",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "8e0c172e6ae9575df862cea1c76cb34d6b655e510785193acd9fe1ebd377678b"
+    },
+    {
+      "path": "reports/demo/screenshots/01-main-menu.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ee8426967f07811a522418eaa152c4b655c551d2f9fc7521d7ae8dc90831ce7a",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/02-hud-combat.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2fcb1607cc83a3a7757ba6d219e11ac339ce0e3310ca3d39fc9dc9927458d077",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/03-summon.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a7c408ceeb65e77d9d3dcd2355098c9775465e49303a476e002c395f2cb69d08",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/04-equipment.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "9c8bd947ae5ab3931cf50fd2028a4f4fb05c4d0d78f9ee93512c340cb73edf80",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/05-results.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "0088f568c3eb61cc5f8250d01a083c25017567a0cefbe68dbb51c901f23e3e69",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_0_operators.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "c62b8b7e5a8e59b94049c2c70fdb24011c8b04bb57eb989f5d990f134c48ce31",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_1_team.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "47ff17fe678b933a328ef532385789cecc9b2db8bea6c981ea7e5df66885628e",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_2_lobby_pass.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "4e490efc86ded1bed9872c43082a22b2f04ac40c623d2f4caea7fd604deb1a00",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_2_lobby_quests.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "04815ac95550a02863c1ebb30fc7b228f2d3d5f5c24a5f401ea17abc5292f50b",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_3_shop_trade.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "0e2dfa9f8e684596d498d67c3da399a5510e140d69edc026c889a9ffe948d82d",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_4_revolution_tower.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "2857c8b7ce2bed7fbcfd9b4dc62fbc46f2a9c044b89838dcbe9ffa08cb3f5ef0",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_4_revolution_world.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "ee6b806aac442caa9a1489f3b7ad5b6c67177eabc1e8e427dcb8368d5790537f",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_5_campaign_chapter1.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "e7bb87710526016dba73f2b5e8d0302177494f2c4be716b82b8ea11914fd3e1f",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_6_summon.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "a0f9b8fd1e34d918bb581270754ff822ca602af2e822bee0dbd89d7a7d1d5ec9",
+      "storage": "git-lfs oid"
+    },
+    {
+      "path": "reports/demo/screenshots/2026-10-04_hub_6_summon_x10.png",
+      "scope": "shared",
+      "action": "created",
+      "before_sha256": null,
+      "after_sha256": "07ca6a3d067b9e32cc4b48a8ff1436c15a43dda805d80bf207d0aa26e8b837c2",
+      "storage": "git-lfs oid"
+    }
+  ],
+  "conflicts": [],
+  "transfer_status": "pushed to GitHub branch claude/great-newton-wp7hgt (PR #1); not merged",
+  "counterpart_applied": true,
+  "counterpart_verified": "MACOS-LOCAL 2026-10-04: UE 5.8 editor build clean, build_assets STATUS OK, verify_assets OK, verify_hub 53/53 (PIE), verify_game (-game) pass, 0 missing textures, full Mac cook 637 packages 0 errors. Linux: core tests (g++, clang). Windows: not checked.",
+  "unresolved_items": [
+    "Windows build and run (OPEN)",
+    "Hub layout polish: grid icon size, lower third over the portrait feet",
+    "Owner: confirm Narrator drift at base speed and the base-speed reading",
+    "Port verify_flow ability/ultimate/tint checks to the hub (optional)",
+    "MAIN: counterpart acknowledgement not received"
+  ]
+}

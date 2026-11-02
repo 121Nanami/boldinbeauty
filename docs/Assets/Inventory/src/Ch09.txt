@@ -1,0 +1,84 @@
+# Ch09 Remnant Remains. Sources: Chapters/Ch09.md, Scripts/Ch09.md (primary); Scripts/Ch09_RemnantRemains.md ([alt])
+ENV|The desert (Remnant Remains)|Location / desert|Cold open|H|Empty desert nobody should survive, violent winds, constant downpour; dunes that go on for ever|Downpour;Sideways rain [alt: bruise-purple sky, 20 m visibility];Drizzle after boss [alt];Wind with a shape
+ENV|Dune field|Location / dunes|Ep1|H|Wind pushes, rain pools in hollows (swim), data centre as beacon|Wind gust;Rain pools / flooded hollows
+ENV|Dune camp ruin|Location / ruin|Ep2|S|Where Kuu loses a boot; small things stick out of sand [alt: bicycle wheel, bucket, cone, boot]|Standard
+ENV|Cable trunk route|Location / traversal|Ep3|H|Eight black cables thick as a tree run to the data centre|Rain-slick;Warm
+ENV|Data centre exterior|Location / building|Ep4|H|Pale block with four towers and a red light blinking like a heart; calm air around it [alt]|Red light blinking;Steam from towers
+ENV|Data centre lobby / corridors|Location / interior|Ep4|H|Warm, lit, tidy; steaming mug; no sand on the floor; armchair [alt]|Lit;Dim one step [alt]
+ENV|Cooling towers|Location / tower|Ep5|H|Spiral stair inside chimney; steam vents; vent hum|Steam jets;Vent pitch rises [alt]
+ENV|Server hall|Location / hall|Ep6|H|Rows of racks; small screen on a plain metal desk; boss arena|Lit;Lights out;Rack assembling;Flood from cooling towers;Dark with one screen
+ENV|Safe room (GREEN)|Location / room|Ep4|B|Safe room with a save|Standard
+ARC|Cable trunks|Architecture / infrastructure|Ep3|H|Eight thick black cables, climbable, arches at intervals [alt]|Rising from sand;Arch;Swaying
+ARC|Fallen server racks|Architecture / debris|Ep3|S|Jumped between|Standard
+ARC|Server racks|Architecture / machinery|Ep6|H|Racks with ANGEL//V1 - SUCCESS and OPERATOR//V! - FAIL labels|Standing;Moving and joining
+ARC|Metal desk and small screen stand|Architecture / furniture|Ep6|S|Where the small screen sits|Standard
+ARC|Steam vents|Architecture / hazard|Ep5|S|Scalding jets|Standard
+ARC|Hall status screens|Architecture / signage|Ep7|S|OPERATOR FAILED flashes|Standard
+PRP|The small screen|Prop / hero|Ep6|H|Small old green-text screen with the verbatim Angel//V1 / Operator//V! / Morse line|Verbatim text;Typed "THANK YOU" [alt];Dark
+PRP|Morse transcription strip|Prop / document|Ep6|S|Corrupted string typed into the recorder from Ch2|Corrupted [alt]
+PRP|Recorder (from Ch2)|Prop|Ep6|S|Used to type Morse|Standard
+PRP|Service log last page|Prop / document|Archive|S|"Uptime: 2,561 days. Faults: 1."|Standard
+PRP|Rack label ANGEL//V1 - SUCCESS|Prop / document|Archive|S|Rack label|Standard
+PRP|Rack label OPERATOR//V! - FAIL|Prop / document|Archive|S|Rack label|Standard
+PRP|Boot (Kuu's)|Prop / quest|Ep2|S|Lost boot, YELLOW found at end; [alt] single boot set upright as a shrine|Lost;Found;Shrine [alt]
+PRP|Sock|Prop|Ep2|B|Found three metres away; Luna's sock [alt]|Standard
+PRP|Server rack (Luna wants to take home)|Prop / quest|Chapter beats|B|Plack stops her|Standard
+PRP|Steaming coffee mug|Prop|Ep4|S|On a desk, steaming, nobody there|Steaming
+PRP|Armchair with dented cushion [alt]|Prop / furniture|Ep4|B|Somebody sat here this morning [alt]|Standard
+PRP|Fused connectors [alt]|Prop / upgrade|Ep3|B|Upgrade materials [alt]|Standard
+PRP|Audio logs (three) [alt]|Prop / document|Ep8|S|Three audio logs unlock a hidden cutscene [alt]|Standard
+PRP|Bicycle wheel / bucket / traffic cone [alt]|Prop / debris|Ep2|B|Things sticking out of the sand [alt]|Standard
+PRP|Vent names audio log [alt]|Prop / audio|Ep5|B|Vent lore: recorded voice reading names ending "Operator, Kuu. Registered." [alt]|Standard
+CHR|Luna|Operator|Ep6|H|Claims she can read Morse; lies|Standard
+CHR|Plack|Operator|Ep6|H|Types the Morse|Ledger
+CHR|Kuu|Operator|Ep5|H|Head hurts after the hum|Standard
+CHR|Commander (voice)|Voice character|Ep1|B|"Recover what you can" [alt]|Voice only
+CHR|The Uptime|Boss|Ep7|H|Built from fallen server racks; wires for hair, indicator lights for eyes; speaker voice THE SYSTEM IS AVAILABLE|Assembling;Phase 1 rack limbs and cable lashes;Phase 2 chest screen weak point;Phase 3 cyclone [alt];Collapse
+CRE|Sand enemies|Enemy|Ep2|S|Combat with sand enemies; sand-drifter angels drag the player [alt]|Standard;Drifter
+CRE|Cable crawlers [alt]|Enemy|Ep3|S|Slide down the trunks|Standard
+CRE|Rack crawler|Enemy / mini-boss|Ep7|S|Mini-boss; environment reassembles|Standard
+CRE|Cooling Warden|Enemy / mini-boss|Ep5|S|Mini-boss in cooling towers|Standard
+CRE|Server-rack sentry [alt]|Enemy|Ep4|S|First sentry unlocks combat|Standard
+VFX|Rain on sand and wind shape|VFX / weather|Cold open|H|Rain on sand, wind that has a shape|Heavy;Sideways
+VFX|Steam clouds|VFX|Ep5|S|Slow clouds|Standard
+VFX|Packet-bolts [alt]|VFX|Ep8|S|Boss fires bolts at fixed rhythm|Standard
+VFX|Blue data lights along cables [alt]|VFX|Ep7|S|Ripple along body|Standard
+VFX|Cyclone of fans [alt]|VFX|Ep8|S|Phase 3|Standard
+WTH|Violent wind|Weather|Cold open|H|Pushes the player|Gust;Lean-in
+WTH|Constant downpour|Weather|Cold open|H|Constant downpour|Heavy;Thinned drizzle [alt]
+LGT|Data centre warm light|Lighting|Ep4|H|Warm, tidy|Dim step;Lights out;One small green light
+LGT|Red beacon light|Lighting|Cold open|S|Blinks at a heart rate|Standard
+AUD|Vent hum|Audio / ambience|Ep5|H|Low patient tone that follows them; found in teeth|Rising pitch [alt];Follows across dunes;Drops below hearing [alt]
+AUD|Wind voice ("stay", "not", "here")|Audio / voice|Ep1|S|Wind says three words|Standard
+AUD|Uptime speaker voice|Audio / voice|Ep8|S|THE SYSTEM IS AVAILABLE|Standard
+AUD|Hard drives spinning up [alt]|Audio / sfx|Ep7|S|Like a choir of wasps|Standard
+AUD|Hum fans change pitch [alt]|Audio / sfx|Ep4|B|Fan drops a note|Standard
+AUD|Half-remembered tune hummed [alt]|Audio / music|Ep8|B|Hidden cutscene|Standard
+UI|Wind push indicator|UI|Ep1|S|Lean into it conserves stamina [alt]|Standard
+UI|Verbatim screen close-up|UI|Ep6|H|Text kept exactly as owner wrote it|Standard
+UI|Sprint-in-wind prompt [alt]|UI|Ep2|B|Input prompt|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+CRE|Rack sentry|Enemy|Tripo #166|B|Server-rack robot [inferred: Tripo list #166; likely the same asset as CRE-0040 Server-rack sentry [alt]; kept as its own entry so no Tripo row is dropped]|
+PRP|Fallen server rack|Prop|Tripo #161|B|Jump along [inferred: Tripo list #161; likely the same asset as PRP-0182 Server rack (Luna wants to take home); kept as its own entry so no Tripo row is dropped]|
+PRP|Lost boot|Prop|Tripo #162|B|Kuu's [inferred: Tripo list #162; not named in the chapter text]|
+PRP|Service log|Prop|Tripo #163|B|Uptime 2,561 days [inferred: Tripo list #163; likely the same asset as PRP-0177 Service log last page; kept as its own entry so no Tripo row is dropped]|
+PRP|Rack label ANGEL//V1|Prop|Tripo #164|B|SUCCESS [inferred: Tripo list #164; likely the same asset as PRP-0178 Rack label ANGEL//V1 - SUCCESS; kept as its own entry so no Tripo row is dropped]|
+PRP|Rack label OPERATOR//V!|Prop|Tripo #165|B|FAIL [inferred: Tripo list #165; likely the same asset as PRP-0179 Rack label OPERATOR//V! - FAIL; kept as its own entry so no Tripo row is dropped]|
+ARC|Cable trunk|Set piece / modular kit|Tripo #156|B|Climb along [inferred: Tripo list #156; likely the same asset as ENV-0093 Cable trunk route; kept as its own entry so no Tripo row is dropped]|
+ARC|Cooling tower|Set piece / modular kit|Tripo #157|B|Steam and hum [inferred: Tripo list #157; not named in the chapter text]|
+ARC|Data centre block|Set piece / modular kit|Tripo #158|B|Tiered [inferred: Tripo list #158; not named in the chapter text]|
+ARC|Server rack row (Remnant Remains)|Set piece / modular kit|Tripo #838|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #838; likely the same asset as PRP-0182 Server rack (Luna wants to take home); kept as its own entry so no Tripo row is dropped]|
+ARC|Cable trunk segment (Remnant Remains)|Set piece / modular kit|Tripo #839|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #839; not named in the chapter text]|
+ARC|Cooling fan (Remnant Remains)|Set piece / modular kit|Tripo #840|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #840; not named in the chapter text]|
+ARC|Steam vent (Remnant Remains)|Set piece / modular kit|Tripo #841|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #841; not named in the chapter text]|
+ARC|Dune ridge (Remnant Remains)|Set piece / modular kit|Tripo #842|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #842; not named in the chapter text]|
+ARC|Sand drift (Remnant Remains)|Set piece / modular kit|Tripo #843|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #843; not named in the chapter text]|
+ARC|Fallen rack (Remnant Remains)|Set piece / modular kit|Tripo #844|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #844; not named in the chapter text]|
+ARC|Desert antenna (Remnant Remains)|Set piece / modular kit|Tripo #845|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #845; not named in the chapter text]|
+ARC|Generator (Remnant Remains)|Set piece / modular kit|Tripo #846|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #846; not named in the chapter text]|
+ARC|Blast door (Remnant Remains)|Set piece / modular kit|Tripo #847|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #847; not named in the chapter text]|
+ARC|Blinking beacon (Remnant Remains)|Set piece / modular kit|Tripo #848|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #848; not named in the chapter text]|
+ARC|Cable spool (Remnant Remains)|Set piece / modular kit|Tripo #849|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #849; not named in the chapter text]|
+ARC|Sandbag wall (Remnant Remains)|Set piece / modular kit|Tripo #850|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #850; not named in the chapter text]|
+ARC|Rain barrel (Remnant Remains)|Set piece / modular kit|Tripo #851|B|Modular dressing piece for Ch 9 Remnant Remains [inferred: Tripo list #851; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

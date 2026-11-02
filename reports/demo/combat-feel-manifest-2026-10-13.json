@@ -1,0 +1,399 @@
+{
+  "record_kind": "actual change manifest (prepared locally in the cloud container; not transferred to the Mac or Windows replica)",
+  "task": "combat feel rework (owner request 2026-10-13)",
+  "device": "Claude Code cloud container (Linux)",
+  "project_root_reference": "/home/user/BoldInBeauty-Project",
+  "local_project_version": "branch claude/happy-babbage-gmmcty",
+  "base_manifest": "git commit da063f1 (claude/chapter-maps, 2026-10-09)",
+  "counterpart_handoff": null,
+  "cross_device_freshness": "OPEN",
+  "files": [
+    {
+      "path": "BoldInBeauty_MAIN",
+      "scope": "shared",
+      "base_sha256": "59f9ad51d259c47671b198bcb38c1a4c27d0d80bdb28d4a6fc7ced17aef50bb1",
+      "before_sha256": "59f9ad51d259c47671b198bcb38c1a4c27d0d80bdb28d4a6fc7ced17aef50bb1",
+      "after_sha256": "1af8db83b9563b250e6870f4651d62eb1dbb7021e923e36fcc9a00ddc04d1f5c",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Config/DefaultGame.ini",
+      "scope": "shared",
+      "base_sha256": "4d2e60d1a15b212493e9725f45f92c668e63004e6b0cb206240600380b06c316",
+      "before_sha256": "4d2e60d1a15b212493e9725f45f92c668e63004e6b0cb206240600380b06c316",
+      "after_sha256": "31a289c1c0913746c26d134b652cd1c3426a114dd03a292ab2bf4f28e24ce476",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBArkUI.cpp",
+      "scope": "shared",
+      "base_sha256": "7ee6df5b50628e674a1927c034fb66e66c2fff677cb599e2a7cd4b57ad72a881",
+      "before_sha256": "7ee6df5b50628e674a1927c034fb66e66c2fff677cb599e2a7cd4b57ad72a881",
+      "after_sha256": "3c90e85a53d8f81b0775479228ab21a2ded9a19e6b563dd32cf4bfd8cf1f1aab",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.cpp",
+      "scope": "shared",
+      "base_sha256": "c6b798df82260facb76dc67658488c0f6faa05cbe3d26b50960eab073d1775af",
+      "before_sha256": "c6b798df82260facb76dc67658488c0f6faa05cbe3d26b50960eab073d1775af",
+      "after_sha256": "cee3ccec07f4309c9d887373ddee0d3035a4be79b511d0154baf88c5813170e9",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.cpp",
+      "scope": "shared",
+      "base_sha256": "4795117079863c13c24b01377ab1376f4579cca2ec95286f9b2555494b1960c3",
+      "before_sha256": "4795117079863c13c24b01377ab1376f4579cca2ec95286f9b2555494b1960c3",
+      "after_sha256": "8cba90fe930dcd92563b5f3ff0e43257e7b367786ee0b754bbacd38392b758a7",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.h",
+      "scope": "shared",
+      "base_sha256": "5b03d34b7c29b351d98635e0c8af571d2e58ccbefe73780574e8a171760684c9",
+      "before_sha256": "5b03d34b7c29b351d98635e0c8af571d2e58ccbefe73780574e8a171760684c9",
+      "after_sha256": "911d11a956aa06b563461548a215def8fc359959aa551e4801b57356998c66d7",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBFeelConfig.cpp",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "b12be0fb0c05c2fb0c7a2ba3a02232abafa3b1cac0bb771055726d8ec0cc99a2",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBFeelConfig.h",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "b287760c23acee23f2982029b3f8fc4f5c0a0588c45591cfa01ae37166236efb",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitJudge.cpp",
+      "scope": "shared",
+      "base_sha256": "a83e60e3038dd6d885acd587811b93a218a5cffa65a25a4adef29932050ee24f",
+      "before_sha256": "a83e60e3038dd6d885acd587811b93a218a5cffa65a25a4adef29932050ee24f",
+      "after_sha256": "0913054d1d440223564e3fe37c28322622a2b4e319ba368c1f4d22e6484ef76b",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitLuna.cpp",
+      "scope": "shared",
+      "base_sha256": "34a8d14263156c9d9864051b268b94f95aa997813afaf3f93aa22ac765dd6d54",
+      "before_sha256": "34a8d14263156c9d9864051b268b94f95aa997813afaf3f93aa22ac765dd6d54",
+      "after_sha256": "d17f3f51ab435976a84deb6931280d3dbf86a83c7d0cb44b818116c26e82891b",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitNarrator.cpp",
+      "scope": "shared",
+      "base_sha256": "92cc39a4cec98ec2b351f4b79d36b7ed42393293ad5a91bda40e0d59be1fd8b1",
+      "before_sha256": "92cc39a4cec98ec2b351f4b79d36b7ed42393293ad5a91bda40e0d59be1fd8b1",
+      "after_sha256": "3b4bb5888927e35ba1a87d20b08b772290a3acd907c292fdf5aa84951ac43e42",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitWorld.cpp",
+      "scope": "shared",
+      "base_sha256": "907e2fabab23e8c5f55691b49e6547b01062204741474953fe589572272cc689",
+      "before_sha256": "907e2fabab23e8c5f55691b49e6547b01062204741474953fe589572272cc689",
+      "after_sha256": "ddda5dfeb43d1d435d454fd1d38aed83e38f870dd1e03dea8730614bc6643d60",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBKitWorld.h",
+      "scope": "shared",
+      "base_sha256": "229987297875b533a7d43aaf55333ee1584ad0c793beb7d1fe7d5fd3abd22bb2",
+      "before_sha256": "229987297875b533a7d43aaf55333ee1584ad0c793beb7d1fe7d5fd3abd22bb2",
+      "after_sha256": "0b760b6345e9133d794eaba763be5a86e1a72111e912bdd02b216993c24acd3e",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBMotionEvents.cpp",
+      "scope": "shared",
+      "base_sha256": "6928e7957d24131ea2be69778bfbb95a553fd7d55bd0c7f0eb857ddf164e75fe",
+      "before_sha256": "6928e7957d24131ea2be69778bfbb95a553fd7d55bd0c7f0eb857ddf164e75fe",
+      "after_sha256": "47e60d88e73fae3aaa03bf2bab3bbdda384bfd7836e9d5bbf0ebd49379c52339",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.cpp",
+      "scope": "shared",
+      "base_sha256": "aba7afa708e3bf2bbec9f5d843bec02422ab9ed19d7f4ed1f3255200324709d9",
+      "before_sha256": "aba7afa708e3bf2bbec9f5d843bec02422ab9ed19d7f4ed1f3255200324709d9",
+      "after_sha256": "43d06df3b0784239d3206a728fb1a05fdac6ac8bfd1fc7c8db6d3b130e783832",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.h",
+      "scope": "shared",
+      "base_sha256": "f9f69c76bedcf319ec3befdb63c7df0212114a77d1e3a7e1426732dc0a8ad9be",
+      "before_sha256": "f9f69c76bedcf319ec3befdb63c7df0212114a77d1e3a7e1426732dc0a8ad9be",
+      "after_sha256": "49226f5929c5e342724d6687dbac2ba53b6c48199084b0fe6e8613ee9c85c8ba",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.cpp",
+      "scope": "shared",
+      "base_sha256": "87e7c6168c7c174a4e141f15dafe81a3a0de15b068830141c1269dba28a87808",
+      "before_sha256": "87e7c6168c7c174a4e141f15dafe81a3a0de15b068830141c1269dba28a87808",
+      "after_sha256": "a3a0eda6c3efe66c2537515cf8132e9e26c1560078d53929ff34f8fcb852ccac",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.h",
+      "scope": "shared",
+      "base_sha256": "bfec72ac299035651a2fdb93cbc127757ec6dca5285e9ee32b1cc925751f865c",
+      "before_sha256": "bfec72ac299035651a2fdb93cbc127757ec6dca5285e9ee32b1cc925751f865c",
+      "after_sha256": "ccbde323761044398183a2bf557d926f438f51094e914ae6ea884a997f280334",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerFeel.cpp",
+      "scope": "shared",
+      "base_sha256": "6aa8e34abe7cc660c3b369c61fbd468e02ad39de3f0172d8834c8bcd8443fc3c",
+      "before_sha256": "6aa8e34abe7cc660c3b369c61fbd468e02ad39de3f0172d8834c8bcd8443fc3c",
+      "after_sha256": "ea739eb045451ee28c60cbfbde501fcb9a3314f54349cb3007b8cc65f4c387c9",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerGAS.cpp",
+      "scope": "shared",
+      "base_sha256": "46678954b322af65f3744ec1848629a33351690b374104678499877fa8c4e4fa",
+      "before_sha256": "46678954b322af65f3744ec1848629a33351690b374104678499877fa8c4e4fa",
+      "after_sha256": "6db9d5c37a7beb436c532b7432935275a0971f68ddf0cde271b2026cf99e6811",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBTuning.h",
+      "scope": "shared",
+      "base_sha256": "c94972990a4db7cfd6282913fff689a9e6f8f8caba1fb4fe346a27642e374703",
+      "before_sha256": "c94972990a4db7cfd6282913fff689a9e6f8f8caba1fb4fe346a27642e374703",
+      "after_sha256": "5541fca22379ef96c8dc30529da875099385f214b3c5c93666b5fa25a02df623",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBHitFeel.cpp",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "fb419d9f21999845706f22612922c8347939694a488fd5ea5ca88548d5093ab9",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBHitFeel.h",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "83196d8b1f6e3a8e167295eb4e8966ab16cd68defafe576e95b6f15becc1e11c",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData1.cpp",
+      "scope": "shared",
+      "base_sha256": "874d49793babaed93567ea2882b1ee6d74b0994acc197c26008b5bf50bee0d0e",
+      "before_sha256": "874d49793babaed93567ea2882b1ee6d74b0994acc197c26008b5bf50bee0d0e",
+      "after_sha256": "e2c7bad071138ea52191708e636c268d67ad2c9447ffb670c7f87b3ca17128c3",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData2.cpp",
+      "scope": "shared",
+      "base_sha256": "b797ee70678b83716ac2d79f645220c89fc63505c438574c5684baedc76d1f1a",
+      "before_sha256": "b797ee70678b83716ac2d79f645220c89fc63505c438574c5684baedc76d1f1a",
+      "after_sha256": "4308dd8b9944fed03267214e5b71d4e528b8aa4ed88081426de09f6d4f388af5",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData3.cpp",
+      "scope": "shared",
+      "base_sha256": "c3f1ab8b9ed4ac9991de0e4aeaaa87489d70b3e431cf8f28228e52aa04468456",
+      "before_sha256": "c3f1ab8b9ed4ac9991de0e4aeaaa87489d70b3e431cf8f28228e52aa04468456",
+      "after_sha256": "ca3c6e6b0dbfabe1139522b3bf561d73b91a51c5c472be842256f75cf9bd6405",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitHooks.cpp",
+      "scope": "shared",
+      "base_sha256": "3af071a29b5f332f0734526d6e3335eb0b214d8387415ef5e54e5ef2919dbfdb",
+      "before_sha256": "3af071a29b5f332f0734526d6e3335eb0b214d8387415ef5e54e5ef2919dbfdb",
+      "after_sha256": "0fe807cdbc7a1d0133097b3ce603f0199687316f38e15e28758699a93cb9a4a8",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitRuntime.cpp",
+      "scope": "shared",
+      "base_sha256": "29cfd401a18fd6215505cd44f1c457254cfd5c8b796c09e216e730bb264d9d4f",
+      "before_sha256": "29cfd401a18fd6215505cd44f1c457254cfd5c8b796c09e216e730bb264d9d4f",
+      "after_sha256": "9bad512f992b28aa60c12ffed79f24789fcb5791c32198d7e463826c4578c7cb",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitRuntime.h",
+      "scope": "shared",
+      "base_sha256": "847a05ce1c43c89a20113453fbde156c341122a12f50d9e00fbb1d1fd1713229",
+      "before_sha256": "847a05ce1c43c89a20113453fbde156c341122a12f50d9e00fbb1d1fd1713229",
+      "after_sha256": "f59581cca64521c73646f9e8a0f0dc8f539f3f92dbc1e1294f56b7b2935223c2",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitSteps.cpp",
+      "scope": "shared",
+      "base_sha256": "5a4ab8a4e86893bb186c88d82e5bef4134e27e056b2c82c56162e0e8b7157578",
+      "before_sha256": "5a4ab8a4e86893bb186c88d82e5bef4134e27e056b2c82c56162e0e8b7157578",
+      "after_sha256": "1987936ed4d29098b6d47456a14351b6ed715a54f09c8c4e7f23c21e0236448c",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitTypes.h",
+      "scope": "shared",
+      "base_sha256": "99c7187206c8975a576417498b65b752564542d39f4ca36ec4926b6d3d86be36",
+      "before_sha256": "99c7187206c8975a576417498b65b752564542d39f4ca36ec4926b6d3d86be36",
+      "after_sha256": "83b592904cbdf61862f617c84eb98cabca219341ff1248055527b14cda2a6b4b",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBStagger.cpp",
+      "scope": "shared",
+      "base_sha256": "edf7e443ed397b28c4e75b7c40e16edf2b997afea93dbbf691c369f7540ba368",
+      "before_sha256": "edf7e443ed397b28c4e75b7c40e16edf2b997afea93dbbf691c369f7540ba368",
+      "after_sha256": "1074ffc545b6cc744b75aa70492c1a502f546237ac45d3d8032eb6d073fb7d66",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBStagger.h",
+      "scope": "shared",
+      "base_sha256": "2c667e7825e684623369144d3352ddb5d99c9f44efb722809f7024bafe4c4b60",
+      "before_sha256": "2c667e7825e684623369144d3352ddb5d99c9f44efb722809f7024bafe4c4b60",
+      "after_sha256": "768f5c458ed5134e7d9433068cb24eae1c86c4e79e311481200d8dd6771641d8",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tests/feel_tests.cpp",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "c975d17a5592ef5189345605d58ea5d41ddc66d2b9208423f16d12da7e592982",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tests/kit_balance.cpp",
+      "scope": "shared",
+      "base_sha256": "ad13f8614450ec6cc25019b211685f4c32eaa33e682ef7db09d5bbdb1e528e85",
+      "before_sha256": "ad13f8614450ec6cc25019b211685f4c32eaa33e682ef7db09d5bbdb1e528e85",
+      "after_sha256": "8c171bd5d198bfcb2b005b5ffc88daa666264814523121274ac954fb2d98bbdb",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tests/run_core_tests.sh",
+      "scope": "shared",
+      "base_sha256": "835a80027075d5f0722410c99c347505ae4f764ce958a91db5a91557bd960427",
+      "before_sha256": "835a80027075d5f0722410c99c347505ae4f764ce958a91db5a91557bd960427",
+      "after_sha256": "6d3312fa4295894a6509edb3e505cb6da563c2ecc28c2e1dc7638de784cb5a0d",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/verify_combat.py",
+      "scope": "shared",
+      "base_sha256": "28a2cf0e9802f841d2fea93152d36fa6b597890101a7462be9e94c1c07ba9d93",
+      "before_sha256": "28a2cf0e9802f841d2fea93152d36fa6b597890101a7462be9e94c1c07ba9d93",
+      "after_sha256": "c4551e196d640e2021058bc594a00594701827229d60acbb95a399f57fb03449",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/verify_feel.py",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "fd7375646f24e7caa4eddd6d3a71bcfce7fd0456c19964aad71c4001db1cb5a4",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "HANDOFF.md",
+      "scope": "shared",
+      "base_sha256": "401ecce7541ea0103fb1e361a169b56076b6cf740ddeb799ca89f73ffc0b1cf2",
+      "before_sha256": "401ecce7541ea0103fb1e361a169b56076b6cf740ddeb799ca89f73ffc0b1cf2",
+      "after_sha256": "2a4fe450f49f2a04e43c9630d7caa6c061b30d69c1a712ac94a6dd3dc4d3b7c7",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "docs/operator-kits.md",
+      "scope": "shared",
+      "base_sha256": "af7ddfc80481bb47e057b00cea81aba2bedabda950a0957af7417bd096686cc6",
+      "before_sha256": "af7ddfc80481bb47e057b00cea81aba2bedabda950a0957af7417bd096686cc6",
+      "after_sha256": "b8ee31aad0f3edc591585e26ffc34488fb7476c6010006f4e0d797470be071f7",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/demo/2026-10-13-combat-feel-rework.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "d5976b5378418954c53abac497c02c464bf6d154dfe4a5968bda14561f896523",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/demo/goal-2-angel-ai-brief.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "f91524780ba90201e47c4f06dc4eb659ec71daad0e9af532b11fa6174aac558c",
+      "action": "created",
+      "intentional_platform_difference": null
+    }
+  ],
+  "conflicts": [],
+  "transfer_status": "pushed to GitHub branch claude/happy-babbage-gmmcty; not applied on a device",
+  "counterpart_applied": false,
+  "verification": [
+    "Tests/run_core_tests.sh: 0 failures (incl. 972 feel checks)",
+    "Tests/kit_balance.cpp: 0 kits out of band; Luna (analytic) 0.84",
+    "Unreal editor build: OPEN (owner's Mac)",
+    "Tools/verify_feel.py / verify_combat.py / verify_kits.py: OPEN (owner's Mac)"
+  ]
+}

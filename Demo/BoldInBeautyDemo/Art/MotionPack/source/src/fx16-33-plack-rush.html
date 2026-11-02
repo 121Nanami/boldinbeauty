@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "16", "n": 33, "title": "Plack Move 1: Rush", "slug": "plack-rush", "who": "plack", "label": "PROPOSED", "note": "Dash trail hitting everything crossed"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-33-plack-rush", "title": "Plack Move 1: Rush", "dur": 3.0, "layers": [{"fx": "dash", "at": "mid", "dist": 600, "col": "#64E8FF", "col2": "#F7F4FA", "trail": 420, "dd": 0.25}, {"fx": "blast", "at": "en", "t0": 0.25, "r": 200, "col": "#64E8FF", "col2": "#F7F4FA", "rings": 1}], "enemy": true, "cas": true, "note": "Dash trail hitting everything crossed", "label": "PROPOSED", "who": "Plack", "slot": "Move 1", "hit": 0.25, "sfx": "hit", "n": 33, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

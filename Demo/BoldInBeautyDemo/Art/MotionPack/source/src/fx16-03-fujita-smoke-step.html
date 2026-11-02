@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 3, "title": "Fujita Move 2: Smoke Step", "slug": "fujita-smoke-step", "who": "fujita", "label": "PROPOSED", "note": "1.2 s smoke stance; up to 3 dodge-and-counter puffs"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-03-fujita-smoke-step", "title": "Fujita Move 2: Smoke Step", "dur": 3.4, "layers": [{"fx": "burst", "at": "cas", "n": 44, "shape": "dot", "cols": ["#F7F4FA", "#9A98A6"], "spd": 130, "a0": -3.1, "a1": 0, "g": -40, "size": 26, "life": 1.4, "y": -60}, {"fx": "ring", "at": "cas", "r1": 260, "col": "#F7F4FA", "flat": true}, {"fx": "burst", "at": "cas", "t0": 1.0, "n": 22, "shape": "dot", "cols": ["#F7F4FA", "#9A98A6"], "spd": 160, "a0": -3.1, "a1": 0, "size": 18, "life": 0.9}, {"fx": "dash", "at": "mid", "t0": 1.0, "dist": 360, "col": "#64E8FF", "col2": "#F7F4FA", "dd": 0.15, "trail": 220}, {"fx": "burst", "at": "cas", "t0": 1.8, "n": 22, "shape": "dot", "cols": ["#F7F4FA", "#9A98A6"], "spd": 160, "a0": -3.1, "a1": 0, "size": 18, "life": 0.9, "seed": 7}, {"fx": "dash", "at": "mid", "t0": 1.8, "dist": 360, "dir": -1, "col": "#64E8FF", "col2": "#F7F4FA", "dd": 0.15, "trail": 220}], "enemy": true, "cas": true, "note": "1.2 s smoke stance; up to 3 dodge-and-counter puffs", "label": "PROPOSED", "who": "Fujita", "slot": "Move 2", "hit": 0.2, "sfx": "soft", "n": 3, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

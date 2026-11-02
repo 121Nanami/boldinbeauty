@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 1, "title": "Dash-attack trail", "slug": "dash-attack-trail", "who": null, "label": "NEEDS ART", "note": "Sprint + attack: streak, speed lines, dust"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-01-dash-attack-trail", "title": "Dash-attack trail", "dur": 3.0, "layers": [{"fx": "dash", "at": "mid", "dist": 900, "col": "#FF3D8D", "col2": "#F7F4FA", "trail": 620, "dust": true}, {"fx": "blast", "at": "en", "t0": 0.35, "r": 200, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 1}], "enemy": true, "cas": true, "note": "Sprint + attack: streak, speed lines, dust", "label": "NEEDS ART", "who": "SHARED", "slot": "Sprint + attack", "hit": 0.35, "sfx": "hit", "n": 1, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

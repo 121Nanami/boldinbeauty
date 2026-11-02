@@ -1,0 +1,9 @@
+<!--META {"dur": 4.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 6, "title": "Fujita Ultimate: Hundred Cuts", "slug": "fujita-hundred-cuts", "who": "fujita", "label": "PROPOSED", "note": "3 s of blinking between enemies, 24 cut streaks, bleed loop"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-06-fujita-hundred-cuts", "title": "Fujita Ultimate: Hundred Cuts", "dur": 4.4, "layers": [{"fx": "blink", "at": "en", "n": 12, "gap": 0.2, "area": 380, "rows": 110, "col": "#64E8FF", "col2": "#F7F4FA"}, {"fx": "status", "at": "en", "t0": 2.7, "kind": "bleed", "col": "#FF3D8D", "shell": false}, {"fx": "flash", "at": "mid", "t0": 2.6, "D": 0.15, "a": 0.4}], "enemy": true, "cas": true, "note": "3 s of blinking between enemies, 24 cut streaks, bleed loop", "label": "PROPOSED", "who": "Fujita", "slot": "Ultimate", "hit": 0.2, "sfx": "zap", "n": 6, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

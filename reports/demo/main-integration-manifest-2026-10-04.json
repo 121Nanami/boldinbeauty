@@ -1,0 +1,35 @@
+{
+  "record_kind": "actual MAIN integration handoff",
+  "task": "Record the 2026-10-04 hub iteration in BoldInBeauty_MAIN",
+  "date": "2026-10-04",
+  "device": "Linux cloud container (neither replica)",
+  "project_root_reference": "repository 121Nanami/BoldInBeauty-Project, branch claude/great-newton-wp7hgt",
+  "base_manifest": null,
+  "cross_device_freshness": "OPEN",
+  "counterpart_handoff": null,
+  "files": [
+    {
+      "path": "BoldInBeauty_MAIN",
+      "scope": "shared knowledge",
+      "action": "modified",
+      "before_sha256": "2232025906b64cfb782385915142aef79da504799f9910f4d119ec39fb0be852",
+      "after_sha256": "16bcb1b1d867a9d97d8e4cf7a32aa2ef4e2aff9377bd4db57564f5f354254e80",
+      "verification": [
+        "Reread section 11 demo subsection before editing",
+        "Added one subsection; header demo note date; one 'not in demo' phrase",
+        "Unverified Unreal-side work labelled OPEN; owner requests recorded as requests, not decisions",
+        "Second pass 2026-10-04: replaced the not-compiled wording with the Mac verification results"
+      ]
+    },
+    {
+      "path": "sync/handoff-state.json",
+      "scope": "local coordination; git-ignored, not committed",
+      "action": "modified",
+      "after_sha256": "9f83b6829ee83181101c19cea364e535857d979122c0797c1b40309d04f364b9"
+    }
+  ],
+  "unresolved_items": [
+    "Windows replica and cross-device freshness OPEN",
+    "Counterpart acknowledgement not received"
+  ]
+}

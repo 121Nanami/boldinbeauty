@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "16", "n": 17, "title": "Myrcia Special: Fortify", "slug": "myrcia-fortify", "who": "myrcia", "label": "PROPOSED", "note": "10 s defence aura; regen ticks; undertow drag ring"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-17-myrcia-fortify", "title": "Myrcia Special: Fortify", "dur": 3.6, "layers": [{"fx": "aura", "at": "cas", "col": "#64E8FF", "col2": "#7657FF", "r": 160, "h": 300, "t1": 3.4}, {"fx": "zone", "at": "cas", "rx": 360, "ry": 108, "col": "#7657FF", "col2": "#64E8FF", "kind": "bubbles", "t1": 3.4}, {"fx": "ring", "at": "cas", "n": 3, "t0": 0.2, "r0": 400, "r1": 40, "col": "#7657FF", "w": 10, "flat": true}, {"fx": "ring", "at": "cas", "n": 3, "t0": 1.4, "r0": 400, "r1": 40, "col": "#7657FF", "w": 10, "flat": true}], "enemy": false, "cas": true, "note": "10 s defence aura; regen ticks; undertow drag ring", "label": "PROPOSED", "who": "Myrcia", "slot": "Special", "hit": 0.2, "sfx": "chime", "n": 17, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

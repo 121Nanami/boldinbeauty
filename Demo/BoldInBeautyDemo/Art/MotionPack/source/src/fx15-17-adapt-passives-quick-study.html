@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "15", "n": 17, "title": "Adapt Passives: Quick Study / Glitch Step", "slug": "adapt-passives-quick-study", "who": "adapt", "label": "PROPOSED", "note": "Heal + dodge-ready pop; +25% damage glow for 4 s"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-17-adapt-passives-quick-study", "title": "Adapt Passives: Quick Study / Glitch Step", "dur": 3.0, "layers": [{"fx": "burst", "at": "cas", "n": 22, "cols": ["#64E8FF", "#F7F4FA"], "spd": 170, "a0": -2.6, "a1": -0.5, "g": -200, "shape": "dot", "size": 8, "life": 1.2}, {"fx": "pulsehex", "at": "cas", "h": 150, "r": 300, "col": "#64E8FF", "n": 2}, {"fx": "aura", "at": "cas", "t0": 1.6, "t1": 3.0, "col": "#FF3D8D", "col2": "#F7F4FA", "r": 100, "h": 260, "al": 0.7}, {"fx": "glitchbar", "at": "cas", "oy": -150, "col": "#64E8FF", "col2": "#FF3D8D", "n": 4, "w": 200, "h": 200, "t0": 1.5, "t1": 1.9}], "enemy": false, "cas": true, "note": "Heal + dodge-ready pop; +25% damage glow for 4 s", "label": "PROPOSED", "who": "Adapt", "slot": "Passives", "hit": 0.1, "sfx": "chime", "n": 17, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

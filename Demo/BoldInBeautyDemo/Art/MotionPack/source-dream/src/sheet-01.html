@@ -1,0 +1,28 @@
+<!--META {"dur":42.0,"kind":"sheet","sheet":"01"} -->
+<div id="bgL" class="fill"></div>
+<div id="pieces" class="fill"></div>
+<div id="title" class="fill"></div>
+<div id="lab" class="abs mono" style="left:60px;top:40px;font-size:24px;color:#F7F4FA;opacity:.8"></div>
+<div id="num" class="abs mono" style="right:60px;top:40px;font-size:24px;color:#FF3D8D;font-weight:700"></div>
+<script>
+(function () {
+  var ids = ["nav-bar", "btn-primary", "btn-secondary", "settings-controls", "loading", "modal", "notice-toast", "page-header"], SH = "01", T0 = 2.0, P = 5.0;
+  UI.bg(document.getElementById("bgL"), 50, 55);
+  var ti = document.getElementById("title");
+  IG.el("div", "", ti, null, { position: "absolute", inset: 0, background: "#090B12" });
+  var k = IG.el("div", "mono", ti, "BOLDINBEAUTY // MOTION UI PACK // SHEET " + SH, { position: "absolute", left: "160px", top: "390px", fontSize: "30px", color: C.cy });
+  var t = IG.el("div", "voice", ti, "<span class='bib-skew'>" + UIP.SHEETS[SH] + "</span>", { position: "absolute", left: "150px", top: "440px", fontSize: "220px", color: C.wh });
+  var n = IG.el("div", "mono", ti, ids.length + " ANIMATED PIECES // 5 S EACH // 4K // TRANSPARENT MASTERS INCLUDED", { position: "absolute", left: "160px", top: "680px", fontSize: "26px", color: C.rose });
+  IG.rise(tl, k, 0.1); IG.slam(tl, t, 0.2); IG.rise(tl, n, 0.5);
+  tl.to(ti, { opacity: 0, duration: 0.2 }, T0 - 0.2);
+  var LK = [[0, ""]], NK = [[0, ""]];
+  ids.forEach(function (id, i) {
+    var L = IG.el("div", "", "#pieces", null, { position: "absolute", inset: 0 });
+    var at = T0 + i * P;
+    IG.span(tl, L, at, at + P);
+    var s = IG.sub(); UIP[id].fn(s, L); tl.add(s, at);
+    LK.push([at, "SHEET " + SH + " // " + UIP[id].title]); NK.push([at, SH + "." + (i + 1 < 10 ? "0" : "") + (i + 1)]);
+  });
+  IG.textAt(tl, "#lab", LK, DUR); IG.textAt(tl, "#num", NK, DUR);
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 5.0, "alpha": true, "kind": "fx", "sheet": "17", "n": 24, "title": "Weather Ultimate: Perfect Storm", "slug": "weather-perfect-storm", "who": "weather", "label": "PROPOSED", "note": "10 s storm: rain, wind, lightning every 0.8 s, gale"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-24-weather-perfect-storm", "title": "Weather Ultimate: Perfect Storm", "dur": 5.0, "layers": [{"fx": "rain", "at": "mid", "cloud": true, "n": 130, "area": 1300, "h": 620, "col": "#64E8FF", "col2": "#7657FF", "ang": 0.3}, {"fx": "bolt", "at": "mid", "t0": 0.4, "n": 7, "gap": 0.55, "area": 1300, "col": "#F7F4FA", "w": 18, "seed": 9}, {"fx": "tornado", "at": "mid", "col": "#7657FF", "col2": "#F7F4FA", "r": 240, "h": 640, "t0": 0.8, "pull": true}, {"fx": "flash", "at": "mid", "t0": 0.4, "D": 0.1, "a": 0.3}, {"fx": "flash", "at": "mid", "t0": 2.0, "D": 0.1, "a": 0.3}], "enemy": true, "cas": false, "note": "10 s storm: rain, wind, lightning every 0.8 s, gale", "label": "PROPOSED", "who": "Weather", "slot": "Ultimate", "hit": 0.4, "sfx": "boom", "n": 24, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

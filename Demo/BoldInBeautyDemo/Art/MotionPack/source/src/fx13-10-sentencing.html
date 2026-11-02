@@ -1,0 +1,9 @@
+<!--META {"dur": 7.6, "alpha": true, "kind": "fx", "sheet": "13", "n": 10, "title": "Sentencing", "slug": "sentencing", "who": "judge", "label": "SOURCE", "note": "Gavel held up 5 s, struck by lightning, then 3 slams in 1 s"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx13-10-sentencing", "title": "Sentencing", "dur": 7.6, "layers": [{"fx": "mark", "at": "cas", "glyph": "gavel", "h": 270, "col": "#FFD23F", "s": 54, "t1": 5.9}, {"fx": "aura", "at": "cas", "col": "#FFD23F", "col2": "#F7F4FA", "r": 40, "h": 200, "t1": 5.2, "al": 0.3}, {"fx": "aura", "at": "cas", "col": "#FFD23F", "col2": "#F7F4FA", "r": 60, "h": 240, "t0": 2.5, "t1": 5.2, "al": 0.6}, {"fx": "bolt", "at": "cas", "oy": -270, "t0": 5.2, "n": 1, "area": 0, "col": "#FFD23F", "w": 18}, {"fx": "flash", "at": "mid", "t0": 5.2, "D": 0.15, "a": 0.5, "col": "#FFD23F"}, {"fx": "blast", "at": "mid", "t0": 5.9, "r": 380, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 2, "flat": true}, {"fx": "blast", "at": "mid", "t0": 6.23, "r": 380, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 2, "flat": true}, {"fx": "blast", "at": "mid", "t0": 6.5600000000000005, "r": 380, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 2, "flat": true}], "enemy": true, "cas": true, "note": "Gavel held up 5 s, struck by lightning, then 3 slams in 1 s", "label": "SOURCE", "who": "Judge", "slot": "Move alt", "hit": 5.2, "sfx": "boom", "n": 10, "sheet": "13"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

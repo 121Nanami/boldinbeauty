@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "17", "n": 17, "title": "Stargazer Special: Zenith Gaze", "slug": "star-zenith-gaze", "who": "star", "label": "PROPOSED", "note": "2.4 s beam, 2500 long; rooted"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-17-star-zenith-gaze", "title": "Stargazer Special: Zenith Gaze", "dur": 3.6, "layers": [{"fx": "beam", "at": "cas", "oy": -150, "ang": 0, "len": 1500, "w": 150, "col": "#64E8FF", "col2": "#F7F4FA", "charge": 0.7, "hold": 1.7}, {"fx": "status", "at": "cas", "t0": 0.2, "t1": 3.0, "kind": "root", "col": "#64E8FF", "col2": "#F7F4FA", "shell": false}], "enemy": true, "cas": true, "note": "2.4 s beam, 2500 long; rooted", "label": "PROPOSED", "who": "Stargazer", "slot": "Special", "hit": 0.7, "sfx": "zap", "n": 17, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

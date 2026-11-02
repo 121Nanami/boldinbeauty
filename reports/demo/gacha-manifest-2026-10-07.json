@@ -1,0 +1,501 @@
+{
+ "record_kind": "actual change manifest",
+ "task": "classic gacha rebalance, element system, inventory and boosts, movesets, events, three arcade mini-games, MAIN/HANDOFF update",
+ "date": "2026-10-07",
+ "device": "MACOS-LOCAL (owner Mac), worktree BoldInBeauty-Project/worktrees/ai-agent-bb",
+ "project_root_reference": "repository 121Nanami/BoldInBeauty-Project, branch claude/gacha-elements-events (from claude/arcade-gangs-arena)",
+ "base_manifest": "none mutually acknowledged; base commit below",
+ "base_commit": "8ae5f03",
+ "head_at_writing": "e3b2521b29954d09374efc236b0e070eb9127fde (the manifest itself is committed after it)",
+ "cross_device_freshness": "OPEN",
+ "counterpart_handoff": "OPEN (Windows skipped by owner decision)",
+ "files": [
+  {
+   "path": "BoldInBeauty_MAIN",
+   "scope": "shared (docs)",
+   "action": "modified",
+   "before_sha256": "ab452c7da7cc21b06647528e62b6a6f6c7834c99afb29b593a9b95db65ea28a9",
+   "after_sha256": "86be88fea3b8cd49034df7f9c5aa38aa2245cdb39ebe3cc7bdef38be4c86e44d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Config/DefaultGameplayTags.ini",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "ec5bd070e68ff4a1f2c84532f8aaf7542215f5462e20de072f909fee4351e493",
+   "after_sha256": "216253b5bfacd6406c01634387898fb9ec2707badd3efeede49d1e03900686af"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBArcadeOverlay.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "dc972d6b140a7e0fada2edbda93af7f3fd5528feece87290285cc6bb582d384d",
+   "after_sha256": "5db42961e8afe3152f524ff6859800a98ebda71505d799864a317ae24030e7b2"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBArcadeOverlay.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "314dccb8a041ed63eaf54b769c876844b42ac77a8d940301bffb253172c5b49a",
+   "after_sha256": "8a776f406e58e17b453d1129348db10f82fdae18d4c091fc84a23954f91dbb51"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "6a1af67ddb9441cee350c0bd98dfd0538b77fa0b707f3af5669eb2331e8705a8",
+   "after_sha256": "cea8f5679a507c7f37dd852e8d34a1ff840ab20c65794bd593eb8c7f3cf5914e"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "c21674d348f77536932ff81306874bb2813121f69555f5ccfd382520af610969",
+   "after_sha256": "afa1d22f2695d52d53d6002569c18a78bd78015b504af945de2979b3892066bc"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "23f345ae7bbfc2c840adf9a49263a17b91a285a9ac0c98c487777c413c8bfdbf",
+   "after_sha256": "d25d6503c92b63c70ed20cae8317e695f9beb85095e4abcd1d698a02188fbcdf"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameInstance.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "161eb3f114c6da2ec13948da7e814127cbd6aa58cd5ade841182374489ba4019",
+   "after_sha256": "3da87b2ec94fdd98334fbde69929d7b8786add4f773a2ad076a6ecadb7e8bb75"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameMode.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "f6094e74ba4ac1bfe7730df7729f4bf9dce734dd0ad23756fc6870078847deb6",
+   "after_sha256": "28f15257ae7ac9eb02e243e2872aef3c2a446ada33a675b73256962f271c42f3"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBHubWidget.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "3f1700b45d1c50a3ed904899ac3e2587a5b9be6041f214cf65996cbf105d0e2f",
+   "after_sha256": "7b00c84cd9ec7efdcc2b53d201648b1fda38c5c020d5e73a3afdf6814783ce0d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "9a575026cf025deb31ee5dda48afa3d9a38488e06ef15f362c25ebda11627348",
+   "after_sha256": "680d1e899fa58f7a2fa7c6a997eb804d93ab5031c3439b628605002df42043e7"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "47ca4760c620cee5a2d49231e98b3b146b8a57196ec963389ba1298089a5c9a5",
+   "after_sha256": "50963a9315d9a7a00d68fb6919b3300a3adf416b2e5ea1e36c2e86e14c7c1ca5"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBArcade.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "da434c1fb0647f4e9819cc7aad6282af11e1f71f2791dceb974365ce4bea2558",
+   "after_sha256": "857c4fa44ab60e756505ab46cd01caf5e5d7b86bc5985eaa2093ce0aa7950da3"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBArcade.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "3c632f714e55ff5fc8c51dbb8c84eab3a49c9ea39c47c4f325de7959727d7a5d",
+   "after_sha256": "830ca75c635fd8d1c39257444d0a534f210ef9b8f81e44833902b4b062a04ef1"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBArena.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "dfbfe482743e6d8484e280398749e508a302448ff6f6ddcc07ec11463338102f",
+   "after_sha256": "89100bb42936b293f39d727dbb36760cc9d797cd47c713df5045eabdb03de12b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBArena.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "14a37dfff96445b0aa5ff5568d6b0e8986b73a56e2001d87d5e017be255eb40f",
+   "after_sha256": "45fded08dace1a89bfe9758ecf5379a6a9efa164dccf5a4e109b7049056ef2a3"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCampaignData.inc",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "455552d5a38a39ef3ef9a65a9ed1fd2fe302b7c7e42bb6e1089e5a2352c3acf5",
+   "after_sha256": "7b07d5ee138f454ecf2cf324d7739b585dcd9f47fbed5eb45caa99a69fb1d6d3"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBConfig.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "f1ca297e410ba940b2bcb76b196358c18067fd5397bbbe51054fcbea73f90d0e",
+   "after_sha256": "d4c1a8e88704bb1c48b0587052d141d739909a71df15cbed41bd949958e19d4f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "b43a6ba5ae65c7951b10f41e65e4b98351fbd813d59cfdaf963024e3bf062297",
+   "after_sha256": "b6ece53a87d415e5a9cfc4a4847fcd46d042ec71e8dc76a2328f8615216791db"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "4101c61a1e7a9ef2726e9268b8ec9b901edac50bc48c2db56e8db9cb73d115d3",
+   "after_sha256": "8bc3406e1bdcda203eca75a761de5847336f8e9eb6cba394ad554da8ca093ad5"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBElement.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "b10b611e804e0694512bb11ef48ff1173989818531f9232ffbbb9c41bd352e58"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBElement.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "cc243b52af66a99bbfd4f2281fd4374a8fb677cd8307723b32deaf35c08f084b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBEvents.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "ac7da6e92dff0ea4c728ca6ffd19cda6320cf146a063149b96fd8a4596243ad7"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBEvents.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "692fc2f2d9a7912c7d06a6e5bd09b0d87027e967806de93bba3b4c20641b2609"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBInventory.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "7698115fdd441758abfbfd425f999073c45c9d96de1d49b07dbc2d76b97db824"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBInventory.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "ee96f3ce92b4a18314f4ea17d9a6efbadfad333efe58369a0b3a3460bf78ff6f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData1.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "113f970f1c5965ea6063ba3fa3c532bd2a8633c60a2277437bf0667442f1a5eb",
+   "after_sha256": "9ceda8c2566fc4a4c04a126fa780daede4ddb494ca13b9701b03dcc976f91ae8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData2.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "96accd100f3f4f28515ebe0fc1730ad63b2a8e4dd0aabd6d6e559b6a75bb4c2a",
+   "after_sha256": "903b4fddf09f8c05c04791b1c288b33f660336f75a5226dae3d34ba9ba9aa23a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitData3.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "e7090655ee13ff6703b562ebf4436be0b757e922bfcffb595a7d28d2584d4082",
+   "after_sha256": "58b95ce0611276b848f416fac4dcc13b3f0570a1c594ea91a1961dd609f4d49f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitSteps.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "e47ec995e5509d2f43b4681dd6fd0e3b077e8c2d4dc7e878a3a0f37cf0a5c695",
+   "after_sha256": "5a4ab8a4e86893bb186c88d82e5bef4134e27e056b2c82c56162e0e8b7157578"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitTypes.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "3c497eb5e6385599c67719a8b934ed46352c0c2d839045324a144e92b0ff0a07",
+   "after_sha256": "fd83a4e1bdb58b920a44b8dbdd174f1cd1a9081226d20bec6f6830c7659d276a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBLiveOps.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "5bda5096dfb5d6593853e08171cff3581eb776b258ae9a6d77759086bca6165b",
+   "after_sha256": "78d25a2977d4b0e546a3cbe4f1c10bd92fc89df4907b3834ec4d2f6540a1080a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMeta.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "034686489b5453e7c8cabd2bc637847f3e8989d6eea8ca0876003af539794dbb",
+   "after_sha256": "35b7c6ffe00f9526d1f16c937fa0d79c7519288355802a085df2dfd23a09556f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMeta.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "1115f18f22be45afede778902bbb995a1a044ae937b4c7737df36860c0edd2e7",
+   "after_sha256": "67dbee11fd31b3850c3780d62e030bda94da5166108d0fb304662a29503094ff"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMetaOps.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "e65d8b02969233d061ae4c73ce6aa839153e2afb019a58ae1ba8f29140d234c7",
+   "after_sha256": "5610691715484b614609039fd0eca63a434667ebc7d0b5b436f4e6e5fcb8cb0d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMetaOps.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "217c2cf82af172f1567a20b91ab1eee910141a31473d1b9ad619054d7074d6b1",
+   "after_sha256": "1ab9a844f8278b5caebcf84bf90e99b3ca357684cf9746a3673d13ef1d855ef8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMiniGames.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "c174cae4da0e3112065c388b25f2f881fb305df285242fb50ffcf0e7c36276fb"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMiniGames.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "9bdc2093e213421b207176faef9416537c4c135c92960260de240aa4de628bd8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "7918d2f99b8bc07960f57b4cb59b7494ce116e3118c94c11a981504edde34516",
+   "after_sha256": "c41023f263d3b97fb28c019ddd6c4b153ad517a2c314f6412de262e2f0cbb0f6"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "bd02d2a6edca8f27fe5b463289cc969809b646e428b3be7b3e8bad58f7c7c87a",
+   "after_sha256": "7c71e5573dc4d73e801f15a9e15cbfff33df5ee9ecaea7673f71ead83101b811"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPagesExtra.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "1c2a617bc2c6299777190c151e7646af123fb9b293eef208866fae7da75cbf33",
+   "after_sha256": "954fb71d5ca479995e822c5f3e1bfe50937db6d81764aa4fb7c52720ae97e85a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPagesGacha.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "75a424e3ae8a9eecde5737803f347f0f9c41c1bcdd487f762328c177d35e4bdb"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPagesGacha.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "8b5cdc3d1f75fedbb8c58872b6f9c2bb7b1641fa86c99545fa93e5bc4a00c39a"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBSave.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "bdf461f8a356a3d955d9fe28efa272a6705f5baaf43efc066b735bd1377ce5e5",
+   "after_sha256": "ec471277b78767a46eec2774b22ed445cfe4f0c271a4c56cd27c01fc95f02a2e"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/campaign_model.h",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "4d0afce19f8c4ba1ebdfe1599565c587d82a039b48db3104646e45decd3aa16c",
+   "after_sha256": "b145b99bd96ae14a788d606b13cdd3acf72f98b1de8f3c5c546a9c1a1e302ff0"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/campaign_tests.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "b2be129ad0b8974b3e4755bd8950d9b3c90791882644a52979244e1087c53a80",
+   "after_sha256": "da957ffbe63059fa1ccfa0fbcd0dd4eb145510dee7a7a2d760d451e647e3ef39"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/gacha_tests.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "3921f9ace5b12864409378de88b0f7d3a248730c3e9439ae62733a5ee3782b14"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/kit_balance.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "b093ee88914775f1c5c59365a2d0dffa5af5e9d1fe8518db00fb04208b991ae5",
+   "after_sha256": "5192002a32c213473585577b2247590f104729961b61e54403493872b366bcb1"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/kit_tests.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "ef9313d364787afa943ee613ce2faeeafcb31bc4bdf27e2bf6564cf9cadc9cd4",
+   "after_sha256": "6ef3a8329f78a84c513db1692f46451db210d251c218141e6c935feaad882ecd"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/meta_tests.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "58a9719f4684ca92e0cd6fabf76e2b16e811ac1a516078746f963e3a1a1ea744",
+   "after_sha256": "8322b3878b4e3beb9ea03a85f500cab64273013c0b6b14e1c7be281f777d8fe2"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/minigame_tests.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "f4778f4bfa2d6e9dc7fd10c30022ca66727d9fe08e13bffb1c4377b6c08f5015"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/playthrough.cpp",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "4e0658220d9d98095dd862d80212927f35d71b364c6d362668fa50064c586259",
+   "after_sha256": "aa44cc8ba8134cb80c2398d12bf7aed414fe2c42250b93bcbe687c28083a293b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/run_core_tests.sh",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "7d9b8150afb7226a497424efbd63d635881e0983381e14a11062f7f2ed38d063",
+   "after_sha256": "6f52e41e8b43199f88d4feceb5d2e34e8ceabff1d21ae184a74a71f68e78f2f0"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_campaign_data.py",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "78f1ee45a4a5bec9788fc360f4bffef0009cf522442afeae6ff6888a16dd5614",
+   "after_sha256": "212e57ba438c6892958fce746d91833cc1e10705ac3b85c17b3914174b2bfb78"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_kit_docs.py",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "4f7b4ad4236f1ce834fb17854017c1c483b2e107a40b52ce76c90fa0f2908f1b",
+   "after_sha256": "4bb9f355e4ae01104e6ac2bd47d26f808cf600f824aaa58b407d86c0d62780a9"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_tags.py",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "32579f490c8ce769cdafcc19075e6d378a977347ac2ae4adc74d3c4fd1c29f7f",
+   "after_sha256": "404edc26eb38f86bc78b55372518541c99d5ec33353c2f9e45254b3250495872"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/make_icons.py",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "28f9d22508af155a6d962da8c29bc617a15fa4ffda90ea2861e19cd43415e688",
+   "after_sha256": "7b3340418746db07f063aa741cd169bad709286543641f08e1fde15a63729e20"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_arcade.py",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "modified",
+   "before_sha256": "f9a4deb409194ddb52eda75c94b2ab4860939a1f9154facfb89dcf30e980a70b",
+   "after_sha256": "49e0137a1b805596b32534766701fa6f33fc636b0030925ecb92effd4161f355"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_gacha.py",
+   "scope": "shared (Unreal source / config / tools / tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "814219030275f34fef1fedc6b97804852fed7399fc10f5bab57689ad8813c5d9"
+  },
+  {
+   "path": "HANDOFF.md",
+   "scope": "shared (docs)",
+   "action": "modified",
+   "before_sha256": "01770912475d2e47b54d82b768860bd46f45cb694e165da5e4283bccf39911bc",
+   "after_sha256": "cfbd9494b2b855bac59bf066385886024240dba65acc8479f3eea2dfe9f3d4ab"
+  },
+  {
+   "path": "docs/campaign.md",
+   "scope": "shared (docs)",
+   "action": "modified",
+   "before_sha256": "f8e134bbb2c5044f295db2ff15ad58089caeff9b71957c77d29b0ecae92322b4",
+   "after_sha256": "96912e8dcc334ca137cb387f3b571010714816f63475a0ba62baa09549099024"
+  },
+  {
+   "path": "docs/operator-kits.md",
+   "scope": "shared (docs)",
+   "action": "modified",
+   "before_sha256": "0da512e176fc2b3dca275fcf5fb13137c0e7207cd9d719a551ee85e56a09fe88",
+   "after_sha256": "81cb032278433e82883343e605ecb3d70aac548ad87f2b265904d62c88a7ca0d"
+  },
+  {
+   "path": "reports/demo/2026-10-07-gacha-rebalance-elements-inventory-events.md",
+   "scope": "shared (docs)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "223d0ca31b8847f161e6c08360fd5b4a63b5b0c93e87f0a31554a15225ab33a1"
+  }
+ ],
+ "binary_assets_added_or_changed": {
+  "count": 40,
+  "paths": [
+   "Demo/BoldInBeautyDemo/Art/Icons/ark_medal.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/boost_bytes.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/boost_gold.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/boost_hearts.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/breach.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/charge.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_dark.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_fire.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_glitch.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_halo.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_magic.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_nature.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_none.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_volt.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/el_water.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/element_core.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/event_token.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/halofall.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/inventory.png",
+   "Demo/BoldInBeautyDemo/Art/Icons/memory.png",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_ark_medal.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_boost_bytes.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_boost_gold.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_boost_hearts.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_breach.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_charge.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_dark.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_fire.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_glitch.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_halo.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_magic.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_nature.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_none.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_volt.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_el_water.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_element_core.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_event_token.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_halofall.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_inventory.uasset",
+   "Demo/BoldInBeautyDemo/Content/BIB/UI/Icons/T_memory.uasset"
+  ],
+  "note": "icons (Art/Icons/*.png, Git LFS) and their imported textures (Content/BIB/UI/Icons/T_*.uasset)"
+ }
+}

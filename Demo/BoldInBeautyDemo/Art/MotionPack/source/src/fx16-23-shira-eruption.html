@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 23, "title": "Shiraishi Move 3: Eruption", "slug": "shira-eruption", "who": "shira", "label": "PROPOSED", "note": "Ground eruption (radius 600) scaled by Heat spent"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-23-shira-eruption", "title": "Shiraishi Move 3: Eruption", "dur": 3.4, "layers": [{"fx": "pillar", "at": "mid", "w": 260, "col": "#FF3D8D", "warn": 0.5, "hold": 0.8}, {"fx": "blast", "at": "mid", "t0": 0.5, "r": 640, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 3, "flat": true}, {"fx": "zone", "at": "mid", "t0": 0.7, "rx": 560, "ry": 170, "col": "#FF3D8D", "col2": "#F7F4FA", "kind": "embers", "grow": 0.2, "t1": 3.0}], "enemy": true, "cas": true, "note": "Ground eruption (radius 600) scaled by Heat spent", "label": "PROPOSED", "who": "Shiraishi", "slot": "Move 3", "hit": 0.5, "sfx": "boom", "n": 23, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

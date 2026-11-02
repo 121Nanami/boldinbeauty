@@ -1,0 +1,9 @@
+<!--META {"dur": 5.2, "alpha": true, "kind": "fx", "sheet": "15", "n": 10, "title": "Arita Ultimate: Full takeover", "slug": "arita-ultimate-full-takeover", "who": "arita", "label": "DERIVED", "note": "40 s giant flower creature (3.5x hitbox): transform in and out"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-10-arita-ultimate-full-takeover", "title": "Arita Ultimate: Full takeover", "dur": 5.2, "layers": [{"fx": "column", "at": "mid", "col": "#FF3D8D", "col2": "#F7F4FA", "w": 260, "h": 760, "hold": 0.7}, {"fx": "flower", "at": "mid", "h": 250, "r": 430, "col": "#FF3D8D", "col2": "#F7F4FA", "t0": 0.6, "t1": 3.9, "n": 10}, {"fx": "aura", "at": "mid", "col": "#64E8FF", "col2": "#FF3D8D", "r": 180, "h": 420, "t0": 0.9, "t1": 3.9, "al": 0.5}, {"fx": "blast", "at": "mid", "t0": 3.9, "r": 500, "col": "#F7F4FA", "col2": "#FF3D8D", "rings": 2, "flat": true}, {"fx": "shards", "at": "mid", "t0": 3.9, "up": true, "n": 50, "w": 300, "h": 400, "col": "#FF3D8D", "col2": "#F7F4FA"}], "enemy": false, "cas": true, "note": "40 s giant flower creature (3.5x hitbox): transform in and out", "label": "DERIVED", "who": "Arita", "slot": "Ultimate", "hit": 0.6, "sfx": "magic", "n": 10, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

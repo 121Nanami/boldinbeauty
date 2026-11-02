@@ -1,0 +1,9 @@
+<!--META {"dur": 10.4, "alpha": true, "kind": "fx", "sheet": "17", "n": 12, "title": "Gambler Ultimate: House Always Wins", "slug": "gambler-house-always-wins", "who": "gambler", "label": "PROPOSED", "note": "Roulette: red damage field, black regen + shield, green non-boss wipe"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-12-gambler-house-always-wins", "title": "Gambler Ultimate: House Always Wins", "dur": 10.4, "layers": [{"fx": "roulette", "at": "mid", "res": 0, "D": 1.6, "t1": 3.4}, {"fx": "zone", "at": "mid", "t0": 1.7, "t1": 3.2, "rx": 700, "ry": 210, "col": "#FF3D8D", "col2": "#F7F4FA", "kind": "embers"}, {"fx": "roulette", "at": "mid", "res": 1, "D": 1.6, "t0": 3.4, "t1": 6.8}, {"fx": "dome", "at": "cas", "t0": 5.0, "t1": 6.6, "rx": 200, "ry": 240, "col": "#64E8FF"}, {"fx": "burst", "at": "cas", "t0": 5.0, "n": 26, "cols": ["#64E8FF", "#F7F4FA"], "spd": 200, "a0": -2.6, "a1": -0.5, "g": -300, "shape": "dot", "size": 8, "life": 1.2}, {"fx": "roulette", "at": "mid", "res": 11, "D": 1.6, "t0": 6.8}, {"fx": "blast", "at": "mid", "t0": 8.5, "r": 980, "col": "#64E8FF", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "shards", "at": "en", "t0": 8.5, "up": true, "n": 60, "w": 200, "h": 320, "col": "#64E8FF", "col2": "#F7F4FA"}, {"fx": "flash", "at": "mid", "t0": 8.5, "D": 0.2, "a": 0.6, "col": "#64E8FF"}], "enemy": true, "cas": true, "note": "Roulette: red damage field, black regen + shield, green non-boss wipe", "label": "PROPOSED", "who": "Gambler", "slot": "Ultimate", "hit": 1.7, "sfx": "magic", "n": 12, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

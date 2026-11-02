@@ -1,0 +1,9 @@
+<!--META {"dur": 5.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 6, "title": "Death Ultimate: Reaper's Ledger", "slug": "death-reapers-ledger", "who": "death", "label": "PROPOSED", "note": "Every enemy marked; 3 s countdown; mass execution"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-06-death-reapers-ledger", "title": "Death Ultimate: Reaper's Ledger", "dur": 5.0, "layers": [{"fx": "mark", "at": "en", "ox": -250, "glyph": "skull", "h": 370, "col": "#FF3D8D", "s": 36, "ring": 3.0, "t0": 0.4, "t1": 3.6}, {"fx": "mark", "at": "en", "ox": 0, "glyph": "skull", "h": 370, "col": "#FF3D8D", "s": 36, "ring": 3.0, "t0": 0.55, "t1": 3.6}, {"fx": "mark", "at": "en", "ox": 250, "glyph": "skull", "h": 370, "col": "#FF3D8D", "s": 36, "ring": 3.0, "t0": 0.7, "t1": 3.6}, {"fx": "shards", "at": "en", "ox": -250, "t0": 3.4, "up": true, "n": 50, "w": 160, "h": 320, "col": "#F7F4FA", "col2": "#7657FF"}, {"fx": "shards", "at": "en", "ox": 0, "t0": 3.4, "up": true, "n": 50, "w": 160, "h": 320, "col": "#F7F4FA", "col2": "#7657FF"}, {"fx": "shards", "at": "en", "ox": 250, "t0": 3.4, "up": true, "n": 50, "w": 160, "h": 320, "col": "#F7F4FA", "col2": "#7657FF"}, {"fx": "blast", "at": "mid", "t0": 3.5, "r": 980, "col": "#7657FF", "col2": "#F7F4FA", "rings": 4, "flat": true}, {"fx": "flash", "at": "mid", "t0": 3.5, "D": 0.25, "a": 0.7}], "enemy": true, "cas": true, "note": "Every enemy marked; 3 s countdown; mass execution", "label": "PROPOSED", "who": "Death", "slot": "Ultimate", "hit": 3.5, "sfx": "boom", "n": 6, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

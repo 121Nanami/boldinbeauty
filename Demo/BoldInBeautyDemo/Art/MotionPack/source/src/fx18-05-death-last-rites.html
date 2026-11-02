@@ -1,0 +1,9 @@
+<!--META {"dur": 4.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 5, "title": "Death Special: Last Rites", "slug": "death-last-rites", "who": "death", "label": "PROPOSED", "note": "Health payment, 2 s delay, nearest enemy dies"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-05-death-last-rites", "title": "Death Special: Last Rites", "dur": 4.0, "layers": [{"fx": "mark", "at": "cas", "glyph": "heart", "h": 260, "col": "#FF3D8D", "s": 30, "t1": 0.9}, {"fx": "mark", "at": "en", "glyph": "skull", "h": 370, "col": "#FF3D8D", "s": 40, "ring": 2.0, "t0": 0.6, "t1": 2.8}, {"fx": "shards", "at": "en", "t0": 2.7, "up": true, "n": 60, "w": 160, "h": 320, "col": "#F7F4FA", "col2": "#7657FF"}, {"fx": "blast", "at": "en", "t0": 2.7, "r": 320, "col": "#7657FF", "col2": "#F7F4FA", "rings": 3}, {"fx": "flash", "at": "mid", "t0": 2.7, "D": 0.12, "a": 0.5}], "enemy": true, "cas": true, "note": "Health payment, 2 s delay, nearest enemy dies", "label": "PROPOSED", "who": "Death", "slot": "Special", "hit": 2.7, "sfx": "boom", "n": 5, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 14, "title": "Media M1: Packet Jab", "slug": "media-packet-jab", "who": "media", "label": "PROPOSED", "note": "Blink-in jabs; the fifth bursts"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-14-media-packet-jab", "title": "Media M1: Packet Jab", "dur": 3.0, "layers": [{"fx": "blink", "at": "en", "n": 5, "gap": 0.15, "area": 120, "rows": 60, "col": "#64E8FF", "col2": "#F7F4FA"}, {"fx": "strike", "at": "en", "t0": 0.15, "n": 4, "gap": 0.15, "len": 260, "w": 34, "col": "#64E8FF", "col2": "#F7F4FA", "fan": 0.4}, {"fx": "blast", "at": "en", "oy": -150, "t0": 0.9, "r": 300, "col": "#FF3D8D", "col2": "#64E8FF", "rings": 2}, {"fx": "hexfield", "at": "en", "t0": 0.9, "t1": 1.8, "w": 300, "h": 260, "col": "#64E8FF", "col2": "#FF3D8D"}], "enemy": true, "cas": true, "note": "Blink-in jabs; the fifth bursts", "label": "PROPOSED", "who": "Media", "slot": "M1", "hit": 0.9, "sfx": "zap", "n": 14, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

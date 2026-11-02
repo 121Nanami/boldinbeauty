@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "11", "n": 4, "title": "Mirror tint on copied moves", "slug": "mirror-tint-copied", "who": null, "label": "NEEDS ART", "note": "Copied move wears a rose mirror tint"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx11-04-mirror-tint-copied", "title": "Mirror tint on copied moves", "dur": 3.2, "layers": [{"fx": "strike", "at": "cas", "t0": 0.2, "n": 2, "col": "#64E8FF", "col2": "#F7F4FA", "len": 420}, {"fx": "strike", "at": "en", "t0": 1.0, "n": 2, "col": "#FF3D8D", "col2": "#F7F4FA", "len": 420, "ang": 192, "al": 0.8}, {"fx": "status", "at": "en", "kind": "illusion", "t0": 0.8, "col": "#FF3D8D", "col2": "#F7F4FA", "shell": false}], "enemy": true, "cas": true, "note": "Copied move wears a rose mirror tint", "label": "NEEDS ART", "who": "SHARED", "slot": "Mirror Nova / Volley / Dash", "hit": 1.0, "sfx": "hit", "n": 4, "sheet": "11"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

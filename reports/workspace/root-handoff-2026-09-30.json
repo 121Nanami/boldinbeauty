@@ -1,0 +1,130 @@
+{
+  "record_kind": "actual root workspace-task integration handoff",
+  "device": "macos",
+  "project_root_reference": "sync/devices/macos.json",
+  "local_project_version": "OPEN: no committed documentation baseline; nested Unreal declares 5.8",
+  "base_manifest": null,
+  "counterpart_handoff": null,
+  "cross_device_freshness": "OPEN",
+  "accountable_writer": "/root; local reservation now released",
+  "files": [
+    {
+      "path": "BoldInBeauty_MAIN",
+      "scope": "shared guidance with dated Mac evidence",
+      "base_sha256": null,
+      "before_sha256": "ddc5bbada4b96e5792cfbeca912f302d5a0879a2cb733a69da8af738bdc163fe",
+      "after_sha256": "77396e1359ba9740218a354e5a8d8c293e4c1f1bbe0e058cfb0bbbfb1a4dcdee",
+      "action": "modified"
+    },
+    {
+      "path": "AGENTS.md",
+      "scope": "shared guidance with dated Mac evidence",
+      "base_sha256": null,
+      "before_sha256": "5170aac07b13fc4439a875c29035e7b9821f95d169de0cbb5a1833c55907e7a5",
+      "after_sha256": "2e166b26cf3ac26ecea96958b7da1029e39239c512b14b9e6a92bb1a1c0b861b",
+      "action": "modified"
+    },
+    {
+      "path": "CLAUDE.md",
+      "scope": "shared guidance with dated Mac evidence",
+      "base_sha256": null,
+      "before_sha256": "7a3ab7773b8b0c9a4cb597d4bd5cb2a353626f389b7f7586ddf9b73b33502f4e",
+      "after_sha256": "a4659742fbdcd26e0cf932ba3176ff4b64508885eded9b109d3ffc1c711f3678",
+      "action": "modified"
+    },
+    {
+      "path": "README.md",
+      "scope": "shared guidance with dated Mac evidence",
+      "base_sha256": null,
+      "before_sha256": "ccae0b00dbcbefd4f12453f94365e9bab753698852995d9af39591270160f322",
+      "after_sha256": "63295ae9a57c300d74fc43646248d845b760cebd8aa6d8d2c7feef39406869a1",
+      "action": "modified"
+    },
+    {
+      "path": "Start here.md",
+      "scope": "shared guidance with dated Mac evidence",
+      "base_sha256": null,
+      "before_sha256": "13e3f133f52ee6c883b6372fcedddba037fba875ffeec4632f8c5d2e51188331",
+      "after_sha256": "2aaf466e2e95c42fc6201dc81fdeb5667a0fc8b685f216460eabe2052ee057f5",
+      "action": "modified"
+    },
+    {
+      "path": "HUMAN_AI_USE.md",
+      "scope": "shared guidance with dated Mac evidence",
+      "base_sha256": null,
+      "before_sha256": "465e7803f642d506125c63df50776c00eb5cbb6ed1ba6a10975bc8ef89478057",
+      "after_sha256": "b88f09db9d253848f15214942139fb00f371a9a74286532688a61188efce0208",
+      "action": "modified"
+    },
+    {
+      "path": ".cursor/rules/project-context.mdc",
+      "scope": "shared guidance with dated Mac evidence",
+      "base_sha256": null,
+      "before_sha256": "c6d26f9d16deb61d3898dbb796bd0b8aa3f70fe9645cee1282fa250319e0196a",
+      "after_sha256": "dfbc225f338616267aefaa289647aed650889423fb07f96816bdb870b34abe44",
+      "action": "modified"
+    },
+    {
+      "path": "sync/handoff-state.json",
+      "scope": "local coordination",
+      "base_sha256": null,
+      "before_sha256": "edc397b574ccbab369cf4d1b49639b6d5096e1b2de518edfe5e2dcd4a61deb93",
+      "after_sha256": "f68a540dad70032b8c51b7e6fef841bc5433ab06eea03980f0fd625d082c12eb",
+      "action": "modified"
+    },
+    {
+      "path": "Unreal Projects/BoldInBeauty/.gitignore",
+      "scope": "shared procedure/convention; Mac-local evidence",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "288c7201d136618255743f44454ee9acf9bbd28187f636db908ab808996ab4a6",
+      "action": "created"
+    },
+    {
+      "path": "scripts/integrations/README.md",
+      "scope": "shared guidance with dated Mac evidence",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "2de45222c661d3eb64263d1d2561abac5a44687bf46c5a18e7df7deee023dc42",
+      "action": "created"
+    },
+    {
+      "path": "reports/workspace/usability-completion-2026-09-30.md",
+      "scope": "shared procedure/convention; Mac-local evidence",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "347b5934a608ea323c07b0d6a09e04d09907e356955bb9c7efd0e2f5b0c9c870",
+      "action": "created"
+    }
+  ],
+  "subordinate_manifests": [
+    {
+      "path": "reports/agents/coordination-routing-manifest-2026-09-30.json",
+      "sha256": "a9cd3b0191928185d2cd75f001bc2b2eee1af2a909dab903ca838673d23084d4"
+    },
+    {
+      "path": "reports/filing/workspace-operations-manifest-2026-09-30.json",
+      "sha256": "81d5fe6292b763024f9a5cd04b5bba3c68f3d683fcf6e75cf29b24328a3e246e"
+    }
+  ],
+  "checks": [
+    "38 definitions and 114 native registrations parsed and parity checked; zero mismatches",
+    "158 lead affected hashes and 8 filing affected hashes verified",
+    "16 operational local links resolved",
+    "Single filing-agent file; no agent-specific folder",
+    "Generated Git ignores retain source/config/build/content/plugin source",
+    "Read-only final workflow review passed"
+  ],
+  "conflicts": [],
+  "transfer_status": "prepared locally; not transferred",
+  "counterpart_applied": false,
+  "counterpart_verified": false,
+  "unresolved_items": [
+    "Fresh-session agent discovery/invocation OPEN",
+    "Live subscription quotas OPEN; no automatic cross-provider router",
+    "Unreal build/runtime OPEN",
+    "Windows root/version/freshness and character filename mapping OPEN",
+    "Acknowledged base/transfer OPEN"
+  ],
+  "completed_utc": "2026-09-30T08:13:42.431707+00:00"
+}

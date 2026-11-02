@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "16", "n": 26, "title": "Kuu M1: Haymaker", "slug": "kuu-haymaker", "who": "kuu", "label": "PROPOSED", "note": "Three heavy shoving punches; stun on the third"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-26-kuu-haymaker", "title": "Kuu M1: Haymaker", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 3, "len": 400, "w": 88, "fan": 0.15, "col": "#7657FF", "col2": "#F7F4FA", "ang": -4, "fin": true}, {"fx": "blast", "at": "en", "t0": 0.5, "r": 300, "col": "#7657FF", "col2": "#F7F4FA", "rings": 2}, {"fx": "halo", "at": "en", "n": 1, "h": 340, "col": "#F7F4FA", "r": 100, "t0": 0.7}], "enemy": true, "cas": true, "note": "Three heavy shoving punches; stun on the third", "label": "PROPOSED", "who": "Kuu", "slot": "M1", "hit": 0.5, "sfx": "boom", "n": 26, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

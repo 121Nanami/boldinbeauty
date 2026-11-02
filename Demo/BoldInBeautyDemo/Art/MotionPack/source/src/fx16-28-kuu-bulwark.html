@@ -1,0 +1,9 @@
+<!--META {"dur": 4.0, "alpha": true, "kind": "fx", "sheet": "16", "n": 28, "title": "Kuu Move 2: Bulwark", "slug": "kuu-bulwark", "who": "kuu", "label": "PROPOSED", "note": "4 s guard with reflect flashes and a draw-in pull"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-28-kuu-bulwark", "title": "Kuu Move 2: Bulwark", "dur": 4.0, "layers": [{"fx": "dome", "at": "cas", "rx": 210, "ry": 240, "col": "#F7F4FA", "hits": [0.8, 1.6, 2.4, 3.2]}, {"fx": "suck", "at": "cas", "oy": -120, "r": 640, "col": "#F7F4FA", "col2": "#7657FF", "core": true}, {"fx": "flash", "at": "mid", "t0": 0.8, "D": 0.08, "a": 0.25}, {"fx": "flash", "at": "mid", "t0": 1.6, "D": 0.08, "a": 0.25}, {"fx": "flash", "at": "mid", "t0": 2.4, "D": 0.08, "a": 0.25}], "enemy": true, "cas": true, "note": "4 s guard with reflect flashes and a draw-in pull", "label": "PROPOSED", "who": "Kuu", "slot": "Move 2", "hit": 0.8, "sfx": "chime", "n": 28, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

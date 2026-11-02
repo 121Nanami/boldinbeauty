@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "17", "n": 7, "title": "Gambler M1: Card Flick", "slug": "gambler-card-flick", "who": "gambler", "label": "PROPOSED", "note": "Dud, hit, Joker (x3) variants"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx17-07-gambler-card-flick", "title": "Gambler M1: Card Flick", "dur": 3.6, "layers": [{"fx": "volley", "at": "cas", "oy": -150, "n": 1, "kind": "card", "col": "#9A98A6", "col2": "#F7F4FA", "size": 22, "dist": 680, "sp": 1500, "ir": 40, "al": 0.55}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 0.9, "n": 1, "kind": "card", "col": "#64E8FF", "col2": "#F7F4FA", "size": 22, "dist": 680, "sp": 1500, "ir": 100}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 1.8, "n": 1, "kind": "card", "col": "#FF3D8D", "col2": "#F7F4FA", "size": 34, "dist": 680, "sp": 1500, "ir": 190}, {"fx": "blast", "at": "en", "t0": 2.3, "r": 400, "col": "#FF3D8D", "col2": "#F7F4FA", "rings": 3}, {"fx": "text", "at": "top", "t0": 2.3, "t1": 3.4, "txt": "JOKER x3", "s": 110, "col": "#FF3D8D", "sh": "#7657FF", "y": -20}], "enemy": true, "cas": true, "note": "Dud, hit, Joker (x3) variants", "label": "PROPOSED", "who": "Gambler", "slot": "M1", "hit": 2.3, "sfx": "hit", "n": 7, "sheet": "17"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

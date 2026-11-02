@@ -1,0 +1,92 @@
+# Ch04 The Hanging City. Sources: Chapters/Ch04.md, Scripts/Ch04.md (primary); Scripts/Ch04_HangingCity.md ([alt])
+ENV|The Hanging City|Location / city|Cold open|H|Disc of streets hanging over an endless void from a single chain whose top cannot be seen; four districts|Cloud bank parting;Lantern-lit;Laundry-strung;Tremor sag (ep7) [alt];Settled after boss
+ENV|The chain|Location / structure|Cold open|H|Each link the size of a house [alt: bus]; up into white, down into black; climbable|Climb links;Anchor ring;Gripped by Anchorite
+ENV|Rim and chain approach|Location / platform|Ep1|S|Where the guard asks for papers; service tunnel platform [alt]|Wind;Plank bridge
+ENV|North district|Location / district|Ep2|S|Broken lift, rota hall|Lift down;Lift working
+ENV|East district gathering hall|Location / district|Ep3|S|Where Luna briefs a dozen residents|Meeting
+ENV|South district apartments|Location / district|Ep4|S|Clocks all at 4:12|Standard
+ENV|Hanging market|Location / district|Ep6|S|Where recruits ask what they get|Stalls
+ENV|Chain anchor|Location / boss arena|Ep7|H|Vast iron ring where the Anchorite grips the chain|Groaning;Boss phases;Quiet after
+ENV|Clock tower plaza (hub)|Location / plaza|Ep4|S|Clock tower with huge face at 4:12 [alt]|4:12;4:13 after
+ENV|Rooftop garden [alt]|Location / roof|Ep6|B|Twelve operators pass a pot of tea [alt]|Standard
+ENV|Outer rim walkway|Location / walkway|Ep5|S|Cable-and-plank walkway open to the void [alt]|Drifters
+ENV|The void|Location / backdrop|Cold open|H|Endless dark below, no ground anywhere, kill Z|Fog;Black
+ARC|Plank bridge|Architecture / traversal|Ep1|H|Weathered boards over the void, forty-one boards [alt]|Swinging;Wind-shifted planks;Broken
+ARC|Lift cars|Architecture / transport|Ep1|H|Lift cars crawl like beads; moving platforms; gondola [alt]|Moving;Broken (north lift);Repaired
+ARC|Lift gear housing|Architecture / machinery|Ep2|S|Four gears reordered by the rota|Jammed;Fixed
+ARC|Hanging rooftops and cables|Architecture / structure|Cold open|H|A thousand rooftops on cables, laundry between towers|Standard;Fraying cables
+ARC|Rota hall wall|Architecture / interior|Ep2|S|The rota on the wall with a grievances column|Old rota;New rota (stinger)
+ARC|Apartments with wall clocks|Architecture / interior|Ep4|S|Every clock at 4:12|Standard
+ARC|Clock tower (huge face)|Architecture / landmark|Ep4|H|All hands point at 4:12 [alt]|4:12;4:13
+ARC|Chain anchor bolts [alt]|Architecture / mechanism|Ep8|S|Three massive slowly turning bolts [alt]|Turning;Driven home
+ARC|Lantern posts|Architecture / lighting|Ep1|B|Lantern-lit streets [alt]|Lit;Flare green (stinger) [alt]
+PRP|Stopped clocks (4:12)|Prop / hero|Ep4|H|Every clock shows 4:12, second hands tick in the same place; one moves to 4:13|4:12;4:13;Wall clocks;Clock-face glass twitch [alt]
+PRP|Lift rota|Prop / document|Archive|S|Alphabetical by first name with a grievances column|Old;New with captain / deputy / chain watch
+PRP|Resident register 2007|Prop / document|Archive|S|"Entries: 412. Government record: 0."|Standard
+PRP|A child's drawing|Prop / document|Archive|S|A chain, a city, a sun that is also a clock|Standard
+PRP|Plack's pen and clipboard|Prop|Ep2|S|Pen to fix the rota; hand-drawn schedule on clipboard [alt]|Standard
+PRP|Lantern charm [alt]|Prop / reward|Ep3|B|Reward from schedule mini-game [alt]|Standard
+PRP|Weights (chain slack)|Prop / mechanism|Ep7|S|Hit weights to hold the chain slack|Dropped;Held
+PRP|Pliers / tongs [alt]|Prop / tool|Ep3|B|Kuu hands over tongs [alt]|Standard
+PRP|Pot of tea [alt]|Prop|Ep6|B|Passed around the circle [alt]|Standard
+PRP|Lantern oil / scraps [alt]|Prop|Ep7|B|What the residents fed the Anchorite|Standard
+PRP|Map and pointer|Prop|Ep3|B|Luna's briefing props|Standard
+PRP|Paper lanterns [alt]|Prop / set dressing|Ep2|B|Streets of patched iron [alt]|Lit
+PRP|Washing lines|Prop / set dressing|Cold open|B|Laundry strung between towers|Standard
+PRP|Cat food / cat feeding dispute|Prop / quest|Chapter beats|B|Resident dispute whose turn to feed a cat|Standard
+PRP|Delivery package (side task)|Prop / quest|Ep6|B|Deliver a package, find a cat|Standard
+PRP|Crate (Luna stands on) [alt]|Prop|Ep6|B|Luna addresses recruits from a crate [alt]|Standard
+FAU|Cat (hanging city)|Fauna / cat|Chapter beats|S|Residents dispute whose turn to feed; escort a cat [alt]|Standard
+CHR|Rim guard|NPC / BLUE|Ep1|S|"Papers." Delighted nobody has any; offers the real tour|Standard
+CHR|Lift clerk|NPC / BLUE|Ep2|H|"The rota." Apron and clipboard [alt]; tells Luna she is recruiting wrong [alt]|Standard;Apron [alt]
+CHR|Resident child|NPC / BLUE|Ep4|H|"It's always four-twelve."|Standard;Small girl with clipboard [alt]
+CHR|Unregistered residents|NPC / group|Ep3|H|Unregistered operators; mismatched layers; the Unregistered|Mismatched layers;Recruits circle;Elected rota crowd;Residents at anchor
+CHR|Luna's first recruits|NPC / group|Ep3|S|Twelve unregistered operators [alt]|Standard
+CHR|Luna|Operator|Cold open|H|Recruits, signs the rota|Standard
+CHR|Plack|Operator|Ep2|H|Rota captain|Oil to the elbows [alt]
+CHR|Kuu|Operator|Cold open|H|Vertigo; narrating his own death|Climbing;Panic meter (barks)
+CRE|The Anchorite|Boss|Ep7|H|District-sized angel gripping the chain; holding the city up; does not die|Phase 1 swinging city;Phase 2 sheds fragments;Phase 3 relief [alt];Folds wings;Drifts upward [alt]
+CRE|Chain drifters|Enemy / angel|Ep5|H|Angels drifting down the chain like jellyfish with trailing wisps|Drifting;Swooping;Heavy drifter mini-boss
+CRE|Heavy drifter|Enemy / mini-boss|Ep5|S|Mini-boss on the chain|Standard
+VFX|Drifter light wisps|VFX|Ep5|S|Long trailing wisps of light [alt]|Standard
+VFX|Anchorite halo|VFX|Ep7|S|Halo the size of a house [alt]|Standard
+VFX|Lantern flare green|VFX|Ep8|B|Single lantern flares green [alt]|Standard
+VFX|Dust sifting from above|VFX|Ep7|B|Dust and tremor [alt]|Standard
+WTH|Cloud bank and wind|Weather|Cold open|H|Cloud parts; wind noise only [alt]|Cloud;Wind gusts
+LGT|Lantern light|Lighting|Ep2|S|Lanterns light the disc|Standard
+LGT|Sunless sky (no sun) [alt]|Lighting|Ep4|S|Sky has no sun [alt]|Standard
+AUD|Wind and chain groan|Audio / ambience|Cold open|H|Wind, groaning chain|Standard;Anchor groan
+AUD|Lift clank|Audio / sfx|Ep2|S|Gear catches, lift groans|Standard
+AUD|Clock tick|Audio / sfx|Ep4|S|Second hands tick in the same place|Standard
+AUD|Cable snap|Audio / sfx|Ep7|B|Cables snap [alt]|Standard
+UI|Kill-Z fall warning|UI|Ep1|B|Falling is death|Standard
+UI|Kuu panic meter [alt]|UI|Ep1|B|Cosmetic, shapes barks|Standard
+UI|Loyalty minigame|UI|Ep3|S|Talk to four residents|Standard
+UI|Schedule minigame [alt]|UI|Ep3|B|Arrange lift timings [alt]|Standard
+UI|Clock-tower minimap overlay [alt]|UI|Ep4|B|Unlocks overlay of stopped zone [alt]|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+NPC|Unregistered recruit|NPC|Tripo #83|B|Luna's first recruits [inferred: Tripo list #83; not named in the chapter text]|
+CRE|Chain drifter|Enemy|Tripo #84|B|Angel drifting down the chain [inferred: Tripo list #84; not named in the chapter text]|
+PRP|Stopped wall clock (4:12)|Prop|Tripo #75|B|Every clock [inferred: Tripo list #75; not named in the chapter text]|
+PRP|Child's drawing of the chain|Prop|Tripo #78|B|A sun that is also a clock [inferred: Tripo list #78; likely the same asset as PRP-0088 A child's drawing; kept as its own entry so no Tripo row is dropped]|
+PRP|Laundry line|Prop|Tripo #79|B|Dressing [inferred: Tripo list #79; not named in the chapter text]|
+ARC|Hanging district (cabled)|Set piece / modular kit|Tripo #67|B|Four districts on cables [inferred: Tripo list #67; not named in the chapter text]|
+ARC|Lift cabin and shaft|Set piece / modular kit|Tripo #69|B|Elevators [inferred: Tripo list #69; not named in the chapter text]|
+ARC|Rota hall|Set piece / modular kit|Tripo #70|B|Plack's rota wall [inferred: Tripo list #70; likely the same asset as ARC-0029 Rota hall wall; kept as its own entry so no Tripo row is dropped]|
+ARC|Apartment block interior|Set piece / modular kit|Tripo #71|B|Every clock reads 4:12 [inferred: Tripo list #71; not named in the chapter text]|
+ARC|Chain link (giant)|Set piece / modular kit|Tripo #73|B|Climbable [inferred: Tripo list #73; likely the same asset as ENV-0035 The chain; kept as its own entry so no Tripo row is dropped]|
+ARC|Plank-bridge module (Hanging City)|Set piece / modular kit|Tripo #768|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #768; likely the same asset as ARC-0025 Plank bridge; kept as its own entry so no Tripo row is dropped]|
+ARC|Cable anchor (Hanging City)|Set piece / modular kit|Tripo #769|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #769; not named in the chapter text]|
+ARC|Suspended walkway (Hanging City)|Set piece / modular kit|Tripo #770|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #770; not named in the chapter text]|
+ARC|Laundry pole (Hanging City)|Set piece / modular kit|Tripo #771|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #771; not named in the chapter text]|
+ARC|Hanging lantern string (Hanging City)|Set piece / modular kit|Tripo #772|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #772; not named in the chapter text]|
+ARC|Rooftop garden box (Hanging City)|Set piece / modular kit|Tripo #773|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #773; likely the same asset as ENV-0043 Rooftop garden [alt]; kept as its own entry so no Tripo row is dropped]|
+ARC|Lift gate (Hanging City)|Set piece / modular kit|Tripo #774|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #774; not named in the chapter text]|
+ARC|Rope ladder (Hanging City)|Set piece / modular kit|Tripo #775|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #775; not named in the chapter text]|
+ARC|Wind chime cluster (Hanging City)|Set piece / modular kit|Tripo #776|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #776; likely the same asset as AUD-0029 Wind chime; kept as its own entry so no Tripo row is dropped]|
+ARC|Scaffold module (Hanging City)|Set piece / modular kit|Tripo #777|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #777; not named in the chapter text]|
+ARC|Chain-link railing (Hanging City)|Set piece / modular kit|Tripo #778|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #778; not named in the chapter text]|
+ARC|Hanging sign (Hanging City)|Set piece / modular kit|Tripo #779|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #779; likely the same asset as ARC-0004 Hanging sign bridge; kept as its own entry so no Tripo row is dropped]|
+ARC|Pulley block (Hanging City)|Set piece / modular kit|Tripo #780|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #780; not named in the chapter text]|
+ARC|Tarp roof (Hanging City)|Set piece / modular kit|Tripo #781|B|Modular dressing piece for Ch 4 Hanging City [inferred: Tripo list #781; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

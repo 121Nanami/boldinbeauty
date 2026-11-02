@@ -1,0 +1,34 @@
+# Local MCP dependencies and Google OAuth credentials
+.mcp/gdrive/node_modules/
+.mcp/gdrive/private/
+.mcp/gdrive/*.log
+
+# Separate implementation repository and downloaded engine.
+/Unreal Projects/
+/UE_5.8/
+# Device-local clients, connections, credentials and tool environments.
+/.agents/
+/.codex/
+/.claude/
+/.kimi-code/
+/.mcp/
+/.mcp.json*
+/connections.json
+/.cursor/settings.json
+/.cursor/mcp.json*
+/.cursor/agents/
+.venv*/
+.vllm-src/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
+/sync/devices/
+/sync/handoff-state.json

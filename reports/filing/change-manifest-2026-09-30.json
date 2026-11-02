@@ -1,0 +1,164 @@
+{
+  "record_kind": "actual local filing-agent creation handoff",
+  "device": "macos",
+  "project_root_reference": "sync/devices/macos.json",
+  "local_project_version": "OPEN: no committed documentation baseline; nested implementation declares EngineAssociation 5.8",
+  "base_manifest": null,
+  "counterpart_handoff": null,
+  "cross_device_freshness": "OPEN",
+  "accountable_MAIN_writer": "/root",
+  "files": [
+    {
+      "path": "agents/README.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": "356eb85fd9a82bcdebdb16d26635d5241ef34b69418379bf2bb1bf78a445dff2",
+      "after_sha256": "381db15cff2a37f036a934ef37f431413b6ff223f742f47eabab9cc59181400c",
+      "action": "modified",
+      "evidence": [
+        "owner filing-agent request 2026-09-30",
+        "agents/filing-agent.md",
+        "reports/filing/README.md"
+      ],
+      "verification": [
+        "saved file inspected"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "agents/filing-agent.md",
+      "scope": "shared procedure",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "598ad9e3bbde4a7750a26a1d93200f51b31dcca8a87370adb0680b36cd298fbe",
+      "action": "created",
+      "evidence": [
+        "owner filing-agent request 2026-09-30",
+        "agents/filing-agent.md",
+        "reports/filing/README.md"
+      ],
+      "verification": [
+        "saved file inspected"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/filing/README.md",
+      "scope": "MACOS-LOCAL evidence and SHARED procedure/proposal",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "c7b0ad95bc6e1674e441da7d514d9cba450e9297dd2cea1074ace6fca812108d",
+      "action": "created",
+      "evidence": [
+        "owner filing-agent request 2026-09-30",
+        "agents/filing-agent.md",
+        "reports/filing/README.md"
+      ],
+      "verification": [
+        "saved file inspected"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/filing/MAIN-update-proposal.md",
+      "scope": "MACOS-LOCAL evidence and SHARED procedure/proposal",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "7ef8119e40da88136b0be1e2742ff1afc7c728e78efe2b6e907605436b68e3e3",
+      "action": "created",
+      "evidence": [
+        "owner filing-agent request 2026-09-30",
+        "agents/filing-agent.md",
+        "reports/filing/README.md"
+      ],
+      "verification": [
+        "saved file inspected"
+      ],
+      "intentional_platform_difference": null
+    },
+    {
+      "path": ".cursor/agents/filing-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "598ad9e3bbde4a7750a26a1d93200f51b31dcca8a87370adb0680b36cd298fbe",
+      "action": "created",
+      "evidence": [
+        "owner filing-agent request 2026-09-30",
+        "agents/filing-agent.md",
+        "reports/filing/README.md"
+      ],
+      "verification": [
+        "38 portable agent procedures counted",
+        "Codex TOML parsed; name and prompt parity verified",
+        "Claude and Cursor copies equal portable source"
+      ],
+      "intentional_platform_difference": "Native host registration must be adapted and discovery verified per device"
+    },
+    {
+      "path": ".codex/agents/filing-agent.toml",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "ed81ccf4f2810d535229b803df9b802029a7afbabeb6a917f86f6257782d01ec",
+      "action": "created",
+      "evidence": [
+        "owner filing-agent request 2026-09-30",
+        "agents/filing-agent.md",
+        "reports/filing/README.md"
+      ],
+      "verification": [
+        "38 portable agent procedures counted",
+        "Codex TOML parsed; name and prompt parity verified",
+        "Claude and Cursor copies equal portable source"
+      ],
+      "intentional_platform_difference": "Native host registration must be adapted and discovery verified per device"
+    },
+    {
+      "path": ".claude/agents/filing-agent.md",
+      "scope": "MACOS-LOCAL native registration",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "598ad9e3bbde4a7750a26a1d93200f51b31dcca8a87370adb0680b36cd298fbe",
+      "action": "created",
+      "evidence": [
+        "owner filing-agent request 2026-09-30",
+        "agents/filing-agent.md",
+        "reports/filing/README.md"
+      ],
+      "verification": [
+        "38 portable agent procedures counted",
+        "Codex TOML parsed; name and prompt parity verified",
+        "Claude and Cursor copies equal portable source"
+      ],
+      "intentional_platform_difference": "Native host registration must be adapted and discovery verified per device"
+    }
+  ],
+  "created_directories": [
+    "reports/filing/",
+    ".cursor/agents/"
+  ],
+  "moved_original_files": [],
+  "checks": [
+    "38 portable agent procedures counted",
+    "Codex TOML parsed; name and prompt parity verified",
+    "Claude and Cursor copies equal portable source",
+    "Required referenced local paths exist",
+    "No obsolete workspace-organization agent/report paths remain",
+    "Nested Unreal EngineAssociation 5.8 read; no runtime/build test",
+    "No original file moves or external service operations performed",
+    "Single agents/filing-agent.md workflow verified; no agents/filing-agent directory exists; native copies match"
+  ],
+  "proposed_MAIN_update": "reports/filing/MAIN-update-proposal.md",
+  "conflicts": [],
+  "transfer_status": "prepared locally; not transferred",
+  "counterpart_applied": false,
+  "counterpart_verified": false,
+  "unresolved_items": [
+    "Fresh-session discovery/invocation of filing-agent OPEN",
+    "Windows root/version/filename mapping and counterpart equality OPEN",
+    "No mutually acknowledged base or approved transfer method established",
+    "No external repository/service filing or Unreal asset moves performed"
+  ],
+  "owner_correction": "Filing agent is one file alongside other agents; temporary agent-specific skills file/folder removed before final handoff."
+}

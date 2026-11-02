@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 12, "title": "STUNNED halo / dizzy loop", "slug": "stunned-halo", "who": null, "label": "NEEDS ART", "note": "Halo + orbiting stars on the dazed angel"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-12-stunned-halo", "title": "STUNNED halo / dizzy loop", "dur": 3.0, "layers": [{"fx": "halo", "at": "en", "n": 1, "h": 340, "col": "#FFD23F", "r": 110}, {"fx": "orbit", "at": "en", "n": 3, "r": 95, "dy": -340, "kind": "glow", "col": "#FFD23F", "col2": "#F7F4FA", "s": 12, "flat": 0.3, "sp": 4.5}], "enemy": true, "cas": false, "note": "Halo + orbiting stars on the dazed angel", "label": "NEEDS ART", "who": "SHARED", "slot": "Daze full, 3-6 s", "hit": 0.2, "sfx": "soft", "n": 12, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

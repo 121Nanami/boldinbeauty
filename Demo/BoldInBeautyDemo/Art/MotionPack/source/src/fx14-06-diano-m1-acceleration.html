@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "14", "n": 6, "title": "Diano M1: Acceleration", "slug": "diano-m1-acceleration", "who": "narr", "label": "SOURCE", "note": "Runs into an enemy and electrocutes them; chain refresh window"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-06-diano-m1-acceleration", "title": "Diano M1: Acceleration", "dur": 3.0, "layers": [{"fx": "dash", "at": "mid", "dist": 760, "col": "#FF8A2B", "col2": "#7657FF", "trail": 500, "dd": 0.28}, {"fx": "chain", "at": "en", "t0": 0.3, "pts": [[-120, -150], [-30, -230], [60, -110], [140, -200]], "col": "#FF8A2B"}, {"fx": "blast", "at": "en", "oy": -150, "t0": 0.3, "r": 240, "col": "#FF8A2B", "col2": "#F7F4FA", "rings": 2}, {"fx": "speed", "at": "mid", "D": 0.4, "col": "#7657FF", "n": 40}], "enemy": true, "cas": true, "note": "Runs into an enemy and electrocutes them; chain refresh window", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Diano M1", "hit": 0.3, "sfx": "zap", "n": 6, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

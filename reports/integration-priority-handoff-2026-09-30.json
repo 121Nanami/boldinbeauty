@@ -1,0 +1,28 @@
+{
+  "device": "macos",
+  "project_root": "<local-home>/Documents/BoldInBeauty-Project",
+  "project_version": "OPEN: no committed baseline",
+  "base_manifest": null,
+  "counterpart_freshness": "OPEN",
+  "scope": "SHARED owner decision; applied to Mac replica only",
+  "before_sha256": {
+    "BoldInBeauty_MAIN": "77396e1359ba9740218a354e5a8d8c293e4c1f1bbe0e058cfb0bbbfb1a4dcdee",
+    "reports/integration-setup.md": "4a9a2f5d77231911e5b1bc0a0513c400b913cb5e248e02713959a581dfe9bc37",
+    "sync/handoff-state.json": "f68a540dad70032b8c51b7e6fef841bc5433ab06eea03980f0fd625d082c12eb"
+  },
+  "owner_decision": "Remaining Make native MCP, ClickUp MCP and n8n integrations are cancelled/not needed. Unreal Engine 5.8 integration remains OPEN.",
+  "remote_transfer": "not performed",
+  "execution_host": "Codex",
+  "quota": "OPEN",
+  "after_sha256": {
+    "BoldInBeauty_MAIN": "ef5e76a12e9eae4842354a1181f5bb58ba8b4613137e26ecaa09b64182f38958",
+    "reports/integration-setup.md": "005f03dfacf0f932200b9dcd43c0028fd81c1f7f3a294c1a947dcb7575c98ac4",
+    "sync/handoff-state.json": "81afe4a96c5d0029585351655f28dd7ba2d341d3be2899544503b58b2176097d"
+  },
+  "checks": [
+    "Owner decision recorded in MAIN and integration report",
+    "Historical evidence preserved",
+    "Unreal Engine 5.8 remains OPEN",
+    "No client configuration or external service changes"
+  ]
+}

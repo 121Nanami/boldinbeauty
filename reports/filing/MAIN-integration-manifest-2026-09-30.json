@@ -1,0 +1,42 @@
+{
+  "record_kind": "actual local root MAIN integration handoff",
+  "device": "macos",
+  "project_root_reference": "sync/devices/macos.json",
+  "local_project_version": "OPEN: no committed documentation baseline; nested implementation declares 5.8",
+  "base_manifest": null,
+  "counterpart_handoff": null,
+  "cross_device_freshness": "OPEN",
+  "files": [
+    {
+      "path": "BoldInBeauty_MAIN",
+      "scope": "shared knowledge; dated Mac verification",
+      "before_sha256": "a35a10cbe82369857b89bfc7e83960f297c21a3e3d125b96ae21050206113782",
+      "after_sha256": "ddc5bbada4b96e5792cfbeca912f302d5a0879a2cb733a69da8af738bdc163fe",
+      "action": "modified",
+      "verification": [
+        "Reread section 12.11 and preserved surrounding content",
+        "Integrated final single-file filing remit and observed folder map",
+        "38-agent count and native parity independently verified"
+      ]
+    },
+    {
+      "path": "sync/handoff-state.json",
+      "scope": "local coordination; no cross-device lock",
+      "before_sha256": "cbe6fc211a2c3306fd14e76cd16990803a76e93a6e9f212aa6dc93bb45eeaa33",
+      "after_sha256": "edc397b574ccbab369cf4d1b49639b6d5096e1b2de518edfe5e2dcd4a61deb93",
+      "action": "reserved and released by root"
+    }
+  ],
+  "agent_handoff": {
+    "path": "reports/filing/change-manifest-2026-09-30.json",
+    "sha256": "f8cb2995a5073813ea7d80efc30b7962dec71b37f95c86e0bcb106afb5da557a"
+  },
+  "transfer_status": "prepared locally; not transferred",
+  "counterpart_applied": false,
+  "counterpart_verified": false,
+  "unresolved_items": [
+    "Fresh-session agent discovery/invocation OPEN",
+    "Windows root/version/freshness and shared base OPEN"
+  ],
+  "completed_utc": "2026-09-30T07:56:05.812015+00:00"
+}

@@ -1,0 +1,29 @@
+# Arc ledger - source: docs/Story/StoryBible.md (arc overview, factions, reveal map, cast use)
+CHR|Luna|Operator / main cast|StoryBible 3,7|H|Central operator, 4-star mage, black and white holes, wife of Plack, declares war 2009 (Luna.md via bible)|Standard outfit;Wedding dress (2009, Ch12);War coat (Ch14 declaration);Address outfit (Ch36);?Dream-state / corruption version~Arc 1 ends at the monolith and Ch10/Ch11 are dream or hallucination chapters
+CHR|Plack|Operator / main cast|StoryBible 3,7|H|Luna's wife, unregistered courier, joins after the Chapter 1 boss|Standard courier outfit;Wedding outfit (Ch12);Blood on the hairline (Ch36)
+CHR|Kuu|Operator / main cast|StoryBible 3,7|H|Luna's blood brother, apologetic, afraid of heights|Standard outfit;Best-person formalwear (Ch12)
+CHR|Judge|Secret-grade operator|StoryBible 7|H|Voice of law since before the government, first human-made operator (2002), neutral|Courtroom robes over power dress (Ch17);White Room appearance (Ch33)
+CHR|Media|Secret|StoryBible 4,5|H|Broadcast Secret, ally of Luna, sent the warning in Ch15|Broadcast persona
+CHR|Narrator|Secret|StoryBible 4,5|H|Secret who wrote the record, antagonist of Luna|Standard
+CHR|Jester|Secret|StoryBible 4,5|H|Secret of honest cheating; face-down playing card hint|Standard
+CHR|Timekeeper|Secret|StoryBible 4,5|H|Secret who stopped the clocks|Standard
+CHR|Death|Secret|StoryBible 4,5|H|Secret of the count; boss of Ch39; ledger says visited|Standard;Seat in Nowhere (Ch39)
+CHR|Adapt|Secret|StoryBible 4,7|H|Secret of training, coach cadence|Standard
+CHR|Angel|Secret (male, not summonable)|StoryBible 4,5|H|Vessel of the angel god; 100% angel; the Patron (V1); boss of Ch40|Patron form (Ch30);Vessel / true angel (Ch40)
+CRE|Surface angels|Angel / ordinary|StoryBible 5 (Ch2 reveal)|H|Ordinary "pure ones" that face west|Idle / held in place (Ch3 lamp);Combat;?Corrupted version~Ch10 and Ch13 treat angels as judging
+PRP|Monolith|Monument|StoryBible 2 (Ch13)|H|Pure black monolith with red hieroglyphics in a countryside village, steady rain|Intact (Ch13);Convergence point (Ch23);Glyph mark (Ch33);Ch40 village state
+PRP|Wing logo (sponsor mark)|Insignia|StoryBible 5 (Ch1,12)|H|Wing mark on crates, kiosks and sponsorship; the Patron's mark|Stencil on crate;Kiosk billboard;Banner
+PRP|The Lamp (lighthouse beam unit)|Government device|StoryBible 2 (Ch3)|H|Government unit that holds the surface angels; Luna keeps the spare lens|Active;Spare lens
+PRP|1% cubes|Prop / lore|StoryBible 5 (Ch5)|S|Cubes stamped 1% (Ch21: 1% is a ceiling)|Stamped 1%
+PRP|The small screen (Ch9 verbatim)|Prop / lore|StoryBible 5 (Ch9)|S|Screen text "Angel//V1 Success / Operator//V! Fail"; sender is Media|Verbatim screen
+DOC|Archive document pickups|In-world documents|StoryBible 2b|S|Short found texts that carry lore; YELLOW pickups in levels|Per chapter set
+UI|Faction insignia set|Insignia|StoryBible 4|S|Coalition, government, Secrets, angels|Four faction marks
+CHR|Operators' Council|Faction / group|StoryBible 4|S|Council formed in Ch27|Seated
+CHR|The Seven Commanders|Faction / group|StoryBible 4|S|Government commanders split into hardliners and reformers (Ch28)|Hardliner;Reformer
+CHR|Primetime Squad|Faction / group|StoryBible 4|S|Government squad|Standard
+CHR|The Ambassador|Government|StoryBible 4|S|Government figure|Standard
+CHR|Commander Prime|Government|StoryBible 4|S|Government figure|Standard
+ENV|Nowhere|Location|StoryBible 2 (Ch11, Ch39)|H|Pure grey, white noise, five-minute walk; later Death's seat|Empty (Ch11);Inhabited (Ch39)
+ENV|The monolith's village|Location|StoryBible 2 (Ch13, Ch40)|H|Countryside village in steady rain, deserter operators|Ch13 state;Ch40 state
+AUD|Angel god's voice|Voice|StoryBible 2 (Ch13)|H|Verbatim line "They wree purity, Impure sin, Thats all"|Verbatim line
+AUD|Morse lines (Ch10)|Voice|StoryBible 5 (Ch10)|S|Four Morse lines, verbatim, ending TRUE ANGELS THE ONE|Four lines

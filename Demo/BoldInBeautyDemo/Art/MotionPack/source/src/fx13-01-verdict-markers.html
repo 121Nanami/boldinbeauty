@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "13", "n": 1, "title": "Verdict markers (look is OPEN: proposal)", "slug": "verdict-markers", "who": "judge", "label": "DERIVED", "note": "Innocent / Suspect / Guilty / Gavel (proposal for owner)"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx13-01-verdict-markers", "title": "Verdict markers (look is OPEN: proposal)", "dur": 3.0, "layers": [{"fx": "halo", "at": "en", "ox": -240, "n": 1, "h": 330, "col": "#F7F4FA", "r": 60}, {"fx": "mark", "at": "en", "ox": -80, "glyph": "eye", "h": 330, "col": "#FFD23F", "s": 30}, {"fx": "mark", "at": "en", "ox": 80, "glyph": "cross", "h": 330, "col": "#E5252A", "s": 30}, {"fx": "mark", "at": "en", "ox": 240, "glyph": "gavel", "h": 330, "col": "#E5252A", "s": 34, "pips": 1}], "enemy": true, "cas": false, "note": "Innocent / Suspect / Guilty / Gavel (proposal for owner)", "label": "DERIVED", "who": "Judge", "slot": "Always", "hit": 0.3, "sfx": "soft", "n": 1, "sheet": "13"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

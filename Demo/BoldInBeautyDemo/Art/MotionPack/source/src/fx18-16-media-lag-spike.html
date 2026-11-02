@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "18", "n": 16, "title": "Media Move 2: Lag Spike", "slug": "media-lag-spike", "who": "media", "label": "PROPOSED", "note": "900 pulse; slow + vulnerable"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-16-media-lag-spike", "title": "Media Move 2: Lag Spike", "dur": 3.4, "layers": [{"fx": "pulsehex", "at": "cas", "h": 150, "r": 560, "col": "#64E8FF", "n": 4}, {"fx": "glitchbar", "at": "mid", "col": "#64E8FF", "col2": "#FF3D8D", "n": 8, "w": 700, "h": 300, "t0": 0.3, "t1": 1.0}, {"fx": "status", "at": "en", "t0": 0.8, "kind": "vuln", "col": "#FF3D8D", "shell": false}, {"fx": "status", "at": "en", "t0": 1.0, "kind": "slow", "col": "#64E8FF", "shell": false}], "enemy": true, "cas": true, "note": "900 pulse; slow + vulnerable", "label": "PROPOSED", "who": "Media", "slot": "Move 2", "hit": 0.3, "sfx": "zap", "n": 16, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "16", "n": 27, "title": "Kuu Move 1: Shield Bash", "slug": "kuu-shield-bash", "who": "kuu", "label": "PROPOSED", "note": "Short heavy bash, 1.2 s stun"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-27-kuu-shield-bash", "title": "Kuu Move 1: Shield Bash", "dur": 3.2, "layers": [{"fx": "dash", "at": "mid", "dist": 420, "col": "#7657FF", "col2": "#F7F4FA", "trail": 240, "dd": 0.22}, {"fx": "blast", "at": "en", "oy": -100, "t0": 0.22, "r": 260, "col": "#7657FF", "col2": "#F7F4FA", "rings": 2}, {"fx": "halo", "at": "en", "n": 2, "h": 340, "col": "#FF3D8D", "r": 100, "t0": 0.4}, {"fx": "flash", "at": "mid", "t0": 0.22, "D": 0.1, "a": 0.4}], "enemy": true, "cas": true, "note": "Short heavy bash, 1.2 s stun", "label": "PROPOSED", "who": "Kuu", "slot": "Move 1", "hit": 0.22, "sfx": "boom", "n": 27, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

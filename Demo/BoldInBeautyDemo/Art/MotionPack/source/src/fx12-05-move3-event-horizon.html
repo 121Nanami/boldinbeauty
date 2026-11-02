@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "12", "n": 5, "title": "Move 3: Event horizon", "slug": "move3-event-horizon", "who": "luna", "label": "SOURCE", "note": "Giant black hole across the floor; white burst in the middle"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx12-05-move3-event-horizon", "title": "Move 3: Event horizon", "dur": 3.6, "layers": [{"fx": "zone", "at": "mid", "rx": 760, "ry": 210, "col": "#4B2C9E", "col2": "#FFD23F", "kind": "cells", "t0": 0.2}, {"fx": "hole", "at": "cas", "oy": -150, "kind": "black", "s": 70, "col": "#4B2C9E", "col2": "#FFD23F", "t0": 0.4}, {"fx": "suck", "at": "mid", "r": 700, "col": "#4B2C9E", "col2": "#FFD23F", "t0": 0.8}, {"fx": "blast", "at": "mid", "t0": 2.4, "r": 260, "col": "#F7F4FA", "col2": "#FFD23F", "rings": 2, "rays": 20}, {"fx": "flash", "at": "mid", "t0": 2.4, "D": 0.12, "a": 0.8}], "enemy": true, "cas": true, "note": "Giant black hole across the floor; white burst in the middle", "label": "SOURCE", "who": "Luna", "slot": "Move 3 (hold)", "hit": 2.4, "sfx": "boom", "n": 5, "sheet": "12"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

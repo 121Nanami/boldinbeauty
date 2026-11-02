@@ -1,0 +1,9 @@
+<!--META {"dur": 3.2, "alpha": true, "kind": "fx", "sheet": "18", "n": 17, "title": "Media Move 3: Ping Storm", "slug": "media-ping-storm", "who": "media", "label": "PROPOSED", "note": "Eight teleport strikes on random enemies"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-17-media-ping-storm", "title": "Media Move 3: Ping Storm", "dur": 3.2, "layers": [{"fx": "blink", "at": "en", "n": 8, "gap": 0.14, "area": 420, "rows": 100, "col": "#64E8FF", "col2": "#FF3D8D"}, {"fx": "glitchbar", "at": "en", "oy": -150, "col": "#64E8FF", "col2": "#F7F4FA", "n": 5, "w": 420, "h": 240, "t0": 0.3, "t1": 1.4}], "enemy": true, "cas": true, "note": "Eight teleport strikes on random enemies", "label": "PROPOSED", "who": "Media", "slot": "Move 3", "hit": 0.14, "sfx": "zap", "n": 17, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

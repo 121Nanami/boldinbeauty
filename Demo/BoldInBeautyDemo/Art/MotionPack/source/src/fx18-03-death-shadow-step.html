@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 3, "title": "Death Move 2: Shadow Step", "slug": "death-shadow-step", "who": "death", "label": "PROPOSED", "note": "Blinks behind the nearest enemy and strikes"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-03-death-shadow-step", "title": "Death Move 2: Shadow Step", "dur": 3.0, "layers": [{"fx": "blink", "at": "mid", "n": 1, "area": 250, "rows": 20, "col": "#7657FF", "col2": "#F7F4FA", "gap": 0.15}, {"fx": "shards", "at": "cas", "up": true, "n": 30, "w": 120, "h": 240, "col": "#7657FF", "col2": "#F7F4FA", "D": 0.7}, {"fx": "strike", "at": "en", "t0": 0.6, "n": 1, "len": 560, "w": 70, "col": "#7657FF", "col2": "#F7F4FA", "ang": 170, "fin": true}], "enemy": true, "cas": true, "note": "Blinks behind the nearest enemy and strikes", "label": "PROPOSED", "who": "Death", "slot": "Move 2", "hit": 0.6, "sfx": "zap", "n": 3, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "15", "n": 6, "title": "Arita M1: Petal Swipe", "slug": "arita-m1-petal-swipe", "who": "arita", "label": "PROPOSED", "note": "Two sweeping swipes with petals"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-06-arita-m1-petal-swipe", "title": "Arita M1: Petal Swipe", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 2, "col": "#FF3D8D", "col2": "#F7F4FA", "len": 460, "w": 60}, {"fx": "burst", "at": "mid", "t0": 0.15, "n": 30, "shape": "dia", "cols": ["#FF3D8D", "#F7F4FA", "#F7F4FA"], "spd": 260, "g": 140, "size": 11, "life": 1.1}, {"fx": "burst", "at": "mid", "t0": 0.35, "n": 30, "shape": "dia", "cols": ["#FF3D8D", "#F7F4FA", "#F7F4FA"], "spd": 260, "g": 140, "size": 11, "life": 1.1, "seed": 7}], "enemy": true, "cas": true, "note": "Two sweeping swipes with petals", "label": "PROPOSED", "who": "Arita", "slot": "M1", "hit": 0.15, "sfx": "hit", "n": 6, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

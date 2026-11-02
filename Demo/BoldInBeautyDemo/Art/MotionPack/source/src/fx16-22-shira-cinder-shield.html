@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 22, "title": "Shiraishi Move 2: Cinder Shield", "slug": "shira-cinder-shield", "who": "shira", "label": "PROPOSED", "note": "+1500 shield, burning ring around her"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-22-shira-cinder-shield", "title": "Shiraishi Move 2: Cinder Shield", "dur": 3.4, "layers": [{"fx": "dome", "at": "cas", "rx": 160, "ry": 200, "col": "#F7F4FA", "t1": 3.2}, {"fx": "zone", "at": "cas", "rx": 200, "ry": 60, "col": "#FF3D8D", "col2": "#F7F4FA", "kind": "embers"}, {"fx": "aura", "at": "cas", "col": "#FF3D8D", "col2": "#F7F4FA", "r": 100, "h": 260, "al": 0.6}], "enemy": false, "cas": true, "note": "+1500 shield, burning ring around her", "label": "PROPOSED", "who": "Shiraishi", "slot": "Move 2", "hit": 0.2, "sfx": "chime", "n": 22, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

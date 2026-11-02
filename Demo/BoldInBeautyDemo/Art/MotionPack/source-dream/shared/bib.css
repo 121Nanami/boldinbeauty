@@ -1,0 +1,32 @@
+/* bib.css (dream-core): tokens, bundled fonts and type classes for the BB Dream motion pack (board v2, approved 2026-10-16).
+   Fonts are bundled in fonts/dream (OFL): Fraunces variable (SOFT + WONK axes) and M PLUS Rounded 1c. */
+@font-face { font-family: "Fraunces"; src: url("fonts/dream/Fraunces-VF.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+@font-face { font-family: "Fraunces"; src: url("fonts/dream/Fraunces-Italic-VF.ttf") format("truetype"); font-weight: 100 900; font-style: italic; }
+@font-face { font-family: "M PLUS Rounded 1c"; src: url("fonts/dream/MPLUSRounded1c-Medium.ttf") format("truetype"); font-weight: 400 500; }
+@font-face { font-family: "M PLUS Rounded 1c"; src: url("fonts/dream/MPLUSRounded1c-Bold.ttf") format("truetype"); font-weight: 600 700; }
+@font-face { font-family: "M PLUS Rounded 1c"; src: url("fonts/dream/MPLUSRounded1c-ExtraBold.ttf") format("truetype"); font-weight: 800 900; }
+:root {
+  --milk: #FBF6FF; --cream: #FFF8F0; --blush: #FFD9E8; --rose: #F3A6C8; --lilac: #CDBBF5;
+  --baby: #CFE3FF; --mint: #D5F2DF; --plum: #5B4A78; --plum2: #8C7BA8;
+  --moss: #BDCC8F; --hollow: #0F051A; --vig: #2A0F1E;
+  /* legacy names kept so old markup still resolves */
+  --bk: var(--cream); --st: var(--cream); --wh: var(--plum); --cy: var(--plum2); --vio: var(--lilac);
+}
+.voice, .bib-voice {
+  font-family: "Fraunces", Georgia, serif; font-weight: 800; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+  letter-spacing: -0.015em; line-height: 1; white-space: nowrap; color: var(--plum);
+}
+.title, .bib-title {
+  font-family: "Fraunces", Georgia, serif; font-weight: 900; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+  letter-spacing: -0.02em; line-height: 0.95; white-space: nowrap; color: var(--plum);
+}
+.mono, .bib-mono {
+  font-family: "M PLUS Rounded 1c", system-ui, sans-serif; font-weight: 500; text-transform: lowercase;
+  letter-spacing: 0.08em; line-height: 1.25; white-space: nowrap; color: var(--plum2); font-variant-numeric: tabular-nums;
+}
+.mono b, .bib-mono b { font-weight: 800; }
+.jp, .bib-jp { font-family: "M PLUS Rounded 1c", system-ui, sans-serif; font-weight: 700; line-height: 1; white-space: nowrap; }
+.whisper { font-family: "Fraunces", Georgia, serif; font-style: italic; font-weight: 400; font-variation-settings: "SOFT" 100; color: var(--plum); white-space: nowrap; }
+.bib-fill { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.bib-canvas { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; display: block; }
+.bib-skew { display: inline-block; transform: none; }

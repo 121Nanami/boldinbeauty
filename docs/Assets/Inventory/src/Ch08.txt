@@ -1,0 +1,82 @@
+# Ch08 Intersection. Sources: Chapters/Ch08.md, Scripts/Ch08.md (primary); Scripts/Ch08_Intersection.md ([alt])
+ENV|The Intersection tunnel system|Location / tunnel|Cold open|H|Flooded transport tunnel, rain through the roof grates, the main path angels take from their assumed headquarters; flood rises through the chapter|Dry entrance;Ankle-deep;Waist-deep;Four metres;Dawn exit [alt]
+ENV|Tunnel entrance (dry)|Location / tunnel|Ep1|S|Tunnel mouth like a throat, six lanes wide [alt]|Dry;Rain pouring
+ENV|Main tunnel junction one|Location / tunnel|Ep2|H|Painted lane markings, faded arrows, angels in lanes|Lane flow;Lane blocked
+ENV|Flooded junction (waist deep)|Location / junction|Ep3|S|Cross tunnel meets main bore; control booth on stilts [alt]|Waist deep;Floor drops away [alt]
+ENV|Cross tunnel (the intersection)|Location / junction|Ep4|H|Where the lanes meet, merge and turn|Standard
+ENV|Stopping bay with freight cage [alt]|Location / alcove|Ep4|S|Hundreds of angels hand shards into a cage [alt]|Empty cage;Full cage
+ENV|Pump room|Location / room|Ep5|H|Sunken pump room; underwater dive with air meter; valve puzzle|Flooded;Drained junction
+ENV|Demolition site|Location / site|Ep6|S|Where the charge is set|Set charge;Left standing
+ENV|Headquarters-side gate|Location / boss arena|Ep7|H|Booth at the end of the tunnel; vast rusted iron gate three storeys tall [alt]|Closed;Seam of white light [alt];Yawning open [alt];Closing
+ENV|Maintenance ledges and overhead pipes|Location / traversal|Chapter beats|S|Overhead pipes and ledges keep the team above water|Standard
+ENV|Dry alcove [alt]|Location / alcove|Ep6|B|Quiet moment on crates [alt]|Standard
+ARC|Roof grates|Architecture / structure|Cold open|S|Iron grates with rain through them|Standard
+ARC|Lane markings|Architecture / signage|Ep2|S|Painted lanes, arrows|Standard
+ARC|Concrete dividers|Architecture / structure|Ep2|B|Divider to crouch behind [alt]|Standard
+ARC|Toll booth|Architecture / booth|Ep7|H|Booth with fogged glass [alt]|Standard
+ARC|Pump valves and wheel|Architecture / machinery|Ep5|S|Valve puzzle drains a junction; single valve wheel [alt]|Standard
+ARC|Gantry arm and rails [alt]|Architecture / machinery|Ep4|B|Carries freight cage away|Standard
+ARC|Control booth on stilts [alt]|Architecture / structure|Ep3|B|Windows broken, a single working light|Standard
+PRP|Glowing shard|Prop / hero|Ep4|H|Small yellow shard held to chest like a candle; cube colour|Held;Embedded in a fallen angel [alt];Freight cage stock
+PRP|Demolition kit|Prop / hero|Ep1|H|Charges and detonator; "damp" explosives|Satchel;Putty charges [alt];Detonator;Damp;Dry charge in coat [alt]
+PRP|Rubber duck (Corporal)|Prop / hero|Ep5|H|Kuu finds a rubber duck and names it Corporal; thrown as a ticket|On helmet (technician);Found;Kept;Thrown;Fished from drain
+PRP|Transit Log steel box [alt]|Prop / document|Ep5|S|INTERSECTION TRANSIT LOG 2002 TO PRESENT; first entry 14 Nov 2002 [alt]|Sealed;Opened
+PRP|Demolition order stamped|Prop / document|Archive|S|"Cut the route. Do not investigate the cargo."|Standard
+PRP|Toll Collector's ledger|Prop / document|Archive|S|Rows of numbers, one column "Delivered"|Standard
+PRP|Child's drawing of angels with candles|Prop / document|Archive|S|Found in a pump room|Standard
+PRP|Ticket punch|Prop / weapon|Ep7|H|Where its right hand should be|Standard
+PRP|Roll of pale tickets [alt]|Prop|Ep7|S|In Toll Collector's hand|Rolled;Unspooling
+PRP|Conductor's cap|Prop / costume|Ep7|S|Toll Collector's cap [alt: clerk's cap]|Standard
+PRP|Rope (three tugs)|Prop|Ep5|S|Plack clips a rope to Kuu [alt]|Standard
+PRP|Compass on wrist [alt]|Prop|Ep2|B|Plack consults|Standard
+PRP|Putty explosive [alt]|Prop|Ep1|B|Plastic explosive|Standard
+PRP|Valve wheel|Prop|Ep5|B|Far end of pump room|Standard
+CHR|Technician (rubber duck helmet)|NPC / BLUE|Ep1|S|Soaked technician with rubber duck on helmet; "I just work here"|Standard
+CHR|The Toll Collector|Boss|Ep7|H|Angel in a conductor's cap, ticket punch for a hand, voice made of light|Booth;Phase 1 ticket punches;Phase 2 gate closes;Phase 3 pull [alt];Unspooling
+CHR|Luna|Operator|Ep1|H|Refuses to blow the tunnel|Standard
+CHR|Plack|Operator|Ep2|H|Counts angels|Standard
+CHR|Kuu|Operator|Ep3|H|Swims the pump room|Roped
+CHR|Commander (voice)|Voice character|Ep1|B|Radio orders [alt]|Voice only
+CRE|Lane angels|Enemy / angel|Ep1|H|Orderly lanes, each carrying a shard; none returns; attack only when blocked|Walking lane;Blocked;Statue-still in pump room [alt]
+CRE|Ticket-punch angel queue|Enemy / mini-boss|Ep7|S|Toll Collector's lieutenants|Standard
+CRE|Toll Collector adds [alt]|Enemy|Ep8|S|Lane angels as adds in formation [alt]|Standard
+VFX|Rain through grates|VFX / weather|Cold open|H|Rain pours, sheets, roof makes its own weather|Heavy
+VFX|Flood water rising|VFX / water|Ep3|H|Water from ankle to four metres|Ankle;Waist;4 m
+VFX|Shard glow|VFX|Ep4|S|Yellow glow|Standard
+VFX|White light seam|VFX|Ep7|S|Seam on gate [alt]|Standard
+VFX|Gate pull wind [alt]|VFX|Ep8|S|Pulls coats and breath|Standard
+VFX|White hole lens [alt]|VFX / ability|Ep8|S|Pushes against the pull|Standard
+WTH|Rain and flood|Weather|Cold open|H|Rain through grates, rising water|Heavy;Lighter dawn [alt]
+LGT|Lane of white light|Lighting|Cold open|S|A lane of white light on floor|Standard
+LGT|Single working light|Lighting|Ep3|B|Control booth light [alt]|Standard
+AUD|Rain score|Audio / ambience|Cold open|H|Entire score is rain [alt]|Standard
+AUD|Hum like traffic|Audio / ambience|Cold open|S|Low hum that never ends [alt]|Standard
+AUD|Footsteps in water|Audio / sfx|Cold open|S|Angels' pace|Standard
+AUD|Ticket punch sound|Audio / sfx|Ep7|S|Punch|Standard
+UI|Water depth indicator|UI|Ep1|S|Ankle-deep wading speed|Standard
+UI|Air meter|UI|Ep5|S|Underwater dive|Standard
+UI|Lane break indicator [alt]|UI|Ep2|B|Lane-break stagger mechanic|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+NPC|Stranded technician|NPC|Tripo #151|B|Rubber duck on helmet [inferred: Tripo list #151; not named in the chapter text]|
+CRE|Lane angel|Enemy|Tripo #152|B|Carries a shard [inferred: Tripo list #152; not named in the chapter text]|
+CRE|Ticket-punch angel|Enemy|Tripo #153|B|Queue guard [inferred: Tripo list #153; likely the same asset as CRE-0034 Ticket-punch angel queue; kept as its own entry so no Tripo row is dropped]|
+PRP|Toll ledger|Prop|Tripo #149|B|Delivered [inferred: Tripo list #149; likely the same asset as PRP-0112 Ledger (Plack); kept as its own entry so no Tripo row is dropped]|
+PRP|Roof grate|Prop|Tripo #150|B|Rain pours through [inferred: Tripo list #150; not named in the chapter text]|
+ARC|Flooded tunnel segment|Set piece / modular kit|Tripo #140|B|Rain through roof grates [inferred: Tripo list #140; not named in the chapter text]|
+ARC|Maintenance ledge|Set piece / modular kit|Tripo #143|B|Above the water [inferred: Tripo list #143; not named in the chapter text]|
+ARC|Overhead pipe run|Set piece / modular kit|Tripo #144|B|Climb [inferred: Tripo list #144; not named in the chapter text]|
+ARC|HQ-side toll gate|Set piece / modular kit|Tripo #145|B|Boss arena [inferred: Tripo list #145; not named in the chapter text]|
+ARC|Tunnel ring segment (Intersection)|Set piece / modular kit|Tripo #824|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #824; not named in the chapter text]|
+ARC|Roof grate (Intersection)|Set piece / modular kit|Tripo #825|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #825; not named in the chapter text]|
+ARC|Pipe bundle (Intersection)|Set piece / modular kit|Tripo #826|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #826; not named in the chapter text]|
+ARC|Maintenance ladder (Intersection)|Set piece / modular kit|Tripo #828|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #828; not named in the chapter text]|
+ARC|Cable tray (Intersection)|Set piece / modular kit|Tripo #829|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #829; not named in the chapter text]|
+ARC|Water-gauge post (Intersection)|Set piece / modular kit|Tripo #830|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #830; not named in the chapter text]|
+ARC|Lane marker light (Intersection)|Set piece / modular kit|Tripo #831|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #831; not named in the chapter text]|
+ARC|Rubble spill (Intersection)|Set piece / modular kit|Tripo #832|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #832; not named in the chapter text]|
+ARC|Sluice gate (Intersection)|Set piece / modular kit|Tripo #833|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #833; not named in the chapter text]|
+ARC|Pump motor (Intersection)|Set piece / modular kit|Tripo #834|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #834; not named in the chapter text]|
+ARC|Rain curtain (Intersection)|Set piece / modular kit|Tripo #835|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #835; not named in the chapter text]|
+ARC|Handrail run (Intersection)|Set piece / modular kit|Tripo #836|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #836; not named in the chapter text]|
+ARC|Drain cover (Intersection)|Set piece / modular kit|Tripo #837|B|Modular dressing piece for Ch 8 Intersection [inferred: Tripo list #837; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

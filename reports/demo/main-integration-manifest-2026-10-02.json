@@ -1,0 +1,35 @@
+{
+  "record_kind": "actual MAIN integration handoff",
+  "task": "Add the Unreal 5.8 demo and its decisions to BoldInBeauty_MAIN",
+  "date": "2026-10-02",
+  "device": "Linux cloud container (neither replica)",
+  "project_root_reference": "repository 121Nanami/BoldInBeauty-Project, branch claude/great-newton-wp7hgt",
+  "base_manifest": null,
+  "cross_device_freshness": "OPEN",
+  "counterpart_handoff": null,
+  "files": [
+    {
+      "path": "BoldInBeauty_MAIN",
+      "scope": "shared knowledge",
+      "action": "modified",
+      "repo_copy_before_sha256": "d4615c32f46d78536c79dea7d68dd025bfd15c1c504cad80a5e19f62f71f2aa0",
+      "owner_upload_sha256_used_as_base": "18cfbc9d90584cb3b45b9b91d307a97058872f93690b65f129ed5e1aed370ee8",
+      "after_sha256": "2232025906b64cfb782385915142aef79da504799f9910f4d119ec39fb0be852",
+      "verification": [
+        "Owner's upload is the newer file; the repo copy differs from it only by older Nami wording, so the upload was the base",
+        "Only a header date note and the new section 11 demo subsection were added",
+        "Statuses WORKING/OPEN/DEFERRED/SNAPSHOT preserved; no game-design facts added"
+      ]
+    },
+    {
+      "path": "sync/handoff-state.json",
+      "scope": "local coordination; git-ignored, not committed",
+      "action": "created",
+      "after_sha256": "afe2136e1ca9e0806c907ab1d24a32c5475d4067d09a096608726cca313aa9a3"
+    }
+  ],
+  "unresolved_items": [
+    "Windows replica and cross-device freshness OPEN",
+    "Counterpart acknowledgement not received"
+  ]
+}

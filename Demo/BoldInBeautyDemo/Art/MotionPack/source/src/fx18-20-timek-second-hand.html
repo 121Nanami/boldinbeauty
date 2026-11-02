@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "18", "n": 20, "title": "Timekeeper M1: Second Hand", "slug": "timek-second-hand", "who": "timek", "label": "PROPOSED", "note": "Three strikes; each leaves an echo 1 s later"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-20-timek-second-hand", "title": "Timekeeper M1: Second Hand", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 3, "len": 420, "w": 50, "fan": 0.3, "col": "#7657FF", "col2": "#F7F4FA"}, {"fx": "strike", "at": "mid", "t0": 1.0, "n": 3, "len": 420, "w": 50, "fan": 0.3, "col": "#64E8FF", "col2": "#F7F4FA", "al": 0.4}, {"fx": "clock", "at": "cas", "t0": 0.0, "t1": 2.6, "h": 330, "r": 60, "col": "#F7F4FA", "col2": "#64E8FF"}], "enemy": true, "cas": true, "note": "Three strikes; each leaves an echo 1 s later", "label": "PROPOSED", "who": "Timekeeper", "slot": "M1", "hit": 0.15, "sfx": "hit", "n": 20, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

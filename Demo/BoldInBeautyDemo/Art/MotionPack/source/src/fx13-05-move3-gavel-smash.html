@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "13", "n": 5, "title": "Move 3: Gavel smash", "slug": "move3-gavel-smash", "who": "judge", "label": "DERIVED", "note": "0.5 s windup, 3 smashes in 1 s, stun pops, Gavel mark"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx13-05-move3-gavel-smash", "title": "Move 3: Gavel smash", "dur": 3.4, "layers": [{"fx": "mark", "at": "cas", "glyph": "gavel", "h": 240, "col": "#FFD23F", "s": 46, "t1": 0.7}, {"fx": "blast", "at": "mid", "t0": 0.5, "r": 320, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 2, "flat": true}, {"fx": "blast", "at": "mid", "t0": 0.8300000000000001, "r": 320, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 2, "flat": true}, {"fx": "blast", "at": "mid", "t0": 1.1600000000000001, "r": 320, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 2, "flat": true}, {"fx": "halo", "at": "en", "n": 1, "h": 340, "col": "#F7F4FA", "r": 100, "t0": 1.5}, {"fx": "mark", "at": "en", "glyph": "gavel", "h": 400, "col": "#E5252A", "t0": 1.5, "s": 28}], "enemy": true, "cas": true, "note": "0.5 s windup, 3 smashes in 1 s, stun pops, Gavel mark", "label": "DERIVED", "who": "Judge", "slot": "Move 3", "hit": 0.5, "sfx": "boom", "n": 5, "sheet": "13"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,37 @@
+# Render blueprint for the Boldinbeauty demo's account service (Demo/BoldInBeautyDemo/Server). Optional: nothing is deployed
+# until the owner creates the service in her own Render account (New > Blueprint > this repository). Step by step: docs/hosting.md.
+# Secrets are never stored here: the `sync: false` values are typed into Render's dashboard, once.
+services:
+  - type: web
+    name: boldinbeauty-accounts
+    runtime: docker
+    # The slim, LFS-free branch that holds only the server (git checkout render-deploy; git checkout <work branch> -- Demo/BoldInBeautyDemo/Server).
+    branch: render-deploy
+    rootDir: Demo/BoldInBeautyDemo/Server
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: false
+    envVars:
+      - key: MONGODB_URI          # the Atlas connection string with the database user's password (Atlas > Connect > Drivers)
+        sync: false
+      - key: MONGODB_DB
+        value: boldinbeauty
+      - key: CODE_SECRET          # hashes the e-mailed codes; Render generates a random one
+        generateValue: true
+      - key: ADMIN_EMAILS
+        value: admin@example.com
+      - key: MAIL_PROVIDER        # smtp, or resend when the host blocks outbound SMTP (see docs/hosting.md)
+        value: smtp
+      - key: MAIL_FROM
+        sync: false
+      - key: SMTP_HOST
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER            # the sender mailbox (not the Atlas login)
+        sync: false
+      - key: SMTP_PASS            # the Google App password for that mailbox
+        sync: false
+      - key: TRUST_PROXY_HOPS     # Render's load balancer is one hop: rate limits then see the player, not the proxy
+        value: "1"

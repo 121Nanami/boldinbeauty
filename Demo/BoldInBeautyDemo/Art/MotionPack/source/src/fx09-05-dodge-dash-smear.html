@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 5, "title": "Dodge dash smear", "slug": "dodge-dash-smear", "who": null, "label": "NEEDS ART", "note": "Every dodge: short smear + dust"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-05-dodge-dash-smear", "title": "Dodge dash smear", "dur": 3.0, "layers": [{"fx": "dash", "at": "mid", "dist": 520, "col": "#64E8FF", "col2": "#F7F4FA", "trail": 360, "dd": 0.22, "dust": true}], "enemy": true, "cas": true, "note": "Every dodge: short smear + dust", "label": "NEEDS ART", "who": "SHARED", "slot": "Every dodge", "hit": 0.2, "sfx": "soft", "n": 5, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

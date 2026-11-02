@@ -1,0 +1,9 @@
+<!--META {"dur": 3.4, "alpha": true, "kind": "fx", "sheet": "16", "n": 7, "title": "Ishii M1: Arcane Bolt", "slug": "ishii-arcane-bolt", "who": "ishii", "label": "PROPOSED", "note": "Bolts cycle Shock, Burn, Wet; Shock discharge at 5 stacks"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-07-ishii-arcane-bolt", "title": "Ishii M1: Arcane Bolt", "dur": 3.4, "layers": [{"fx": "volley", "at": "cas", "oy": -150, "n": 1, "kind": "bolt", "col": "#64E8FF", "dist": 680, "sp": 1900, "ir": 90}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 0.8, "n": 1, "kind": "ember", "col": "#FF3D8D", "col2": "#F7F4FA", "size": 14, "dist": 680, "sp": 1500, "ir": 100}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 1.6, "n": 1, "kind": "ice", "col": "#7657FF", "dist": 680, "sp": 1700, "ir": 90}, {"fx": "chain", "at": "en", "t0": 2.5, "pts": [[-80, -140], [10, -220], [90, -130], [170, -210]], "col": "#64E8FF"}], "enemy": true, "cas": true, "note": "Bolts cycle Shock, Burn, Wet; Shock discharge at 5 stacks", "label": "PROPOSED", "who": "Ishii", "slot": "M1", "hit": 0.4, "sfx": "hit", "n": 7, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

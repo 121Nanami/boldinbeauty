@@ -1,0 +1,9077 @@
+{
+"1": [
+{
+"name": "Luna - standard outfit",
+"kind": "char",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Plack - standard outfit",
+"kind": "char",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Kuu - standard outfit",
+"kind": "char",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Luna's black hole orb",
+"kind": "weapon",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Luna's white hole orb",
+"kind": "weapon",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Luna's signature focus",
+"kind": "weapon",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Plack's courier blade",
+"kind": "weapon",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Kuu's hook and rope",
+"kind": "weapon",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Dispatch pager voice terminal",
+"kind": "npc",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Angel (basic melee)",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Heavy angel",
+"kind": "enemy",
+"zone": 1,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Neon Choir",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Tanabe Arcade facade",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Rooftop water tank",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Claw machine",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Loading dock",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Sponsor kiosk plaza",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Sponsored lunch crate",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Crowbar",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Cold sandwich with note",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Black umbrella",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Job card 4471",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Weather bulletin poster",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Vending machine shrine",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Neon street sign set",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Delivery scooter",
+"kind": "vehicle",
+"zone": 2,
+"size": "V",
+"rig": false
+},
+{
+"name": "Wing mark (small)",
+"kind": "symbol",
+"zone": 3,
+"size": "P",
+"rig": false
+},
+{
+"name": "Neon blade sign (Neo Tokyo)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Fire-escape stair module (Neo Tokyo)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fire-escape landing (Neo Tokyo)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rooftop AC unit (Neo Tokyo)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Street bin cluster (Neo Tokyo)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Pavement bike rack (Neo Tokyo)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Awning with shutters (Neo Tokyo)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Noodle stall (Neo Tokyo)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Power pole with wires (Neo Tokyo)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Manhole cover (Neo Tokyo)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Bus-stop shelter (Neo Tokyo)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rooftop antenna cluster (Neo Tokyo)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Alley dumpster (Neo Tokyo)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wet road tile (Neo Tokyo)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"2": [
+{
+"name": "Surface hatch (numbered)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "School building (ruin)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Classroom set",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Schoolyard fence and gate",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Police and fire station (ruin)",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Hospital ward set",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Stadium bowl (broken)",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Toppled radio tower",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Flooded crater",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Lost-and-found box",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Green lunch box with a bear",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Field recorder",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Face-down playing card",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Noticeboard (5 June 2002)",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Name card (ward three)",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Hinge",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Scrap Peddler",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Fused angel (Crowd component)",
+"kind": "enemy",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Angel in formation (facing west)",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Ranged angel",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Assassin angel",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Crowd",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Fire truck (starts)",
+"kind": "vehicle",
+"zone": 3,
+"size": "V",
+"rig": false
+},
+{
+"name": "Police car (wreck)",
+"kind": "vehicle",
+"zone": 3,
+"size": "V",
+"rig": false
+},
+{
+"name": "Ambulance (wreck)",
+"kind": "vehicle",
+"zone": 3,
+"size": "V",
+"rig": false
+},
+{
+"name": "Broken wall segment (Ruins)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rubble mound (teal jump-up) (Ruins)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Collapsed stair (Ruins)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "School desk set (Ruins)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Chalkboard (Ruins)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Hospital bed (Ruins)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Gurney (Ruins)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stadium seat block (Ruins)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cracked road tile (Ruins)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Dead tree (Ruins)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Burnt car chassis (Ruins)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Barricade of sandbags (Ruins)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Shattered window frame (Ruins)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fire-station pole (Ruins)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+}
+],
+"3": [
+{
+"name": "The Keeper",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Quay and broken pier",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Stepping rocks",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Lighthouse",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Lamp room",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Wave breaker set",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Spare lighthouse lens",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lamp manual",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Keeper's cot and dog bowl",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Mooring bollard",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rope coil",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Unit 7 maintenance plate",
+"kind": "symbol",
+"zone": 4,
+"size": "P",
+"rig": false
+},
+{
+"name": "The Keeper's Lens",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Rock ranged angel",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Pier plank module (Docks)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pier post (Docks)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rope bundle (Docks)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fishing net heap (Docks)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wooden crate stack (Docks)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Barrel cluster (Docks)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tarpaulin (Docks)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sea rock cluster (Docks)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Crab-pot stack (Docks)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Anchor (Docks)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Broken rowboat (Docks)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Signal bell (Docks)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Harbour lamp (Docks)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Wave-crest set (Docks)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"4": [
+{
+"name": "Hanging district (cabled)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Plank bridge",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Lift cabin and shaft",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Rota hall",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Apartment block interior",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Hanging market",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Chain link (giant)",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Chain anchor",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Stopped wall clock (4:12)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lift rota",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Resident register 2007",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Child's drawing of the chain",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Laundry line",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rim guard",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Lift clerk",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Resident child",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Unregistered recruit",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Chain drifter",
+"kind": "enemy",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "The Anchorite",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Plank-bridge module (Hanging City)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cable anchor (Hanging City)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Suspended walkway (Hanging City)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Laundry pole (Hanging City)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Hanging lantern string (Hanging City)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rooftop garden box (Hanging City)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lift gate (Hanging City)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rope ladder (Hanging City)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wind chime cluster (Hanging City)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Scaffold module (Hanging City)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Chain-link railing (Hanging City)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Hanging sign (Hanging City)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Pulley block (Hanging City)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tarp roof (Hanging City)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"5": [
+{
+"name": "A.R.C TECH intake hall",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Conveyor line",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Packaging bay",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Press hall (ten stampers)",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Robot-arm gantry",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Coolant pool",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Cube core",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Glowing cube (30 cm)",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Stamped pallet (1%)",
+"kind": "prop",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Visitor manifest",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Loudspeaker horn",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Foreman's clipboard",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Security automaton",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Cube hauler",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Arm sentry",
+"kind": "enemy",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Foreman",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "A.R.C TECH INCORPORATED logo",
+"kind": "symbol",
+"zone": 1,
+"size": "P",
+"rig": false
+},
+{
+"name": "Conveyor segment (A.R.C TECH)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Conveyor corner (A.R.C TECH)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Robot-arm base (A.R.C TECH)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stamper housing (A.R.C TECH)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Catwalk module (A.R.C TECH)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Guard-rail module (A.R.C TECH)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Cube tray (A.R.C TECH)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pallet jack (A.R.C TECH)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Coolant pipe run (A.R.C TECH)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Control cabinet (A.R.C TECH)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Warning light (A.R.C TECH)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Yellow hazard stripe tile (A.R.C TECH)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Loudspeaker horn cluster (A.R.C TECH)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Overhead gantry (A.R.C TECH)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"6": [
+{
+"name": "Gate plaza",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Vine-roofed house",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Market stalls (stocked)",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Cemetery wall",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Lake and lily pads",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Moon (interior)",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Island under the Moon",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Last house",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Door-frame carving (three names)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Supper table with four plates",
+"kind": "prop",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Moon lantern",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Survey drone wreck",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Flower bed",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Moss sentinel",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Vine walker",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Gardener",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Vine wall (Moon Kingdom)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Flower-bed module (Moon Kingdom)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Moss-covered roof (Moon Kingdom)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Overgrown market stall (Moon Kingdom)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Vine-wrapped lamp post (Moon Kingdom)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Tomb door (open) (Moon Kingdom)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lily pad cluster (Moon Kingdom)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fern clump (Moon Kingdom)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Root arch (Moon Kingdom)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Flowering tree (Moon Kingdom)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Creeper curtain (Moon Kingdom)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Mossy stair (Moon Kingdom)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Glow-moth lantern (Moon Kingdom)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Stone bench (Moon Kingdom)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+}
+],
+"7": [
+{
+"name": "T.O.M.B.S shell entrance",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Lobby and reception",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Cubicle floor",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Break room",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Meeting room (floor 6)",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Atrium with stacked floors",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Elevator shaft",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Hidden angel room",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Floor nine office",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Folder: ANGEL V1",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Folder: OPERATOR V!",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Reception bell",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Lobby plant",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Coffee machine",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Building directory",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Form stack",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Receptionist",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Office-worker angel",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Filing sentry",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Auditor",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "T.O.M.B.S sign",
+"kind": "symbol",
+"zone": 1,
+"size": "P",
+"rig": false
+},
+{
+"name": "Cubicle wall module (T.O.M.B.S)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Office desk (T.O.M.B.S)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Office chair (T.O.M.B.S)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Filing cabinet bank (T.O.M.B.S)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Water cooler (T.O.M.B.S)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Copier (T.O.M.B.S)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ceiling light panel (T.O.M.B.S)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Elevator door set (T.O.M.B.S)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fire-door (T.O.M.B.S)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Potted plant (T.O.M.B.S)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wall clock (T.O.M.B.S)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Notice board (T.O.M.B.S)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Reception counter (T.O.M.B.S)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Carpet tile (T.O.M.B.S)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"8": [
+{
+"name": "Flooded tunnel segment",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Cross tunnel (the intersection)",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Pump room (flooded)",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Maintenance ledge",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Overhead pipe run",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "HQ-side toll gate",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Demolition kit",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rubber duck",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Glowing shard",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Toll ledger",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Roof grate",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stranded technician",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Lane angel",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Ticket-punch angel",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Toll Collector",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Tunnel ring segment (Intersection)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Roof grate (Intersection)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pipe bundle (Intersection)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Valve wheel (Intersection)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Maintenance ladder (Intersection)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cable tray (Intersection)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Water-gauge post (Intersection)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lane marker light (Intersection)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rubble spill (Intersection)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sluice gate (Intersection)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pump motor (Intersection)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rain curtain (Intersection)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Handrail run (Intersection)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Drain cover (Intersection)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+}
+],
+"9": [
+{
+"name": "Dune field",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Cable trunk",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Cooling tower",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Data centre block",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Server hall",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "The small screen",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Fallen server rack",
+"kind": "prop",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lost boot",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Service log",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Rack label ANGEL//V1",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Rack label OPERATOR//V!",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Rack sentry",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Cooling warden",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Uptime",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Server rack row (Remnant Remains)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cable trunk segment (Remnant Remains)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cooling fan (Remnant Remains)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Steam vent (Remnant Remains)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Dune ridge (Remnant Remains)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sand drift (Remnant Remains)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fallen rack (Remnant Remains)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Desert antenna (Remnant Remains)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Generator (Remnant Remains)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Blast door (Remnant Remains)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Blinking beacon (Remnant Remains)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cable spool (Remnant Remains)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sandbag wall (Remnant Remains)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rain barrel (Remnant Remains)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"10": [
+{
+"name": "Pastel floating island",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Floating stair",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Giant chair",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Giant teacup",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Melting clock",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Waiting room",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Street of identical shops",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Banquet table",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Morse slab",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wedding cake that bleeds",
+"kind": "prop",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Waiting-room ticket",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Apology shop sign",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Apparition (hyper-real)",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Chair wraith",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "The Mimic",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Pastel cloud platform (Hallucinations)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Candy-stripe pole (Hallucinations)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Giant button (Hallucinations)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rubber-band bridge (Hallucinations)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Paper flower (Hallucinations)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Balloon cluster (Hallucinations)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Melted candle (Hallucinations)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Floating stair step (Hallucinations)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pillow hill (Hallucinations)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Spoon bridge (Hallucinations)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ribbon rail (Hallucinations)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Crayon tree (Hallucinations)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Jelly block (Hallucinations)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Drifting stair step (Hallucinations)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"11": [
+{
+"name": "Grey Neo Tokyo crossing",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Grey toppled tower",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Grey lighthouse",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Grey chain links",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Grey house under a low moon",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Grey desks and tall wall",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Grey tunnel segment",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Grey data centre",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Grey floating island and teacup",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Exit frame",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Grey bollard (Nowhere)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey barrier (Nowhere)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey bench (Nowhere)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Grey lamp post (Nowhere)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Grey wall block (Nowhere)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey stair (Nowhere)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey arch (Nowhere)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey pillar (Nowhere)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey crate (Nowhere)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey road tile (Nowhere)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey door frame (Nowhere)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey railing (Nowhere)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Grey sign blank (Nowhere)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Grey cube (Nowhere)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"12": [
+{
+"name": "Neo-tropical harbour plaza",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Canal market",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Rooftop garden with waterfall",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Service tunnels",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Ration window",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Convention hall archive",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Lagoon and beach",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Wedding stage",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Wing-logo menu",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Mango",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Wedding rings",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Event licence",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Cheque (torn)",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Camera drone ring light",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Luna - wedding dress",
+"kind": "char",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Plack - wedding outfit",
+"kind": "char",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Kuu - best-person formalwear",
+"kind": "char",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Priest automaton",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Ambassador",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Cook (service tunnels)",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Camera drone",
+"kind": "enemy",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Brand elite",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Ambassador (boss form)",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Wing logo (sponsor)",
+"kind": "symbol",
+"zone": 1,
+"size": "P",
+"rig": false
+},
+{
+"name": "Coral facade module (Paradise)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Balcony (Paradise)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Canal railing (Paradise)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Palm tree (Paradise)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Market awning (Paradise)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "String-light run (Paradise)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Flower box (Paradise)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bridge arch (Paradise)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Garden planter (Paradise)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Waterfall spout (Paradise)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Beach umbrella (Paradise)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Deck chair (Paradise)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Tiki torch (Paradise)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tile roof (Paradise)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"13": [
+{
+"name": "Torii gate",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Village street",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Rice paddies",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "River and wooden bridge",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Shrine and 50-step stair",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Monolith plaza",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "The monolith",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Rice seedlings",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Drying rice rack",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Prayer card",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Glyph page",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Kneeling mat",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Villager",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Old planting man",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Villager woman with child",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Shepherd",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Monolith glyph set",
+"kind": "symbol",
+"zone": 4,
+"size": "P",
+"rig": false
+},
+{
+"name": "Village house module (Secretive Soul)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tile roof (Secretive Soul)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wooden fence (Secretive Soul)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stone lantern (Secretive Soul)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rice-drying rack (Secretive Soul)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stepping stone (Secretive Soul)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bamboo grove (Secretive Soul)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Irrigation gate (Secretive Soul)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Scarecrow (Secretive Soul)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Farm gate (Secretive Soul)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Hay bale (Secretive Soul)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Well (Secretive Soul)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wooden bridge plank (Secretive Soul)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Torii pillar (Secretive Soul)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"14": [
+{
+"name": "Luna - war coat",
+"kind": "char",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Broadcast spire (tower)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Spire lobby",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Quiz-show studio",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Control floor",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Transmitter room",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Antenna mast (climbable)",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Visitor sticker",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Toaster",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Broadcast script",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Microphone",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "On-air light",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Quiz buzzer",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Commanders' communique",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Spire receptionist",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Quiz-show host",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "School tour children",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Spire guard",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Studio warden",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Antenna sentry",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Primetime Squad",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Outside-broadcast van",
+"kind": "vehicle",
+"zone": 1,
+"size": "V",
+"rig": false
+},
+{
+"name": "Primetime Squad logo",
+"kind": "symbol",
+"zone": 4,
+"size": "P",
+"rig": false
+},
+{
+"name": "Studio set wall (Declaration)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Camera dolly (Declaration)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Light rig (Declaration)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Green-room sofa (Declaration)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Security turnstile (Declaration)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lobby planter (Declaration)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Escalator module (Declaration)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Glass wall (Declaration)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cable box (Declaration)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Antenna mast segment (Declaration)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wind-turbine fan (Declaration)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Stairwell module (Declaration)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Elevator lobby (Declaration)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Broadcast desk (Declaration)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"15": [
+{
+"name": "Media",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Staple (drone assistant)",
+"kind": "npc",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Studio Static (subway studio)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Mixing desk",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Signal tunnel",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Patch room",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Rooftop relay dish",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Subway platform",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Cereal bowl",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Cassette tape",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Patch panel",
+"kind": "prop",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Kill-order tag",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Pot of soup",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Cereal box tower",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Headphones",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Jammer drone",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Static walker",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Tape eater",
+"kind": "enemy",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Jammer Choir",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Jammer cannon",
+"kind": "weapon",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Subway car",
+"kind": "vehicle",
+"zone": 2,
+"size": "V",
+"rig": false
+},
+{
+"name": "Subway tile wall (Dead Air)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Platform bench (Dead Air)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Ticket gate (Dead Air)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rail segment (Dead Air)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Tunnel arch (Dead Air)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cable tray (Dead Air)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Speaker stack (Dead Air)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fan housing (Dead Air)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Signal lamp (Dead Air)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Tape rack (Dead Air)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Kettle station (Dead Air)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Drum kit (Dead Air)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Mic boom (Dead Air)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cereal shelf (Dead Air)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"16": [
+{
+"name": "Underworld market",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Recruiting table",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Briefing hall",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Bunk hall",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Paperwork annex",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Collapsed arcade",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Hand-painted sign",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Sponsor contract",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Recruit register",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Briefing map and pointer",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Kettle",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Chess pieces (giant)",
+"kind": "prop",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Recruit (soup)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Recruit (the smiler)",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Recruit (the dog)",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Contract clerk",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Hanging City recruit",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Debt collector",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Ambush archer",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Repo",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Cavern strut (Recruitment)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Hanging lamp string (Recruitment)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Stall frame (Recruitment)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tarp roof (Recruitment)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bunk frame (Recruitment)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Supply crate (Recruitment)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ration barrel (Recruitment)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Notice board (Recruitment)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bread rack (Recruitment)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stool cluster (Recruitment)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Ladder run (Recruitment)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pipe manifold (Recruitment)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Drip pan (Recruitment)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Drum fire (Recruitment)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"17": [
+{
+"name": "Judge - courtroom robes (over power dress)",
+"kind": "char",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Courthouse atrium",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Courtroom 1",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Courtroom 2",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Holding cells",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Judge's chambers",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Statute case",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Charge sheet",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Metal gavel with wires",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Statute of November 2002",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Witness stand microphone",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Vending machine",
+"kind": "prop",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "The Clerk",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "The accused",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Bailiff automaton",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Cell guard",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Bailiff Prime",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Scales of the court",
+"kind": "symbol",
+"zone": 1,
+"size": "P",
+"rig": false
+},
+{
+"name": "Courtroom pew (Court)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Jury box (Court)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Witness stand (Court)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bench riser (Court)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Atrium column (Court)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Statue plinth (Court)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cell door (Court)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Holding bench (Court)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "File cabinet (Court)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Chandelier (Court)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Brass rail (Court)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Clerk desk (Court)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stairwell (Court)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Flag stand (Court)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+}
+],
+"18": [
+{
+"name": "The Exchange (cavern floor)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Exchange stall (generic set)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ledger vault",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Vault reading room",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Broker's gantry",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Quiet stall",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Second ledger",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Cheque (signed)",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Exchange rule board",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Sandwich",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Abacus",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Contract slip",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Spy recruit",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Stall-holder",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Vault guard",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Stall thug",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Ledger guard",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Broker",
+"kind": "boss",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Stall canopy (Exchange)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Scale table (Exchange)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ledger desk (Exchange)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Crate wall (Exchange)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lantern pole (Exchange)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rope line (Exchange)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Barter board (Exchange)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cash box (Exchange)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Carpet rack (Exchange)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Hanging cloth (Exchange)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Shelf unit (Exchange)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Abacus stand (Exchange)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Narrow stair (Exchange)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Vault door frame (Exchange)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"19": [
+{
+"name": "Gambler (roster 5-star)",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Deck (casino floor)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "High-roller room",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Casino vault",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Casino rooftop",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Bar",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wing chip",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "White-backed card",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Odds board",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Roulette wheel",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Card deck (blades)",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Bartender",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Croupier",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Enforcer",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Chip guard",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Backer's Dealer",
+"kind": "boss",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Card table (House Rules)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Roulette table (House Rules)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Slot machine (House Rules)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Chip stack (House Rules)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bar stool (House Rules)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Bar counter (House Rules)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Chandelier (House Rules)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Velvet rope (House Rules)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stage curtain (House Rules)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Balcony rail (House Rules)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Fake star panel (House Rules)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Vault drawer bank (House Rules)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Spotlight (House Rules)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Carpet strip (House Rules)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"20": [
+{
+"name": "Timekeeper",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Clock Cathedral nave",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Gear hall",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Stopped hall",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Timekeeper's study",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Belfry",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Hourglass chamber",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pocket watch (4:12)",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Timekeeper's ledger",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Pendulum bob",
+"kind": "prop",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Hour candle",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Sundial",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Gear sentry",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Paused pilgrim",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Hour guard",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Minute Hand",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Timekeeper's sigil",
+"kind": "symbol",
+"zone": 1,
+"size": "P",
+"rig": false
+},
+{
+"name": "Great gear (The Hour)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Small gear cluster (The Hour)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pendulum arm (The Hour)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Clock face panel (The Hour)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Hourglass rack (The Hour)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stained-glass window (The Hour)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pew (The Hour)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Candle stand (The Hour)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stair spiral (The Hour)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bell (The Hour)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Chain hoist (The Hour)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Weight block (The Hour)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cog railing (The Hour)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Stone arch (The Hour)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"21": [
+{
+"name": "Alchemist (roster 5-star)",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Blood (roster 5-star)",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Greenhouse dome",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Terrace field",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Laboratory",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Cold store",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Reactor annex",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Volunteer's stool room",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cube sample vial",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Plaque (1 percent)",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Label 1",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Kettle (screaming)",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Neutraliser vial",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Flask rack",
+"kind": "prop",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Test volunteer",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Plant creature",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Lab drone",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Test subject (mutating)",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Overdose",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Greenhouse pane (Fixed Dose)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Planter rack (Fixed Dose)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Drip pipe (Fixed Dose)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Flask rack (Fixed Dose)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lab bench (Fixed Dose)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Fume hood (Fixed Dose)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cold-store shelf (Fixed Dose)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Valve cluster (Fixed Dose)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Seed tray (Fixed Dose)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Hose reel (Fixed Dose)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sink (Fixed Dose)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Reactor pipe (Fixed Dose)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Containment panel (Fixed Dose)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Terrace wall (Fixed Dose)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"22": [
+{
+"name": "Narrator",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Library entrance hall",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Reading room (rearranging)",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Drafting room",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Recording archive",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Central reading room",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Stacks canyon",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Draft charge (final, with a joke)",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Intake tape 2008",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Page with no ending",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Narrator's quill",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Page pile",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Archivist",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Page wraith",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Reading-room guard",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Binder brute",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Editor",
+"kind": "boss",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Narrator's seal",
+"kind": "symbol",
+"zone": 1,
+"size": "P",
+"rig": false
+},
+{
+"name": "Bookshelf module (Library)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ladder rail (Library)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Reading desk (Library)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lamp (Library)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Page curtain (Library)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Card catalogue (Library)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Scroll rack (Library)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Globe (Library)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Floor-page drift (Library)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stair spiral (Library)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Balcony rail (Library)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Quill stand (Library)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ink well (Library)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Archive trolley (Library)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"23": [
+{
+"name": "Weather (roster 5-star)",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Stargazer (roster 5-star)",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Observatory dome",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Instrument gallery",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Map room",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Storm balcony",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Hatch tower",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Map of convergences",
+"kind": "prop",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Barometer",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Anemometer",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lightning rod",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Annotation tag",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Storm angel",
+"kind": "enemy",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Gale warden",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Instrument drone",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "The Stormfront",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Dome panel (Red Sky)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Telescope mount (Red Sky)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Instrument stand (Red Sky)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wind vane (Red Sky)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rain gauge (Red Sky)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cable stay (Red Sky)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lightning rod (Red Sky)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Hatch cover (Red Sky)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Ladder run (Red Sky)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Storm shutter (Red Sky)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rooftop rail (Red Sky)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Star-chart wall (Red Sky)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Heater (Red Sky)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Antenna (Red Sky)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"24": [
+{
+"name": "Jester",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Big Top (carnival under Neo Tokyo)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Midway",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Shooting gallery",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Mirror house",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "The ring",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Carousel",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Joker card",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Prize ticket",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Cardboard apple",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Target board",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tin duck",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Ringmaster's drum",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Kuu (tied to the target)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Clown automaton",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Mirror image",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Tent brute",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Ringmaster Machine",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Jester's card-back mark",
+"kind": "symbol",
+"zone": 1,
+"size": "P",
+"rig": false
+},
+{
+"name": "Tent panel (The Joke)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tent pole (The Joke)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Ticket booth (The Joke)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Popcorn cart (The Joke)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Balloon stand (The Joke)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ring bench (The Joke)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Mirror panel (The Joke)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Trapeze rig (The Joke)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ball pit (The Joke)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cannon prop (The Joke)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Juggling table (The Joke)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stilt rack (The Joke)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lantern string (The Joke)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Hay-cart (The Joke)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"25": [
+{
+"name": "Adapt",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Training hall",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Live-fire course",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Control tower",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Spectator stands",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Cadet barracks",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Range arena (boss)",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Course blueprint",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rulebook (steel-bound)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Cup trophy",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Whistle",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Sponsor lever",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Cadet",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Sponsor's aide",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Course drone",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Adaptive target",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Sponsor's Warden",
+"kind": "boss",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Obstacle wall (Adapt)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Balance beam (Adapt)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rope net (Adapt)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tyre run (Adapt)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Hurdle (Adapt)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pop-up target frame (Adapt)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sandbag (Adapt)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ladder (Adapt)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Monkey bars (Adapt)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Crate pyramid (Adapt)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tower platform (Adapt)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Spectator rail (Adapt)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lane divider (Adapt)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Whiteboard (Adapt)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"26": [
+{
+"name": "Death",
+"kind": "secret",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Mortuary upper tier",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Crypt tier",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Mortuary stair",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Hall of records",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Open crypt",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ledger (Death)",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Name stone",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Ghost lantern",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Casualty count page",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Coffin",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Plack (reading names)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Grave walker",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Crypt warden",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Lantern wraith",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "The Pallbearers",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Death's ledger mark",
+"kind": "symbol",
+"zone": 4,
+"size": "P",
+"rig": false
+},
+{
+"name": "Crypt niche (Death's Door)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Name wall (Death's Door)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lantern stand (Death's Door)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Iron gate (Death's Door)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stair run (Death's Door)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sarcophagus (Death's Door)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bone-white urn (Death's Door)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Candle bank (Death's Door)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Door arch (Death's Door)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Floor slab (Death's Door)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Chain (Death's Door)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bier (Death's Door)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Memorial plaque (Death's Door)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ledger lectern (Death's Door)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"27": [
+{
+"name": "Ishii (3-star)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Shiraishi (3-star)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Arita (3-star)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Manager (\"talent\")",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Barracks canteen",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Sponsor Mall atrium",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Mall display plinth",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Mall service lift",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sponsor vault",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Loading dock (Ch 27)",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Kettle (broken)",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Ledger of grievances",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Withheld pay envelope",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "COUNCIL sign",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Roll of silver tape",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Mop bucket",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Branded armour plate",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Mall guard",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Branded drone",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Dock brute",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Compliance Officer",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Operators' Council emblem",
+"kind": "symbol",
+"zone": 1,
+"size": "P",
+"rig": false
+},
+{
+"name": "Mall kiosk (Ordinary Hours)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Escalator (Ordinary Hours)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Display plinth (Ordinary Hours)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Mannequin (Ordinary Hours)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Logo panel (Ordinary Hours)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Neon strip (Ordinary Hours)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Food-court table (Ordinary Hours)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Canteen bench (Ordinary Hours)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Locker bank (Ordinary Hours)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Vault shelf (Ordinary Hours)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Service trolley (Ordinary Hours)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lift door (Ordinary Hours)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ad screen (Ordinary Hours)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pillar (Ordinary Hours)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"28": [
+{
+"name": "Commander (hardliner, high collar)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Commander (hardliner, cigar)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Commander (reformer, cane)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Commander (reformer, young)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Commander (gaunt hardliner)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Commander (reformer, older)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Commander (silent seventh)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Tower guard (truce)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Intern",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Tower lobby",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Mirror elevator",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Office floor",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Logo gallery corridor",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Council chamber",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Tower stair",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Truce card",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Sponsorship tablet",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Framed logo (wing variants)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Council table",
+"kind": "prop",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Floor sentry",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Logo drone",
+"kind": "enemy",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "The Sovereign Guard",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Council chair (Commanders' Table)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Wing relief panel (Commanders' Table)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Carpet runner (Commanders' Table)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tower window (Commanders' Table)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Brass rail (Commanders' Table)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Executive desk (Commanders' Table)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lift lobby (Commanders' Table)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Logo frame (Commanders' Table)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Planter (Commanders' Table)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Door pair (Commanders' Table)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Chandelier (Commanders' Table)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Flag (Commanders' Table)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Reception arch (Commanders' Table)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stair (Commanders' Table)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"29": [
+{
+"name": "Myrcia (3-star)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Fujita (3-star)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Showrunner",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Gala guest",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Convention hall backstage",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Under-stage rig",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Cage vault",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Gala stage",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Producer's booth",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Caged angel tag",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Producer's script",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Canap\u00e9 tray",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lock-pick roll",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Contract (folded)",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Cage (single)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Caged angel",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Gala guard",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Spot drone",
+"kind": "enemy",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "The Showrunner (boss form)",
+"kind": "boss",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Stage truss (Sponsor Night)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Curtain (Sponsor Night)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Spotlight rig (Sponsor Night)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Cable run (Sponsor Night)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Flight case (Sponsor Night)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Cage frame (Sponsor Night)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stage trap door (Sponsor Night)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Riser (Sponsor Night)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Prop table (Sponsor Night)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Canap\u00e9 table (Sponsor Night)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Champagne tower (Sponsor Night)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ramp (Sponsor Night)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Catwalk (Sponsor Night)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rigging winch (Sponsor Night)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"30": [
+{
+"name": "Engineer",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Voice (loudspeaker)",
+"kind": "npc",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "A.R.C TECH (restart, lit)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Line halls",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Control spine",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Cradle hall",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Control room",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fist-sized cube (5%)",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Custody log terminal",
+"kind": "prop",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cradle plate (ANGEL V1)",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Node console (x3)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Engineer's tablet",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Engineer guard",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Line drone",
+"kind": "enemy",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cradle sentry",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Foreman Mk II",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Line module (Line Restarts)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cradle frame (Line Restarts)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cradle strap (Line Restarts)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Gantry (Line Restarts)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cube hopper (Line Restarts)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Control console (Line Restarts)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cable ladder (Line Restarts)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Sliding door (Line Restarts)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Drone dock (Line Restarts)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Light tube (Line Restarts)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Catwalk (Line Restarts)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Warning panel (Line Restarts)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Valve bank (Line Restarts)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Hazard tile (Line Restarts)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"31": [
+{
+"name": "Reformer commander (cane)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Reformer commander (medals)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Reformer commander (nervous)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Terminus Nine platform",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Armoured carriage",
+"kind": "env",
+"zone": 1,
+"size": "V",
+"rig": false
+},
+{
+"name": "Signal junction (station one)",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Third station",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Tunnel run",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Signal lever",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rail pass",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Suitcase (toothbrushes)",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Signal flare",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Plack's sash",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Rope coil (coupling)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Hardliner locomotive",
+"kind": "vehicle",
+"zone": 4,
+"size": "V",
+"rig": false
+},
+{
+"name": "Hardliner turret carriage",
+"kind": "vehicle",
+"zone": 3,
+"size": "V",
+"rig": false
+},
+{
+"name": "Reformers' carriage",
+"kind": "vehicle",
+"zone": 1,
+"size": "V",
+"rig": false
+},
+{
+"name": "Rail guard",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Coupling warden",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Hardliner Train",
+"kind": "boss",
+"zone": 4,
+"size": "V",
+"rig": false
+},
+{
+"name": "Rail segment (Fracture)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Sleeper pile (Fracture)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Signal post (Fracture)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Carriage window (Fracture)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Buffer stop (Fracture)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Platform bench (Fracture)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Station clock (Fracture)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Coal heap (Fracture)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Steam pipe (Fracture)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Signal flag (Fracture)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Switch lever (Fracture)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tunnel lamp (Fracture)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Rail cart (Fracture)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Ballast pile (Fracture)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"32": [
+{
+"name": "Charter Vault door",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Archive halls",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Operators' trial room",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Secrets' trial room",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Government trial room",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Signature chamber",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "The Charter (draft)",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Clause sheet (x12)",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Court gavel (stone)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Seal (Guardian's)",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Court voice",
+"kind": "npc",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Judge (witness)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Archive warden",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Clause sentry",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Charter Guardian",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Secrets' seven-seat emblem",
+"kind": "symbol",
+"zone": 4,
+"size": "P",
+"rig": false
+},
+{
+"name": "Vault door ring (Charter)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Archive cabinet (Charter)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Clause pillar (Charter)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Seal pedestal (Charter)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Trial-room door (Charter)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stone bench (Charter)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lectern (Charter)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Glass case (Charter)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Floor inlay (Charter)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wall carving (Charter)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rail (Charter)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Lamp (Charter)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Stair (Charter)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lintel (Charter)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"33": [
+{
+"name": "Angel (host form)",
+"kind": "secret",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Sanctum lift",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "White corridor",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Hall of silence",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Honour-guard hall",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "The white room",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "White flower in vase",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Black glyph circle (mark)",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Signature page (seventh line)",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Seamed thread (mouth seal)",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Judge (guest)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Hush soldier",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Honour guard",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Corridor warden",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Hush",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "White column (White Room)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "White arch (White Room)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "White bench (White Room)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "White door (White Room)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "White floor tile (White Room)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "White stair (White Room)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "White vase (White Room)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "White lamp (White Room)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "White wall panel (White Room)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "White rail (White Room)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "White pedestal (White Room)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "White pool (White Room)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "White drape (White Room)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "White niche (White Room)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"34": [
+{
+"name": "Operators' dome (party)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Dome kitchens",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Dome rooftop",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Printing hall",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Signing platform",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "The cake \"Chater\"",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Banner TOMORROW",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Forged Charter bundle",
+"kind": "prop",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Correction fluid and quill",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Dunk tank",
+"kind": "prop",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Soup bowls",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Reformers (washing up)",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Cooks",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Press guard",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": false
+},
+{
+"name": "Forgery drone",
+"kind": "enemy",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Print sentry",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Final Edition",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Bunting run (Night Before)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Party table (Night Before)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cake table (Night Before)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Banner stand (Night Before)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stage riser (Night Before)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Speaker stack (Night Before)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Press roller (Night Before)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Paper reel (Night Before)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Kitchen sink (Night Before)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Serving hatch (Night Before)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Dome rib (Night Before)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "String light (Night Before)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Ladder (Night Before)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bench (Night Before)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+}
+],
+"35": [
+{
+"name": "Long Gallery",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Year room 2002",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Year rooms 2003-2005",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Year room 2008",
+"kind": "env",
+"zone": 3,
+"size": "L",
+"rig": false
+},
+{
+"name": "Ledger desk",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Ledger page 2002",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "The new column (\"Unworthy\")",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Card drawers",
+"kind": "prop",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Death's pen",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Single lamp",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "The counted",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Year warden",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Ledger sentry",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The unwritten figure",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Unsigned",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Year-room door (Ledger)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Drawer bank (Ledger)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ledger lectern (Ledger)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lamp stand (Ledger)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Card tray (Ledger)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wall index (Ledger)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ladder (Ledger)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Narrow stair (Ledger)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Floor mat (Ledger)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Pillar (Ledger)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Arch (Ledger)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bench (Ledger)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Shelf (Ledger)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ink stain decal (Ledger)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"36": [
+{
+"name": "Luna - address outfit",
+"kind": "char",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Plack - blood on the hairline",
+"kind": "char",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Great Hall",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Dais and signature table",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "East gallery",
+"kind": "env",
+"zone": 2,
+"size": "L",
+"rig": false
+},
+{
+"name": "Great doors (forty feet)",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Charter Square",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Charter (final)",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Charter pen",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Luna's address (one sentence)",
+"kind": "prop",
+"zone": 1,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Commander Prime",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Signatories (crowd)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Coup guard",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Gallery sniper",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Hall sentry",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Commander Prime (mech)",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "War mech",
+"kind": "vehicle",
+"zone": 3,
+"size": "V",
+"rig": false
+},
+{
+"name": "Hall column (Unity)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Gallery rail (Unity)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Dais step (Unity)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Banner (Unity)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Table (Unity)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Chair row (Unity)",
+"kind": "env",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Chandelier (Unity)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Door leaf (Unity)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Floor medallion (Unity)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Wall sconce (Unity)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Flag pole (Unity)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Balcony (Unity)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fountain (Unity)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Statue (Unity)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"37": [
+{
+"name": "Ark Great Hall (aftermath)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Operators' dome (burning)",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Secrets' garrison",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Government quarter",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "The torn Charter",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Council ultimatum",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Secrets' ultimatum",
+"kind": "prop",
+"zone": 3,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Evacuation blanket",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Fire hose (tape)",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Council envoy",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Secrets' envoy",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Government delegate",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Interceptor",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Garrison sentry",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Dome raider",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Hardliner Colossus",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Interceptor skimmer",
+"kind": "vehicle",
+"zone": 4,
+"size": "V",
+"rig": false
+},
+{
+"name": "Barricade (Alliance Breaks)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Burnt beam (Alliance Breaks)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Smashed door (Alliance Breaks)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Civilian blanket (Alliance Breaks)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Ruined stall (Alliance Breaks)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Shell crater (Alliance Breaks)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fallen banner (Alliance Breaks)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Debris pile (Alliance Breaks)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Broken stair (Alliance Breaks)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Smoke vent (Alliance Breaks)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Melted lamp (Alliance Breaks)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Bent railing (Alliance Breaks)",
+"kind": "env",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Supply crate (Alliance Breaks)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Field kitchen (Alliance Breaks)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"38": [
+{
+"name": "The Warlord of the Docks",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Adapted",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Chain Marshal",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Truce clerk",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Docks front barricade",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Moon Kingdom (fortified)",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Hanging City (tilted)",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Lighthouse stair",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Truce treaty (pencil)",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "War flag (three)",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Warlord's harpoon",
+"kind": "prop",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cut chain link",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Replacement lens",
+"kind": "prop",
+"zone": 4,
+"size": "S",
+"rig": false
+},
+{
+"name": "Front soldier",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Siege engine",
+"kind": "enemy",
+"zone": 2,
+"size": "V",
+"rig": false
+},
+{
+"name": "Champion guard",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Angel host (first wave)",
+"kind": "enemy",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The Warlord (boss form)",
+"kind": "boss",
+"zone": 4,
+"size": "HH",
+"rig": true
+},
+{
+"name": "Dock barricade (Who Is Strongest)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Siege ram (Who Is Strongest)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Fortification vine wall (Who Is Strongest)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Banner mast (Who Is Strongest)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rope bridge (Who Is Strongest)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cannon mount (Who Is Strongest)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Supply stack (Who Is Strongest)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cliff stair (Who Is Strongest)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Tent (Who Is Strongest)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Chain winch (Who Is Strongest)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Boat hull (Who Is Strongest)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Watch fire (Who Is Strongest)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Lighthouse step (Who Is Strongest)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Plank run (Who Is Strongest)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"39": [
+{
+"name": "Nowhere edge frame",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Echo crossing (Neo Tokyo)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Echo quay (Docks)",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Echo chain (Hanging City)",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Echo data centre",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "The counted field",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Death's gallery",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Left-behind umbrella",
+"kind": "prop",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Left-behind boot",
+"kind": "prop",
+"zone": 2,
+"size": "S",
+"rig": false
+},
+{
+"name": "Left-behind recorder",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Grey sandwich wrapper",
+"kind": "prop",
+"zone": 2,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Ledger (three names, Returned)",
+"kind": "prop",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Death's cloak of pages",
+"kind": "prop",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey Luna echo",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Grey child echo",
+"kind": "npc",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "The counted (rows)",
+"kind": "npc",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Echo of Neo Tokyo angel",
+"kind": "enemy",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Echo of the Anchorite",
+"kind": "enemy",
+"zone": 2,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Echo of the Uptime",
+"kind": "enemy",
+"zone": 3,
+"size": "HH",
+"rig": false
+},
+{
+"name": "Death (boss form, three phases)",
+"kind": "boss",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Grey echo wall (Nowhere Inhabited)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey echo door (Nowhere Inhabited)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey rows of feet (Nowhere Inhabited)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey drawer (Nowhere Inhabited)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey lamp (Nowhere Inhabited)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Grey ledger stand (Nowhere Inhabited)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey stair (Nowhere Inhabited)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey arch (Nowhere Inhabited)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey rail (Nowhere Inhabited)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Grey slab (Nowhere Inhabited)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey chair (Nowhere Inhabited)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Grey screen (Nowhere Inhabited)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey pillar (Nowhere Inhabited)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Grey floor tile (Nowhere Inhabited)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+],
+"40": [
+{
+"name": "Angel (monolith-bound form)",
+"kind": "secret",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "The old planting man",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "Judge (epilogue)",
+"kind": "npc",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Shiraishi (army)",
+"kind": "npc",
+"zone": 1,
+"size": "H",
+"rig": true
+},
+{
+"name": "The village (dawn)",
+"kind": "env",
+"zone": 1,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Torii and stair",
+"kind": "env",
+"zone": 1,
+"size": "L",
+"rig": false
+},
+{
+"name": "Rice paddies (host)",
+"kind": "env",
+"zone": 2,
+"size": "XL",
+"rig": false
+},
+{
+"name": "River bridge",
+"kind": "env",
+"zone": 3,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Monolith foot",
+"kind": "env",
+"zone": 4,
+"size": "XL",
+"rig": false
+},
+{
+"name": "Epilogue courtroom",
+"kind": "env",
+"zone": 4,
+"size": "L",
+"rig": false
+},
+{
+"name": "Black glyph shard",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Job card 4472",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Receipt (Luna's evidence)",
+"kind": "prop",
+"zone": 4,
+"size": "XS",
+"rig": false
+},
+{
+"name": "Angel host soldier",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Shrine warden",
+"kind": "enemy",
+"zone": 3,
+"size": "H",
+"rig": true
+},
+{
+"name": "Host brute",
+"kind": "enemy",
+"zone": 2,
+"size": "H",
+"rig": true
+},
+{
+"name": "Angel (boss, three phases)",
+"kind": "boss",
+"zone": 4,
+"size": "H",
+"rig": true
+},
+{
+"name": "Cart (village)",
+"kind": "vehicle",
+"zone": 1,
+"size": "V",
+"rig": false
+},
+{
+"name": "Torii pillar (They Were Purity)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stair step (They Were Purity)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Paddy bund (They Were Purity)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bamboo fence (They Were Purity)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stone lantern (They Were Purity)",
+"kind": "env",
+"zone": 1,
+"size": "S",
+"rig": false
+},
+{
+"name": "Shrine roof (They Were Purity)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Bell frame (They Were Purity)",
+"kind": "env",
+"zone": 3,
+"size": "S",
+"rig": false
+},
+{
+"name": "Bridge plank (They Were Purity)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Mud bank (They Were Purity)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Reed clump (They Were Purity)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+},
+{
+"name": "Banner (They Were Purity)",
+"kind": "env",
+"zone": 3,
+"size": "M",
+"rig": false
+},
+{
+"name": "Cart wheel (They Were Purity)",
+"kind": "env",
+"zone": 4,
+"size": "M",
+"rig": false
+},
+{
+"name": "Rope fence (They Were Purity)",
+"kind": "env",
+"zone": 1,
+"size": "M",
+"rig": false
+},
+{
+"name": "Stepping stone (They Were Purity)",
+"kind": "env",
+"zone": 2,
+"size": "M",
+"rig": false
+}
+]
+}

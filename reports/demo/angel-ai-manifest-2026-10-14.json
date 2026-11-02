@@ -1,0 +1,208 @@
+{
+  "record_kind": "actual change manifest (prepared locally in the cloud container; not transferred to the Mac or Windows replica)",
+  "task": "goal 2: Angel AI rework (owner request 2026-10-13)",
+  "device": "Claude Code cloud container (Linux)",
+  "project_root_reference": "/home/user/BoldInBeauty-Project",
+  "local_project_version": "branch claude/happy-babbage-gmmcty",
+  "base_manifest": "git commit d3d8a9c (goal 1, combat feel rework, 2026-10-13)",
+  "counterpart_handoff": null,
+  "cross_device_freshness": "OPEN",
+  "device_local_not_committed": [
+    "sync/handoff-state.json (gitignored writer reservation)"
+  ],
+  "files": [
+    {
+      "path": "BoldInBeauty_MAIN",
+      "scope": "shared",
+      "base_sha256": "1af8db83b9563b250e6870f4651d62eb1dbb7021e923e36fcc9a00ddc04d1f5c",
+      "before_sha256": "1af8db83b9563b250e6870f4651d62eb1dbb7021e923e36fcc9a00ddc04d1f5c",
+      "after_sha256": "02f5fb58c09e53113c0718bdd37131530cea2025d9be785534c1c654640c58c5",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Config/DefaultGame.ini",
+      "scope": "shared",
+      "base_sha256": "31a289c1c0913746c26d134b652cd1c3426a114dd03a292ab2bf4f28e24ce476",
+      "before_sha256": "31a289c1c0913746c26d134b652cd1c3426a114dd03a292ab2bf4f28e24ce476",
+      "after_sha256": "f9291bee6258e5bd2e0a1db4c9d0c2be32d4367955a05fd94f9f81923f2f72d7",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBAngelDirector.cpp",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "d4fc8f49bba49f396fb2f1e19137ddd6fa57231583791eaaedb2fb1912ddfa65",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBAngelDirector.h",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "ad340f7b38bf7da7aa0d7e3881646f802d2d1ad123fb186959b1e8465ef24b09",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBAngelView.cpp",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "be0514f100ce85c7f8b52223e69b982b518feb79dfa04b5799824af1fe25562a",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.cpp",
+      "scope": "shared",
+      "base_sha256": "cee3ccec07f4309c9d887373ddee0d3035a4be79b511d0154baf88c5813170e9",
+      "before_sha256": "cee3ccec07f4309c9d887373ddee0d3035a4be79b511d0154baf88c5813170e9",
+      "after_sha256": "84bd557f7826be1d537781a5a3ffe91ab1018c438585a3657db807b24e1b49a1",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.cpp",
+      "scope": "shared",
+      "base_sha256": "8cba90fe930dcd92563b5f3ff0e43257e7b367786ee0b754bbacd38392b758a7",
+      "before_sha256": "8cba90fe930dcd92563b5f3ff0e43257e7b367786ee0b754bbacd38392b758a7",
+      "after_sha256": "bb0e676254f354e9f650706475ecf63630526b5c86db6885346367cbb48b49ad",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.h",
+      "scope": "shared",
+      "base_sha256": "911d11a956aa06b563461548a215def8fc359959aa551e4801b57356998c66d7",
+      "before_sha256": "911d11a956aa06b563461548a215def8fc359959aa551e4801b57356998c66d7",
+      "after_sha256": "43bde0ff898eb13dc8d23690b24748bba295d4edf5af97b2de4b91b73ad50460",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemyBrain.cpp",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "a63f5d2fdd80b267b1fdfc32e1e8925e83cd8aec92edf2cf64b5e63b4687602b",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameMode.h",
+      "scope": "shared",
+      "base_sha256": "ea89e726fad9c03383e0b2978e136bb02c9ecb40b8f960b48a31e5b16e23d676",
+      "before_sha256": "ea89e726fad9c03383e0b2978e136bb02c9ecb40b8f960b48a31e5b16e23d676",
+      "after_sha256": "6b349bb7fea3f057714f68e92fdb12a4b1b7cb43c454564b24eeb72fe7eb11c7",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerCharacter.h",
+      "scope": "shared",
+      "base_sha256": "49226f5929c5e342724d6687dbac2ba53b6c48199084b0fe6e8613ee9c85c8ba",
+      "before_sha256": "49226f5929c5e342724d6687dbac2ba53b6c48199084b0fe6e8613ee9c85c8ba",
+      "after_sha256": "407779266f036f34c8ecffc1e33a6c4a6cc9c57addd875b15928e4435c4bd6e8",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBTuning.h",
+      "scope": "shared",
+      "base_sha256": "5541fca22379ef96c8dc30529da875099385f214b3c5c93666b5fa25a02df623",
+      "before_sha256": "5541fca22379ef96c8dc30529da875099385f214b3c5c93666b5fa25a02df623",
+      "after_sha256": "a4f36136a44d31d365beb748d58181d9229b9d39b0c39446cbbe189dabc722fc",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBAngelBrain.cpp",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "073f0d0d05458382936409cf16c9660de8ba438ad3b9da528d9f17579136582d",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBAngelBrain.h",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "dbdf796c8dc4b916fd47278b1326288ab459fdf58d9ec7f4ad86b3d78e65225c",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBAngelMind.cpp",
+      "scope": "shared",
+      "base_sha256": "63656a46e3fbe0d3fbdaf89f7991435d255c31a2711964eb36d38e3e0cb0569b",
+      "before_sha256": "63656a46e3fbe0d3fbdaf89f7991435d255c31a2711964eb36d38e3e0cb0569b",
+      "after_sha256": "c49967ded881eff07d0611889dd4e0b5427c16790b5dac57c4e7dd61e1db1bcc",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBAngelMind.h",
+      "scope": "shared",
+      "base_sha256": "140723e56fd7fa05e5894ea2d7481cb29dce97dd2248ad7ef01ff5649a1f3bdd",
+      "before_sha256": "140723e56fd7fa05e5894ea2d7481cb29dce97dd2248ad7ef01ff5649a1f3bdd",
+      "after_sha256": "6bd71da3362c864f9338ec3ffbc7b2ee37884562e683824658cd1a7cce71df80",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tests/angel_brain_tests.cpp",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "6611a54f229592621139f345c03d828b4958f3855261bcc0ee22ba6a58159936",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tests/run_core_tests.sh",
+      "scope": "shared",
+      "base_sha256": "6d3312fa4295894a6509edb3e505cb6da563c2ecc28c2e1dc7638de784cb5a0d",
+      "before_sha256": "6d3312fa4295894a6509edb3e505cb6da563c2ecc28c2e1dc7638de784cb5a0d",
+      "after_sha256": "456f74336e13b57f9cbe52c0f28b54a748705ec7ec9c66266e2e8705f9978ba3",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "Demo/BoldInBeautyDemo/Tools/verify_angels.py",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "e50fe7883914a89e2ffdde54e3e37ecef1673ce812df21e8d4ece39fb08a2a7e",
+      "action": "created",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "HANDOFF.md",
+      "scope": "shared",
+      "base_sha256": "2a4fe450f49f2a04e43c9630d7caa6c061b30d69c1a712ac94a6dd3dc4d3b7c7",
+      "before_sha256": "2a4fe450f49f2a04e43c9630d7caa6c061b30d69c1a712ac94a6dd3dc4d3b7c7",
+      "after_sha256": "b042722a7edab437f310e4038b66da964fec44becaf4cb37eb8a5903ba85bb8a",
+      "action": "edited",
+      "intentional_platform_difference": null
+    },
+    {
+      "path": "reports/demo/2026-10-14-angel-ai.md",
+      "scope": "shared",
+      "base_sha256": null,
+      "before_sha256": null,
+      "after_sha256": "efbced0a06c0dc18ee875faa7f8dc740f5158c322a3e71b86658eab7e8808adf",
+      "action": "created",
+      "intentional_platform_difference": null
+    }
+  ],
+  "verification": {
+    "cloud": "Tests/run_core_tests.sh: all suites 0 failures (angel brain 4,600 checks)",
+    "mac": "OPEN: editor build, Tools/verify_angels.py, verify_combat.py, verify_feel.py"
+  }
+}

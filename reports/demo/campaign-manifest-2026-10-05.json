@@ -1,0 +1,332 @@
+{
+ "record_kind": "actual change manifest",
+ "task": "13-chapter campaign (chapters 2-13), enemy archetypes, economy balance, hosting prep, MAIN/HANDOFF update",
+ "date": "2026-10-05",
+ "device": "Linux cloud container (neither replica)",
+ "project_root_reference": "repository 121Nanami/BoldInBeauty-Project, branch claude/zealous-brahmagupta-24nfg9 (fast-forwarded from claude/festive-thompson-6e11vf)",
+ "base_manifest": "reports/demo/accounts-manifest-2026-10-04.json (reference only; no mutually acknowledged base)",
+ "base_commit": "b8a86b4",
+ "head_at_writing": "bdc49f82d9a67f3e7d9d72e5f4dcc61688c5db98",
+ "cross_device_freshness": "OPEN",
+ "counterpart_handoff": "OPEN",
+ "files": [
+  {
+   "path": "BoldInBeauty_MAIN",
+   "scope": "shared (docs)",
+   "action": "modified",
+   "before_sha256": "2dc3adf10484c28893e777fa97c7264fc05db469225387a21d0f7f742fa02f0c",
+   "after_sha256": "4165edbcefe8f1ad9d6d425524043388140d777843506716d74a05a423eb8f8c"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Config/DefaultGame.ini",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "46dcfd5bcf59ca63b211f174a14200d3bcceecf12380b6dee9b71ba5b2e9818a",
+   "after_sha256": "dfe1f49a29cb95ae388873a9bd2a6b26b3c445a980af4eeb15f38dd1a75bab4b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Config/DefaultGameplayTags.ini",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "2597d2724eb429d13d94f319d897a78312d806f9d32d12ba48f91aaed8a50d1f",
+   "after_sha256": "ec5bd070e68ff4a1f2c84532f8aaf7542215f5462e20de072f909fee4351e493"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/README.md",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "0251fc44e7931156faf51b98ff00be326f86b260a522cab5d648297d49bfa0d2",
+   "after_sha256": "ffbc732d30b3a0071fd0e80b51c98142a735512b616c501692d94b4a80a805a2"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "aef8d35c3c77a6ea68e0f055c6beb72452a428c8d2ed92dc06f7cc0500efaec8",
+   "after_sha256": "7526ee5c8cdd0521f7f157738f46e345b26e5979e4f9fa72b56a417b721214ef"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBBlueprintLibrary.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "1c1ea4f4dc3eec87792d5370c66d30c86cd779d943c81e819ab1d90a45d26e05",
+   "after_sha256": "03177423092951bb3eb340dcd512515e746c5f9a3c1888c0ad59d327578e3e47"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "8dce6d5dda7f1149ac80c74254c0c876e7fcc4807b499af70acf3bd9f0119e10",
+   "after_sha256": "faed5d08a6898b5a8833013b89c2e521e46382e350524ae12535f28a49acec82"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBEnemy.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "3ab91bca09897a63deb88ad10c0e8dfd1a6955fecbc634463a3bf393c3fc5556",
+   "after_sha256": "23f345ae7bbfc2c840adf9a49263a17b91a285a9ac0c98c487777c413c8bfdbf"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameMode.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "a9f6a2ea9ec6b248698f6356aeb92d68020e5d508b3ddcc79c31e61bd2e35ab0",
+   "after_sha256": "626a2c5025aa3844ce7a5696051b43ec6b537ae224dd0b1006cc25943d4b2a79"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBGameMode.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "e1e802a54619d529c40be26f52a3cea220e240f791d7d79806d569cff24afb0e",
+   "after_sha256": "afab3b894b1adf6005cc7fc8f26474853b1b89cde11126353892540703cce2b4"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBLevelActors.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "edd72b43da9f9cd913a959d8bcb6a72e573f4a15d2306603020ee7fb6557574a",
+   "after_sha256": "9e9b90f45a90b6e0c25a9e36e20d88613a6189ffb6efc35ad5ccbd3125f2775b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "562e4ff11453284e30bcc4cdd3b483ac6c4405e0774bcefcf48bf53940c4d70d",
+   "after_sha256": "61218467150a561b52fa7ec66cdcb16f84ce230ad601db42ed497483a33de8e8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBPlayerController.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "393976f10fc9486bcebc150a4a8f2e89684b8166005589926eb7d88aa71c0f77",
+   "after_sha256": "6b1b356bb0f885186e28ca2e4e44ac2888ee90020f027364a16625a9ead27b5f"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBGame/BIBTuning.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "c4f386e836b6a2af07410a5fbd92e3d6e08b730afbd32727ab318f6812176f7e",
+   "after_sha256": "3c52c167eb8ac76215286243394c4a7915eb611c15a32cb7df158cb3aa87456d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCampaign.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "ab091ad95bfe9281e071292c2e2ee822cb36aa89740c49e5b93c51443b2cbcea"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCampaign.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "10bc04851a879d54870d4458324af1c770c464b5da9d3ab73d954e688ee01c32"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCampaignData.inc",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "863c64d2ecaab9613c334638931a41a697b5ef68b0eda46b0939debc0bd344c8"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "829d35312d6ab5aba5d714cbc49eba858a0025a027815abee59ab5674d9d9000",
+   "after_sha256": "cbb1df052eff97d07abe66b9344314e43bd9f38104e5c4ed8f9faa5b82e3dd81"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBCore.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "554824b1e8dba74add83032009e9e78ac8fc39dffa7f148f51512da2919c1597",
+   "after_sha256": "465d80c1634d289d5a817837f22e7eb58d9048f8e40a7b9285d6ab48fce77285"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBKitRegistry.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "2eb24a3ca3ba5368cf1dce1e52b616b9497af713c3b96a4fa90d4252add2d47d",
+   "after_sha256": "64719e9dc03d3b22dd899a51160db43962498bc39ba537a544ed571c04595d3b"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMeta.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "11714d00fe59e818c012fc1a55a4c92a2cd0b2c3a5e130caaba452854a2f70ff",
+   "after_sha256": "464baefdcb334733e5c50293a56204d13f187a4bfe06c9e0d24e499facbf3549"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMeta.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "e73684e6c6bea8dd98442afd54b6fdc0434708fccc4c44635cc0bf1cb2fc6604",
+   "after_sha256": "aceb66a1f1f0be4cc6d8ee58f1de451387d03c74f3ec463922868ecd62f38da4"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBMetaOps.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "c63ff87b572f18d2c1db950d40b2d6e10fe6cf313b3bf1243c29e4e2360daec5",
+   "after_sha256": "b8dfc5f30e8485ad2cf6c9b4f251ea8b3c762197317b1f1f991e9d7ba7f78e31"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "33c9dc3c562b26fc2f5bedf27d91f3746e4f45ced3ee1d3ffefa6e999db98a98",
+   "after_sha256": "56d45ce746564e3dc583547de0e78a29dc8df629e5b7c4a210ebe690f110b9ee"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBPages.h",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "ca0a94ee4063402129ee4c8814187fd672a3585e709d5f4a1bc910acba05a1a9",
+   "after_sha256": "f3aa86e78433391efbf856849cecda918127b7b2a1183a395cf1c268596023eb"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Source/BoldInBeautyDemo/BIBRules/BIBSave.cpp",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "7f2dbb57296f2c7e437f137f41db67933519407bbac86d5ddda61d60cb6fa79a",
+   "after_sha256": "dd7da65b03749411d30fd2f78e596ff3cf8e86f80c66bb807adf18de2a4529d3"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/account_tests.cpp",
+   "scope": "shared (rules tests)",
+   "action": "modified",
+   "before_sha256": "29f1ecbf9f64cb8e703d85beca55a802c48ab3b78e713e6c588fe31f8b9716ae",
+   "after_sha256": "1409ca7be39cd2e3f23c8e12cf70ab83a3c3b60e38f78cc0c8282b5f04b0f6fe"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/campaign_model.h",
+   "scope": "shared (rules tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "ac004a244b8954cb9aee0fc98579d6620bd14708704d62a428af4cd08a15c0a4"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/campaign_tests.cpp",
+   "scope": "shared (rules tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "c06d192ac9a107eaed5678b6642ddd7ad600f4def02dba1b5ec6e8e38a33d285"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/dump_campaign.cpp",
+   "scope": "shared (rules tests)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "d00963caba0084d7fd211fe2dfdb9ae88277960fc06846343d5833e7bd555097"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/meta_tests.cpp",
+   "scope": "shared (rules tests)",
+   "action": "modified",
+   "before_sha256": "5385489d3ebef7d61752ecd18c015d69942b538057fcfea14cc460d588069522",
+   "after_sha256": "66a11c2dda434a2435d8eeaedf68c261bebc689c56d4648bfa543f47072689b3"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/run_core_tests.sh",
+   "scope": "shared (rules tests)",
+   "action": "modified",
+   "before_sha256": "71e8d23cd30b11da0904acc060c1539b65d608ef90b92c15172ec2f2b244e566",
+   "after_sha256": "d33b4f65385c1d53fad6795923ef045db221efdfa9ac4348d0f4fe05ee7da182"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tests/save_fuzz.cpp",
+   "scope": "shared (rules tests)",
+   "action": "modified",
+   "before_sha256": "23216a9f88ae92c296bf2808575cbb5f00d4333945bb61534087a86cbe5e2d43",
+   "after_sha256": "ede5e723c16e382e43af87ca70ccd5541072d60db038d794c9a8b0aff12e5513"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_campaign_data.py",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "7024d0aa4009bfcc40168ee7c65369db717db2598e1cd34c2fa860cb3b8f4e44"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_kit_docs.py",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "081958fa03ee55b77bf5cafb96aaa980e7e57e2443e61c3b4ea40390b3ce4011",
+   "after_sha256": "1255f522c12e3b07cc83ae8b2ab0e5a65eef3941cc0b3beaeaf53e34316e961e"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/gen_tags.py",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "68ae43266aed98f982bfe74b858ab45372420405b6fb607feeb48635509a0029",
+   "after_sha256": "9c85d53f5a71e269034be97faf34df1aac3c0726360dba3ef556dadafe3f960d"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_accounts.py",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "505fc7b9c3d0046929b219924d665e1a712ba12569b0f60790648d9cde361f91",
+   "after_sha256": "0128056052fd18975a7273d9b7ded07eaea29ae79cd80b0a4f731ee5d7565001"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_campaign.py",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "d79c669318b792ceba0a7e59fa77fdf94cc5448783dc0590cb2670fa527d83ff"
+  },
+  {
+   "path": "Demo/BoldInBeautyDemo/Tools/verify_hub.py",
+   "scope": "shared (Unreal source / config / tools)",
+   "action": "modified",
+   "before_sha256": "b324b6bf3345614806f357a0f621c8ea376e84cb13e9b8286b8414d1d1555d19",
+   "after_sha256": "5d7e112d37eaa225264286e5e594e42408a9a1f0ca6aea3fce7fcc2d52a6b1bc"
+  },
+  {
+   "path": "HANDOFF.md",
+   "scope": "shared (docs)",
+   "action": "modified",
+   "before_sha256": "8d9cbcc394e401b5f5ee3cfb40892261ef0f72c6d1851d68d03544671491d6c3",
+   "after_sha256": "08ef24a200ef49de6882fe15fad6f4dc6b4a6d5e8491a5decad9e57ee306aadc"
+  },
+  {
+   "path": "docs/campaign.md",
+   "scope": "shared (docs)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "8f911debab45963b0d12d1ddfb47c84732228c49021af26d78ebf4538142fbfa"
+  },
+  {
+   "path": "docs/hosting.md",
+   "scope": "shared (docs)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "8729524c3c451743d104bef43b947a936aae95e4542cddca60513196496a7d69"
+  },
+  {
+   "path": "render.yaml",
+   "scope": "shared",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "45a35394c7f0347f4519d5f3d6825db1e35e040e5b10456d43ca98b61c5826a9"
+  },
+  {
+   "path": "reports/demo/2026-10-05-campaign-chapters-2-13.md",
+   "scope": "shared (docs)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "913d63b36a07154faa96c4a632ae1f2385ac627b4c71e8999484f18bb08c7129"
+  },
+  {
+   "path": "reports/demo/campaign-manifest-2026-10-05.json",
+   "scope": "shared (docs)",
+   "action": "added",
+   "before_sha256": null,
+   "after_sha256": "5bb2a7544d3c020c78463c17a7ff530abfcdd2e8b9f2b746131ce883ea36b530"
+  }
+ ],
+ "transfer_status": "committed and pushed to GitHub branch claude/zealous-brahmagupta-24nfg9 (not merged to main); Windows not applied",
+ "counterpart_applied": false,
+ "counterpart_verified": "macOS only, see report; Windows OPEN"
+}

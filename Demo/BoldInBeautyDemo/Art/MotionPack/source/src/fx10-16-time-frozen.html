@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "10", "n": 16, "title": "Time-frozen", "slug": "time-frozen", "who": null, "label": "DERIVED", "note": "Frozen streaks + stopped clock"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx10-16-time-frozen", "title": "Time-frozen", "dur": 3.0, "layers": [{"fx": "status", "at": "en", "kind": "tfreeze", "sc": 1.6, "col": "#64E8FF"}], "enemy": false, "cas": false, "note": "Frozen streaks + stopped clock", "label": "DERIVED", "who": "SHARED", "slot": "Timekeeper", "hit": 0.2, "sfx": "soft", "n": 16, "sheet": "10"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

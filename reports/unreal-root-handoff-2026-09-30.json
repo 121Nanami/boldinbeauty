@@ -1,0 +1,29 @@
+{
+  "device": "macos",
+  "root": "<local-home>/Documents/BoldInBeauty-Project",
+  "project_version": "OPEN: no committed baseline",
+  "base_manifest": null,
+  "counterpart_freshness": "OPEN",
+  "before_sha256": {
+    "BoldInBeauty_MAIN": "ef5e76a12e9eae4842354a1181f5bb58ba8b4613137e26ecaa09b64182f38958",
+    "reports/integration-setup.md": "005f03dfacf0f932200b9dcd43c0028fd81c1f7f3a294c1a947dcb7575c98ac4"
+  },
+  "status": "local client setup complete; fresh-session discovery OPEN for Codex/Kimi/Antigravity",
+  "scope": "MACOS-LOCAL connection evidence; no remote transfer",
+  "checks": [
+    "initialize/initialized/tools-list/read-only list_toolsets succeeded",
+    "Claude native health Connected",
+    "Codex/Antigravity native registration enabled",
+    "Kimi doctor config validation passed",
+    "Root preserved cancelled Make/ClickUp/n8n decision"
+  ],
+  "agent_report": "reports/agents/unreal-mcp-connections-2026-09-30.md",
+  "agent_manifest": "reports/agents/unreal-mcp-connections-manifest-2026-09-30.json",
+  "after_sha256": {
+    "BoldInBeauty_MAIN": "7222b1cd143e1fdd84236685d371ddb0844da9791c4a668cccc7bb20a03078b1",
+    "reports/integration-setup.md": "4d417c279341422ff218283f9b5087601419d05895bc66aa032f1cb2178a3b74",
+    "reports/agents/unreal-mcp-connections-2026-09-30.md": "eac3dcb79904357c6c2da456241a492bb66cb55e55b04cdee2a85324e670fbeb",
+    "reports/agents/unreal-mcp-connections-manifest-2026-09-30.json": "8eec557d4abcf9d13c31f143c3b539d3427c14629b1c0320d735952b2ed63358",
+    "sync/handoff-state.json": "aab29bdf9a13b3acbe85627f6187c3e6a9772f1d82d2c87d65339934155ad15f"
+  }
+}

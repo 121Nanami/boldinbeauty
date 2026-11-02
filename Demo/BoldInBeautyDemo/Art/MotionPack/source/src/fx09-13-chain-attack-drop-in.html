@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "09", "n": 13, "title": "Chain-attack gold drop-in", "slug": "chain-attack-drop-in", "who": null, "label": "NEEDS ART", "note": "Gold column, area burst, impact flash"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx09-13-chain-attack-drop-in", "title": "Chain-attack gold drop-in", "dur": 3.0, "layers": [{"fx": "column", "at": "en", "col": "#FFD23F", "col2": "#F7F4FA", "w": 240, "h": 800, "hold": 0.5}, {"fx": "blast", "at": "en", "t0": 0.45, "r": 420, "col": "#FFD23F", "col2": "#F7F4FA", "rings": 3, "flat": true}, {"fx": "speed", "at": "en", "t0": 0.45, "D": 0.5, "col": "#FFD23F"}, {"fx": "flash", "at": "mid", "t0": 0.45, "D": 0.15, "a": 0.5, "col": "#FFD23F"}], "enemy": true, "cas": true, "note": "Gold column, area burst, impact flash", "label": "NEEDS ART", "who": "SHARED", "slot": "Tab on a stunned angel", "hit": 0.45, "sfx": "boom", "n": 13, "sheet": "09"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

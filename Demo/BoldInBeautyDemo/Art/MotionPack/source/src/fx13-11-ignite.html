@@ -1,0 +1,9 @@
+<!--META {"dur": 5.4, "alpha": true, "kind": "fx", "sheet": "13", "n": 11, "title": "Ignite", "slug": "ignite", "who": "judge", "label": "SOURCE", "note": "Gavel glows yellow over 2 s; burns out ~25% per attack"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx13-11-ignite", "title": "Ignite", "dur": 5.4, "layers": [{"fx": "mark", "at": "cas", "glyph": "gavel", "h": 220, "col": "#FFD23F", "s": 50, "t1": 5.0}, {"fx": "aura", "at": "cas", "col": "#FFD23F", "col2": "#F7F4FA", "r": 50, "h": 180, "t0": 0.0, "t1": 1.8, "al": 1.0}, {"fx": "aura", "at": "cas", "col": "#FFD23F", "col2": "#F7F4FA", "r": 50, "h": 180, "t0": 1.8, "t1": 2.8, "al": 0.75}, {"fx": "aura", "at": "cas", "col": "#FFD23F", "col2": "#F7F4FA", "r": 50, "h": 180, "t0": 2.8, "t1": 3.8, "al": 0.5}, {"fx": "aura", "at": "cas", "col": "#FFD23F", "col2": "#F7F4FA", "r": 50, "h": 180, "t0": 3.8, "t1": 4.8, "al": 0.25}, {"fx": "strike", "at": "mid", "t0": 1.8, "n": 1, "col": "#FFD23F", "col2": "#F7F4FA", "len": 420, "w": 50}, {"fx": "strike", "at": "mid", "t0": 2.8, "n": 1, "col": "#FFD23F", "col2": "#F7F4FA", "len": 420, "w": 50}, {"fx": "strike", "at": "mid", "t0": 3.8, "n": 1, "col": "#FFD23F", "col2": "#F7F4FA", "len": 420, "w": 50}], "enemy": true, "cas": true, "note": "Gavel glows yellow over 2 s; burns out ~25% per attack", "label": "SOURCE", "who": "Judge", "slot": "Special alt", "hit": 1.8, "sfx": "hit", "n": 11, "sheet": "13"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

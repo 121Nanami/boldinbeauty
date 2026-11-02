@@ -1,0 +1,9 @@
+<!--META {"dur": 3.8, "alpha": true, "kind": "fx", "sheet": "14", "n": 3, "title": "Special: Close enough", "slug": "special-close-enough", "who": "narr", "label": "SOURCE", "note": "Button labelled nuclear bomb; yellow pulse; no real nuke"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx14-03-special-close-enough", "title": "Special: Close enough", "dur": 3.8, "layers": [{"fx": "button", "at": "cas", "press": 1.3, "txt": "NUCLEAR BOMB", "col": "#E5252A", "pulse": "#FFD23F", "D": 1.0, "h": 250}, {"fx": "shards", "at": "en", "t0": 2.0, "up": true, "n": 50, "w": 150, "h": 300, "col": "#7657FF", "col2": "#FF8A2B"}], "enemy": true, "cas": true, "note": "Button labelled nuclear bomb; yellow pulse; no real nuke", "label": "SOURCE", "who": "Narrator / Diano", "slot": "Special", "hit": 1.3, "sfx": "boom", "n": 3, "sheet": "14"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

@@ -1,0 +1,9 @@
+<!--META {"dur": 3.0, "alpha": true, "kind": "fx", "sheet": "16", "n": 20, "title": "Shiraishi M1: Fire Fist", "slug": "shira-fire-fist", "who": "shira", "label": "PROPOSED", "note": "Three burning punches, Burn stack"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx16-20-shira-fire-fist", "title": "Shiraishi M1: Fire Fist", "dur": 3.0, "layers": [{"fx": "strike", "at": "mid", "n": 3, "len": 300, "w": 70, "fan": 0.2, "col": "#FF3D8D", "col2": "#F7F4FA"}, {"fx": "burst", "at": "mid", "n": 36, "cols": ["#FF3D8D", "#F7F4FA"], "spd": 300, "a0": -3.0, "a1": -0.2, "g": -200, "shape": "sq", "size": 7, "life": 1.0}, {"fx": "status", "at": "en", "t0": 0.5, "kind": "burn", "col": "#FF3D8D", "col2": "#F7F4FA", "shell": false}], "enemy": true, "cas": true, "note": "Three burning punches, Burn stack", "label": "PROPOSED", "who": "Shiraishi", "slot": "M1", "hit": 0.15, "sfx": "hit", "n": 20, "sheet": "16"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

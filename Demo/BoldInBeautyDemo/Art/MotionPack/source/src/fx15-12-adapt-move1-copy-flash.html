@@ -1,0 +1,9 @@
+<!--META {"dur": 3.6, "alpha": true, "kind": "fx", "sheet": "15", "n": 12, "title": "Adapt Move 1: Adaption Ability", "slug": "adapt-move1-copy-flash", "who": "adapt", "label": "DERIVED", "note": "Copy flash on an enemy ability; 8 slot store; cast uses the copy"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx15-12-adapt-move1-copy-flash", "title": "Adapt Move 1: Adaption Ability", "dur": 3.6, "layers": [{"fx": "volley", "at": "en", "flip": true, "n": 1, "kind": "ember", "col": "#FF3D8D", "col2": "#F7F4FA", "size": 18, "dist": 560, "sp": 1600, "ir": 100}, {"fx": "flash", "at": "mid", "t0": 0.55, "D": 0.12, "a": 0.45, "col": "#64E8FF"}, {"fx": "hexfield", "at": "cas", "t0": 0.6, "w": 420, "h": 300, "col": "#64E8FF", "col2": "#FF3D8D"}, {"fx": "pips", "at": "cas", "n": 8, "h": 380, "col": "#64E8FF", "t0": 0.8}, {"fx": "volley", "at": "cas", "oy": -150, "t0": 2.2, "n": 1, "kind": "ember", "col": "#FF3D8D", "col2": "#F7F4FA", "size": 18, "dist": 640, "sp": 1600, "ir": 120}], "enemy": true, "cas": true, "note": "Copy flash on an enemy ability; 8 slot store; cast uses the copy", "label": "DERIVED", "who": "Adapt", "slot": "Move 1", "hit": 0.55, "sfx": "zap", "n": 12, "sheet": "15"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

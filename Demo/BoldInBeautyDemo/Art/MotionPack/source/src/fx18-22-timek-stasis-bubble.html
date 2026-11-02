@@ -1,0 +1,9 @@
+<!--META {"dur": 4.4, "alpha": true, "kind": "fx", "sheet": "18", "n": 22, "title": "Timekeeper Move 2: Stasis Bubble", "slug": "timek-stasis-bubble", "who": "timek", "label": "PROPOSED", "note": "Slow bubble for 4 s; replay of damage dealt inside"} -->
+<div style="position:absolute;left:0;top:0;opacity:0.01;font-size:24px"><span style="font-family:'League Gothic'">A</span><span style="font-family:'Archivo Black'">A</span><span style="font-family:'JetBrains Mono'">A</span></div>
+<script>
+(function () {
+  var SPEC = {"id": "fx18-22-timek-stasis-bubble", "title": "Timekeeper Move 2: Stasis Bubble", "dur": 4.4, "layers": [{"fx": "dome", "at": "en", "rx": 250, "ry": 300, "col": "#64E8FF", "hits": [1.0, 1.8, 2.6], "t1": 3.6}, {"fx": "status", "at": "en", "t0": 0.3, "t1": 3.6, "kind": "tslow", "col": "#7657FF", "shell": false}, {"fx": "pulsehex", "at": "en", "t0": 3.6, "r": 300, "col": "#64E8FF", "n": 3, "h": 130}, {"fx": "burst", "at": "en", "t0": 3.6, "oy": -150, "n": 22, "col": "#64E8FF", "cols": ["#64E8FF", "#F7F4FA"], "spd": 300}], "enemy": true, "cas": false, "note": "Slow bubble for 4 s; replay of damage dealt inside", "label": "PROPOSED", "who": "Timekeeper", "slot": "Move 2", "hit": 0.3, "sfx": "chime", "n": 22, "sheet": "18"};
+  var x = IG.canvas('fxc');
+  IG.clock(tl, DUR, function (t) { x.clearRect(0, 0, 1920, 1080); FX.drawPiece(x, SPEC, t); });
+})();
+</script>

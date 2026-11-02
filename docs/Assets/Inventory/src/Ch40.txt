@@ -1,0 +1,77 @@
+# Ch40 They Were Purity. Sources: Chapters/Ch40.md, Scripts/Ch40.md
+ENV|The monolith's village|Location / village|Cold open|H|The same village at dawn in the rain: paddies, torii, stair, river bridges; rain stops for the first time in seventeen years|Dawn rain stops;Army arrives;Final battle rain;Dawn after
+ENV|Cart-track and torii|Location / entrance|Ep1|H|Final approach; torii "smaller" than remembered|Standard
+ENV|The village street|Location / street|Ep2|S|Old man on the same bank in the same coat|Standard
+ENV|Rice paddies (final wave)|Location / fields|Ep3|H|Shallow water; the angel host lands without a splash|Host landing;Allied fight
+ENV|Monolith's foot|Location / plaza|Ep4|H|Fifty metres, black, red glyphs; Angel at its foot|Voice speaks;Glyphs flare;Face shattering
+ENV|The river bridge|Location / bridge|Ep5|H|Wooden, wet, cracking under the host|Cracking;Held by rope
+ENV|The monolith's face|Location / face|Ep6|S|Glyph-face shatters like glass in light|Glyphs dim one by one;Shattered
+ENV|Neo Tokyo (epilogue)|Location / city|Epilogue|H|A thousand windows, rain that is only rain; spring 2017|Rain;Rooftop with water tank
+ENV|Judge's courtroom|Location / courtroom|Epilogue|H|Courthouse bench; Luna in plain clothes|Standard
+ARC|The monolith|Architecture / monument|Ep4|H|Fifty metres black with red glyphs; voice through Angel|Standing;Glyphs dimming;Face shattered
+ARC|Shrine stair|Architecture / structure|Cold open|S|Stair|Standard
+ARC|Wooden bridge (river)|Architecture / bridge|Ep5|S|Cracking|Intact;Cracking;Held
+ARC|Courtroom bench|Architecture / furniture|Epilogue|S|Judge's bench|Standard
+ARC|Rooftop water tank|Architecture / rooftop|Stinger|H|Black umbrella over it; pager|Empty
+PRP|Black and white hole|Prop / ability|Ep6|H|Luna's black hole, Plack's white hole become one; the wrong hole finish|Black;White;Joined;Wrong one thrown
+PRP|The monolith truth text|Prop / document|Archive|S|A short found text|Standard
+PRP|The verdict|Prop / document|Archive|S|"The court has heard the evidence."|Standard
+PRP|Job card 4472|Prop / document|Archive|H|"Guard one crate. Pay: lunch."|Standard
+PRP|Pager|Prop / hero|Stinger|H|Goes off against an empty space; "Job 4472. Guard one crate. Pay: lunch."|Standard
+PRP|Black umbrella|Prop|Stinger|S|Over the water tank|Standard
+PRP|Receipt|Prop|Epilogue|S|Luna enters a receipt|Standard
+PRP|Bag of fruit / sock (memory)|Prop|Ep1|B|"I had a bag of fruit." "And a sock."|Standard
+PRP|Ring on a chain|Prop|Epilogue|S|Plack's|Standard
+PRP|Toaster|Prop|Epilogue|S|Kuu at the door|Standard
+PRP|Rope and hook|Prop|Ep5|S|Kuu's bridge hold|Standard
+PRP|Ledger (Shiraishi)|Prop|Ep1|S|Item 4,006|Standard
+PRP|Wheel of light (Angel's halo)|Prop / VFX|Ep7|H|Ring becomes a wheel of light|Standard
+CHR|Angel|Boss / Secret|Ep4|H|Plain white robe, hands folded, serene, certain; wings unfold; light-blade|Waiting at foot;Phase 1 host light-blade and wings;Phase 2 glyph cracks arena is monolith face;Phase 3 voice mutes squad abilities;Falls asking if any of it was purity
+CHR|Old man (village)|NPC / BLUE|Ep2|S|"You've learned to stand in water."|Standard
+CHR|Army of the arc|NPC / group|Cold open|H|Council, Secrets, government, reformers, cooks, children, in coats, blankets and armour, as far as the eye can see|Behind them;Fighting alongside
+CHR|Judge|Secret-grade operator|Epilogue|H|At the back with her gavel; on the bench|Gavel at side;On the bench
+CHR|Luna|Operator|Epilogue|H|Plain clothes, hair tied, no insignia|Command seat surrendered;On trial
+CHR|Plack|Operator|Ep6|H|Holds the white hole|Standard
+CHR|Kuu|Operator|Ep5|H|Holds the bridge, doesn't apologise|Standard
+CHR|Angel's honour guard (the Hush)|Enemy / mini-boss|Ep7|S|Half-phase of Angel|Standard
+CRE|The angel host|Enemy|Ep3|H|Descending in waves over the paddies, halo, pale face, blank serene look|Arriving;Landing;Last wave
+VFX|Rain stops|VFX / weather|Cold open|H|First time in seventeen years|Standard
+VFX|Glyphs dimming|VFX|Ep6|H|One by one|Standard
+VFX|Wheel of light|VFX|Ep7|S|Ring becomes a wheel|Standard
+VFX|Light-blade|VFX|Ep8|S|Angel's|Standard
+VFX|Shattering glyph-face|VFX|Ep6|S|Like glass in light|Standard
+WTH|Rain (village)|Weather|Cold open|H|Steady rain, stops|Steady;Stops;Resumes [inferred from final battle rain]
+WTH|Rain in Neo Tokyo (epilogue)|Weather|Epilogue|H|A rain that is only rain|Standard
+LGT|Dawn|Lighting|Cold open|H|Dawn|Standard
+AUD|The voice (through Angel)|Audio / voice|Ep4|H|Verbatim line|Standard
+AUD|Muted phase (no audio cues)|Audio / sfx|Ep8|S|Squad cannot hear each other|Standard
+AUD|Rain stopping|Audio / ambience|Cold open|S|Silence|Standard
+AUD|Pager buzz|Audio / sfx|Stinger|S|Against an empty space|Standard
+UI|Muted-phase mouthing UI|UI|Ep8|S|No audio cues|Standard
+UI|Bridge hold prompt|UI|Ep5|S|QTE-lite|Standard
+UI|Cooperative black/white hole rhythm|UI|Ep6|S|Two operators one ability|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+NPC|The old planting man|NPC|Tripo #709|B|Returns [inferred: Tripo list #709; likely the same asset as CHR-0046 Old man (planting teacher); kept as its own entry so no Tripo row is dropped]|
+CRE|Angel host soldier|Enemy|Tripo #721|B|Pure soldier [inferred: Tripo list #721; likely the same asset as CRE-0103 Angel host; kept as its own entry so no Tripo row is dropped]|
+CRE|Shrine warden|Enemy|Tripo #722|B|Guard [inferred: Tripo list #722; not named in the chapter text]|
+CRE|Host brute|Enemy|Tripo #723|B|Heavy [inferred: Tripo list #723; not named in the chapter text]|
+PRP|Black glyph shard|Prop|Tripo #718|B|After the glyphs go out [inferred: Tripo list #718; not named in the chapter text]|
+VEH|Cart (village)|Vehicle|Tripo #725|B|Dressing [inferred: Tripo list #725; not named in the chapter text]|
+ARC|The village (dawn)|Set piece / modular kit|Tripo #712|B|Rain stops [inferred: Tripo list #712; not named in the chapter text]|
+ARC|Torii and stair|Set piece / modular kit|Tripo #713|B|Smaller [inferred: Tripo list #713; not named in the chapter text]|
+ARC|Monolith foot|Set piece / modular kit|Tripo #716|B|Boss arena [inferred: Tripo list #716; likely the same asset as ENV-0306 Monolith's foot; kept as its own entry so no Tripo row is dropped]|
+ARC|Epilogue courtroom|Set piece / modular kit|Tripo #717|B|Spring 2017 [inferred: Tripo list #717; not named in the chapter text]|
+ARC|Torii pillar (They Were Purity)|Set piece / modular kit|Tripo #1272|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1272; not named in the chapter text]|
+ARC|Stair step (They Were Purity)|Set piece / modular kit|Tripo #1273|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1273; not named in the chapter text]|
+ARC|Paddy bund (They Were Purity)|Set piece / modular kit|Tripo #1274|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1274; not named in the chapter text]|
+ARC|Bamboo fence (They Were Purity)|Set piece / modular kit|Tripo #1275|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1275; not named in the chapter text]|
+ARC|Stone lantern (They Were Purity)|Set piece / modular kit|Tripo #1276|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1276; not named in the chapter text]|
+ARC|Shrine roof (They Were Purity)|Set piece / modular kit|Tripo #1277|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1277; not named in the chapter text]|
+ARC|Bell frame (They Were Purity)|Set piece / modular kit|Tripo #1278|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1278; not named in the chapter text]|
+ARC|Mud bank (They Were Purity)|Set piece / modular kit|Tripo #1280|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1280; not named in the chapter text]|
+ARC|Reed clump (They Were Purity)|Set piece / modular kit|Tripo #1281|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1281; not named in the chapter text]|
+ARC|Banner (They Were Purity)|Set piece / modular kit|Tripo #1282|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1282; not named in the chapter text]|
+ARC|Cart wheel (They Were Purity)|Set piece / modular kit|Tripo #1283|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1283; not named in the chapter text]|
+ARC|Rope fence (They Were Purity)|Set piece / modular kit|Tripo #1284|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1284; not named in the chapter text]|
+ARC|Stepping stone (They Were Purity)|Set piece / modular kit|Tripo #1285|B|Modular dressing piece for Ch 40 They Were Purity [inferred: Tripo list #1285; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END

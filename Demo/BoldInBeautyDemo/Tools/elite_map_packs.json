@@ -1,0 +1,19 @@
+{
+  "_note": "PROPOSED (assistant's reading of the owner's chapter briefs, docs/chapter-maps.md). Which Elite Bundle packs may dress which map; names are fnmatch patterns on the pack folder. An empty list means no pack fits the brief and the map stays greybox. The owner decides; edit this file and re-run Tools/elite_autodress.py.",
+  "maps": {
+    "L_NeoTokyo": {"packs": ["UrbanProps_Vol*", "UrbanDistrict_Gate"], "why": "street props for a modern city"},
+    "L_Ark": {"packs": [], "why": "OPEN: no brief that names these styles; owner decides"},
+    "L_Ch02_Ruins": {"packs": ["UrbanProps_Vol*", "RuinedCrypt", "Boneyard", "Cemetery", "Stone_Decor", "Foliage_Sets"], "why": "ruined outer world: rubble, wrecks, dead foliage"},
+    "L_Ch03_Docks": {"packs": ["Dockhouse", "UrbanProps_Vol*"], "why": "semi-ruined docks; props only, because the lighthouse must be the only structure"},
+    "L_Ch04_HangingCity": {"packs": [], "why": "no fitting pack"},
+    "L_Ch05_ArcTech": {"packs": [], "why": "spotless automated factory: no fitting pack"},
+    "L_Ch06_MoonKingdom": {"packs": ["Foliage_Sets", "Stone_Decor", "AncientMountainTemple"], "why": "second arc covered in flora, no living creature"},
+    "L_Ch07_TOMBS": {"packs": [], "why": "a regular office: no fitting pack"},
+    "L_Ch08_Intersection": {"packs": ["UrbanProps_Vol*"], "why": "flooding tunnel: abandoned vehicles, debris"},
+    "L_Ch09_RemnantRemains": {"packs": [], "why": "desert data centre: no fitting pack"},
+    "L_Ch10_Hallucinations": {"packs": [], "why": "owner brief: pastel drawing look; never dressed unless the owner opts in"},
+    "L_Ch11_ReturnToNowhere": {"packs": [], "why": "owner brief: pure grey, no texture; never dressed (also enforced in greybox_dress.py)"},
+    "L_Ch12_Paradise": {"packs": ["Foliage_Sets", "UrbanProps_Vol*"], "why": "neo-tropical city: foliage and street props"},
+    "L_Ch13_SecretiveSoul": {"packs": ["FeudalJapan*", "Foliage_Sets", "Stone_Decor", "AncientMountainTemple"], "why": "small Japanese-looking countryside town"}
+  }
+}

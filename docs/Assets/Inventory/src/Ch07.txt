@@ -1,0 +1,94 @@
+# Ch07 T.O.M.B.S. Sources: Chapters/Ch07.md, Scripts/Ch07.md (primary); Scripts/Ch07_TOMBS.md ([alt])
+ENV|T.O.M.B.S. (black shell structure)|Location / building|Cold open|H|Biggest structure anyone has seen, black shell taller than the ceiling should allow, ordinary ten-floor office inside|Outside shell;Inside office;Elevators all going down;Lights red (alarm) [alt]
+ENV|T.O.M.B.S. lobby|Location / lobby|Ep1|H|Door the size of a postbox [alt: single door at base]; potted plant, brass bell, clock that chimes the wrong hour|Plant left of desk;Plant moved right (stinger);Bell ringing;Receptionist gone
+ENV|Cubicle floor 2 / floor 1|Location / office floor|Ep2|H|Cubicles in rows, monitors with spreadsheets, copier running alone|Quiet;Warm coffee break room;Monitors glowing [alt]
+ENV|Break room|Location / room|Ep2|S|Warm coffee machine, steaming cup|Coffee warm
+ENV|Floor 6 meeting room|Location / room|Ep3|H|Long table, nineteen chairs, projector on, whiteboard line "Line is down. See above."; glass walls [alt]|Projector on;Slide AGENDA [alt];Slide changes [alt]
+ENV|Atrium floor 4 (five doors)|Location / atrium|Ep4|H|Wall with a draught; five doors that look like walls|Walls;Doors open
+ENV|Five hidden rooms|Location / rooms|Ep4|H|Small bright rooms with steel table and a folder|Closed;ANGEL V1 folder;OPERATOR V! folder;Empty with ring stain [alt]
+ENV|Elevator shafts|Location / shaft|Ep5|H|Vertical combat, climb cables, falling lift hazard|Standard
+ENV|Archive floor 8|Location / archive|Ep6|S|Memos and budget|Standard
+ENV|Floor nine Auditor's desk|Location / floor|Ep7|H|Desk where the Auditor sits; the floor becomes a form|Empty floor [alt];Boss form floor;Reshaped
+ENV|Roof floor (tenth, not listed)|Location / floor|Ep1|B|"Ten, if you count the one under the roof. We don't."|Not listed
+ARC|Reception desk|Architecture / furniture|Ep1|S|Reception with bell and visitor book|Standard
+ARC|Cubicles and desks|Architecture / furniture|Ep2|H|Vaulted by Kuu; cover|Desks;Cubicle walls
+ARC|Elevators|Architecture / transport|Ep5|H|Car with speaker voice; press every button; [alt] jammed with form panel|Moving;Jammed;Falling lift
+ARC|Hidden doors that look like walls|Architecture / secret door|Ep4|H|Five doors|Wall;Door
+ARC|Building directory|Architecture / signage|Archive|S|Ten floors, tenth not listed|Standard
+ARC|Glass meeting room walls|Architecture / structure|Ep3|B|Third floor glass walls [alt]|Standard
+PRP|ANGEL V1 folder|Prop / hero|Ep4|H|Classified folder stamped ANGEL V1|Closed;Opened;Read by Plack
+PRP|OPERATOR V! folder|Prop / hero|Ep4|H|Folder with the misspelt exclamation point|Closed
+PRP|Grade stamp (circle, no letter)|Prop / insignia|Ep4|S|A circle grade above operators|Standard
+PRP|Coffee machine|Prop / hero|Ep2|S|Still working; broken-machine tangent; missing component [alt]|Warm;Broken;Repaired [alt]
+PRP|Cup of coffee|Prop|Ep2|S|Steaming cup, stirrer|Steaming
+PRP|Brass bell|Prop|Ep1|S|Rung nineteen times; fire alarm [alt]|Standard
+PRP|Visitor's book|Prop / document|Ep1|S|Sign in; "Luna, the Great"; "Kuu (sorry)" [alt]|Signed;Pen writes "We know" [alt]
+PRP|Meeting minutes|Prop / document|Archive|S|Three items, no decisions [alt: 14 Nov 2002 minutes]|Standard
+PRP|Whiteboard photo|Prop / document|Ep3|S|"Line is down. See above."; [alt] Q3 targets Angel 100% Operator 1%|Standard
+PRP|Memo Council to Site Director|Prop / document|Archive|S|"Sponsor interest in V1 continues."|Standard
+PRP|V! memo|Prop / document|Ep6|S|"V! shows no improvement; continue pressure."|Standard
+PRP|Coffee budget|Prop / document|Ep6|B|More on coffee than V programme|Standard
+PRP|Dead man's calendar|Prop / document|Chapter|S|One entry circled|Standard
+PRP|Filing box|Prop / quest|Cold open|S|Single filing box to retrieve|Standard
+PRP|Ringing phone|Prop|Chapter beats|B|Luna answers a ringing phone|Ringing
+PRP|Potted plant|Prop / set dressing|Ep1|B|Moves from left to right|Left;Right
+PRP|Lobby clock|Prop / hero|Ep8|S|Chimes a time that is not the time|Standard
+PRP|Auditor's forms and stamp|Prop / weapon|Ep7|H|Forms with typed names; stamp rises|Forms;Stamp
+PRP|Sticky notes "DO NOT OPEN DOOR 4/5" [alt]|Prop / document|Ep2|S|In desk drawers [alt]|Standard
+PRP|Stapler / cat photo [alt]|Prop / set dressing|Ep2|B|Drawer contents|Standard
+PRP|Fire alarm [alt]|Prop / device|Ep8|S|Kuu sets it off; lights red|Standard
+PRP|Suit jacket folded [alt]|Prop|Ep8|B|Auditor's jacket on floor|Standard
+PRP|Projector|Prop / device|Ep3|S|Shows agenda slides [alt]|On;Off
+CHR|The Receptionist|NPC / BLUE|Ep1|H|"Do you have an appointment?"; pen writes by itself [alt]|Standard;Gone (stinger scene variant) ;Smile of someone paid not to feel [alt]
+CHR|The Auditor|Boss|Ep7|H|Angel in a suit, halo ironed flat like a lanyard; forms; [alt] white-haired man in suit with folded wings beneath the shirt|Suit;Jacket removed with wings [alt];Boss phases
+CHR|Luna|Operator|Ep1|H|Rings the bell, answers the phone|Standard
+CHR|Plack|Operator|Ep6|H|Reads everything; pockets a file|Cross-legged with files
+CHR|Kuu|Operator|Ep2|H|Vaults desks|Standard
+CRE|Office-worker angels|Enemy / angel|Ep2|H|Angels in office wear, polite, slow [alt: Reception Drones, Cubicle Wardens]|Basic;Cubicle warden [alt];Reception drone [alt]
+CRE|Filing sentries|Enemy / angel|Ep6|S|Archive wing; patrol shafts [alt]|Standard
+CRE|Auditor's clerks|Enemy / mini-boss|Ep7|S|Stamp-and-paper waves|Standard
+VFX|Paper blades and forms|VFX|Ep8|S|Paper-wall phase [alt: paper blades, filing-cabinet shields, stapler traps]|Standard
+VFX|Pale glow from the folder|VFX|Ep4|B|Three faces lit from below [alt]|Standard
+VFX|Implosion of paper [alt]|VFX|Ep8|S|Auditor drawn into desk|Standard
+VFX|Red alarm lighting|VFX|Ep8|B|Office lights go red [alt]|Standard
+LGT|Office fluorescent|Lighting|Ep2|H|Ordinary office light|Day;Red alarm [alt]
+LGT|Projector glow [alt]|Lighting|Ep3|B|Slide light|Standard
+AUD|Lift speaker voice|Audio / voice|Ep5|S|"This building notes that you have pressed all of the buttons."|Standard
+AUD|Bell rung nineteen times|Audio / sfx|Ep1|S|Brass bell|Standard
+AUD|Lobby clock chime|Audio / sfx|Ep8|S|A time that is not the time|Standard
+AUD|Office ambience|Audio / ambience|Ep2|H|Copier, hum|Standard
+UI|Reception sign-in|UI|Ep1|S|Interact tutorial|Standard
+UI|Compliance alarm indicator [alt]|UI|Ep1|S|Don't run, ring bells; stay on carpet|Standard
+UI|Codex document slots|UI|Ep6|S|YELLOW documents slot into the codex|Standard
+UI|Plack's "Questions" tab [alt]|UI|Ep3|B|Journal tab|Standard
+UI|Door-to-folder directory puzzle|UI|Ep4|S|Match doors to folders by directory|Standard
+PRP|Five classified folders|Prop / document set|Ep4|H|One folder per hidden door: ANGEL V1 and OPERATOR V! (two each [alt]; the fifth empty with a ring stain [alt]); stamped with a circle grade above operators|Closed on steel table;Opened;Matched to doors by directory;Empty (ring stain) [alt]
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+CRE|Office-worker angel|Enemy|Tripo #136|B|Necktie and shirt sleeves [inferred: Tripo list #136; not named in the chapter text]|
+CRE|Filing sentry|Enemy|Tripo #137|B|Archive guard [inferred: Tripo list #137; not named in the chapter text]|
+PRP|Reception bell|Prop|Tripo #130|B|Rung nineteen times [inferred: Tripo list #130; not named in the chapter text]|
+PRP|Lobby plant|Prop|Tripo #131|B|Moves [inferred: Tripo list #131; not named in the chapter text]|
+PRP|Form stack|Prop|Tripo #134|B|Fill it in [inferred: Tripo list #134; not named in the chapter text]|
+ARC|T.O.M.B.S shell entrance|Set piece / modular kit|Tripo #119|B|Massive black structure with a postbox door [inferred: Tripo list #119; likely the same asset as ENV-0068 T.O.M.B.S. (black shell structure); kept as its own entry so no Tripo row is dropped]|
+ARC|Lobby and reception|Set piece / modular kit|Tripo #120|B|Bell and plant [inferred: Tripo list #120; not named in the chapter text]|
+ARC|Cubicle floor|Set piece / modular kit|Tripo #121|B|Desks to vault [inferred: Tripo list #121; likely the same asset as ENV-0070 Cubicle floor 2 / floor 1; kept as its own entry so no Tripo row is dropped]|
+ARC|Meeting room (floor 6)|Set piece / modular kit|Tripo #123|B|Minutes of nothing [inferred: Tripo list #123; likely the same asset as ENV-0072 Floor 6 meeting room; kept as its own entry so no Tripo row is dropped]|
+ARC|Atrium with stacked floors|Set piece / modular kit|Tripo #124|B|Jump-up stacks [inferred: Tripo list #124; not named in the chapter text]|
+ARC|Elevator shaft|Set piece / modular kit|Tripo #125|B|Climb [inferred: Tripo list #125; not named in the chapter text]|
+ARC|Hidden angel room|Set piece / modular kit|Tripo #126|B|Five of them [inferred: Tripo list #126; not named in the chapter text]|
+ARC|Floor nine office|Set piece / modular kit|Tripo #127|B|Auditor's desk [inferred: Tripo list #127; not named in the chapter text]|
+ARC|Cubicle wall module (T.O.M.B.S)|Set piece / modular kit|Tripo #810|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #810; not named in the chapter text]|
+ARC|Office desk (T.O.M.B.S)|Set piece / modular kit|Tripo #811|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #811; not named in the chapter text]|
+ARC|Office chair (T.O.M.B.S)|Set piece / modular kit|Tripo #812|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #812; not named in the chapter text]|
+ARC|Filing cabinet bank (T.O.M.B.S)|Set piece / modular kit|Tripo #813|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #813; not named in the chapter text]|
+ARC|Water cooler (T.O.M.B.S)|Set piece / modular kit|Tripo #814|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #814; not named in the chapter text]|
+ARC|Copier (T.O.M.B.S)|Set piece / modular kit|Tripo #815|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #815; not named in the chapter text]|
+ARC|Ceiling light panel (T.O.M.B.S)|Set piece / modular kit|Tripo #816|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #816; not named in the chapter text]|
+ARC|Elevator door set (T.O.M.B.S)|Set piece / modular kit|Tripo #817|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #817; not named in the chapter text]|
+ARC|Fire-door (T.O.M.B.S)|Set piece / modular kit|Tripo #818|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #818; not named in the chapter text]|
+ARC|Wall clock (T.O.M.B.S)|Set piece / modular kit|Tripo #820|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #820; likely the same asset as PRP-0191 Wall clock with no hands; kept as its own entry so no Tripo row is dropped]|
+ARC|Notice board (T.O.M.B.S)|Set piece / modular kit|Tripo #821|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #821; not named in the chapter text]|
+ARC|Reception counter (T.O.M.B.S)|Set piece / modular kit|Tripo #822|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #822; not named in the chapter text]|
+ARC|Carpet tile (T.O.M.B.S)|Set piece / modular kit|Tripo #823|B|Modular dressing piece for Ch 7 T.O.M.B.S [inferred: Tripo list #823; not named in the chapter text]|
+PRP|T.O.M.B.S sign|Insignia|Tripo #139|B|Over the door [inferred: Tripo list #139; likely the same asset as ENV-0068 T.O.M.B.S. (black shell structure); kept as its own entry so no Tripo row is dropped]|
+# --- TRIPO-CROSSCHECK-END

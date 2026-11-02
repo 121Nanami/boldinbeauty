@@ -1,0 +1,48 @@
+/* bib.css: shared tokens and type classes for the BoldInBeauty trailer. Loaded by index.html (and by sandboxes).
+   Only bundled font families are used (League Gothic, Archivo Black, JetBrains Mono, Noto Sans JP). */
+:root {
+  --bk: #090B12;      /* Neo Black, the ground */
+  --st: #151925;      /* Midnight Steel, depth planes and panels */
+  --rose: #FF3D8D;    /* Bold Rose, the hero accent */
+  --vio: #7657FF;     /* Electric Violet, shadow/haze/depth */
+  --cy: #64E8FF;      /* Angel Cyan, system/HUD/angel mathematics */
+  --wh: #F7F4FA;      /* Angel White, text and light */
+}
+.bib-voice {
+  font-family: "League Gothic", "Bebas Neue", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  line-height: 0.92;
+  color: var(--wh);
+  white-space: nowrap;
+}
+.bib-title {
+  font-family: "Archivo Black", "Arial Black", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+  color: var(--wh);
+  white-space: nowrap;
+}
+.bib-mono {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--cy);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.bib-mono b { font-weight: 700; }
+.bib-jp {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+.bib-fill { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.bib-canvas { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; display: block; }
+.bib-skew { display: inline-block; transform: skewX(-8deg); }

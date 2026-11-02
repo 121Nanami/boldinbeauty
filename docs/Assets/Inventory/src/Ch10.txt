@@ -1,0 +1,89 @@
+# Ch10 Hallucinations. Sources: Chapters/Ch10.md, Scripts/Ch10.md (primary); Scripts/Ch10_Hallucinations.md ([alt])
+ENV|The hallucination (pastel dreamscape)|Location / dreamscape|Cold open|H|Nonsensical pastel drawing-look world, four floating islands over a pastel sea, hyper-real horror passing through|Pastel crayon look;Hyper-real apparition intrusion;Real grey rain wake (stinger) [alt];Grey tear in the sky (stinger)
+ENV|Luna's island (waiting room)|Location / island|Ep2|H|Perpetual waiting room: orange chairs, off television, hand-less clock, NOW SERVING sign|NOW SERVING ---;NOW SERVING 0 [alt];NOW SERVING 1 [alt];Room rotates like a carousel
+ENV|Kuu's island (street with one shop)|Location / island|Ep3|H|Street of identical shops; every shop sells apologies [alt]|Identical shops;Loop puzzle;Apologies by the metre [alt]
+ENV|Plack's island (wedding cake)|Location / island|Ep5|H|Banquet table half a mile long, six-tier bleeding cake, chairs with name cards|Wet red icing;Place cards in teeth [alt];Chairs all say Plack
+ENV|Central island (Morse carving)|Location / island|Ep4|H|Floor with raised Morse under a pastel crust|Crust;Revealed
+ENV|Last island (Mimic)|Location / island|Ep7|H|Last island; [alt] perfect copy of the start field with a tiny house|Grass with carved Morse;Boss arena
+ENV|Floating stairs|Location / traversal|Ep6|H|Stairs go up, down and sideways; apparitions walk both directions at once|Drifting;Rotating quarter-turn [alt]
+ENV|Pastel sea|Location / sea|Cold open|S|Sea beneath islands, rises and falls in boss fight|Calm;Rising
+ENV|Strawberry-milk hill|Location / landscape|Cold open|S|Hill the colour of strawberry milk, crayon sun|Standard
+ENV|Pale pink grass field [alt]|Location / field|Ep1|B|Pale pink grass under a lilac sky [alt]|Standard
+ARC|Giant chair|Architecture / giant prop|Cold open|H|Chair as tall as a house (or a church)|Standard
+ARC|Giant teacup|Architecture / giant prop|Cold open|H|Teacup you can climb; platform; tilts, pink waterfall [alt]|Standing;Tilting;Platform
+ARC|Orange waiting-room chairs|Architecture / furniture|Ep2|S|Rows of chairs|Standard
+ARC|Number board|Architecture / signage|Ep2|S|NOW SERVING|Standard
+ARC|Shops (identical)|Architecture / building|Ep3|S|Every shop is the same shop|Standard
+ARC|Banquet table|Architecture / furniture|Ep5|S|Half a mile long|Standard
+ARC|Chalk-white stair bridge [alt]|Architecture / traversal|Ep4|S|Connects islands, stone slab at centre|Standard
+ARC|Tiny house [alt]|Architecture / building|Ep7|B|At centre of final island [alt]|Standard
+PRP|Morse carvings (four lines)|Prop / hero / verbatim|Ep4|H|"The angels bring mercy for all" / "Not those stupid pure ones you call angels" / "but TRUE ANGELS THE ONE" / "The rest are all filth compared to its existence"|Floor carving;Stone slab [alt];Grass carving (3rd/4th)
+PRP|Melting clock|Prop / giant|Ep6|S|A clock that melts; Luna rearranges the clock|Standard
+PRP|Wall clock with no hands|Prop|Ep2|S|In waiting room|Standard
+PRP|Paper ticket "1"|Prop / document|Ep2|S|Falls from slot, "1 of 1"|Standard
+PRP|Television (off)|Prop|Ep2|S|Hums off; flat grey screen [alt]|Off;On grey [alt]
+PRP|Wedding cake|Prop / hero|Ep5|H|Six tiers, top figures with teeth faces; made of something that breathes|Six tiers;Top figures;Breathing
+PRP|Cake knife|Prop|Ep5|S|Plack picks it up|Standard
+PRP|Place card "Plack"|Prop / document|Archive|S|Wedding cake place card|Standard
+PRP|Name-card chairs|Prop / furniture|Ep5|S|Chairs each with a name card|Standard
+PRP|Paper bags of apologies [alt]|Prop|Ep3|S|"Sorry I'm late" etc.; empty|Full;Empty;Folded small square (stinger)
+PRP|Magazine [alt]|Prop|Ep2|B|Luna reads it upside down|Standard
+PRP|Plastic chairs and coffee table [alt]|Prop / furniture|Ep2|B|Waiting room island|Standard
+PRP|Sign NOW SERVING [alt]|Prop / signage|Ep2|S|Above the door|Standard
+PRP|Place cards BRIDE GROOM MOTHER FATHER WITNESS [alt]|Prop / document|Ep5|S|Written in teeth|Standard
+PRP|Music box melody [alt]|Prop / audio|Ep1|S|Plays in cold open|Standard
+PRP|Chalk ledge marks [alt]|Prop / UI-world|Ep1|B|Ledges marked with white chalk|Standard
+FLO|Pastel grass|Flora / grass|Cold open|B|Pink grass under lilac sky [alt]|Standard
+FLO|Crayon clouds|Flora-like / sky|Cold open|B|Clouds drawn in crayon [alt]|Standard
+FAU|Hyper-real woman in raincoat|Apparition|Ep1|H|Face in too much detail, smile with too many teeth|Passing;Staring
+CHR|The Mimic|Boss|Ep7|H|Wears each trio member's face in turn; falls only when all three agree it is not them|Luna's face;Plack's face;Kuu's face;Three shadow copies (mini-boss);Overlapping faces then none [alt]
+CHR|Shopkeepers (all one)|NPC / apparition|Ep3|S|Speak in unison "What are you sorry for today?"; figure in an apron with no face [alt]|Standard
+CHR|Luna|Operator|Ep1|H|Solo section|Standard;Mimicked
+CHR|Plack|Operator|Ep5|H|Solo wedding island; "I haven't asked her yet"|Standard;Mimicked
+CHR|Kuu|Operator|Ep3|H|Solo street|Standard;Mimicked
+CHR|Commander (voice)|Voice character|Ep1|B|Distant as through a seashell [alt]|Voice only
+CRE|Apparitions (24 spawn points)|Enemy / hyper-real|Ep1|H|Hyper-real figures spawn at 24 points; ignorable if not looked at [alt: Dread meter]|Harmless first;Woman in glass;Hundred-eyed child [alt];Man with too many teeth [alt];Tall wrong thing [alt]
+CRE|Clock Faces [alt]|Enemy / apparition|Ep2|S|Apparitions with analogue clocks for heads|Standard
+CRE|Cake Wraiths [alt]|Enemy / apparition|Ep5|S|Icing and teeth creatures|Standard
+CRE|Mimic reflections (three)|Enemy / mini-boss|Ep7|S|Shadow copies|Standard
+VFX|Crayon / drawing look shader|VFX / look|Cold open|H|Thick outlines, flat colours [alt]|Standard
+VFX|Dread screen distortion [alt]|VFX|Ep6|B|Cosmetic meter distorts the screen|Standard
+VFX|Sky tear like paper|VFX|Stinger|S|Grey behind with a very faint hiss|Standard
+VFX|Rainbow in tea spray [alt]|VFX|Ep1|B|Small waterfall of tea|Standard
+VFX|Mimic face flicker [alt]|VFX|Ep8|S|Faces overlapping|Standard
+WTH|Crayon sun and pastel sky|Weather|Cold open|S|Crayon sun, lilac sky [alt]|Standard
+LGT|Pastel flat lighting|Lighting|Cold open|H|Flat as paper|Standard
+LGT|Warm lamplight street [alt]|Lighting|Ep3|S|Long narrow street in warm lamplight|Standard
+AUD|Clock ticking the wrong way|Audio / sfx|Ep1|S|Enormous clock ticks backwards|Standard
+AUD|Music box|Audio / music|Ep1|S|Soft melody; [alt] the apparition's mouth plays it|Standard
+AUD|Television hum|Audio / ambience|Ep2|B|Hums|Standard
+AUD|Hum ends|Audio / sfx|Ep8|S|Ch9 hum finally stops|Standard
+UI|Morse decode minigame [alt]|UI|Ep4|S|Decode slabs; assemble dots from drifting stair steps|Standard
+UI|Three-agree mechanic|UI|Ep8|S|All three operators hit different mirrors|Standard
+UI|Dread meter [alt]|UI|Ep6|B|Cosmetic|Standard
+# --- TRIPO-CROSSCHECK-BEGIN (inferred; generated by crosscheck_tripo.py)
+CRE|Apparition (hyper-real)|Enemy|Tripo #181|B|Horror at random [inferred: Tripo list #181; not named in the chapter text]|
+CRE|Chair wraith|Enemy|Tripo #182|B|Hallucination [inferred: Tripo list #182; not named in the chapter text]|
+PRP|Morse slab|Prop|Tripo #177|B|Four messages [inferred: Tripo list #177; not named in the chapter text]|
+PRP|Wedding cake that bleeds|Prop|Tripo #178|B|Plack's island [inferred: Tripo list #178; likely the same asset as PRP-0194 Wedding cake; kept as its own entry so no Tripo row is dropped]|
+PRP|Waiting-room ticket|Prop|Tripo #179|B|1 of 1 [inferred: Tripo list #179; not named in the chapter text]|
+PRP|Apology shop sign|Prop|Tripo #180|B|What are you sorry for [inferred: Tripo list #180; not named in the chapter text]|
+ARC|Pastel floating island|Set piece / modular kit|Tripo #169|B|Four islands [inferred: Tripo list #169; not named in the chapter text]|
+ARC|Floating stair|Set piece / modular kit|Tripo #170|B|Impossible stairs [inferred: Tripo list #170; not named in the chapter text]|
+ARC|Waiting room|Set piece / modular kit|Tripo #174|B|Luna's island [inferred: Tripo list #174; likely the same asset as ARC-0070 Orange waiting-room chairs; kept as its own entry so no Tripo row is dropped]|
+ARC|Street of identical shops|Set piece / modular kit|Tripo #175|B|Kuu's island [inferred: Tripo list #175; not named in the chapter text]|
+ARC|Pastel cloud platform (Hallucinations)|Set piece / modular kit|Tripo #852|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #852; not named in the chapter text]|
+ARC|Candy-stripe pole (Hallucinations)|Set piece / modular kit|Tripo #853|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #853; not named in the chapter text]|
+ARC|Giant button (Hallucinations)|Set piece / modular kit|Tripo #854|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #854; not named in the chapter text]|
+ARC|Rubber-band bridge (Hallucinations)|Set piece / modular kit|Tripo #855|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #855; not named in the chapter text]|
+ARC|Paper flower (Hallucinations)|Set piece / modular kit|Tripo #856|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #856; not named in the chapter text]|
+ARC|Balloon cluster (Hallucinations)|Set piece / modular kit|Tripo #857|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #857; not named in the chapter text]|
+ARC|Melted candle (Hallucinations)|Set piece / modular kit|Tripo #858|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #858; not named in the chapter text]|
+ARC|Floating stair step (Hallucinations)|Set piece / modular kit|Tripo #859|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #859; not named in the chapter text]|
+ARC|Pillow hill (Hallucinations)|Set piece / modular kit|Tripo #860|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #860; not named in the chapter text]|
+ARC|Spoon bridge (Hallucinations)|Set piece / modular kit|Tripo #861|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #861; not named in the chapter text]|
+ARC|Ribbon rail (Hallucinations)|Set piece / modular kit|Tripo #862|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #862; not named in the chapter text]|
+ARC|Crayon tree (Hallucinations)|Set piece / modular kit|Tripo #863|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #863; not named in the chapter text]|
+ARC|Jelly block (Hallucinations)|Set piece / modular kit|Tripo #864|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #864; not named in the chapter text]|
+ARC|Drifting stair step (Hallucinations)|Set piece / modular kit|Tripo #865|B|Modular dressing piece for Ch 10 Hallucinations [inferred: Tripo list #865; not named in the chapter text]|
+# --- TRIPO-CROSSCHECK-END
